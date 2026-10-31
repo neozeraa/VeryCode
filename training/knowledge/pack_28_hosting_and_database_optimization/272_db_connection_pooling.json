@@ -1,0 +1,8 @@
+{
+  "topic": "Gerenciamento de Pool de Conexões",
+  "rules": [
+    "Utilizar pools de conexão (como pg-pool ou mysql2 pool) para reutilizar conexões abertas.",
+    "Definir limites estritos de max_connections proporcionais à RAM disponível do servidor.",
+    "Implementar connection pooling externo como PgBouncer em ambientes com tráfego massivo e transações curtas."
+  ]
+}

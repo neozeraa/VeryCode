@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_44_DOCKER_AND_CONTAINERS_448",
+  "title": "DOCKER HEALTHCHECK INSTRUCTIONS",
+  "category": "Engenharia de Containers, Docker e Orquestração",
+  "summary": "Definição de comandos HEALTHCHECK nativos para auto-recuperação do container.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Definição de comandos HEALTHCHECK nativos para auto-recuperação do container.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "topic": "Auditoria de Portas Abertas e Regras de Tráfego",
+  "rules": [
+    "Inspecionar portas abertas localmente sem derrubar ligações ativas.",
+    "Priorizar netstat ou lsof para mapear daemons em execução."
+  ],
+  "recipes": [
+    {
+      "trigger": "listar portas abertas e processos associados",
+      "command": "pkg install -y net-tools 2>/dev/null; netstat -tulnp 2>/dev/null || ss -tuln"
+    },
+    {
+      "trigger": "verificar se uma porta especifica esta ocupada",
+      "command": "lsof -i :3000 || echo 'Porta 3000 livre.'"
+    }
+  ]
+}

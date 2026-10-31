@@ -1,0 +1,13 @@
+{
+  "topic": "Mapeamento Estrutural de Pastas e Geração de README.md",
+  "rules": [
+    "Utilizar o comando tree para mapear árvores de diretórios.",
+    "Gerar ficheiros README.md formatados de acordo com os padrões da VERY SYSTEMS."
+  ],
+  "recipes": [
+    {
+      "trigger": "gerar arvore do projeto e atualizar readme",
+      "command": "pkg install -y tree && printf '# VERY SYSTEMS - Project Structure\\n\\n```\\n%s\\n```\\n' \"$(tree -L 2 -I 'node_modules|.git')\" > README_STRUCTURE.md && cat README_STRUCTURE.md"
+    }
+  ]
+}

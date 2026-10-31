@@ -1,0 +1,9 @@
+{
+  "module_id": "MOD_APK_01",
+  "topic": "Conversão Automática de Sites para Progressive Web App (PWA)",
+  "rules": [
+    "Injetar automaticamente manifest.json com configurações de display standalone, theme_color e background_color.",
+    "Criar service-worker.js básico para cache offline de index.html, css/style.css e js/main.js.",
+    "Permitir que o usuário instale o site como aplicativo direto pelo navegador do celular."
+  ]
+}

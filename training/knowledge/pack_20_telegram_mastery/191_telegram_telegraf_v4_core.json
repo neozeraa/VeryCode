@@ -1,0 +1,4 @@
+{
+  "feature": "Telegraf v4 Core Architecture",
+  "rules": ["Utilizar 'import { Telegraf, Markup } from telegraf'.", "Leitura do token estritamente via process.env.TELEGRAM_BOT_TOKEN."]
+}

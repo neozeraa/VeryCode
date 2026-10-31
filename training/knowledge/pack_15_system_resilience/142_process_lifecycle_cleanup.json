@@ -1,0 +1,8 @@
+{
+  "module_id": "RESILIENCE_PROC_02",
+  "topic": "Encerramento Limpo de Processos em Segundo Plano",
+  "rules": [
+    "Rastrear PIDs de processos filhos criados via spawn (túneis, servidores HTTP, watchers).",
+    "Interceptar sinais de terminação (SIGINT, SIGTERM) para encerrar processos orfãos sem deixar processos fantasmas no Linux."
+  ]
+}

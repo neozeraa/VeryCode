@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_48_MICROSERVICES_AND_MESSAGING_504",
+  "title": "MSG APACHE KAFKA EVENT STREAMING",
+  "category": "Microsserviços, Mensageria, Filas e Event-Driven",
+  "summary": "Processamento de fluxos de eventos em tempo real com particionamento e réplicas.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Processamento de fluxos de eventos em tempo real com particionamento e réplicas.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

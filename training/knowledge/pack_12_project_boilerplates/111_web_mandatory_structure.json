@@ -1,0 +1,14 @@
+{
+  "rule_id": "AUTO_WEB_STRUCT_01",
+  "title": "Estrutura Web Obrigatória Padrão",
+  "trigger": "criação de qualquer site, página ou landing page",
+  "mandatory_files": [
+    "index.html",
+    "css/style.css",
+    "js/main.js",
+    "assets/logo.svg",
+    "package.json",
+    "README.md"
+  ],
+  "instruction": "A IA é terminantemente proibida de criar sites em arquivo único inline. O HTML deve linkar os arquivos externos de css e js nativamente."
+}

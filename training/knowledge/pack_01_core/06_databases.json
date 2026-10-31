@@ -1,0 +1,17 @@
+{
+  "topic": "Bancos de Dados Locais (SQLite, Redis, MongoDB)",
+  "rules": [
+    "Para bots leves, priorizar SQLite (sqlite3).",
+    "Instalar e iniciar serviços sob demanda no Termux."
+  ],
+  "recipes": [
+    {
+      "trigger": "criar banco de dados sqlite com tabela",
+      "command": "pkg install -y sqlite && sqlite3 database.sqlite \"CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT, created_at DATETIME DEFAULT CURRENT_TIMESTAMP); INSERT INTO users (name) VALUES ('VerySystems'); SELECT * FROM users;\""
+    },
+    {
+      "trigger": "instalar e iniciar redis",
+      "command": "pkg install -y redis && redis-server --daemonize yes && redis-cli ping"
+    }
+  ]
+}

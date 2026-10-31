@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_86_NEGATIVE_PROMPTS_AND_CLEAN_RENDERS_905",
+  "title": "CLEAN DUPLICATE CLONING SUPPRESS",
+  "category": "Prompts Negativos, Remoção de Marcas d'Água e Limpeza",
+  "summary": "Técnicas de exclusão de personagens duplicados, cabeças flutuantes e clonagem involuntária de sujeitos em cenas únicas.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Técnicas de exclusão de personagens duplicados, cabeças flutuantes e clonagem involuntária de sujeitos em cenas únicas.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

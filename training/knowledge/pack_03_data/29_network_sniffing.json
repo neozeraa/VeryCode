@@ -1,0 +1,17 @@
+{
+  "topic": "Análise de Tráfego de Rede com Tcpdump e Tshark",
+  "rules": [
+    "Instalar tcpdump para auditoria de tráfego em portas de desenvolvimento.",
+    "Limitar a captura a um número reduzido de pacotes para evitar ficheiros excessivamente pesados."
+  ],
+  "recipes": [
+    {
+      "trigger": "capturar pacotes na porta 8080",
+      "command": "pkg install -y tcpdump && tcpdump -i any port 8080 -c 10 -n"
+    },
+    {
+      "trigger": "ver conexoes ativas com ips remotos",
+      "command": "ss -ant | awk '{print $5}' | cut -d: -f1 | sort | uniq -c | sort -n"
+    }
+  ]
+}

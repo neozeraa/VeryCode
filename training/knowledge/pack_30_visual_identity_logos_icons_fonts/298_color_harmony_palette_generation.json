@@ -1,0 +1,8 @@
+{
+  "topic": "Geração de Paleta Cromática para Marcas e Interfaces",
+  "rules": [
+    "Regra de proporção visual 60-30-10: 60% cor de fundo/base (dark ou light), 30% cor de suporte estrutural e 10% cor de destaque (ex.: Laranja #FF6600).",
+    "Gerar tons derivados para estados interativos: cor de hover (+10% luminosidade) e active/clique (-10% luminosidade).",
+    "Evitar preto puro (#000000) em temas escuros; optar por cinzas profundos azulados (#0B0F17, #121214) para reduzir fadiga visual."
+  ]
+}

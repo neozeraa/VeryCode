@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_88_LIGHTING_AND_ATMOSPHERIC_EFFECTS_929",
+  "title": "LIGHT SUBSURFACE SCATTERING SKIN",
+  "category": "Iluminação Profissional, Luz de Volume e Atmosfera",
+  "summary": "Emulação de espalhamento de luz sob superfícies translúcidas (pele humana realista, folhas, mármore e cerâmica).",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Emulação de espalhamento de luz sob superfícies translúcidas (pele humana realista, folhas, mármore e cerâmica).",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

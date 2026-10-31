@@ -1,0 +1,4 @@
+{
+  "feature": "Diretriz Suprema de Bot Twitch",
+  "rules": ["Separar comandos em pasta commands/ com módulos independentes.", "Prevenir loop infinito: o bot nunca deve processar suas próprias mensagens."]
+}

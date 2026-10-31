@@ -1,0 +1,22 @@
+{
+  "category": "Linux Core - Text Viewing & Paging",
+  "commands": ["cat", "tac", "less", "more", "head", "tail", "nl", "rev"],
+  "rules": [
+    "Para inspeções de logs volumosos, usar tail com limite explícito para não travar o buffer.",
+    "Usar nl para exibir saídas com números de linha para depuração."
+  ],
+  "recipes": [
+    {
+      "intent": "ler as ultimas 50 linhas de um arquivo acompanhando novas entradas",
+      "command": "tail -n 50 -f app.log"
+    },
+    {
+      "intent": "exibir as primeiras 20 linhas com contagem de linha",
+      "command": "head -n 20 index.js | nl"
+    },
+    {
+      "intent": "inverter a ordem das linhas de um arquivo de texto",
+      "command": "tac arquivo.txt"
+    }
+  ]
+}

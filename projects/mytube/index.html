@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYTUBE</title>
+    <style>
+        :root {
+            --bg-color: #0f0f0f;
+            --surface-color: #212121;
+            --text-color: #ffffff;
+            --text-secondary: #aaa;
+            --primary-color: #ff0000;
+            --border-color: #3f3f3f;
+            --hover-color: #272727;
+            --active-color: #3f3f3f;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            overflow-x: hidden;
+        }
+
+        /* Layout Principal */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 56px;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 16px;
+            z-index: 100;
+        }
+
+        .nav-left, .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .menu-btn, .icon-btn {
+            background: none;
+            border: none;
+            color: var(--text-color);
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .menu-btn:hover, .icon-btn:hover {
+            background-color: var(--hover-color);
+        }
+
+        /* Logo MYTUBE */
+        .logo-container {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            text-decoration: none;
+            color: var(--text-color);
+        }
+
+        .nav-center {
+            display: flex;
+            align-items: center;
+            flex: 0 1 600px;
+            gap: 12px;
+        }
+
+        .search-form {
+            display: flex;
+            width: 100%;
+            background-color: #121212;
+            border: 1px solid var(--border-color);
+            border-radius: 40px 0 0 40px;
+            padding-left: 16px;
+            overflow: hidden;
+        }
+
+        .search-input {
+            width: 100%;
+            background: none;
+            border: none;
+            color: var(--text-color);
+            height: 40px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        .search-btn {
+            background-color: var(--surface-color);
+            border: 1px solid var(--border-color);
+            border-left: none;
+            border-radius: 0 40px 40px 0;
+            width: 64px;
+            height: 40px;
+            cursor: pointer;
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .search-btn:hover {
+            background-color: var(--hover-color);
+        }
+
+        .mic-btn {
+            background-color: var(--surface-color);
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: background 0.2s;
+        }
+
+        .mic-btn:hover {
+            background-color: var(--hover-color);
+        }
+
+        /* Container Principal com Sidebar e Conteúdo */
+        .main-container {
+            display: flex;
+            margin-top: 56px;
+            height: calc(100vh - 56px);
+        }
+
+        /* Sidebar */
+        sidebar {
+            width: 240px;
+            background-color: var(--bg-color);
+            padding: 12px;
+            overflow-y: auto;
+            flex-shrink: 0;
+        }
+
+        sidebar::-webkit-scrollbar {
+            width: 8px;
+        }
+        sidebar::-webkit-scrollbar-thumb {
+            background: transparent;
+            border-radius: 4px;
+        }
+        sidebar:hover::-webkit-scrollbar-thumb {
+            background: var(--border-color);
+        }
+
+        .sidebar-section {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 12px;
+            margin-bottom: 12px;
+        }
+
+        .sidebar-section:last-child {
+            border-bottom: none;
+        }
+
+        .sidebar-item {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            padding: 10px 12px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+
+        .sidebar-item:hover, .sidebar-item.active {
+            background-color: var(--hover-color);
+        }
+
+        .sidebar-item svg {
+            width: 24px;
+            height: 24px;
+            fill: currentColor;
+        }
+
+        .sidebar-title {
+            font-size: 14px;
+            font-weight: 500;
+            padding: 6px 12px;
+            color: var(--text-color);
+        }
+
+        /* Conteúdo */
+        content {
+            flex: 1;
+            background-color: var(--bg-color);
+            overflow-y: auto;
+            padding: 24px;
+        }
+
+        /* Chips de Categorias */
+        .chips-bar {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            padding-bottom: 16px;
+            margin-bottom: 24px;
+            white-space: nowrap;
+        }
+
+        .chips-bar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .chip {
+            background-color: var(--surface-color);
+            color: var(--text-color);
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+            transition: background 0.2s;
+        }
+
+        .chip:hover {
+            background-color: var(--active-color);
+        }
+
+        .chip.active {
+            background-color: var(--text-color);
+            color: var(--bg-color);
+        }
+
+        /* Grid de Vídeos */
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 40px 16px;
+        }
+
+        .video-card {
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .thumbnail-container {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16/9;
+            background-color: var(--surface-color);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .thumbnail-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .video-duration {
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            padding: 3px 6px;
+            font-size: 12px;
+            border-radius: 4px;
+            font-weight: 500;
+        }
+
+        .video-details {
+            display: flex;
+            gap: 12px;
+            margin-top: 12px;
+        }
+
+        .channel-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background-color: var(--surface-color);
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+
+        .channel-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .video-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .video-title {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-color);
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            line-height: 1.4;
+        }
+
+        .channel-name {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        .channel-name:hover {
+            color: var(--text-color);
+        }
+
+        .video-stats {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+
+        /* Responsividade para celulares */
+        @media (max-width: 768px) {
+            sidebar {
+                display: none;
+            }
+            .nav-center {
+                display: none;
+            }
+            header {
+                justify-content: space-between;
+            }
+            .mobile-search-btn {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Navbar -->
+    <header>
+        <div class="nav-left">
+            <button class="menu-btn" id="menuToggle" title="Menu">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;"><g><path d="M21,6H3V5h18V6z M21,11H3v1h18V11z M21,17H3v1h18V17z" fill="currentColor"></path></g></svg>
+            </button>
+            <a href="#" class="logo-container">
+                <!-- Logo Vetorial Exclusiva MYTUBE (Vermelho e Branco) -->
+                <svg width="90" height="24" viewBox="0 0 90 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect x="0" y="2" width="30" height="20" rx="6" fill="#FF0000"/>
+                    <polygon points="12,7 20,12 12,17" fill="#FFFFFF"/>
+                    <text x="36" y="17" fill="#FFFFFF" font-family="Roboto, sans-serif" font-weight="700" font-size="15">MYTUBE</text>
+                </svg>
+            </a>
+        </div>
+        
+        <div class="nav-center">
+            <div style="display: flex; width: 100%;">
+                <div class="search-form">
+                    <input type="text" class="search-input" placeholder="Pesquisar" id="searchInput">
+                </div>
+                <button class="search-btn" id="searchSubmit" title="Pesquisar">
+                    <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 20px; height: 20px;"><g><path d="M20.8708 20.1639L15.9018 15.1949C17.1032 13.7259 17.75 11.8849 17.75 9.87495C17.75 4.97495 13.775 0.999951 8.875 0.999951C3.975 0.999951 0 4.97495 0 9.87495C0 14.775 3.975 18.75 8.875 18.75C10.885 18.75 12.726 18.1032 14.195 16.9018L19.164 21.8708C19.3595 22.0663 19.6761 22.0663 19.8716 21.8708L20.8708 20.8716C21.0663 20.6761 21.0663 20.3595 20.8708 20.1639ZM8.875 17.25C4.80205 17.25 1.5 13.9479 1.5 9.87495C1.5 5.80205 4.80205 2.49995 8.875 2.49995C12.9479 2.49995 16.25 5.80205 16.25 9.87495C16.25 13.9479 12.9479 17.25 8.875 17.25Z" fill="currentColor"></path></g></svg>
+                </button>
+            </div>
+            <button class="mic-btn" title="Pesquisar com sua voz">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 20px; height: 20px;"><g><path d="M12 3C10.34 3 9 4.34 9 6V12C9 13.66 10.34 15 12 15C13.66 15 15 13.66 15 12V6C15 4.34 13.66 3 12 3ZM19 12C19 15.53 16.39 18.44 13 18.93V21H11V18.93C7.61 18.44 5 15.53 5 12H7C7 14.76 9.24 17 12 17C14.76 17 17 14.76 17 19H19Z" fill="currentColor"></path></g></svg>
+            </button>
+        </div>
+
+        <div class="nav-right">
+            <button class="icon-btn" title="Criar">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;"><g><path d="M14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2zm3-7H3v12h14v-6.5l4 4v-11l-4 4V6z" fill="currentColor"></path></g></svg>
+            </button>
+            <button class="icon-btn" title="Notificações">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;"><g><path d="M10 20H14C14 21.1 13.1 22 12 22S10 21.1 10 20ZM20 17V11C20 7.93 18.37 5.36 15.5 4.68V4C15.5 2.9 14.6 2 13.5 2H10.5C9.4 2 8.5 2.9 8.5 4V4.68C5.63 5.36 4 7.93 4 11V17L2 19V20H22V19L20 17ZM18 18H6V11C6 8.24 7.76 6 12 6C16.24 6 18 8.24 18 11V18Z" fill="currentColor"></path></g></svg>
+            </button>
+            <div class="channel-avatar" style="cursor: pointer;">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="Perfil">
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <sidebar id="sidebar">
+            <div class="sidebar-section">
+                <a href="#" class="sidebar-item active">
+                    <svg viewBox="0 0 24 24"><path d="M4 21V10.08L12 3l8 7.08V21h-5v-6h-6v6H4z"></path></svg>
+                    <span>Início</span>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <svg viewBox="0 0 24 24"><path d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94C4.12 7.92 3.4 10.21 4.39 12.07c.72 1.35 2.05 2.15 3.47 2.15.6 0 1.2-.13 1.77-.4l1.2.5L10 14.94c-1.84.96-2.53 3.23-1.56 5.06.97 1.83 3.24 2.53 5.07 1.56l8.49-4.5c1.88-.98 2.6-3.27 1.61-5.13-.72-1.35-2.05-2.15-3.47-2.15-.6 0-1.2.13-1.77.4z"></path></svg>
+                    <span>Shorts</span>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <svg viewBox="0 0 24 24"><path d="M20 7H4V6h16v1zm2 2H2v12h20V9zM4 20V10h16v10H4z"></path></svg>
+                    <span>Inscrições</span>
+                </a>
+            </div>
+            <div class="sidebar-section">
+                <div class="sidebar-title">Você</div>
+                <a href="#" class="sidebar-item">
+                    <svg viewBox="0 0 24 24"><path d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></svg>
+                    <span>Seu canal</span>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <svg viewBox="0 0 24 24"><path d="M18 3v2h-2V3H8v2H6V3H4v18h2v-2h2v2h8v-2h2v2h2V3h-2zM8 17H6v-2h2v2zm0-4H6v-2h2v2zm0-4H6V7h2v2zm10 8h-2v-2h2v2zm0-4h-2v-2h2v2zm0-4h-2V7h2v2z"></path></svg>
+                    <span>Histórico</span>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <svg viewBox="0 0 24 24"><path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 20l3.5-1.23C9.36 19.5 10.64 20 12 20c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 16c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"></path></svg>
+                    <span>Seus vídeos</span>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <svg viewBox="0 0 24 24"><path d="M14.97 16.95 10 13.87V7h2v5.76l4.03 2.49-1.06 1.7zM12 3c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9m0-2c6.08 0 11 4.92 11 11s-4.92 11-11 11S1 18.08 1 12 5.92 1 12 1z"></path></svg>
+                    <span>Assistir mais tarde</span>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <svg viewBox="0 0 24 24"><path d="m11 7 6 5-6 5V7zm-1 10V7l-6 5 6 5z"></path></svg>
+                    <span>Vídeos marcados com "Gostei"</span>
+                </a>
+            </div>
+            <div class="sidebar-section">
+                <div class="sidebar-title">Inscrições</div>
+                <a href="#" class="sidebar-item">
+                    <div class="channel-avatar" style="width: 24px; height: 24px;"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop" alt=""></div>
+                    <span>Very Systems Dev</span>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <div class="channel-avatar" style="width: 24px; height: 24px;"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&h=50&fit=crop" alt=""></div>
+                    <span>Design UI Master</span>
+                </a>
+                <a href="#" class="sidebar-item">
+                    <div class="channel-avatar" style="width: 24px; height: 24px;"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=50&h=50&fit=crop" alt=""></div>
+                    <span>Tech Arquitetura</span>
+                </a>
+            </div>
+        </sidebar>
+
+        <!-- Conteúdo Principal -->
+        <content>
+            <!-- Chips de Filtro -->
+            <div class="chips-bar">
+                <button class="chip active">Tudo</button>
+                <button class="chip">Engenharia de Software</button>
+                <button class="chip">Design UI/UX</button>
+                <button class="chip">JavaScript Avançado</button>
+                <button class="chip">Sistemas Distribuídos</button>
+                <button class="chip">Computação em Nuvem</button>
+                <button class="chip">Inteligência Artificial</button>
+                <button class="chip">Arquitetura Limpa</button>
+                <button class="chip">React & Next.js</button>
+                <button class="chip">Em alta</button>
+            </div>
+
+            <!-- Grade de Vídeos -->
+            <div class="video-grid" id="videoGrid">
+                <!-- Vídeo 1 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&h=300&fit=crop" alt="Thumbnail">
+                        <div class="video-duration">15:42</div>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop" alt="Canal">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Engenharia Reversa Completa de Plataformas de Vídeo Escala Global</div>
+                            <div class="channel-name">Very Systems Dev</div>
+                            <div class="video-stats">125 mil visualizações • há 2 dias</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vídeo 2 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=300&fit=crop" alt="Thumbnail">
+                        <div class="video-duration">08:15</div>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&h=50&fit=crop" alt="Canal">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Design UI/UX Moderno: Padrões Visuais em Branco e Vermelho</div>
+                            <div class="channel-name">Design UI Master</div>
+                            <div class="video-stats">43 mil visualizações • há 1 dia</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vídeo 3 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&h=300&fit=crop" alt="Thumbnail">
+                        <div class="video-duration">22:01</div>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-avatar">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=50&h=50&fit=crop" alt="Canal">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Arquitetura de Software: Criando Aplicações Resilientes com Single-File HTML</div>
+                            <div class="channel-name">Tech Arquitetura</div>
+                            <div class="video-stats">89 mil visualizações • há 5 dias</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vídeo 4 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop" alt="Thumbnail">
+                        <div class="video-duration">12:30</div>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-avatar">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=50&h=50&fit=crop" alt="Canal">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Dominando JavaScript Moderno: DOM, Eventos e Performance</div>
+                            <div class="channel-name">Code Academy Pro</div>
+                            <div class="video-stats">210 mil visualizações • há 1 semana</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vídeo 5 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=500&h=300&fit=crop" alt="Thumbnail">
+                        <div class="video-duration">45:10</div>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=50&h=50&fit=crop" alt="Canal">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">Como estruturar microsserviços do zero com alta disponibilidade</div>
+                            <div class="channel-name">Very Systems Dev</div>
+                            <div class="video-stats">302 mil visualizações • há 2 semanas</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vídeo 6 -->
+                <div class="video-card">
+                    <div class="thumbnail-container">
+                        <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=500&h=300&fit=crop" alt="Thumbnail">
+                        <div class="video-duration">10:05</div>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=50&h=50&fit=crop" alt="Canal">
+                        </div>
+                        <div class="video-meta">
+                            <div class="video-title">CSS Grid e Flexbox: O Guia Definitivo para Designers</div>
+                            <div class="channel-name">Design UI Master</div>
+                            <div class="video-stats">78 mil visualizações • há 3 dias</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </content>
+    </div>
+
+    <!-- JavaScript Funcional -->
+    <script>
+        // Funcionalidade de seleção dos chips de categoria
+        const chips = document.querySelectorAll('.chip');
+        chips.forEach(chip => {
+            chip.addEventListener('click', () => {
+                chips.forEach(c => c.classList.remove('active'));
+                chip.classList.add('active');
+            });
+        });
+
+        // Funcionalidade de filtro na barra de pesquisa
+        const searchInput = document.getElementById('searchInput');
+        const searchSubmit = document.getElementById('searchSubmit');
+        const videoCards = document.querySelectorAll('.video-card');
+
+        function filterVideos() {
+            const query = searchInput.value.toLowerCase();
+            videoCards.forEach(card => {
+                const title = card.querySelector('.video-title').textContent.toLowerCase();
+                const channel = card.querySelector('.channel-name').textContent.toLowerCase();
+                if (title.includes(query) || channel.includes(query)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        searchSubmit.addEventListener('click', filterVideos);
+        searchInput.addEventListener('keyup', (e) => {
+            if (e.key === 'Enter') {
+                filterVideos();
+            }
+        });
+
+        // Alternar colapso da Sidebar (Responsividade avançada)
+        const menuToggle = document.getElementById('menuToggle');
+        const sidebar = document.getElementById('sidebar');
+        
+        menuToggle.addEventListener('click', () => {
+            if (sidebar.style.display === 'none') {
+                sidebar.style.display = 'block';
+            } else {
+                sidebar.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>

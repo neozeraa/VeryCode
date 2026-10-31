@@ -1,0 +1,4 @@
+{
+  "feature": "EmbedBuilder com Cores VERY SYSTEMS",
+  "rules": ["Embeds com cor hexadecimal #FF6600 (laranja) ou #0A0A0A (dark).", "Incluir setTimestamp(), setFooter({ text: 'VERY SYSTEMS BOT' })."]
+}

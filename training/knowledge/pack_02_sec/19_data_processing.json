@@ -1,0 +1,17 @@
+{
+  "topic": "Tratamento de Arquivos JSON, CSV e Logs de Servidor",
+  "rules": [
+    "Garantir jq e gawk instalados para parsing sem erros de buffer.",
+    "Formatar saídas diretamente no stdout de forma legível."
+  ],
+  "recipes": [
+    {
+      "trigger": "formatar e filtrar arquivo json com jq",
+      "command": "pkg install -y jq && cat << 'JEOF' > sample.json\n{\"sistema\":\"VeryCode\",\"status\":\"operacional\",\"modulos\":20}\nJEOF\njq . sample.json"
+    },
+    {
+      "trigger": "converter arquivo json para linhas legiveis",
+      "command": "jq -r 'to_entries[] | \"\\(.key): \\(.value)\"' sample.json"
+    }
+  ]
+}

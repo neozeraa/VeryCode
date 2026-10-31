@@ -1,0 +1,17 @@
+{
+  "topic": "Monitorização Interativa do Sistema com Htop e Glances",
+  "rules": [
+    "Garantir a instalação de htop e glances.",
+    "Executar em modo streaming interativo com stdio direto."
+  ],
+  "recipes": [
+    {
+      "trigger": "instalar e abrir htop",
+      "command": "pkg install -y htop && htop"
+    },
+    {
+      "trigger": "ver resumo de io de disco e rede",
+      "command": "iostat -xz 1 3 2>/dev/null || vmstat 1 5"
+    }
+  ]
+}

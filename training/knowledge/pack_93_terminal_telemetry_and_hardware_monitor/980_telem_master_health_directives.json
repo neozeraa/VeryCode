@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_93_TERMINAL_TELEMETRY_AND_HARDWARE_MONITOR_980",
+  "title": "TELEM MASTER HEALTH DIRECTIVES",
+  "category": "Telemetria de Sistema, Hardware e Recursos no Termux",
+  "summary": "Regras de monitorização contínua garantindo que o VeryCode se mantenha rápido e económico.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Regras de monitorização contínua garantindo que o VeryCode se mantenha rápido e económico.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

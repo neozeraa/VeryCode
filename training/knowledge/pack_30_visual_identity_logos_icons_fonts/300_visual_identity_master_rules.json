@@ -1,0 +1,8 @@
+{
+  "topic": "Diretriz Suprema de Identidade Visual VERY SYSTEMS",
+  "rules": [
+    "Todo site ou aplicação gerada deve incluir logo SVG inline exclusivo no cabeçalho e rodapé.",
+    "A tipografia deve ser declarada com fallbacks de fontes seguras do sistema para carregar instantaneamente antes das fontes da web.",
+    "O logo deve sempre carregar os atributos de acessibilidade (role=\"img\" e aria-label=\"Nome da Marca\") para navegadores e leitores de tela."
+  ]
+}

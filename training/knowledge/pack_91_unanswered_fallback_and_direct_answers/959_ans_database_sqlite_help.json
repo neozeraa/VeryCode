@@ -1,0 +1,8 @@
+{
+  "triggers": [
+    "banco de dados",
+    "sqlite",
+    "como salvar dados"
+  ],
+  "direct_answer": "Recomendo o uso do SQLite local com o modo WAL ativado (PRAGMA journal_mode = WAL), garantindo alta velocidade de leitura e escrita concorrente no Termux."
+}

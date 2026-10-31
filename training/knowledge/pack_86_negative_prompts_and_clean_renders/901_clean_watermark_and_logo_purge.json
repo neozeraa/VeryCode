@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_86_NEGATIVE_PROMPTS_AND_CLEAN_RENDERS_901",
+  "title": "CLEAN WATERMARK AND LOGO PURGE",
+  "category": "Prompts Negativos, Remoção de Marcas d'Água e Limpeza",
+  "summary": "Engenharia de prompts negativos universais para suprimir marcas d'água, assinaturas, carimbos de data e logotipos sobrepostos.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Engenharia de prompts negativos universais para suprimir marcas d'água, assinaturas, carimbos de data e logotipos sobrepostos.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

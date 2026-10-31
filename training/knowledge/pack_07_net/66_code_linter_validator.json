@@ -1,0 +1,17 @@
+{
+  "topic": "Análise Estática de Sintaxe para JavaScript, Python e Shell",
+  "rules": [
+    "Validar arquivos antes de colocá-los em execução no servidor.",
+    "Verificar sintaxe de scripts Bash com bash -n."
+  ],
+  "recipes": [
+    {
+      "trigger": "validar sintaxe de todos os scripts bash da pasta",
+      "command": "for f in *.sh; do [ -f \"$f\" ] && bash -n \"$f\" && echo \"$f: OK\"; done"
+    },
+    {
+      "trigger": "verificar sintaxe de script node sem executar",
+      "command": "node --check index.js && echo 'Sintaxe JavaScript validada com sucesso!'"
+    }
+  ]
+}

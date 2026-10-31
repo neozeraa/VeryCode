@@ -1,0 +1,17 @@
+{
+  "topic": "Encriptação Simétrica de Ficheiros com OpenSSL e GPG",
+  "rules": [
+    "Utilizar AES-256-CBC para cifragem com chave protegida.",
+    "Nunca gravar palavras-passe em texto simples dentro dos scripts."
+  ],
+  "recipes": [
+    {
+      "trigger": "encriptar ficheiro com openssl aes 256",
+      "command": "openssl enc -aes-256-cbc -salt -pbkdf2 -in dados.txt -out dados.txt.enc"
+    },
+    {
+      "trigger": "decriptar ficheiro openssl aes 256",
+      "command": "openssl enc -d -aes-256-cbc -pbkdf2 -in dados.txt.enc -out dados.txt"
+    }
+  ]
+}

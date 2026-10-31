@@ -1,0 +1,18 @@
+{
+  "category": "Linux Core - User Accounting & Sessions",
+  "commands": ["who", "w", "last", "lastlog", "users", "groups"],
+  "rules": [
+    "Verificar conexões SSH ativas e tempo de ociosidade.",
+    "Inspecionar a quais grupos de sistema o usuário corrente pertence."
+  ],
+  "recipes": [
+    {
+      "intent": "ver quem esta conectado no terminal e o que esta rodando",
+      "command": "w 2>/dev/null || who 2>/dev/null || whoami"
+    },
+    {
+      "intent": "listar todos os grupos do usuario atual",
+      "command": "groups"
+    }
+  ]
+}

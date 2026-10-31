@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_92_TERMINAL_PROCESS_AND_SERVICE_MANAGER_961",
+  "title": "PROC BACKGROUND DAEMON CONTROL",
+  "category": "Gestão Local de Processos, Daemons e Serviços em Segundo Plano",
+  "summary": "Gestão de daemons em background no Termux com nohup, desanexação de terminal e encaminhamento de stdout/stderr.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Gestão de daemons em background no Termux com nohup, desanexação de terminal e encaminhamento de stdout/stderr.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

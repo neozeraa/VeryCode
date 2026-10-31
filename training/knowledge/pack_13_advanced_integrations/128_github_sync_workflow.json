@@ -1,0 +1,9 @@
+{
+  "module_id": "MOD_GITHUB_02",
+  "topic": "Fluxo de Versionamento Contínuo (/git push)",
+  "rules": [
+    "Verificar se há alterações pendentes com 'git status --porcelain'.",
+    "Adicionar arquivos com 'git add .', criar commit estruturado no padrão Conventional Commits e disparar 'git push origin main'.",
+    "Exibir URL do repositório gerado no terminal."
+  ]
+}

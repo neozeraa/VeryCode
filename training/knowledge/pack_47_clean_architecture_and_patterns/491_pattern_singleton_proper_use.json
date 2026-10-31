@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_47_CLEAN_ARCHITECTURE_AND_PATTERNS_491",
+  "title": "PATTERN SINGLETON PROPER USE",
+  "category": "Clean Architecture, Padrões de Projeto (GoF) e SOLID",
+  "summary": "Implementação correta do padrão Singleton para conexões de bancos e caches locais.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Implementação correta do padrão Singleton para conexões de bancos e caches locais.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

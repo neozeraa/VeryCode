@@ -1,0 +1,15 @@
+{
+  "theme_dark_orange": {
+    "primary": "#FF6600",
+    "background": "#0D0D0D",
+    "surface": "#1A1A1A",
+    "text": "#FFFFFF",
+    "font": "'Inter', 'Segoe UI', sans-serif"
+  },
+  "theme_cyberpunk": {
+    "primary": "#00FF66",
+    "secondary": "#FF007F",
+    "background": "#050505",
+    "text": "#EAEAEA"
+  }
+}

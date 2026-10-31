@@ -1,0 +1,13 @@
+{
+  "module_id": "AESTHETIC_WEB_PACK_PACK_76_GLASSMORPHISM_AND_DEPTH_EFFECTS_809",
+  "title": "GLASS FALLBACK PERFORMANCE MOBILE",
+  "category": "Glassmorphism, Efeitos de Profundidade e Camadas 3D",
+  "summary": "Desativação de blur pesado em GPUs fracas via @supports not (backdrop-filter) para evitar quedas de FPS.",
+  "design_system": "VERY_SYSTEMS_PREMIUM_UI_UX",
+  "brand_accent_color": "#FF6600",
+  "aesthetic_rules": [
+    "Garantir aplicação imediata de: Desativação de blur pesado em GPUs fracas via @supports not (backdrop-filter) para evitar quedas de FPS.",
+    "Todo site gerado deve possuir visual moderno, responsivo e digno de portfólio internacional.",
+    "Proibido criar layouts antiquados, botões cinzas padrão de navegador ou páginas sem vida."
+  ]
+}

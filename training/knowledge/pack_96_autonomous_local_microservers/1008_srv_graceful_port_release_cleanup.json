@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_96_AUTONOMOUS_LOCAL_MICROSERVERS_1008",
+  "title": "SRV GRACEFUL PORT RELEASE CLEANUP",
+  "category": "Micro-Servidores HTTP e Hospedagem Local Autônoma",
+  "summary": "Fecho imediato de sockets ao receber sinais de interrupção evitando soquetes pendurados.",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Fecho imediato de sockets ao receber sinais de interrupção evitando soquetes pendurados.",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

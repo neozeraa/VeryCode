@@ -1,0 +1,8 @@
+{
+  "module_id": "RESILIENCE_ENV_08",
+  "topic": "Validação de Variáveis e Ficheiros de Configuração",
+  "rules": [
+    "Verificar a presença de GEMINI_API_KEY e ficheiros críticos de arranque antes de inicializar módulos avançados.",
+    "Emitir avisos explicativos e directos caso alguma chave esteja em falta sem quebrar a execução global."
+  ]
+}

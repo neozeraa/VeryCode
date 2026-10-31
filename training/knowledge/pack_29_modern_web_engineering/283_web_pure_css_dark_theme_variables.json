@@ -1,0 +1,8 @@
+{
+  "topic": "Variáveis CSS Nativas e Tema Dark/Light Fluido",
+  "rules": [
+    "Definir paleta global no seletor :root com variáveis CSS (--bg-primary, --text-primary, --accent-orange: #FF6600, --card-bg, --border-color).",
+    "Implementar suporte automático a preferências do sistema via @media (prefers-color-scheme: dark).",
+    "Alternar temas via atributo data-theme no elemento html sem recarregar a página."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "topic": "Limpeza de Buffers, Caches Órfãos e Otimização do Ambiente",
+  "rules": [
+    "Eliminar pacotes desnecessários sem quebrar dependências do sistema.",
+    "Limpar ficheiros de compilação temporários deixados por npm e pip."
+  ],
+  "recipes": [
+    {
+      "trigger": "limpeza profunda de caches e ficheiros orfaos",
+      "command": "pkg autoclean && apt autoremove -y 2>/dev/null; find ~/.npm/_cacache -type f -delete 2>/dev/null; echo 'Limpeza profunda do Termux concluída com sucesso!'"
+    }
+  ]
+}

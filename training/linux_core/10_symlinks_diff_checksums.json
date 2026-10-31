@@ -1,0 +1,22 @@
+{
+  "category": "Linux Core - Links, Diffs & Integrity",
+  "commands": ["ln", "readlink", "diff", "cmp", "md5sum", "sha256sum", "patch"],
+  "rules": [
+    "Sempre usar ln -s com flag -f para atualizar atalhos e links simbólicos sem erro.",
+    "Validar integridade de arquivos baixados com sha256sum."
+  ],
+  "recipes": [
+    {
+      "intent": "criar link simbolico forcando substituicao",
+      "command": "ln -sf /caminho/origem /caminho/destino_link"
+    },
+    {
+      "intent": "ver diferencas lado a lado entre dois arquivos",
+      "command": "diff -u arquivo1.txt arquivo2.txt || true"
+    },
+    {
+      "intent": "gerar hash sha256 para verificar integridade de um arquivo",
+      "command": "sha256sum index.js"
+    }
+  ]
+}

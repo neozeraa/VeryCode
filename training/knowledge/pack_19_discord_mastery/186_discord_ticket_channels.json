@@ -1,0 +1,4 @@
+{
+  "feature": "Sistema de Tickets com Canais Privados",
+  "rules": ["Criar canal de texto temporário via guild.channels.create.", "Aplicar permissionOverwrites para liberar acesso apenas ao autor e cargo de suporte."]
+}

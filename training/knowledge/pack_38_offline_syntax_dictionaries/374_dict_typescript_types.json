@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_38_OFFLINE_SYNTAX_DICTIONARIES_374",
+  "title": "DICT TYPESCRIPT TYPES",
+  "category": "Dicionários Técnicos de Linguagens",
+  "summary": "Exemplos de Union Types, Generics, Partial, Record e Pick.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

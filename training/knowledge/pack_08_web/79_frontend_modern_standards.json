@@ -1,0 +1,7 @@
+{
+  "module": "Padrões Web Modernos",
+  "rules": [
+    "Código semântico HTML5, CSS Flexbox/Grid responsivo para qualquer tela.",
+    "JavaScript ES6+ limpo, fetch assíncrono (async/await) e manipulação do DOM segura."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Protocolos de Rede e Modelo OSI",
+  "rules": [
+    "Diferenciar camadas de transporte (TCP confiável / UDP veloz).",
+    "Conexões modernas: HTTP/1.1 (Keep-Alive), HTTP/2 (Multiplexação), HTTP/3 (QUIC/UDP) e WebSockets full-duplex."
+  ]
+}

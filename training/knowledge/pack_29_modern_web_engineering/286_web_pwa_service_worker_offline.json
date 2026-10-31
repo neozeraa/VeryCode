@@ -1,0 +1,8 @@
+{
+  "topic": "Configuração de PWA e Funcionamento Offline",
+  "rules": [
+    "Gerar manifest.json completo com name, short_name, start_url, display: standalone, background_color e ícones em resolução 192x192 e 512x512.",
+    "Registrar sw.js com ciclo de cache das páginas estáticas e folhas de estilo para permitir uso sem sinal de internet.",
+    "Ativar botão de instalação rápida na tela do celular disparando o evento beforeinstallprompt."
+  ]
+}

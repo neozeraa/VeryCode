@@ -1,0 +1,8 @@
+{
+  "topic": "Instantâneos Temporários e Reversão Automática",
+  "rules": [
+    "Gerar uma cópia temporária de segurança (.bak) de qualquer ficheiro antes de alterações de código por automação.",
+    "Reverter o ficheiro para o estado original caso a verificação de integridade pós-gravação aponte erros.",
+    "Excluir instantâneos temporários assim que o teste de execução for concluído com êxito."
+  ]
+}

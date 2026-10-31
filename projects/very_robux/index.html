@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERY ROBUX | Recargas Rápidas e Seguras de Robux</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo-link">
+                <img src="assets/logo.svg" alt="VERY ROBUX Logo" class="logo-svg">
+            </a>
+            <nav class="nav-menu">
+                <a href="#pacotes" class="nav-link">Pacotes</a>
+                <a href="#como-funciona" class="nav-link">Como Funciona</a>
+                <a href="#avaliacoes" class="nav-link">Avaliações</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#pacotes" class="btn btn-primary btn-glow">Comprar Agora</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Abrir Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+        <button class="close-drawer" id="closeDrawer"><i class="fa-solid fa-xmark"></i></button>
+        <a href="#pacotes" class="mobile-link">Pacotes</a>
+        <a href="#como-funciona" class="mobile-link">Como Funciona</a>
+        <a href="#avaliacoes" class="mobile-link">Avaliações</a>
+        <a href="#pacotes" class="btn btn-primary btn-glow mobile-cta">Comprar Agora</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow-bg"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-tag">
+                    <i class="fa-solid fa-bolt"></i> Entrega 100% Automatizada em Minutos
+                </div>
+                <h1 class="hero-title">Garanta seus <span class="text-gradient">Robux</span> com os Melhores Preços do Brasil</h1>
+                <p class="hero-subtitle">Plataforma oficial VERY SYSTEMS. Receba seus Robux com total segurança via Gamepass ou Grupo, sem complicações e com suporte 24h.</p>
+                <div class="hero-buttons">
+                    <a href="#pacotes" class="btn btn-primary btn-glow btn-lg">Ver Pacotes Disponíveis</a>
+                    <a href="#como-funciona" class="btn btn-secondary btn-lg"><i class="fa-solid fa-play"></i> Entenda Como</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">+45.000</span>
+                        <span class="stat-label">Entregas Realizadas</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">4.9/5.0</span>
+                        <span class="stat-label">Avaliação dos Clientes</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">&lt; 10 min</span>
+                        <span class="stat-label">Tempo Médio de Entrega</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-card-display">
+                <div class="floating-card neon-card">
+                    <div class="fc-header">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span>VERY GUARANTEE</span>
+                    </div>
+                    <div class="fc-body">
+                        <div class="fc-robux-icon">
+                            <i class="fa-solid fa-gem"></i>
+                        </div>
+                        <h3>1.700 Robux</h3>
+                        <p>Compre com Pix e ganhe bônus exclusivo de recarga instantânea.</p>
+                        <div class="fc-status">
+                            <span class="status-dot"></span> Estoque Disponível
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vitrine de Pacotes -->
+    <section class="packages-section" id="pacotes">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Escolha seu <span class="text-gradient">Pacote de Robux</span></h2>
+                <p class="section-subtitle">Selecione a quantidade ideal para turbinar seus avatares e jogos favoritos no Roblox.</p>
+            </div>
+
+            <div class="packages-grid">
+                <!-- Card 1 -->
+                <div class="package-card">
+                    <div class="pkg-header">
+                        <span class="pkg-amount">400</span>
+                        <span class="pkg-unit">Robux</span>
+                    </div>
+                    <div class="pkg-icon">
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                    <div class="pkg-pricing">
+                        <span class="pkg-old-price">R$ 29,90</span>
+                        <span class="pkg-price">R$ 24,90</span>
+                        <span class="pkg-discount">Economize 15%</span>
+                    </div>
+                    <ul class="pkg-features">
+                        <li><i class="fa-solid fa-check"></i> Entrega via Gamepass</li>
+                        <li><i class="fa-solid fa-check"></i> Suporte via WhatsApp</li>
+                        <li><i class="fa-solid fa-check"></i> Garantia VERY</li>
+                    </ul>
+                    <button class="btn btn-secondary w-100 btn-buy" data-robux="400" data-price="24.90">Comprar Agora</button>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="package-card">
+                    <div class="pkg-header">
+                        <span class="pkg-amount">800</span>
+                        <span class="pkg-unit">Robux</span>
+                    </div>
+                    <div class="pkg-icon">
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                    <div class="pkg-pricing">
+                        <span class="pkg-old-price">R$ 55,00</span>
+                        <span class="pkg-price">R$ 47,90</span>
+                        <span class="pkg-discount">Economize 13%</span>
+                    </div>
+                    <ul class="pkg-features">
+                        <li><i class="fa-solid fa-check"></i> Entrega via Gamepass</li>
+                        <li><i class="fa-solid fa-check"></i> Suporte via WhatsApp</li>
+                        <li><i class="fa-solid fa-check"></i> Garantia VERY</li>
+                    </ul>
+                    <button class="btn btn-secondary w-100 btn-buy" data-robux="800" data-price="47.90">Comprar Agora</button>
+                </div>
+
+                <!-- Card 3 - Mais Vendido -->
+                <div class="package-card featured-pkg">
+                    <div class="best-seller-badge">Mais Vendido</div>
+                    <div class="pkg-header">
+                        <span class="pkg-amount">1.700</span>
+                        <span class="pkg-unit">Robux</span>
+                    </div>
+                    <div class="pkg-icon">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <div class="pkg-pricing">
+                        <span class="pkg-old-price">R$ 115,00</span>
+                        <span class="pkg-price">R$ 98,90</span>
+                        <span class="pkg-discount">Economize 14%</span>
+                    </div>
+                    <ul class="pkg-features">
+                        <li><i class="fa-solid fa-check"></i> Entrega Prioritária</li>
+                        <li><i class="fa-solid fa-check"></i> Suporte VIP Dedicado</li>
+                        <li><i class="fa-solid fa-check"></i> 100% Seguro & Rápido</li>
+                    </ul>
+                    <button class="btn btn-primary btn-glow w-100 btn-buy" data-robux="1700" data-price="98.90">Comprar Agora</button>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="package-card">
+                    <div class="pkg-header">
+                        <span class="pkg-amount">4.500</span>
+                        <span class="pkg-unit">Robux</span>
+                    </div>
+                    <div class="pkg-icon">
+                        <i class="fa-solid fa-crown"></i>
+                    </div>
+                    <div class="pkg-pricing">
+                        <span class="pkg-old-price">R$ 299,00</span>
+                        <span class="pkg-price">R$ 259,90</span>
+                        <span class="pkg-discount">Economize 13%</span>
+                    </div>
+                    <ul class="pkg-features">
+                        <li><i class="fa-solid fa-check"></i> Entrega Prioritária</li>
+                        <li><i class="fa-solid fa-check"></i> Suporte VIP Dedicado</li>
+                        <li><i class="fa-solid fa-check"></i> 100% Seguro & Rápido</li>
+                    </ul>
+                    <button class="btn btn-secondary w-100 btn-buy" data-robux="4500" data-price="259.90">Comprar Agora</button>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="package-card">
+                    <div class="pkg-header">
+                        <span class="pkg-amount">10.000</span>
+                        <span class="pkg-unit">Robux</span>
+                    </div>
+                    <div class="pkg-icon">
+                        <i class="fa-solid fa-fire"></i>
+                    </div>
+                    <div class="pkg-pricing">
+                        <span class="pkg-old-price">R$ 650,00</span>
+                        <span class="pkg-price">R$ 549,90</span>
+                        <span class="pkg-discount">Economize 15%</span>
+                    </div>
+                    <ul class="pkg-features">
+                        <li><i class="fa-solid fa-check"></i> Entrega Máxima Megapack</li>
+                        <li><i class="fa-solid fa-check"></i> Atendimento Exclusivo</li>
+                        <li><i class="fa-solid fa-check"></i> Bônus de Fidelidade</li>
+                    </ul>
+                    <button class="btn btn-secondary w-100 btn-buy" data-robux="10000" data-price="549.90">Comprar Agora</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutorial Section -->
+    <section class="tutorial-section" id="como-funciona">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Como Funciona a <span class="text-gradient">Entrega Rápida</span></h2>
+                <p class="section-subtitle">Entenda o passo a passo simples e seguro para receber seus Robux na sua conta Roblox.</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">01</div>
+                    <div class="step-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <h3>Escolha o Pacote</h3>
+                    <p>Selecione a quantidade de Robux desejada na nossa vitrine e clique em Comprar Agora.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">02</div>
+                    <div class="step-icon"><i class="fa-solid fa-user-pen"></i></div>
+                    <h3>Informe seu Nick</h3>
+                    <p>Digite seu nome de usuário exato do Roblox no checkout seguro via Pix.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">03</div>
+                    <div class="step-icon"><i class="fa-solid fa-gamepad"></i></div>
+                    <h3>Crie o Gamepass</h3>
+                    <p>Crie um Gamepass no seu jogo do Roblox com o valor exato solicitado pelo nosso sistema.</p>
+                </div>
+
+                <div class="step-card">
+                    <div class="step-number">04</div>
+                    <div class="step-icon"><i class="fa-solid fa-vault"></i></div>
+                    <h3>Receba os Robux</h3>
+                    <p>Nossa automação realiza a compra do seu Gamepass e os Robux caem na sua conta!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Avaliações -->
+    <section class="testimonials-section" id="avaliacoes">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">O que nossos <span class="text-gradient">Clientes Dizem</span></h2>
+                <p class="section-subtitle">Milhares de jogadores confiam na VERY ROBUX diariamente.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Caraca, muito rápido! Comprei o pacote de 1.700 Robux e caiu em menos de 8 minutos. Recomendo demais!"</p>
+                    <div class="user-info">
+                        <div class="avatar-placeholder">MD</div>
+                        <div>
+                            <h4>Matheus Duarte</h4>
+                            <span>Comprador Verificado</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Tinha receio de comprar Robux em outros sites, mas a VERY ROBUX é super profissional e segura. Nota 10!"</p>
+                    <div class="user-info">
+                        <div class="avatar-placeholder">BS</div>
+                        <div>
+                            <h4>Beatriz Souza</h4>
+                            <span>Comprador Verificado</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>"Atendimento pelo WhatsApp super ágil e explicativo sobre o Gamepass. Já virei cliente fiel!"</p>
+                    <div class="user-info">
+                        <div class="avatar-placeholder">GL</div>
+                        <div>
+                            <h4>Gabriel Lima</h4>
+                            <span>Comprador Verificado</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/logo.svg" alt="VERY ROBUX" class="footer-logo">
+                    <p class="footer-desc">A plataforma definitiva de recargas de Robux desenvolvida com tecnologia de ponta pela VERY SYSTEMS.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#pacotes">Pacotes de Robux</a></li>
+                        <li><a href="#como-funciona">Como Funciona</a></li>
+                        <li><a href="#avaliacoes">Avaliações</a></li>
+                        <li><a href="#" id="openTerms">Termos de Serviço</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Segurança & Pagamento</h4>
+                    <p class="sec-text"><i class="fa-solid fa-lock"></i> Pagamentos processados via Pix com criptografia ponta a ponta.</p>
+                    <div class="pix-badge-footer">
+                        <i class="fa-solid fa-qrcode"></i> PIX Instantâneo
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 VERY ROBUX / VERY SYSTEMS. Todos os direitos reservados. Não afiliado à Roblox Corporation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Checkout Modal -->
+    <div class="modal-overlay" id="checkoutModal">
+        <div class="modal-container">
+            <button class="modal-close" id="closeModal"><i class="fa-solid fa-xmark"></i></button>
+            
+            <!-- Step 1: Nick Input -->
+            <div class="modal-step" id="modalStep1">
+                <div class="modal-header">
+                    <h3>Finalizar Pedido</h3>
+                    <p>Você selecionou: <strong id="modalRobuxTitle">1.700 Robux</strong> por <strong id="modalPriceTitle">R$ 98,90</strong></p>
+                </div>
+                <form id="checkoutForm">
+                    <div class="form-group">
+                        <label for="robloxNick">Seu Nick no Roblox:</label>
+                        <div class="input-icon-wrap">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="robloxNick" placeholder="Ex: PlayerPro2025" required>
+                        </div>
+                        <span class="form-hint">Certifique-se de digitar o nick correto para agilizar a entrega.</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-glow w-100">Gerar Pix de Pagamento</button>
+                </form>
+            </div>
+
+            <!-- Step 2: Pix Payment -->
+            <div class="modal-step hidden" id="modalStep2">
+                <div class="modal-header">
+                    <h3>Escaneie o QR Code Pix</h3>
+                    <p>Pedido gerado para o nick: <strong id="confirmNick">-</strong></p>
+                </div>
+                <div class="pix-box">
+                    <div class="qr-placeholder">
+                        <!-- Ilustrative SVG QR Code -->
+                        <svg viewBox="0 0 100 100" class="qr-svg">
+                            <rect width="100" height="100" fill="#ffffff"/>
+                            <rect x="10" y="10" width="30" height="30" fill="#000000"/>
+                            <rect x="15" y="15" width="20" height="20" fill="#ffffff"/>
+                            <rect x="20" y="20" width="10" height="10" fill="#000000"/>
+                            
+                            <rect x="60" y="10" width="30" height="30" fill="#000000"/>
+                            <rect x="65" y="15" width="20" height="20" fill="#ffffff"/>
+                            <rect x="70" y="20" width="10" height="10" fill="#000000"/>
+                            
+                            <rect x="10" y="60" width="30" height="30" fill="#000000"/>
+                            <rect x="15" y="65" width="20" height="20" fill="#ffffff"/>
+                            <rect x="20" y="70" width="10" height="10" fill="#000000"/>
+                            
+                            <rect x="45" y="45" width="10" height="10" fill="#000000"/>
+                            <rect x="55" y="55" width="15" height="10" fill="#000000"/>
+                            <rect x="45" y="70" width="10" height="20" fill="#000000"/>
+                            <rect x="70" y="50" width="20" height="15" fill="#000000"/>
+                            <rect x="60" y="80" width="30" height="10" fill="#000000"/>
+                        </svg>
+                    </div>
+                    <div class="pix-timer">
+                        <i class="fa-regular fa-clock">></i> Expira em: <span id="countdown">14:59</span>
+                    </div>
+                    <div class="form-group">
+                        <label>Chave Pix Copia e Cola:</label>
+                        <div class="copy-input-group">
+                            <input type="text" id="pixCopyInput" value="00020126580014br.gov.bcb.pix...veryrobuxautomation2025" readonly>
+                            <button class="btn btn-primary" id="copyPixBtn"><i class="fa-regular fa-copy"></i> Copiar</button>
+                        </div>
+                    </div>
+                    <div class="payment-waiting">
+                        <span class="spinner"></span> Aguardando confirmação do pagamento...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms Modal -->
+    <div class="modal-overlay" id="termsModal">
+        <div class="modal-container">
+            <button class="modal-close" id="closeTermsModal"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3>Termos de Serviço</h3>
+            </div>
+            <div class="modal-body-scroll">
+                <p>Bem-vindo à VERY ROBUX. Ao utilizar nossos serviços de recarga e entrega de Robux, você concorda com os seguintes termos:</p>
+                <h4>1. Entrega</h4>
+                <p>A entrega é realizada via Gamepass criado pelo usuário no Roblox. O usuário deve seguir corretamente as instruções informadas no site.</p>
+                <h4>2. Reembolsos</h4>
+                <p>Como se trata de moeda virtual e ativos digitais entregues de forma automatizada, os reembolsos só são permitidos caso o pedido não seja processado em até 24 horas por falha técnica comprovada.</p>
+                <h4>3. Segurança</h4>
+                <p>Nunca solicitamos sua senha do Roblox. Utilize apenas o seu nick público e crie o Gamepass conforme instruído.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

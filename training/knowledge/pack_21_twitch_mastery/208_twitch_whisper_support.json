@@ -1,0 +1,4 @@
+{
+  "feature": "Respostas em Mensagens Privadas (Whisper)",
+  "rules": ["Suporte a client.whisper() para comandos que demandam discrição.", "Tratar limites rígidos da API da Twitch para evitar bloqueio temporário."]
+}

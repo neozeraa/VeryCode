@@ -1,0 +1,4 @@
+{
+  "feature": "Comandos Rápidos (!pix, !redes, !discord)",
+  "rules": ["Interpretar mensagens com prefixo '!' no evento 'chat'.", "Responder no canal via client.say(channel, `@${userstate.username}, ...`)."]
+}

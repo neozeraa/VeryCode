@@ -1,0 +1,4 @@
+{
+  "feature": "ActionRowBuilder e ButtonBuilder",
+  "rules": ["Componentes visuais usando ButtonStyle (Primary, Secondary, Success, Danger).", "Interações capturadas em interactionCreate com i.isButton()."]
+}

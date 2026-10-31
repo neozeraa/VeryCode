@@ -1,0 +1,13 @@
+{
+  "topic": "Ativação de Auto-start e Aliases Rápidos para o VeryCode",
+  "rules": [
+    "Adicionar aliases úteis ao ficheiro ~/.bashrc sem apagar o conteúdo existente.",
+    "Permitir carregar automaticamente as variáveis de ambiente necessárias."
+  ],
+  "recipes": [
+    {
+      "trigger": "configurar atalho de inicializacao rapida no bashrc",
+      "command": "grep -q 'alias vc=' ~/.bashrc 2>/dev/null || echo \"alias vc='cd ~/VeryCode/central && verycode'\" >> ~/.bashrc && echo 'Atalho \"vc\" adicionado ao ~/.bashrc! Basta digitar vc para entrar no VeryCode.'"
+    }
+  ]
+}

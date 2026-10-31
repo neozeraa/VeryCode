@@ -1,0 +1,4 @@
+{
+  "feature": "Mensagens Periódicas (Timers de Live)",
+  "rules": ["Disparar lembretes a cada X minutos usando setInterval.", "Verificar se houve atividade de chat recente antes de disparar o aviso."]
+}

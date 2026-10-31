@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_42_API_DESIGN_AND_REST_STANDARDS_425",
+  "title": "REST MASTER GOVERNANCE",
+  "category": "Arquitetura e Padrões de Design de APIs RESTful",
+  "summary": "Diretrizes supremas de consistência e estabilidade em ecossistemas de APIs.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Diretrizes supremas de consistência e estabilidade em ecossistemas de APIs.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

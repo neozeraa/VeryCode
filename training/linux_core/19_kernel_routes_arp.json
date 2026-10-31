@@ -1,0 +1,18 @@
+{
+  "category": "Linux Core - Routing, ARP & Interfaces",
+  "commands": ["ip", "route", "arp", "ifconfig", "hostname"],
+  "rules": [
+    "Utilizar comando ip (ip route, ip addr, ip neigh) padrão Linux moderno.",
+    "Verificar gateway padrão para diagnóstico de perda de pacotes."
+  ],
+  "recipes": [
+    {
+      "intent": "ver tabela de roteamento e gateway padrao",
+      "command": "ip route 2>/dev/null || route -n 2>/dev/null || netstat -rn"
+    },
+    {
+      "intent": "ver tabela arp com mac addresses da rede local",
+      "command": "ip neigh 2>/dev/null || arp -a 2>/dev/null || echo 'Tabela ARP indisponível sem root.'"
+    }
+  ]
+}

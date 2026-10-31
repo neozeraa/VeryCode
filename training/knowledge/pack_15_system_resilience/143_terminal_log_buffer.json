@@ -1,0 +1,8 @@
+{
+  "module_id": "RESILIENCE_LOG_03",
+  "topic": "Buffer de Diagnóstico para o Comando /debug",
+  "rules": [
+    "Armazenar as últimas 100 linhas de stdout e stderr num ficheiro temporário circular em app/logs/terminal.log.",
+    "Proteger segredos (.env, tokens) mascarando valores sensíveis antes da escrita em disco."
+  ]
+}

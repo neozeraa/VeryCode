@@ -1,0 +1,8 @@
+{
+  "topic": "Interatividade Fluida em JavaScript Puro (Vanilla JS)",
+  "rules": [
+    "Manipular elementos com document.querySelector e delegação de eventos via addEventListener para reduzir consumo de memória.",
+    "Adicionar suporte a gestos de toque (touch events) para carrosséis, gavetas de menu laterais e fechar modais ao deslizar.",
+    "Utilizar IntersectionObserver para disparar animações de entrada apenas quando os elementos entrarem na visão da tela."
+  ]
+}

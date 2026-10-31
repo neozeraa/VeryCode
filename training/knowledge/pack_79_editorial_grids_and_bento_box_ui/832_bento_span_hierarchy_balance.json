@@ -1,0 +1,13 @@
+{
+  "module_id": "AESTHETIC_WEB_PACK_PACK_79_EDITORIAL_GRIDS_AND_BENTO_BOX_UI_832",
+  "title": "BENTO SPAN HIERARCHY BALANCE",
+  "category": "Layouts Bento Box, Grids Assimétricos e Design Editorial",
+  "summary": "Uso inteligente de grid-column: span 2 e grid-row: span 2 para destacar o produto ou benefício principal.",
+  "design_system": "VERY_SYSTEMS_PREMIUM_UI_UX",
+  "brand_accent_color": "#FF6600",
+  "aesthetic_rules": [
+    "Garantir aplicação imediata de: Uso inteligente de grid-column: span 2 e grid-row: span 2 para destacar o produto ou benefício principal.",
+    "Todo site gerado deve possuir visual moderno, responsivo e digno de portfólio internacional.",
+    "Proibido criar layouts antiquados, botões cinzas padrão de navegador ou páginas sem vida."
+  ]
+}

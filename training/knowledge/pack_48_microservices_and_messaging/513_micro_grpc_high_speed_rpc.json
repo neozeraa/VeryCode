@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_48_MICROSERVICES_AND_MESSAGING_513",
+  "title": "MICRO GRPC HIGH SPEED RPC",
+  "category": "Microsserviços, Mensageria, Filas e Event-Driven",
+  "summary": "Comunicação binária de ultra-baixa latência entre serviços usando Protocol Buffers.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Comunicação binária de ultra-baixa latência entre serviços usando Protocol Buffers.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

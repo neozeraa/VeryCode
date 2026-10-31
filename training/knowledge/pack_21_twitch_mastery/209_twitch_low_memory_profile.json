@@ -1,0 +1,4 @@
+{
+  "feature": "Perfil de Baixo Consumo no Termux",
+  "rules": ["Execução enxuta consumindo menos de 45 MB de RAM no Android.", "Auto-reconexão limpa caso a conexão Wi-Fi do celular oscile."]
+}

@@ -1,0 +1,17 @@
+{
+  "topic": "Execução de Distribuições Linux Completas (Ubuntu, Debian, Arch) em Proot",
+  "rules": [
+    "Utilizar proot-distro para rodar ambientes Linux isolados sem root.",
+    "Garantir manutenção das imagens instaladas."
+  ],
+  "recipes": [
+    {
+      "trigger": "instalar ubuntu completo no ambiente proot",
+      "command": "pkg install -y proot-distro && proot-distro install ubuntu && echo 'Ubuntu instalado! Use proot-distro login ubuntu para entrar.'"
+    },
+    {
+      "trigger": "listar sistemas linux instalados no proot",
+      "command": "proot-distro list"
+    }
+  ]
+}

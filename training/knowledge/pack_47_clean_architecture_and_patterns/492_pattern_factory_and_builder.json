@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_47_CLEAN_ARCHITECTURE_AND_PATTERNS_492",
+  "title": "PATTERN FACTORY AND BUILDER",
+  "category": "Clean Architecture, Padrões de Projeto (GoF) e SOLID",
+  "summary": "Criação flexível de objetos complexos separando instanciação de representação.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Criação flexível de objetos complexos separando instanciação de representação.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

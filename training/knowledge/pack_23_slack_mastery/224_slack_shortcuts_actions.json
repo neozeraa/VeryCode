@@ -1,0 +1,4 @@
+{
+  "feature": "Atalhos Globais e Ações de Mensagens",
+  "rules": ["Registrar app.shortcut('callback_id') para criar tarefas rápidas a partir de mensagens.", "Confirmação instantânea de clique com ack()."]
+}

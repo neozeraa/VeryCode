@@ -1,0 +1,7 @@
+{
+  "module": "Deploy Contínuo e Infraestrutura",
+  "rules": [
+    "Práticas de infraestrutura como código (IaC) e variáveis de ambiente desacopladas do repositório.",
+    "Monitoramento de métricas essenciais (CPU, RAM, latency, throughput)."
+  ]
+}

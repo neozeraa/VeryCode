@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_87_CINEMATOGRAPHY_AND_CAMERA_ANGLES_913",
+  "title": "CAM ANGLES PSYCHOLOGY IMPACT",
+  "category": "Cinematografia, Ângulos de Câmera e Composição Visual",
+  "summary": "Enquadramentos com propósito: Low-angle (perspectiva de baixo para cima conferindo poder) e High-angle ou Dutch Angle para tensão.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Enquadramentos com propósito: Low-angle (perspectiva de baixo para cima conferindo poder) e High-angle ou Dutch Angle para tensão.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

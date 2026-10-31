@@ -1,0 +1,4 @@
+{
+  "feature": "Controle de Sessão e Fluxo de Conversa (Wizards)",
+  "rules": ["Implementar telegraf/scenes ou Telegraf.session() para formulários etapa por etapa.", "Salvar respostas temporárias na memória de ctx.session."]
+}

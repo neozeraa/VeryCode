@@ -1,0 +1,8 @@
+{
+  "category": "Plataformas Brasileiras Modernas de Bots e Cloud",
+  "providers": [
+    { "name": "Discloud", "color": "#00E5FF", "origin": "Brasil", "type": "Hospedagem de Bots e Microsserviços" },
+    { "name": "Square Cloud", "color": "#7B2CBF", "origin": "Brasil", "type": "Plataforma de Aplicações e Bots" },
+    { "name": "Replit Brasil", "color": "#F26207", "origin": "Global/Comunidade BR", "type": "Cloud IDE e Hospedagem" }
+  ]
+}

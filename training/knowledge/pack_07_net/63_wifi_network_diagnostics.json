@@ -1,0 +1,17 @@
+{
+  "topic": "Auditoria de Interface Wi-Fi, Latência DNS e Perda de Pacotes",
+  "rules": [
+    "Utilizar termux-api quando em Android para dados de sinal de rede.",
+    "Medir latência e rotas via ping e traceroute."
+  ],
+  "recipes": [
+    {
+      "trigger": "ver informacoes detalhadas da conexao wifi atual",
+      "command": "termux-wifi-connectioninfo 2>/dev/null || iwconfig 2>/dev/null || ip addr show"
+    },
+    {
+      "trigger": "diagnosticar latencia e perda de pacotes com google dns",
+      "command": "ping -c 5 8.8.8.8"
+    }
+  ]
+}

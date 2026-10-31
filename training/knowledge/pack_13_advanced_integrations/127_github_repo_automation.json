@@ -1,0 +1,9 @@
+{
+  "module_id": "MOD_GITHUB_01",
+  "topic": "Inicialização e Criação Remota de Repositórios via gh CLI",
+  "rules": [
+    "Inicializar o repositório local com 'git init' e 'git branch -M main'.",
+    "Gerar arquivo .gitignore excluindo node_modules, arquivos temporários e .env.",
+    "Executar 'gh repo create <nome> --public --source=. --remote=origin --push' de forma silenciosa e assertiva."
+  ]
+}

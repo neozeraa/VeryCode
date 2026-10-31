@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_94_NETWORK_TUNNELING_AND_QR_PREVIEWS_984",
+  "title": "TUNNEL QR CODE ASCII GENERATOR",
+  "category": "Túneis de Rede, Exposição de Portas e Códigos QR",
+  "summary": "Renderização de códigos QR diretamente em texto ASCII colorido no terminal para leitura instantânea com a câmara.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Renderização de códigos QR diretamente em texto ASCII colorido no terminal para leitura instantânea com a câmara.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

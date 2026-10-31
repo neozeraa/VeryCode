@@ -1,0 +1,17 @@
+{
+  "topic": "Multiplexação de Terminal e Execução Contínua em Segundo Plano",
+  "rules": [
+    "Garantir a instalação do pacote tmux via pkg.",
+    "Criar sessões nomeadas para cada bot ou servidor para facilitar a reconexão."
+  ],
+  "recipes": [
+    {
+      "trigger": "iniciar sessao tmux para bot",
+      "command": "pkg install -y tmux && tmux new-session -d -s bot_session 'node index.js' && echo 'Sessão tmux \"bot_session\" iniciada em segundo plano. Use tmux attach -t bot_session para aceder.'"
+    },
+    {
+      "trigger": "listar todas as sessoes ativas do tmux",
+      "command": "tmux ls 2>/dev/null || echo 'Nenhuma sessão ativa no tmux.'"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "feature": "Correção Automática de Código Quebrado",
+  "rules": [
+    "Abrir o arquivo indicado na stack trace, corrigir a linha defeituosa e regravar o arquivo.",
+    "Reiniciar o processo automaticamente e confirmar a recuperação com mensagem de sucesso."
+  ]
+}

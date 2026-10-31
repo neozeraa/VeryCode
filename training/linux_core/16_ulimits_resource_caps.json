@@ -1,0 +1,18 @@
+{
+  "category": "Linux Core - Resource Limits & Descriptors",
+  "commands": ["ulimit", "prlimit", "getconf", "sysctl"],
+  "rules": [
+    "Consultar limites máximos de descritores de arquivos abertos (open files).",
+    "Verificar limites de tamanho de memória e pilha por processo."
+  ],
+  "recipes": [
+    {
+      "intent": "ver limite maximo de arquivos abertos permitidos pelo terminal",
+      "command": "ulimit -n"
+    },
+    {
+      "intent": "ver todos os limites de recursos de sistema ativos",
+      "command": "ulimit -a"
+    }
+  ]
+}

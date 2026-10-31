@@ -1,0 +1,17 @@
+{
+  "topic": "Auditoria e Correção de Vulnerabilidades em Pacotes Node.js e Python",
+  "rules": [
+    "Executar auditorias de segurança antes de colocar bots em produção.",
+    "Utilizar npm audit fix com cautela para não quebrar versões incompatíveis."
+  ],
+  "recipes": [
+    {
+      "trigger": "auditar e corrigir vulnerabilidades npm",
+      "command": "npm audit --audit-level=moderate && echo 'Auditoria concluída com sucesso!' || npm audit fix --force"
+    },
+    {
+      "trigger": "verificar dependencias desatualizadas no projeto",
+      "command": "npm outdated || pip list --outdated"
+    }
+  ]
+}

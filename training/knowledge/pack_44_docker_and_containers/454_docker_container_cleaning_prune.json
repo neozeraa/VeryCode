@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_44_DOCKER_AND_CONTAINERS_454",
+  "title": "DOCKER CONTAINER CLEANING PRUNE",
+  "category": "Engenharia de Containers, Docker e Orquestração",
+  "summary": "Rotinas seguras de manutenção e remoção de imagens órfãs via docker system prune.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Rotinas seguras de manutenção e remoção de imagens órfãs via docker system prune.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

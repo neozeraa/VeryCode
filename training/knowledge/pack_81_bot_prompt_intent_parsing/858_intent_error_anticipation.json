@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_81_BOT_PROMPT_INTENT_PARSING_858",
+  "title": "INTENT ERROR ANTICIPATION",
+  "category": "Interpretação e Engenharia de Prompts para Bots",
+  "summary": "Adição preventiva de mensagens de ajuda, avisos de sintaxe incorreta e cooldowns contra spam de comandos.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Adição preventiva de mensagens de ajuda, avisos de sintaxe incorreta e cooldowns contra spam de comandos.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

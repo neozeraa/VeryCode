@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_90_PROMPT_ENGINEERING_AND_ASPECT_RATIOS_945",
+  "title": "PROMPT THUMBNAIL AND COVER ART OPTIMIZATION",
+  "category": "Engenharia de Prompts, Estrutura e Proporções de Tela",
+  "summary": "Otimização de artes para capas de música e YouTube thumbnails com alto contraste e clareza em telas pequenas.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Otimização de artes para capas de música e YouTube thumbnails com alto contraste e clareza em telas pequenas.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

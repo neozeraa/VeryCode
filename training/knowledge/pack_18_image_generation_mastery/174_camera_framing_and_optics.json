@@ -1,0 +1,9 @@
+{
+  "module_id": "IMG_ENGINE_04",
+  "optics_presets": {
+    "close_up": "macro 85mm portrait lens, f/1.8 aperture, sharp eye focus, creamy bokeh",
+    "wide_angle": "ultra-wide 16mm lens, sweeping perspective, grand architecture, dramatic vanishing point",
+    "action": "dynamic action camera angle, motion blur control, centered subject framing",
+    "isometric": "isometric orthographic projection, detailed diorama view, sharp geometry"
+  }
+}

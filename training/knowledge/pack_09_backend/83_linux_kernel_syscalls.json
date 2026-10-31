@@ -1,0 +1,7 @@
+{
+  "module": "Subsistemas do Kernel Linux",
+  "rules": [
+    "Interface de chamadas de sistema (fork, execve, open, read, write, ioctl, epoll).",
+    "Interação com VFS (Virtual File System) e descritores de arquivos (/proc, /sys, /dev)."
+  ]
+}

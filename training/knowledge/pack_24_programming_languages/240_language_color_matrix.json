@@ -1,0 +1,9 @@
+{
+  "module_id": "LANG_COLOR_MATRIX",
+  "version": "9.0.0",
+  "rules": [
+    "Toda menção a linguagens de programação nas respostas da IA deve ser destacada na cor oficial de sua identidade técnica.",
+    "Cores mapeadas: Python (#FFD43B), JavaScript (#F7DF1E), TypeScript (#3178C6), C/C++ (#00599C), Rust (#DEA584), Go (#00ADD8), Java (#ED8B00), Kotlin (#7F52FF), PHP (#777BB4), Bash/Shell (#89E051), HTML (#E34F26), CSS (#1572B6), SQL (#CC292B).",
+    "Nenhum bloco de código deve ser despejado na tela: explicações teóricas e práticas devem ser entregues em texto puro estruturado."
+  ]
+}

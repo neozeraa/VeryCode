@@ -1,0 +1,17 @@
+{
+  "topic": "Leitura de Temperatura de CPU, Bateria e Nível de Carga no Termux",
+  "rules": [
+    "Utilizar termux-api quando disponível ou ler interfaces do kernel /sys/class.",
+    "Evitar aquecimento excessivo durante processos pesados."
+  ],
+  "recipes": [
+    {
+      "trigger": "ver estado e temperatura da bateria",
+      "command": "termux-battery-status 2>/dev/null || cat /sys/class/power_supply/battery/temp 2>/dev/null | awk '{print \"Temp Bateria: \" $1/10 \"°C\"}' || echo 'Informações de bateria não acessíveis diretamente pelo kernel.'"
+    },
+    {
+      "trigger": "ver zonas termicas do processador",
+      "command": "for zone in /sys/class/thermal/thermal_zone*/temp; do [ -f \"$zone\" ] && echo \"$(basename $(dirname $zone)): $(($(cat $zone)/1000))°C\"; done 2>/dev/null || echo 'Sem suporte a sensores de zona térmica.'"
+    }
+  ]
+}

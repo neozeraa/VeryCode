@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_88_LIGHTING_AND_ATMOSPHERIC_EFFECTS_921",
+  "title": "LIGHT GOLDEN HOUR AND BLUE HOUR",
+  "category": "Iluminação Profissional, Luz de Volume e Atmosfera",
+  "summary": "Captura de luz quente suave de final de tarde (Golden Hour) e transição para o tom frio místico do entardecer (Blue Hour).",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Captura de luz quente suave de final de tarde (Golden Hour) e transição para o tom frio místico do entardecer (Blue Hour).",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

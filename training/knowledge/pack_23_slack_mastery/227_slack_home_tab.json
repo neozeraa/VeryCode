@@ -1,0 +1,4 @@
+{
+  "feature": "Aba Home Personalizada para o Usuário",
+  "rules": ["Renderizar painel interativo na aba 'Home' com views.publish.", "Exibir lista de chamados e métricas do colaborador."]
+}

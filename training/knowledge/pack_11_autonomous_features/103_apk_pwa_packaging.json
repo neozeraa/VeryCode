@@ -1,0 +1,7 @@
+{
+  "feature": "Transformação de Sites em PWA Instalável",
+  "rules": [
+    "Injetar automaticamente manifest.json e service-worker.js no projeto do site.",
+    "Habilitar suporte a instalação nativa na tela inicial do Android com ícones e tema escuro."
+  ]
+}

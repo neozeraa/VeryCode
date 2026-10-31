@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_92_TERMINAL_PROCESS_AND_SERVICE_MANAGER_966",
+  "title": "PROC MEMORY WATCHDOG THRESHOLDS",
+  "category": "Gestão Local de Processos, Daemons e Serviços em Segundo Plano",
+  "summary": "Monitorização em tempo real de RSS com encerramento e reinicialização suave caso atinja limites críticos.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Monitorização em tempo real de RSS com encerramento e reinicialização suave caso atinja limites críticos.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

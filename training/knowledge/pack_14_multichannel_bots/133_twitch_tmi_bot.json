@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_TWITCH_01",
+  "platform": "Twitch",
+  "engine": "tmi.js",
+  "mandatory_structure": [
+    "index.js",
+    "package.json",
+    ".env",
+    "commands/social.js",
+    "README.md"
+  ],
+  "rules": [
+    "Conectar aos canais de live especificados no .env (CHANNELS=canal1,canal2).",
+    "Monitorar eventos 'chat' com verificação de permissões (mod, subscriber, broadcaster).",
+    "Implementar rate-limit de mensagens para evitar ban por spam no chat da Twitch."
+  ]
+}

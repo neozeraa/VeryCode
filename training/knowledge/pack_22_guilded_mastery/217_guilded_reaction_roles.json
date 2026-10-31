@@ -1,0 +1,4 @@
+{
+  "feature": "Reações para Atribuição de Cargos",
+  "rules": ["Monitorar 'messageReactionCreated' adicionando cargo correspondente.", "Remover cargo no evento 'messageReactionDeleted'."]
+}

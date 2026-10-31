@@ -1,0 +1,310 @@
+{
+  "!": {
+    "descricao": "Negação lógica de pipeline",
+    "regra_custom": "Usar em verificações de saída invertida"
+  },
+  "job_spec [&]": {
+    "descricao": "Execução de tarefa em segundo plano",
+    "regra_custom": "Usar & com disown quando o processo tiver de continuar vivo"
+  },
+  "(( ))": {
+    "descricao": "Avaliação aritmética shell",
+    "regra_custom": "Para cálculos inteiros rápidos sem invocar processos externos"
+  },
+  ".": {
+    "descricao": "Origem de ficheiro no shell corrente",
+    "regra_custom": "Equivalente ao comando source"
+  },
+  ":": {
+    "descricao": "Comando nulo (retorna sempre 0/true)",
+    "regra_custom": "Usado em loops infinitos ou placeholders"
+  },
+  "[ ]": {
+    "descricao": "Teste condicional clássico",
+    "regra_custom": "Preferir [[ ]] para expressões complexas"
+  },
+  "[[ ]]": {
+    "descricao": "Teste condicional estendido",
+    "regra_custom": "Permite regex com =~ e operações lógicas nativas && e ||"
+  },
+  "alias": {
+    "descricao": "Definição de atalhos",
+    "regra_custom": "Evitar aliases que sobrescrevam comandos nativos essenciais"
+  },
+  "bg": {
+    "descricao": "Mover job suspenso para segundo plano",
+    "regra_custom": "Usar para retomar processos parados com Ctrl+Z"
+  },
+  "bind": {
+    "descricao": "Configuração de atalhos do Readline",
+    "regra_custom": "Personalização de teclas de navegação no terminal"
+  },
+  "break": {
+    "descricao": "Interromper laço for, while ou until",
+    "regra_custom": "Passar número de níveis se estiver em laço aninhado"
+  },
+  "builtin": {
+    "descricao": "Executar comando embutido ignorando funções/aliases",
+    "regra_custom": "Usar para evitar recursão em funções com mesmo nome"
+  },
+  "caller": {
+    "descricao": "Inspecionar pilha de chamadas de funções",
+    "regra_custom": "Usado em rotinas de depuração e trace de erros"
+  },
+  "case": {
+    "descricao": "Estrutura condicional por correspondência de padrão",
+    "regra_custom": "Fechar sempre com ;; ou ;&"
+  },
+  "cd": {
+    "descricao": "Mudar diretório de trabalho",
+    "regra_custom": "Usar cd - para voltar ao diretório anterior"
+  },
+  "command": {
+    "descricao": "Executar comando ignorando funções de mesmo nome",
+    "regra_custom": "Chamar binários puros de forma segura"
+  },
+  "compgen": {
+    "descricao": "Gerador de autocompletação",
+    "regra_custom": "Listar comandos, variáveis ou ficheiros para scripts interativos"
+  },
+  "complete": {
+    "descricao": "Definir autocompletação de comandos",
+    "regra_custom": "Configurar autocompletação personalizada para ferramentas CLI"
+  },
+  "compopt": {
+    "descricao": "Modificar opções de complecção ativa",
+    "regra_custom": "Ajustar regras do bash-completion"
+  },
+  "continue": {
+    "descricao": "Avançar para a próxima iteração do laço",
+    "regra_custom": "Ignorar o restante do bloco atual no loop"
+  },
+  "coproc": {
+    "descricao": "Criação de coprocessos concorrentes",
+    "regra_custom": "Comunicação bidirecional via descritores de ficheiro"
+  },
+  "declare": {
+    "descricao": "Declaração e tipagem de variáveis e atributos",
+    "regra_custom": "declare -r para readonly, declare -a para arrays"
+  },
+  "dirs": {
+    "descricao": "Mostrar lista de diretórios na pilha",
+    "regra_custom": "Usar em conjunto com pushd e popd"
+  },
+  "disown": {
+    "descricao": "Remover jobs da tabela do terminal",
+    "regra_custom": "Impede o encerramento do processo quando a janela fecha"
+  },
+  "echo": {
+    "descricao": "Escrever argumentos na saída padrão",
+    "regra_custom": "Para escapes interpretados com quebra de linha segura, preferir printf"
+  },
+  "enable": {
+    "descricao": "Ativar e desativar comandos internos",
+    "regra_custom": "enable -n comando para desativar um comando embutido"
+  },
+  "eval": {
+    "descricao": "Executar texto composto como comando de shell",
+    "regra_custom": "Sanitizar entradas para evitar injeção de comandos"
+  },
+  "exec": {
+    "descricao": "Substituir o processo do shell pelo comando",
+    "regra_custom": "Utilizar também para redirecionar descritores permanentes"
+  },
+  "exit": {
+    "descricao": "Finalizar a sessão do shell",
+    "regra_custom": "Retornar código de saída explícito (ex: exit 0 ou exit 1)"
+  },
+  "export": {
+    "descricao": "Exportar variáveis para processos-filhos",
+    "regra_custom": "Definir variáveis de ambiente da sessão"
+  },
+  "false": {
+    "descricao": "Retornar código de status 1 (falha)",
+    "regra_custom": "Usado para simular estados de erro"
+  },
+  "fc": {
+    "descricao": "Editar e reexecutar comandos do histórico",
+    "regra_custom": "Abre o editor padrão com os últimos comandos"
+  },
+  "fg": {
+    "descricao": "Trazer job de segundo plano para primeiro plano",
+    "regra_custom": "Recuperar processos para interagir diretamente"
+  },
+  "for": {
+    "descricao": "Laço de repetição sequencial",
+    "regra_custom": "Iterar sobre ficheiros com expansão de globbing seguro"
+  },
+  "function": {
+    "descricao": "Definição de bloco de função shell",
+    "regra_custom": "Organizar rotinas reutilizáveis em scripts"
+  },
+  "getopts": {
+    "descricao": "Processar opções e argumentos de linha de comandos",
+    "regra_custom": "Estruturar parâmetros curtos (ex: -f, -v, -h)"
+  },
+  "hash": {
+    "descricao": "Tabela de endereços cacheados de comandos",
+    "regra_custom": "hash -r para limpar o cache após instalar novos binários"
+  },
+  "help": {
+    "descricao": "Ajuda integrada sobre comandos internos",
+    "regra_custom": "help <comando> exibe manual embutido oficial"
+  },
+  "history": {
+    "descricao": "Histórico de comandos executados",
+    "regra_custom": "history -c para limpar dados sensíveis digitados"
+  },
+  "if": {
+    "descricao": "Estrutura condicional de fluxo",
+    "regra_custom": "Avaliar retorno de comandos diretamente"
+  },
+  "jobs": {
+    "descricao": "Listar processos ativos geridos pela sessão atual",
+    "regra_custom": "jobs -l exibe o PID associado de cada tarefa"
+  },
+  "kill": {
+    "descricao": "Enviar sinais de sistema a processos",
+    "regra_custom": "Enviar SIGTERM (-15) antes de SIGKILL (-9)"
+  },
+  "let": {
+    "descricao": "Avaliar expressões aritméticas",
+    "regra_custom": "Atribuição rápida de cálculos em variáveis inteiras"
+  },
+  "local": {
+    "descricao": "Definir variável com escopo restrito à função",
+    "regra_custom": "Evita poluir o ambiente global da sessão"
+  },
+  "logout": {
+    "descricao": "Encerrar shell de login",
+    "regra_custom": "Aplicável em terminais com sessão de login direta"
+  },
+  "mapfile": {
+    "descricao": "Ler linhas da entrada padrão diretamente para um array",
+    "regra_custom": "Equivalente nativo a readarray para evitar loops lentos"
+  },
+  "popd": {
+    "descricao": "Remover diretório do topo da pilha",
+    "regra_custom": "Retornar ao caminho anterior salvo por pushd"
+  },
+  "printf": {
+    "descricao": "Formatação avançada de saídas de texto",
+    "regra_custom": "Padrão recomendado pela VERY SYSTEMS para texto consistente"
+  },
+  "pushd": {
+    "descricao": "Adicionar diretório à pilha e mudar de pasta",
+    "regra_custom": "Alternar entre projetos sem perder a referência da pasta base"
+  },
+  "pwd": {
+    "descricao": "Imprimir diretório de trabalho atual",
+    "regra_custom": "pwd -P resolve caminhos físicos ignorando links simbólicos"
+  },
+  "read": {
+    "descricao": "Ler linha de entrada padrão para variáveis",
+    "regra_custom": "read -r para não interpretar barras invertidas de escape"
+  },
+  "readarray": {
+    "descricao": "Carregar linhas em array indexado",
+    "regra_custom": "readarray -t remove a quebra de linha de cada entrada"
+  },
+  "readonly": {
+    "descricao": "Marcar variáveis ou funções como somente leitura",
+    "regra_custom": "Impede sobrescrita acidental de configurações críticas"
+  },
+  "return": {
+    "descricao": "Encerrar execução de uma função de shell",
+    "regra_custom": "Retornar código de estado para o chamador"
+  },
+  "select": {
+    "descricao": "Criar menu interativo de seleção de opções",
+    "regra_custom": "Construir menus de texto simples para escolhas do utilizador"
+  },
+  "set": {
+    "descricao": "Alterar opções de comportamento e variáveis posicionais",
+    "regra_custom": "set -e para encerrar em erro; set -x para modo depuração"
+  },
+  "shift": {
+    "descricao": "Deslocar argumentos posicionais ($1, $2...)",
+    "regra_custom": "Usado ao processar listas de parâmetros em loops"
+  },
+  "shopt": {
+    "descricao": "Ativar/desativar opções estendidas do Bash",
+    "regra_custom": "shopt -s extglob e globstar para expansões avançadas"
+  },
+  "source": {
+    "descricao": "Executar comandos de um ficheiro no ambiente atual",
+    "regra_custom": "Recarregar configurações ou ficheiros .env e funções"
+  },
+  "suspend": {
+    "descricao": "Suspender a execução do shell atual",
+    "regra_custom": "Envia sinal SIGSTOP ao próprio shell"
+  },
+  "test": {
+    "descricao": "Verificar tipos de ficheiro e comparar valores",
+    "regra_custom": "test -f ficheiro ou test -d diretório"
+  },
+  "time": {
+    "descricao": "Medir tempo de execução de um pipeline",
+    "regra_custom": "time comando calcula tempo real, de utilizador e de sistema"
+  },
+  "times": {
+    "descricao": "Exibir tempos acumulados do processo e filhos",
+    "regra_custom": "Auditoria de utilização de recursos na sessão"
+  },
+  "trap": {
+    "descricao": "Capturar sinais de encerramento e executar rotinas de limpeza",
+    "regra_custom": "trap 'rm -f /tmp/temp_*' EXIT"
+  },
+  "true": {
+    "descricao": "Retornar código de sucesso 0",
+    "regra_custom": "Usado como condição contínua em laços de repetição"
+  },
+  "type": {
+    "descricao": "Identificar se um comando é alias, função, builtin ou binário",
+    "regra_custom": "type -a comando mostra todas as ocorrências encontradas"
+  },
+  "typeset": {
+    "descricao": "Definição de atributos de variáveis",
+    "regra_custom": "Sintaxe herdada compatível com declare"
+  },
+  "ulimit": {
+    "descricao": "Controlar limites de recursos dos processos",
+    "regra_custom": "ulimit -n define quantidade máxima de descritores abertos"
+  },
+  "umask": {
+    "descricao": "Definir máscara de criação de ficheiros",
+    "regra_custom": "umask 022 para permissões padrão seguras"
+  },
+  "unalias": {
+    "descricao": "Remover atalhos criados por alias",
+    "regra_custom": "unalias -a remove todos os aliases ativos"
+  },
+  "unset": {
+    "descricao": "Eliminar variáveis ou funções da memória",
+    "regra_custom": "unset -f nome_funcao remove apenas funções"
+  },
+  "until": {
+    "descricao": "Executar laço de repetição enquanto a condição for falsa",
+    "regra_custom": "Inverso funcional da instrução while"
+  },
+  "variables": {
+    "descricao": "Listagem e significados de variáveis internas do shell",
+    "regra_custom": "Documentação interna sobre IFS, PATH, HOME, RANDOM"
+  },
+  "wait": {
+    "descricao": "Aguardar finalização de processos filhos em segundo plano",
+    "regra_custom": "wait $PID aguarda a conclusão do trabalho assíncrono"
+  },
+  "while": {
+    "descricao": "Executar laço de repetição enquanto a condição for verdadeira",
+    "regra_custom": "while read -r linha; do ... done < ficheiro.txt"
+  },
+  "{ }": {
+    "descricao": "Agrupamento de comandos no shell corrente",
+    "regra_custom": "Executar sequência sem instanciar um subshell"
+  },
+  "editar": {
+    "descricao": "",
+    "regra_custom": ""
+  }
+}

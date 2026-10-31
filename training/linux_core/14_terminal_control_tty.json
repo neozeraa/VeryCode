@@ -1,0 +1,18 @@
+{
+  "category": "Linux Core - TTY & Terminal Control",
+  "commands": ["stty", "tty", "tput", "reset", "clear", "resize"],
+  "rules": [
+    "Usar tput para obter cores ANSI e coordenadas de tela de forma padronizada em qualquer terminal.",
+    "Executar reset quando caracteres estranhos corromperem a renderização do terminal."
+  ],
+  "recipes": [
+    {
+      "intent": "obter quantidade exata de linhas e colunas do terminal atual",
+      "command": "echo \"Linhas: $(tput lines) | Colunas: $(tput cols)\""
+    },
+    {
+      "intent": "identificar qual dispositivo tty esta em uso",
+      "command": "tty"
+    }
+  ]
+}

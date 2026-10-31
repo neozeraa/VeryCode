@@ -1,0 +1,13 @@
+{
+  "topic": "Sincronização e Backup Automatizado com Google Drive e S3 via Rclone",
+  "rules": [
+    "Configurar rclone com criptografia de ponta a ponta.",
+    "Excluir dependências pesadas e arquivos temporários da sincronização."
+  ],
+  "recipes": [
+    {
+      "trigger": "sincronizar pasta com nuvem via rclone",
+      "command": "pkg install -y rclone && rclone sync ~/VeryCode/central/projects/ remoto:Backup_VeryCode --exclude 'node_modules/**'"
+    }
+  ]
+}

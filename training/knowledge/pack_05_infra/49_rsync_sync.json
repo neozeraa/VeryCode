@@ -1,0 +1,13 @@
+{
+  "topic": "Espelhamento Rápido e Transferência Incremental de Projetos",
+  "rules": [
+    "Utilizar rsync com flags -avzP para compressão e visualização de progresso.",
+    "Excluir node_modules e ficheiros temporários para acelerar a sincronização."
+  ],
+  "recipes": [
+    {
+      "trigger": "sincronizar pasta local com destino ignorando node_modules",
+      "command": "pkg install -y rsync && rsync -avzP --exclude='node_modules' --exclude='.git' ./ /caminho/do/destino/"
+    }
+  ]
+}

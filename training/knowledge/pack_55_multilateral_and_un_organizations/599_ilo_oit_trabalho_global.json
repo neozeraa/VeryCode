@@ -1,0 +1,14 @@
+{
+  "module_id": "VERIFIED_SOURCE_599",
+  "source_name": "OIT (ILO)",
+  "official_color": "#D32F2F",
+  "scope": "Global",
+  "category": "Organismos Multilaterais, ONU e Cooperação Global",
+  "description": "Organização Internacional do Trabalho: Normas trabalhistas mundiais e emprego formal.",
+  "reliability_score": "MAXIMUM_VERIFIED",
+  "verification_rules": [
+    "Apresentar dados sob confirmação empírica e registro oficial auditável.",
+    "Proibido ecoar desinformação, teorias conspiratórias sem base ou dados distorcidos.",
+    "Em caso de divergência pública, apresentar os dados primários de cada fonte institucional de forma neutra."
+  ]
+}

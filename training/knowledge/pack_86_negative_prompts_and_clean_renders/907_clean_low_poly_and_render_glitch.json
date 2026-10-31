@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_86_NEGATIVE_PROMPTS_AND_CLEAN_RENDERS_907",
+  "title": "CLEAN LOW POLY AND RENDER GLITCH",
+  "category": "Prompts Negativos, Remoção de Marcas d'Água e Limpeza",
+  "summary": "Prevenção de renderizações que pareçam modelos 3D inacabados, texturas poligonais cruas ou falhas de malha geométrica.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Prevenção de renderizações que pareçam modelos 3D inacabados, texturas poligonais cruas ou falhas de malha geométrica.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "topic": "Gestão e Purga de Cache de Disco no Termux",
+  "rules": [
+    "Monitorizar o espaço livre na partição de dados do dispositivo móvel.",
+    "Limpar periodicamente arquivos temporários, logs rotacionados e caches obsoletos de pacotes (npm cache clean).",
+    "Evitar corrupção de bancos SQLite decorrente de gravações em disco lotado."
+  ]
+}

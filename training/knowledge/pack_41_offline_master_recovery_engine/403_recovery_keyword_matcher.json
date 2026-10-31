@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_41_OFFLINE_MASTER_RECOVERY_ENGINE_403",
+  "title": "RECOVERY KEYWORD MATCHER",
+  "category": "Motor de Continuidade e Chaveamento Inteligente",
+  "summary": "Buscador de respostas nos 310 módulos locais por palavras-chave.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

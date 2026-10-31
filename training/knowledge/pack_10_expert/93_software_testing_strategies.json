@@ -1,0 +1,7 @@
+{
+  "module": "Pirâmide de Testes",
+  "rules": [
+    "Testes unitários cobrem funções isoladas com mocks.",
+    "Testes de integração garantem comunicação com banco de dados e APIs externas."
+  ]
+}

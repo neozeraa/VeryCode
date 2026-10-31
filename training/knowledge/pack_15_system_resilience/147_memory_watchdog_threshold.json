@@ -1,0 +1,8 @@
+{
+  "module_id": "RESILIENCE_WATCHDOG_07",
+  "topic": "Vigilância de Limites de Memória no Termux",
+  "rules": [
+    "Monitorizar o consumo de RAM através do /proc/meminfo.",
+    "Alertar o utilizador caso a memória livre caia abaixo de 10% para evitar encerramento forçado do processo pelo Android (OOM Killer)."
+  ]
+}

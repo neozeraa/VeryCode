@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_41_OFFLINE_MASTER_RECOVERY_ENGINE_404",
+  "title": "RECOVERY PROMPT CACHE LAYER",
+  "category": "Motor de Continuidade e Chaveamento Inteligente",
+  "summary": "Armazenamento local das últimas 100 perguntas e respostas para reaproveitamento.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

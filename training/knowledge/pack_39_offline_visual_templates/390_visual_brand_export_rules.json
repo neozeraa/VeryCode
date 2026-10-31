@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_39_OFFLINE_VISUAL_TEMPLATES_390",
+  "title": "VISUAL BRAND EXPORT RULES",
+  "category": "Modelos Vetoriais SVG e Paletas Locais",
+  "summary": "Padrões de exportação de favicons e assets gráficos.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

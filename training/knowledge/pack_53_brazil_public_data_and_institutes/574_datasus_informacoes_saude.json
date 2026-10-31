@@ -1,0 +1,14 @@
+{
+  "module_id": "VERIFIED_SOURCE_574",
+  "source_name": "DATASUS",
+  "official_color": "#0072BB",
+  "scope": "Brasil",
+  "category": "Institutos Oficiais de Estatística e Dados Públicos do Brasil",
+  "description": "Departamento de Informática do SUS: Dados epidemiológicos, vacinação e mortalidade nacional.",
+  "reliability_score": "MAXIMUM_VERIFIED",
+  "verification_rules": [
+    "Apresentar dados sob confirmação empírica e registro oficial auditável.",
+    "Proibido ecoar desinformação, teorias conspiratórias sem base ou dados distorcidos.",
+    "Em caso de divergência pública, apresentar os dados primários de cada fonte institucional de forma neutra."
+  ]
+}

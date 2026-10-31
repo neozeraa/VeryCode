@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_87_CINEMATOGRAPHY_AND_CAMERA_ANGLES_914",
+  "title": "CAM DEPTH OF FIELD BOKEH",
+  "category": "Cinematografia, Ângulos de Câmera e Composição Visual",
+  "summary": "Controle de profundidade de campo com f/1.4 e f/1.8 para produzir efeito bokeh cremoso que separa o sujeito do fundo.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Controle de profundidade de campo com f/1.4 e f/1.8 para produzir efeito bokeh cremoso que separa o sujeito do fundo.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

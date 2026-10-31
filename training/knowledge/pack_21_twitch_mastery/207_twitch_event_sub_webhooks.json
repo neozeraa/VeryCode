@@ -1,0 +1,4 @@
+{
+  "feature": "Integração com EventSub (Follows e Subs)",
+  "rules": ["Estrutura de webhook para escutar novos seguidores, raids e inscrições.", "Notificar alertas formatados diretamente no chat da live."]
+}

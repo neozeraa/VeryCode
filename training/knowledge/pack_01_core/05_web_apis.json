@@ -1,0 +1,18 @@
+{
+  "topic": "Servidores Web Rápidos e APIs",
+  "rules": [
+    "Criar pasta de projeto isolada antes de iniciar npm ou python.",
+    "Usar portas padrão não privilegiadas (3000, 5000, 8080).",
+    "Configurar Express ou FastAPI com rotas de status."
+  ],
+  "recipes": [
+    {
+      "trigger": "criar servidor express basico",
+      "command": "mkdir -p apps/api_express && cd apps/api_express && npm init -y && npm install express && cat << 'JSEOF' > server.js\nconst express = require('express');\nconst app = express();\napp.get('/', (req, res) => res.json({ status: 'Online', engine: 'VERY SYSTEMS' }));\napp.listen(3000, () => console.log('API rodando em http://localhost:3000'));\nJSEOF\nnode server.js"
+    },
+    {
+      "trigger": "subir servidor http estatico rapido",
+      "command": "python3 -m http.server 8080"
+    }
+  ]
+}

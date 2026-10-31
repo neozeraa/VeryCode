@@ -1,0 +1,7 @@
+{
+  "module": "Boas Práticas em Bash",
+  "rules": [
+    "Uso de 'set -euo pipefail' em scripts para falhar rapidamente em caso de variáveis não definidas ou pipes quebrados.",
+    "Citações com aspas duplas em variáveis (\"$VAR\") para evitar word splitting e globbing indesejado."
+  ]
+}

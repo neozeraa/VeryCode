@@ -1,0 +1,17 @@
+{
+  "topic": "Distribuições Linux Completas via PRoot no Termux",
+  "rules": [
+    "Instalar proot-distro para rodar Ubuntu, Debian ou Alpine completos dentro do Termux.",
+    "Nunca rodar comandos de root fora do container proot."
+  ],
+  "recipes": [
+    {
+      "trigger": "instalar ubuntu no termux",
+      "command": "pkg install -y proot-distro && proot-distro install ubuntu && echo 'Ubuntu instalado com sucesso! Para aceder use: proot-distro login ubuntu'"
+    },
+    {
+      "trigger": "listar distros proot disponiveis",
+      "command": "proot-distro list"
+    }
+  ]
+}

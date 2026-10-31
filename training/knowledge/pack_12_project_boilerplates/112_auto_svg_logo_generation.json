@@ -1,0 +1,7 @@
+{
+  "rule_id": "AUTO_SVG_LOGO_02",
+  "title": "Geração Autônoma de Logo Vetorial",
+  "trigger": "qualquer projeto web gerado",
+  "target_path": "assets/logo.svg",
+  "instruction": "A IA deve criar um código SVG vetorial limpo, moderno e com a identidade de cores do projeto, salvando diretamente na pasta assets sem que o usuário precise pedir."
+}

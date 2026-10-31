@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_93_TERMINAL_TELEMETRY_AND_HARDWARE_MONITOR_973",
+  "title": "TELEM STORAGE DISK CAPACITY CHECK",
+  "category": "Telemetria de Sistema, Hardware e Recursos no Termux",
+  "summary": "Inspeção do espaço livre em disco na partição de dados do Termux prevenindo falhas de gravação.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Inspeção do espaço livre em disco na partição de dados do Termux prevenindo falhas de gravação.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

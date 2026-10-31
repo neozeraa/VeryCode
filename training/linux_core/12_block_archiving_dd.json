@@ -1,0 +1,18 @@
+{
+  "category": "Linux Core - Raw Data & Block Operations",
+  "commands": ["dd", "cpio", "hexdump", "xxd", "od"],
+  "rules": [
+    "Usar hexdump ou xxd para inspecionar binários corrompidos.",
+    "Configurar bs e count em dd para evitar travamentos de buffer."
+  ],
+  "recipes": [
+    {
+      "intent": "ver primeiros 64 bytes de um arquivo em formato hexadecimal",
+      "command": "xxd -l 64 index.js 2>/dev/null || hexdump -C -n 64 index.js"
+    },
+    {
+      "intent": "gerar arquivo aleatorio de 10 megabytes para testes",
+      "command": "dd if=/dev/urandom of=teste_10mb.dat bs=1M count=10 status=progress"
+    }
+  ]
+}

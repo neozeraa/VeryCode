@@ -1,0 +1,21 @@
+{
+  "topic": "Gestão de Processos e Daemons Contínuos com PM2",
+  "rules": [
+    "Instalar pm2 globalmente via npm.",
+    "Garantir auto-restart de bots e servidores que caiam por erro."
+  ],
+  "recipes": [
+    {
+      "trigger": "instalar pm2 global",
+      "command": "npm install -g pm2 && echo 'PM2 instalado com sucesso!'"
+    },
+    {
+      "trigger": "ver lista e status de processos pm2",
+      "command": "pm2 status"
+    },
+    {
+      "trigger": "ver logs do pm2",
+      "command": "pm2 logs --lines 20 --nostream"
+    }
+  ]
+}

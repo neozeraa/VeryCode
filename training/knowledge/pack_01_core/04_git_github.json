@@ -1,0 +1,18 @@
+{
+  "topic": "Git e GitHub CLI no Termux",
+  "rules": [
+    "Garantir git e gh instalados.",
+    "Configurar branch padrão main ao iniciar repositórios.",
+    "Commits limpos com mensagens sem aspas quebradas."
+  ],
+  "recipes": [
+    {
+      "trigger": "iniciar e subir repositorio no github",
+      "command": "git init && git add . && git commit -m 'Release VERY SYSTEMS' && git branch -M main && gh repo create --public --source=. --push"
+    },
+    {
+      "trigger": "ver status e historico compacto do git",
+      "command": "git status -s && echo '--- Últimos commits ---' && git log --oneline -n 5"
+    }
+  ]
+}

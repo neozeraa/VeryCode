@@ -1,0 +1,9 @@
+{
+  "rule_id": "AUTO_JS_ENGINE_04",
+  "title": "Lógica do Cliente em js/main.js",
+  "rules": [
+    "Manipulação de DOM com seletores eficientes (querySelector/querySelectorAll)",
+    "Controle automático de modais, menus responsivos, validação de inputs e cálculos em tempo real",
+    "Carregamento com DOMContentLoaded para evitar falhas de execução"
+  ]
+}

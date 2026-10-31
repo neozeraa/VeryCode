@@ -1,0 +1,4 @@
+{
+  "feature": "GatewayIntentBits Obrigatórios",
+  "rules": ["Declarar Guilds, GuildMessages, MessageContent, GuildMembers em discord.js v14.", "Nunca instanciar Client sem intents explicitados."]
+}

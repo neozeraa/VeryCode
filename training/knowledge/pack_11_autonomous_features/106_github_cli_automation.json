@@ -1,0 +1,7 @@
+{
+  "feature": "Integração GitHub Autônoma (gh cli)",
+  "rules": [
+    "Inicializar repositório local com git init, criar .gitignore padrão e fazer commit inicial.",
+    "Criar repositório remoto via 'gh repo create <nome> --public --source=. --push' sem intervenção manual."
+  ]
+}

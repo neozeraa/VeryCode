@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_92_TERMINAL_PROCESS_AND_SERVICE_MANAGER_968",
+  "title": "PROC STATUS TABLE VISUALIZER",
+  "category": "Gestão Local de Processos, Daemons e Serviços em Segundo Plano",
+  "summary": "Geração de tabela formatada no terminal exibindo nome do serviço, PID, uptime, memória e estado operacional.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Geração de tabela formatada no terminal exibindo nome do serviço, PID, uptime, memória e estado operacional.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

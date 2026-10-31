@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_97_WEBHOOK_INGESTION_AND_API_RELAY_1017",
+  "title": "HOOK DEAD LETTER REPLAY SYSTEM",
+  "category": "Receptores de Webhook e Servidores de API REST",
+  "summary": "Armazenamento em SQLite de requisições malformadas para análise e reenvio manual.",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Armazenamento em SQLite de requisições malformadas para análise e reenvio manual.",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

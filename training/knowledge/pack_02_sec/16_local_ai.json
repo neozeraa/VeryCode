@@ -1,0 +1,13 @@
+{
+  "topic": "Execução de Modelos de Linguagem e IA Local",
+  "rules": [
+    "Verificar arquitetura do processador e memória RAM disponível.",
+    "Priorizar quantizações leves de 4 bits (GGUF) para evitar esgotamento de memória."
+  ],
+  "recipes": [
+    {
+      "trigger": "verificar suporte a ia local e memoria livre",
+      "command": "echo '=== ARQUITETURA ===' && uname -m && echo '=== MEMÓRIA TOTAL E DISPONÍVEL ===' && free -h"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "triggers": [
+    "criar bot whatsapp",
+    "bot de zap",
+    "baileys"
+  ],
+  "direct_answer": "Para automação no WhatsApp, utilizo a biblioteca Baileys com suporte a código de emparelhamento no terminal, comandos por prefixo e envio de mídias."
+}

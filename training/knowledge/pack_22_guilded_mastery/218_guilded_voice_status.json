@@ -1,0 +1,4 @@
+{
+  "feature": "Monitoramento de Salas de Voz",
+  "rules": ["Registrar entrada e saída de membros nos canais de voz da guilda.", "Enviar logs de atividade para canal de moderação privado."]
+}

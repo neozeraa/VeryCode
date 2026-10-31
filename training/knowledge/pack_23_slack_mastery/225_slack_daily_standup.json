@@ -1,0 +1,4 @@
+{
+  "feature": "Automação de Standup Diário",
+  "rules": ["Disparo agendado de perguntas de status da equipe em canais de projeto.", "Compilação das respostas em resumo diário."]
+}

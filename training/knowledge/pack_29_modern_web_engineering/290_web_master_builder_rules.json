@@ -1,0 +1,8 @@
+{
+  "topic": "Diretriz Suprema de Construção de Sites VERY SYSTEMS",
+  "rules": [
+    "Todo site gerado autonomamente pelo construtor deve ser auto-suficiente: um index.html limpo, style.css moderno e app.js modular.",
+    "Proibido o uso de dependências externas não auditadas que quebrem sem conexão externa.",
+    "Design visual alinhado à estética profissional: bordas suaves (border-radius: 12px), sombras sutis, tipografia limpa e destaque no laranja oficial da VERY SYSTEMS (#FF6600)."
+  ]
+}

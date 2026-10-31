@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_45_GIT_AND_DEVOPS_WORKFLOWS_468",
+  "title": "GIT LARGE FILE STORAGE LFS",
+  "category": "Versionamento Avançado, Git Flow e Automação DevOps",
+  "summary": "Armazenamento eficiente de arquivos pesados e mídias sem inflar o repositório.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Armazenamento eficiente de arquivos pesados e mídias sem inflar o repositório.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

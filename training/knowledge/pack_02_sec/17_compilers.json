@@ -1,0 +1,17 @@
+{
+  "topic": "Compilação Nativa de Código de Alta Performance",
+  "rules": [
+    "Instalar clang para C/C++ ou rustup/rustc para Rust.",
+    "Compilar sempre gerando executáveis no diretório isolado do projeto."
+  ],
+  "recipes": [
+    {
+      "trigger": "compilar programa em c",
+      "command": "pkg install -y clang && mkdir -p apps/c_project && cd apps/c_project && cat << 'CEOF' > main.c\n#include <stdio.h>\nint main() {\n    printf(\"VERY SYSTEMS - Executavel C Nativo\\n\");\n    return 0;\n}\nCEOF\nclang main.c -o app && ./app"
+    },
+    {
+      "trigger": "compilar programa em rust",
+      "command": "pkg install -y rust && mkdir -p apps/rust_project && cd apps/rust_project && cat << 'RSTEOF' > main.rs\nfn main() {\n    println!(\"VERY SYSTEMS - Rust compilado com sucesso!\");\n}\nRSTEOF\nrustc main.rs && ./main"
+    }
+  ]
+}

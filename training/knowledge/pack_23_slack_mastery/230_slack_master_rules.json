@@ -1,0 +1,4 @@
+{
+  "feature": "Diretriz Suprema de Bot Slack",
+  "rules": ["Estruturar ouvintes na subpasta listeners/ (commands, events, actions).", "Sempre tratar requisições assíncronas com tratamento de erro pontual."]
+}

@@ -1,0 +1,4 @@
+{
+  "feature": "Menus Inline com Callback Data",
+  "rules": ["Construir botões usando Markup.inlineKeyboard([[Markup.button.callback('Texto', 'acao')]]).", "Responder ações com bot.action('acao', async (ctx) => { await ctx.answerCbQuery(); })."]
+}

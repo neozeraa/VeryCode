@@ -1,0 +1,8 @@
+{
+  "topic": "Ícones Vetoriais SVG Embutidos Inline",
+  "rules": [
+    "Priorizar ícones SVG inline com stroke-width, fill: currentColor e viewBox 0 0 24 24 para dispensar fontes de terceiros pesadas.",
+    "Garantir nitidez absoluta em qualquer densidade de pixels de tela mobile (Retina / AMOLED).",
+    "Adicionar classes CSS nos SVGs para animações suaves de transição ao passar o mouse ou tocar."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "triggers": [
+    "criar bot discord",
+    "bot de discord",
+    "slash commands"
+  ],
+  "direct_answer": "Para iniciar um bot de Discord, posso estruturar o handler com discord.js v14, comandos de barra (/), eventos modulares e persistência em SQLite."
+}

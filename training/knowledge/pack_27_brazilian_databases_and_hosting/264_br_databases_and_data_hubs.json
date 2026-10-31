@@ -1,0 +1,9 @@
+{
+  "category": "Bancos de Dados, Ecossistemas e Hubs de Dados no Brasil",
+  "entities": [
+    { "name": "Base dos Dados", "color": "#00994D", "origin": "Brasil", "type": "Hub Público de Dados SQL e BigQuery" },
+    { "name": "Dataprev", "color": "#002B49", "origin": "Brasília, DF", "type": "Bancos de Dados Públicos e Seguridade Social" },
+    { "name": "Serpro", "color": "#004A80", "origin": "Brasília, DF", "type": "Infraestrutura Pública e APIs Governamentais" },
+    { "name": "Banco Central do Brasil (Bacen / Pix / DREX)", "color": "#1A5276", "origin": "Brasília, DF", "type": "Infraestrutura de Dados Financeiros" }
+  ]
+}

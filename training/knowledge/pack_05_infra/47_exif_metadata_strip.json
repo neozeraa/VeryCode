@@ -1,0 +1,17 @@
+{
+  "topic": "Auditoria e Remoção de Metadados GPS e Identificadores em Imagens",
+  "rules": [
+    "Garantir a instalação de exiftool via pkg.",
+    "Preservar ficheiros originais através de cópias antes da limpeza completa."
+  ],
+  "recipes": [
+    {
+      "trigger": "ver metadados completos de uma imagem",
+      "command": "pkg install -y exiftool && exiftool imagem.jpg"
+    },
+    {
+      "trigger": "remover todos os metadados exif de imagens",
+      "command": "pkg install -y exiftool && exiftool -all= -overwrite_original *.jpg *.png 2>/dev/null && echo 'Metadados e coordenadas GPS eliminados com sucesso!'"
+    }
+  ]
+}

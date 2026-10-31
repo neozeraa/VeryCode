@@ -1,0 +1,7 @@
+{
+  "module": "Contêineres e Isolamento",
+  "rules": [
+    "Isolamento via Namespaces (PID, NET, MNT, IPC, UTS) e restrição de recursos com cgroups.",
+    "Boas práticas em Dockerfiles multi-stage para redução drástica do tamanho da imagem."
+  ]
+}

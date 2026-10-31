@@ -1,0 +1,18 @@
+{
+  "category": "Linux Core - Arithmetic & Logical Evaluation",
+  "commands": ["expr", "bc", "let", "test", "factor", "seq"],
+  "rules": [
+    "Usar bc para cálculos com ponto flutuante e precisão arbitrária.",
+    "Utilizar seq para geração rápida de intervalos numéricos em loops."
+  ],
+  "recipes": [
+    {
+      "intent": "fazer calculo matematico com casas decimais",
+      "command": "echo 'scale=4; (100 / 3) * 1.5' | bc"
+    },
+    {
+      "intent": "gerar sequencia numerica formatada de 1 a 10",
+      "command": "seq -w 1 10"
+    }
+  ]
+}

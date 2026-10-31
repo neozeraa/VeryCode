@@ -1,0 +1,17 @@
+{
+  "topic": "Operações Avançadas, Exportação e Dumps de SQLite",
+  "rules": [
+    "Utilizar comandos nativos do executável sqlite3 para backups estruturados.",
+    "Criar dumps em ficheiros SQL legíveis para migração rápida."
+  ],
+  "recipes": [
+    {
+      "trigger": "fazer dump completo de banco sqlite",
+      "command": "sqlite3 database.sqlite .dump > backup_dump.sql && echo 'Dump SQL gerado com sucesso em backup_dump.sql'"
+    },
+    {
+      "trigger": "otimizar e limpar espaco em banco sqlite",
+      "command": "sqlite3 database.sqlite 'VACUUM; ANALYZE;' && echo 'Base de dados SQLite desfragmentada e otimizada.'"
+    }
+  ]
+}

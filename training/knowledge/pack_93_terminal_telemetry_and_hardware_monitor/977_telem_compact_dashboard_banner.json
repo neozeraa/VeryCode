@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_93_TERMINAL_TELEMETRY_AND_HARDWARE_MONITOR_977",
+  "title": "TELEM COMPACT DASHBOARD BANNER",
+  "category": "Telemetria de Sistema, Hardware e Recursos no Termux",
+  "summary": "Construção de cabeçalho minimalista em linha única com indicadores de telemetria coloridos no terminal.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Construção de cabeçalho minimalista em linha única com indicadores de telemetria coloridos no terminal.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

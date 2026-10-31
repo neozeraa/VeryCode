@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-color-mode="dark" data-dark-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chamado VERY SYSTEMS,</title>
+    <link rel="dns-prefetch" href="https://github.githubassets.com">
+    <link rel="dns-prefetch" href="https://avatars.githubusercontent.com">
+    <link rel="preconnect" href="https://github.githubassets.com" crossorigin>
+    <style>
+        :root {
+            --color-canvas-default: #0d1117;
+            --color-canvas-subtle: #161b22;
+            --color-border-default: #30363d;
+            --color-border-muted: #21262d;
+            --color-fg-default: #f0f6fc;
+            --color-fg-muted: #8b949e;
+            --color-accent-fg: #238636;
+            --color-accent-emphasis: #238636;
+            --color-accent-muted: rgba(35, 134, 54, 0.4);
+            --color-btn-text: #c9d1d9;
+            --color-btn-bg: #21262d;
+            --color-btn-border: rgba(240, 246, 252, 0.1);
+            --color-btn-hover-bg: #30363d;
+            --color-btn-hover-border: #8b949e;
+            --color-btn-active-bg: #282e33;
+            --color-btn-primary-bg: #ffffff;
+            --color-btn-primary-text: #0d1117;
+            --color-btn-primary-hover-bg: #f0f6fc;
+            --color-btn-primary-border: rgba(240, 246, 252, 0.2);
+            --font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        }
+
+        [data-color-mode="light"] {
+            --color-canvas-default: #ffffff;
+            --color-canvas-subtle: #f6f8fa;
+            --color-border-default: #d0d7de;
+            --color-border-muted: #d8dee4;
+            --color-fg-default: #24292f;
+            --color-fg-muted: #57606a;
+            --color-btn-bg: #f3f4f6;
+            --color-btn-border: rgba(27, 31, 36, 0.15);
+            --color-btn-hover-bg: #ebecf0;
+            --color-btn-hover-border: #8c959f;
+            --color-btn-primary-bg: #24292f;
+            --color-btn-primary-text: #ffffff;
+            --color-btn-primary-hover-bg: #33383f;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-stack);
+        }
+
+        body {
+            background-color: var(--color-canvas-default);
+            color: var(--color-fg-default);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            overflow-x: hidden;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        /* Navbar estilo GitHub / Neozeraa */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 24px;
+            border-bottom: 1px solid var(--color-border-default);
+            background-color: var(--color-canvas-subtle);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--color-fg-default);
+            font-weight: 600;
+            font-size: 16px;
+        }
+
+        .brand svg {
+            width: 32px;
+            height: 32px;
+            fill: currentColor;
+        }
+
+        .header-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .theme-toggle, .btn-link {
+            background: transparent;
+            border: 1px solid var(--color-border-default);
+            color: var(--color-fg-default);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: 0.2s;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .theme-toggle:hover, .btn-link:hover {
+            background-color: var(--color-btn-hover-bg);
+            border-color: var(--color-btn-hover-border);
+        }
+
+        /* Container Principal */
+        main {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 16px;
+        }
+
+        .login-wrapper {
+            width: 100%;
+            max-width: 340px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .login-header h1 {
+            font-size: 24px;
+            font-weight: 300;
+            letter-spacing: -0.5px;
+            margin-bottom: 4px;
+        }
+
+        .login-header p {
+            color: var(--color-fg-muted);
+            font-size: 14px;
+        }
+
+        /* Box do Formulário */
+        .auth-form {
+            background-color: var(--color-canvas-subtle);
+            border: 1px solid var(--color-border-default);
+            border-radius: 6px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-group label {
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .label-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .label-row a {
+            font-size: 12px;
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        .label-row a:hover {
+            text-decoration: underline;
+        }
+
+        .form-control {
+            background-color: var(--color-canvas-default);
+            border: 1px solid var(--color-border-default);
+            color: var(--color-fg-default);
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        .form-control:focus {
+            border-color: #58a6ff;
+            box-shadow: 0 0 0 3px rgba(88, 166, 255, 0.3);
+        }
+
+        .btn-primary {
+            background-color: var(--color-btn-primary-bg);
+            color: var(--color-btn-primary-text);
+            border: 1px solid var(--color-btn-primary-border);
+            border-radius: 6px;
+            padding: 9px 16px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: 0.2s;
+            text-align: center;
+            width: 100%;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--color-btn-primary-hover-bg);
+        }
+
+        /* Box de Criar Conta / Suporte */
+        .create-account-box {
+            border: 1px solid var(--color-border-default);
+            border-radius: 6px;
+            padding: 16px;
+            text-align: center;
+            font-size: 14px;
+            background-color: var(--color-canvas-subtle);
+        }
+
+        .create-account-box a {
+            color: #58a6ff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .create-account-box a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--color-border-default);
+            padding: 24px;
+            text-align: center;
+            font-size: 12px;
+            color: var(--color-fg-muted);
+            background-color: var(--color-canvas-default);
+        }
+
+        footer .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            margin-bottom: 12px;
+            flex-wrap: wrap;
+        }
+
+        footer a {
+            color: var(--color-fg-muted);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #58a6ff;
+            text-decoration: underline;
+        }
+
+        /* Notificação Toast */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background-color: var(--color-canvas-subtle);
+            border: 1px solid var(--color-border-default);
+            color: var(--color-fg-default);
+            padding: 12px 20px;
+            border-radius: 6px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transform: translateY(100px);
+            opacity: 0;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            z-index: 1000;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header>
+        <a href="#" class="brand">
+            <!-- Logo Vetorial Customizada VERY SYSTEMS -->
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </svg>
+            <span>chamado VERY SYSTEMS,</span>
+        </a>
+        <div class="header-actions">
+            <button class="theme-toggle" id="themeToggleBtn" title="Alternar tema">
+                <span id="themeIcon">☀️</span> <span id="themeText">Light</span>
+            </button>
+            <a href="#" class="btn-link">Docs</a>
+        </div>
+    </header>
+
+    <!-- Conteúdo Principal / Login Screen inspirado no repositório neozeraa/loginscreen -->
+    <main>
+        <div class="login-wrapper">
+            <div class="login-header">
+                <!-- Logotipo Central Minimalista -->
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="margin: 0 auto 12px auto; display: block;">
+                    <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path>
+                    <polyline points="10 17 15 12 10 7"></polyline>
+                    <line x1="15" y1="12" x2="3" y2="12"></line>
+                </svg>
+                <h1>Entrar no sistema</h1>
+                <p>Central de Chamados e Engenharia</p>
+            </div>
+
+            <form class="auth-form" id="loginForm">
+                <div class="form-group">
+                    <label for="username">Nome de usuário ou e-mail</label>
+                    <input type="text" id="username" class="form-control" required autocomplete="username">
+                </div>
+
+                <div class="form-group">
+                    <div class="label-row">
+                        <label for="password">Senha</label>
+                        <a href="#" id="forgotPassword">Esqueceu a senha?</a>
+                    </div>
+                    <input type="password" id="password" class="form-control" required autocomplete="current-password">
+                </div>
+
+                <button type="submit" class="btn-primary">Entrar</button>
+            </form>
+
+            <div class="create-account-box">
+                Novo por aqui? <a href="#" id="createAccount">Criar uma conta de acesso</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Termos</a>
+            <a href="#">Privacidade</a>
+            <a href="#">Segurança</a>
+            <a href="#">Status</a>
+            <a href="#">Suporte VERY SYSTEMS</a>
+        </div>
+        <p>&copy; 2026 VERY SYSTEMS, Inc. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Notificação Toast para Interatividade -->
+    <div class="toast" id="toastNotification">
+        <span id="toastMessage">Ação realizada com sucesso!</span>
+    </div>
+
+    <!-- JavaScript Funcional -->
+    <script>
+        // Alternância de Tema Dark/Light
+        const themeToggleBtn = document.getElementById('themeToggleBtn');
+        const themeIcon = document.getElementById('themeIcon');
+        const themeText = document.getElementById('themeText');
+        const htmlElement = document.documentElement;
+
+        themeToggleBtn.addEventListener('click', () => {
+            const currentTheme = htmlElement.getAttribute('data-color-mode');
+            if (currentTheme === 'dark') {
+                htmlElement.setAttribute('data-color-mode', 'light');
+                htmlElement.setAttribute('data-dark-theme', 'light');
+                themeIcon.textContent = '🌙';
+                themeText.textContent = 'Dark';
+            } else {
+                htmlElement.setAttribute('data-color-mode', 'dark');
+                htmlElement.setAttribute('data-dark-theme', 'dark');
+                themeIcon.textContent = '☀️';
+                themeText.textContent = 'Light';
+            }
+        });
+
+        // Sistema de Toast Notification
+        function showToast(message) {
+            const toast = document.getElementById('toastNotification');
+            const toastMessage = document.getElementById('toastMessage');
+            toastMessage.textContent = message;
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3500);
+        }
+
+        // Manipulação do Formulário de Login
+        const loginForm = document.getElementById('loginForm');
+        loginForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const user = document.getElementById('username').value;
+            showToast(`Autenticando usuário: ${user}...`);
+            setTimeout(() => {
+                showToast(`Bem-vindo ao chamado VERY SYSTEMS, ${user}!`);
+            }, 1500);
+        });
+
+        // Links auxiliares interativos
+        document.getElementById('forgotPassword').addEventListener('click', (e) => {
+            e.preventDefault();
+            showToast('Instruções de recuperação enviadas para o e-mail.');
+        });
+
+        document.getElementById('createAccount').addEventListener('click', (e) => {
+            e.preventDefault();
+            showToast('Redirecionando para o registro de novos chamados...');
+        });
+    </script>
+</body>
+</html>

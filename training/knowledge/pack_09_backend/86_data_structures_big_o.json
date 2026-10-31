@@ -1,0 +1,7 @@
+{
+  "module": "Complexidade de Tempo e Espaço (Big-O)",
+  "rules": [
+    "Identificar operações O(1) para Hash Tables, O(log N) para buscas binárias e O(N log N) para ordenações eficientes.",
+    "Escolher estruturas ideais: Filas (FIFO), Pilhas (LIFO), Árvores balanceadas e Grafos."
+  ]
+}

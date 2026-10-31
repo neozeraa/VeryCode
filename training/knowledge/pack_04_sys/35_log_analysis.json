@@ -1,0 +1,17 @@
+{
+  "topic": "Depuração e Extração de Erros em Logs com Regex",
+  "rules": [
+    "Filtrar ocorrências críticas (ERROR, WARN, FATAL) em ficheiros de log extensos.",
+    "Usar tail com seguimento contínuo (-f) para depuração ao vivo."
+  ],
+  "recipes": [
+    {
+      "trigger": "filtrar apenas erros em ficheiros de log",
+      "command": "grep -inE 'error|fatal|exception|failed' *.log 2>/dev/null || echo 'Nenhum registo de erro encontrado.'"
+    },
+    {
+      "trigger": "acompanhar os ultimos eventos de log em tempo real",
+      "command": "tail -f -n 20 *.log 2>/dev/null || echo 'Nenhum ficheiro .log encontrado no diretório.'"
+    }
+  ]
+}

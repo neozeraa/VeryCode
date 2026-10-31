@@ -1,0 +1,10 @@
+{
+  "module_id": "CAPABILITIES_03",
+  "domain": "Mídia e Geração Visual",
+  "features": [
+    "Geração de imagens em alta definição sem marca d'água via prompt refinado.",
+    "Servidor dedicado em http://localhost:4000 com tema escuro e botão de download direto para o celular.",
+    "Comando de terminal 'salvar' para guardar em formato .PNG dentro de VERYCODE IMG.",
+    "Conversão e manipulação de vídeo/áudio usando FFmpeg."
+  ]
+}

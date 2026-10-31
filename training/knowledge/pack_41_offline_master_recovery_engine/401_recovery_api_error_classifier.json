@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_41_OFFLINE_MASTER_RECOVERY_ENGINE_401",
+  "title": "RECOVERY API ERROR CLASSIFIER",
+  "category": "Motor de Continuidade e Chaveamento Inteligente",
+  "summary": "Identificação precisa de erros 429, 500, 503 e timeout.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

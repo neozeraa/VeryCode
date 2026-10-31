@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_35_OFFLINE_WEB_SCAFFOLDERS_344",
+  "title": "WEB ECOMMERCE CATALOG",
+  "category": "Templates Pré-Compilados de Sites e Páginas",
+  "summary": "Grade de produtos com carrinho de compras interativo em Vanilla JS.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

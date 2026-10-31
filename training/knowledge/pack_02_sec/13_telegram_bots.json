@@ -1,0 +1,13 @@
+{
+  "topic": "Criação e Gestão de Bots de Telegram",
+  "rules": [
+    "Usar a biblioteca Telegraf ou node-telegram-bot-api.",
+    "Isolar o código em bots/telegram."
+  ],
+  "recipes": [
+    {
+      "trigger": "criar bot basico de telegram",
+      "command": "mkdir -p bots/telegram_bot && cd bots/telegram_bot && npm init -y && npm install telegraf dotenv && cat << 'TEOF' > index.js\nimport { Telegraf } from 'telegraf';\nconst bot = new Telegraf(process.env.BOT_TOKEN || 'SEU_TOKEN_AQUI');\nbot.start((ctx) => ctx.reply('VERY SYSTEMS Telegram Bot Ativo!'));\nbot.launch();\nconsole.log('Bot de Telegram inicializado!');\nTEOF\necho 'Script do Telegram criado em bots/telegram_bot/index.js'"
+    }
+  ]
+}

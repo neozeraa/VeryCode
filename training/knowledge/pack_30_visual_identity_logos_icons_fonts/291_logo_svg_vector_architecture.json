@@ -1,0 +1,8 @@
+{
+  "topic": "Arquitetura e Geometria de Logos Vetoriais em SVG",
+  "rules": [
+    "Construir logos prioritariamente com SVG puro com viewBox padronizado (ex.: 0 0 100 100 para símbolos e 0 0 300 80 para logos horizontais com texto).",
+    "Utilizar formas geométricas básicas combinadas (circle, path, rect, polygon) com cantos arredondados (rx, ry) para criar silhuetas memoráveis.",
+    "Garantir legibilidade do símbolo gráfico em dimensões mínimas de 16x16 pixels (favicon) até outdoors sem distorção."
+  ]
+}

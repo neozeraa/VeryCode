@@ -1,0 +1,9 @@
+{
+  "triggers": [
+    "como hospedar",
+    "discloud",
+    "subir bot",
+    "deploy"
+  ],
+  "direct_answer": "Para hospedar na Discloud, basta configurar o arquivo discloud.config com os parâmetros MAIN, RAM, TYPE=bot e VERSION=latest, enviando os arquivos via CLI da plataforma."
+}

@@ -1,0 +1,7 @@
+{
+  "feature": "Controle de Encerramento de Túneis",
+  "rules": [
+    "Garantir que ao encerrar o servidor local (>desl), o processo em background do túnel seja finalizado.",
+    "Capturar a URL pública gerada no stdout e exibi-la formatada em destaque laranja no terminal."
+  ]
+}

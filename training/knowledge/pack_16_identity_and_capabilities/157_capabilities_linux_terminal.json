@@ -1,0 +1,9 @@
+{
+  "module_id": "CAPABILITIES_05",
+  "domain": "Terminal Linux e Termux no Android",
+  "features": [
+    "Indexação dinâmica de centenas de executáveis do sistema e builtins do Bash.",
+    "Tradução de linguagem natural para comandos Bash puros e executados via stream.",
+    "Gestão de processos com PM2, liberação de portas ocupadas e auditoria de tráfego de rede."
+  ]
+}

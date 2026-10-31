@@ -1,0 +1,9 @@
+{
+  "triggers": [
+    "oq vc consegue faze",
+    "o que voce faz",
+    "suas capacidades",
+    "para que serve"
+  ],
+  "direct_answer": "Minhas principais funções no VeryCode incluem:\n- Criação completa de bots de Discord (v14) e WhatsApp (Baileys).\n- Construção de sites e PWAs responsivos com o comando /site.\n- Diagnóstico de falhas em tempo real (portas ocupadas, pacotes ausentes).\n- Engenharia reversa limpa de contratos de rede e layouts.\n- Operação autônoma com mais de 90 pacotes técnicos locais."
+}

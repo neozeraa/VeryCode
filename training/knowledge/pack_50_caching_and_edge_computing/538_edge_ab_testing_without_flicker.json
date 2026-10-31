@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_50_CACHING_AND_EDGE_COMPUTING_538",
+  "title": "EDGE AB TESTING WITHOUT FLICKER",
+  "category": "Estratégias Avançadas de Caching, Memória e Edge Computing",
+  "summary": "Distribuição instantânea de testes A/B na borda sem atrasos na renderização da tela.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Distribuição instantânea de testes A/B na borda sem atrasos na renderização da tela.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

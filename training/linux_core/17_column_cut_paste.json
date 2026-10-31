@@ -1,0 +1,18 @@
+{
+  "category": "Linux Core - Advanced Column Operations",
+  "commands": ["cut", "paste", "column", "fold", "fmt", "expand"],
+  "rules": [
+    "Utilizar column -t para alinhar visualmente dados separados por delimitadores.",
+    "Usar paste para juntar arquivos de texto lado a lado em paralelo."
+  ],
+  "recipes": [
+    {
+      "intent": "formatar tabela de texto alinhada por espacos com column",
+      "command": "cat /etc/hosts 2>/dev/null | column -t || echo 'Sem /etc/hosts legível.'"
+    },
+    {
+      "intent": "juntar duas listas linha por linha lado a lado com tab",
+      "command": "paste -d '\\t' lista1.txt lista2.txt 2>/dev/null || echo 'Crie lista1.txt e lista2.txt para testar.'"
+    }
+  ]
+}

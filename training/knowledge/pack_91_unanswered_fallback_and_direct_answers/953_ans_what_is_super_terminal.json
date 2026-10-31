@@ -1,0 +1,8 @@
+{
+  "triggers": [
+    "o que e super terminal",
+    "voce e um super terminal",
+    "o que o terminal faz"
+  ],
+  "direct_answer": "O VeryCode é um Super Terminal autônomo com motor duplo: combina linha de comando interativa para Termux/Linux com inteligência embarcada capaz de criar sites (/site), automações, bots e gerenciar bancos de dados."
+}

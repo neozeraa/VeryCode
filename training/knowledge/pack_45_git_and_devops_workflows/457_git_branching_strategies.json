@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_45_GIT_AND_DEVOPS_WORKFLOWS_457",
+  "title": "GIT BRANCHING STRATEGIES",
+  "category": "Versionamento Avançado, Git Flow e Automação DevOps",
+  "summary": "Comparativo entre Git Flow, GitHub Flow e desenvolvimento Trunk-Based.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Comparativo entre Git Flow, GitHub Flow e desenvolvimento Trunk-Based.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

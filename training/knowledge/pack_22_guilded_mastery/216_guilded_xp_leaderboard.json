@@ -1,0 +1,4 @@
+{
+  "feature": "Sistema de XP e Recompensas do Servidor",
+  "rules": ["Integração com o sistema de XP nativo do servidor Guilded.", "Atribuição de pontos baseados em atividade e participação."]
+}

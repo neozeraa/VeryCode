@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_47_CLEAN_ARCHITECTURE_AND_PATTERNS_488",
+  "title": "SOLID LISKOV SUBSTITUTION",
+  "category": "Clean Architecture, Padrões de Projeto (GoF) e SOLID",
+  "summary": "Subclasses devem ser substituíveis por suas classes base sem quebrar o sistema.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Subclasses devem ser substituíveis por suas classes base sem quebrar o sistema.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

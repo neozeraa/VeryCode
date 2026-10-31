@@ -1,0 +1,13 @@
+{
+  "module_id": "REVERSE_ENGINEERING_PACK_PACK_74_BINARY_APK_AND_MOBILE_REVERSING_789",
+  "title": "REV SYMBOL TABLE NM OBJDUMP",
+  "category": "Descompilação de APKs Android e Binários Nativos",
+  "summary": "Inspeção de tabelas de símbolos (ELF) com objdump para identificar funções exportadas e parâmetros de entrada.",
+  "execution_mode": "CLEAN_ROOM_REVERSE_ENGINEERING",
+  "architecture": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "capabilities": [
+    "Capacidade analítica e operativa para: Inspeção de tabelas de símbolos (ELF) com objdump para identificar funções exportadas e parâmetros de entrada.",
+    "Isolamento sistemático de comportamentos sem cópia direta de código vulnerável.",
+    "Reconstrução autônoma de ferramentas, endpoints e componentes otimizados para o ambiente local."
+  ]
+}

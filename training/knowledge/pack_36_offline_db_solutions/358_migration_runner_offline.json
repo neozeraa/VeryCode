@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_36_OFFLINE_DB_SOLUTIONS_358",
+  "title": "MIGRATION RUNNER OFFLINE",
+  "category": "Soluções e Schemas Prontos de Bancos de Dados",
+  "summary": "Executor simples de migrações SQL sequenciais locais.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

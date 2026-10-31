@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_87_CINEMATOGRAPHY_AND_CAMERA_ANGLES_920",
+  "title": "CAM MASTER FRAMING DIRECTIVES",
+  "category": "Cinematografia, Ângulos de Câmera e Composição Visual",
+  "summary": "Diretriz de posicionamento: cada imagem deve ter um ponto focal claro que conduz a visão do observador sem confusão.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Diretriz de posicionamento: cada imagem deve ter um ponto focal claro que conduz a visão do observador sem confusão.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

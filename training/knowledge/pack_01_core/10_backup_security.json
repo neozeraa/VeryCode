@@ -1,0 +1,17 @@
+{
+  "topic": "Backups compactados e Manutenção do Ambiente",
+  "rules": [
+    "Criar arquivos .tar.gz ou .zip datados para backup de projetos.",
+    "Limpar cache do gerenciador de pacotes periodicamente."
+  ],
+  "recipes": [
+    {
+      "trigger": "fazer backup da pasta VeryCode",
+      "command": "tar -czvf ~/backup_verycode_$(date +%Y%m%d_%H%M%S).tar.gz -C ~/ VeryCode && echo 'Backup concluído em: ' ~/backup_verycode_*.tar.gz"
+    },
+    {
+      "trigger": "limpar cache e arquivos temporarios do termux",
+      "command": "pkg clean && npm cache clean --force 2>/dev/null; rm -rf /tmp/* 2>/dev/null && echo 'Limpeza concluída!'"
+    }
+  ]
+}

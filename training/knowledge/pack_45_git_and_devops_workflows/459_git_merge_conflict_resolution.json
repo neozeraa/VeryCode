@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_45_GIT_AND_DEVOPS_WORKFLOWS_459",
+  "title": "GIT MERGE CONFLICT RESOLUTION",
+  "category": "Versionamento Avançado, Git Flow e Automação DevOps",
+  "summary": "Técnicas estruturadas para resolver conflitos de merge e preservar integridade.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Técnicas estruturadas para resolver conflitos de merge e preservar integridade.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

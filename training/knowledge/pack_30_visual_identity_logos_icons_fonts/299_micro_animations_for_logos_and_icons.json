@@ -1,0 +1,8 @@
+{
+  "topic": "Microanimações CSS para Logos e Ícones Interativos",
+  "rules": [
+    "Adicionar transições sutis (transition: transform 0.25s ease, color 0.2s ease) ao passar o mouse ou focar no elemento.",
+    "Em logos interativos, aplicar efeitos de pulso de brilho suave, rotação suave de detalhes ou elevação leve (translateY(-2px)).",
+    "Respeitar preferências de acessibilidade com @media (prefers-reduced-motion: reduce) desativando animações contínuas."
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "feature": "Cobrança Pix e Pedidos no Chat",
+  "rules": ["Geração de mensagens com código copia-e-cola Pix e QR Code.", "Confirmação de recebimento através de polling de API bancária ou webhook."]
+}

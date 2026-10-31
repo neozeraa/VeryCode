@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_43_CYBERSECURITY_AND_HARDENING_437",
+  "title": "SEC BRUTE FORCE FAIL2BAN",
+  "category": "Segurança Ofensiva, Defensiva e Hardening de Servidores",
+  "summary": "Detecção e banimento automático de IPs maliciosos com Fail2ban em logs.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Detecção e banimento automático de IPs maliciosos com Fail2ban em logs.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

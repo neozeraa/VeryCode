@@ -1,0 +1,17 @@
+{
+  "topic": "Conversão, Extração de Áudio e Compressão de Mídia com FFmpeg",
+  "rules": [
+    "Utilizar codecs eficientes como libx264 ou opus para manter qualidade com baixo tamanho.",
+    "Garantir instalação do pacote ffmpeg antes do processamento."
+  ],
+  "recipes": [
+    {
+      "trigger": "extrair audio mp3 de um video mp4",
+      "command": "pkg install -y ffmpeg && ffmpeg -i video.mp4 -vn -acodec libmp3lame -q:a 2 audio.mp3"
+    },
+    {
+      "trigger": "comprimir video mantendo boa resolucao",
+      "command": "ffmpeg -i entrada.mp4 -vcodec libx264 -crf 28 saida_comprimida.mp4"
+    }
+  ]
+}

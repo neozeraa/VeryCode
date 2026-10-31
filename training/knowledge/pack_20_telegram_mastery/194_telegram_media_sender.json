@@ -1,0 +1,4 @@
+{
+  "feature": "Envio de Imagens, Áudios e Documentos",
+  "rules": ["Utilizar ctx.replyWithPhoto({ source: buffer }) ou URL direta.", "Adicionar legendas formatadas com parse_mode: 'MarkdownV2' ou 'HTML'."]
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RobuxStore - Vendas de Robux Rápidas e Seguras</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container nav-container">
+            <div class="logo-wrapper">
+                <img src="assets/logo.svg" alt="RobuxStore Logo" class="logo">
+                <span class="brand-name">RobuxStore</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#produtos">Pacotes</a>
+                <a href="#como-funciona">Como Funciona</a>
+                <a href="#depoimentos">Avaliações</a>
+            </nav>
+            <button class="btn btn-primary" id="openCart">Carrinho (<span id="cartCount">0</span>)</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-content">
+                <h1>Garanta seus Robux com Entrega Instantânea!</h1>
+                <p>A forma mais segura, rápida e barata de turbinar sua conta no Roblox. Sem complicações.</p>
+                <a href="#produtos" class="btn btn-accent btn-lg">Comprar Agora</a>
+            </div>
+        </section>
+
+        <section id="produtos" class="container section">
+            <h2>Escolha seu Pacote</h2>
+            <div class="grid-products">
+                <div class="card">
+                    <div class="robux-amount">400 Robux</div>
+                    <div class="price">R$ 25,00</div>
+                    <button class="btn btn-primary btn-block" onclick="addToCart('400 Robux', 25.00)">Adicionar</button>
+                </div>
+                <div class="card highlight">
+                    <span class="badge">Mais Popular</span>
+                    <div class="robux-amount">800 Robux</div>
+                    <div class="price">R$ 48,00</div>
+                    <button class="btn btn-accent btn-block" onclick="addToCart('800 Robux', 48.00)">Adicionar</button>
+                </div>
+                <div class="card">
+                    <div class="robux-amount">1.700 Robux</div>
+                    <div class="price">R$ 95,00</div>
+                    <button class="btn btn-primary btn-block" onclick="addToCart('1700 Robux', 95.00)">Adicionar</button>
+                </div>
+                <div class="card">
+                    <div class="robux-amount">4.500 Robux</div>
+                    <div class="price">R$ 240,00</div>
+                    <button class="btn btn-primary btn-block" onclick="addToCart('4500 Robux', 240.00)">Adicionar</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="como-funciona" class="container section">
+            <h2>Como Funciona?</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <span class="step-num">1</span>
+                    <h3>Escolha o Pacote</h3>
+                    <p>Selecione a quantidade de Robux ideal para você.</p>
+                </div>
+                <div class="step">
+                    <span class="step-num">2</span>
+                    <h3>Informe seu Nick</h3>
+                    <p>Digite seu nome de usuário do Roblox corretamente.</p>
+                </div>
+                <div class="step">
+                    <span class="step-num">3</span>
+                    <h3>Receba Rápido</h3>
+                    <p>Entrega via Gamepass de forma 100% segura.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <span class="close" id="closeCart">&times;</span>
+            <h2>Seu Carrinho</h2>
+            <div id="cartItems"></div>
+            <div class="cart-total">
+                <strong>Total: R$ <span id="cartTotal">0.00</span></strong>
+            </div>
+            <button class="btn btn-accent btn-block" id="checkoutBtn">Finalizar Compra</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 RobuxStore - Powered by VERY SYSTEMS.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

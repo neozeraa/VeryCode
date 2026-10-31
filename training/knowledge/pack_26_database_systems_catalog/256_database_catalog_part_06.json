@@ -1,0 +1,608 @@
+{
+  "pack": "pack_26_database_systems_catalog",
+  "part": 6,
+  "total_in_file": 100,
+  "range": "DB_0501 a DB_0600",
+  "databases": [
+    {
+      "id": "DB_0501",
+      "name": "QuantumDB Engine #501",
+      "brand_color": "#22ADF6",
+      "category": "NewSQL Distributed"
+    },
+    {
+      "id": "DB_0502",
+      "name": "ZenithDB Engine #502",
+      "brand_color": "#CC292B",
+      "category": "Columnar Analytics"
+    },
+    {
+      "id": "DB_0503",
+      "name": "FluxDB Engine #503",
+      "brand_color": "#9500FF",
+      "category": "Document NoSQL"
+    },
+    {
+      "id": "DB_0504",
+      "name": "VectorDB Engine #504",
+      "brand_color": "#008CC1",
+      "category": "Spatial GIS Data"
+    },
+    {
+      "id": "DB_0505",
+      "name": "AuraDB Engine #505",
+      "brand_color": "#F80000",
+      "category": "Graph Database"
+    },
+    {
+      "id": "DB_0506",
+      "name": "TitanDB Engine #506",
+      "brand_color": "#FF6600",
+      "category": "Key-Value In-Memory"
+    },
+    {
+      "id": "DB_0507",
+      "name": "MatrixDB Engine #507",
+      "brand_color": "#3ECF8E",
+      "category": "Search Engine Index"
+    },
+    {
+      "id": "DB_0508",
+      "name": "CyberDB Engine #508",
+      "brand_color": "#47A248",
+      "category": "Vector AI Engine"
+    },
+    {
+      "id": "DB_0509",
+      "name": "ApexDB Engine #509",
+      "brand_color": "#00A1EA",
+      "category": "Time-Series"
+    },
+    {
+      "id": "DB_0510",
+      "name": "GridDB Engine #510",
+      "brand_color": "#4053D6",
+      "category": "Relational SQL"
+    },
+    {
+      "id": "DB_0511",
+      "name": "CoreDB Engine #511",
+      "brand_color": "#DC382D",
+      "category": "NewSQL Distributed"
+    },
+    {
+      "id": "DB_0512",
+      "name": "NovaDB Engine #512",
+      "brand_color": "#EA2328",
+      "category": "Columnar Analytics"
+    },
+    {
+      "id": "DB_0513",
+      "name": "HyperDB Engine #513",
+      "brand_color": "#FFCC01",
+      "category": "Document NoSQL"
+    },
+    {
+      "id": "DB_0514",
+      "name": "PulseDB Engine #514",
+      "brand_color": "#003B57",
+      "category": "Spatial GIS Data"
+    },
+    {
+      "id": "DB_0515",
+      "name": "VortexDB Engine #515",
+      "brand_color": "#005571",
+      "category": "Graph Database"
+    },
+    {
+      "id": "DB_0516",
+      "name": "NexusDB Engine #516",
+      "brand_color": "#1287B1",
+      "category": "Key-Value In-Memory"
+    },
+    {
+      "id": "DB_0517",
+      "name": "QuantumDB Engine #517",
+      "brand_color": "#00758F",
+      "category": "Search Engine Index"
+    },
+    {
+      "id": "DB_0518",
+      "name": "ZenithDB Engine #518",
+      "brand_color": "#6933FF",
+      "category": "Vector AI Engine"
+    },
+    {
+      "id": "DB_0519",
+      "name": "FluxDB Engine #519",
+      "brand_color": "#003545",
+      "category": "Time-Series"
+    },
+    {
+      "id": "DB_0520",
+      "name": "VectorDB Engine #520",
+      "brand_color": "#336791",
+      "category": "Relational SQL"
+    },
+    {
+      "id": "DB_0521",
+      "name": "AuraDB Engine #521",
+      "brand_color": "#22ADF6",
+      "category": "NewSQL Distributed"
+    },
+    {
+      "id": "DB_0522",
+      "name": "TitanDB Engine #522",
+      "brand_color": "#CC292B",
+      "category": "Columnar Analytics"
+    },
+    {
+      "id": "DB_0523",
+      "name": "MatrixDB Engine #523",
+      "brand_color": "#9500FF",
+      "category": "Document NoSQL"
+    },
+    {
+      "id": "DB_0524",
+      "name": "CyberDB Engine #524",
+      "brand_color": "#008CC1",
+      "category": "Spatial GIS Data"
+    },
+    {
+      "id": "DB_0525",
+      "name": "ApexDB Engine #525",
+      "brand_color": "#F80000",
+      "category": "Graph Database"
+    },
+    {
+      "id": "DB_0526",
+      "name": "GridDB Engine #526",
+      "brand_color": "#FF6600",
+      "category": "Key-Value In-Memory"
+    },
+    {
+      "id": "DB_0527",
+      "name": "CoreDB Engine #527",
+      "brand_color": "#3ECF8E",
+      "category": "Search Engine Index"
+    },
+    {
+      "id": "DB_0528",
+      "name": "NovaDB Engine #528",
+      "brand_color": "#47A248",
+      "category": "Vector AI Engine"
+    },
+    {
+      "id": "DB_0529",
+      "name": "HyperDB Engine #529",
+      "brand_color": "#00A1EA",
+      "category": "Time-Series"
+    },
+    {
+      "id": "DB_0530",
+      "name": "PulseDB Engine #530",
+      "brand_color": "#4053D6",
+      "category": "Relational SQL"
+    },
+    {
+      "id": "DB_0531",
+      "name": "VortexDB Engine #531",
+      "brand_color": "#DC382D",
+      "category": "NewSQL Distributed"
+    },
+    {
+      "id": "DB_0532",
+      "name": "NexusDB Engine #532",
+      "brand_color": "#EA2328",
+      "category": "Columnar Analytics"
+    },
+    {
+      "id": "DB_0533",
+      "name": "QuantumDB Engine #533",
+      "brand_color": "#FFCC01",
+      "category": "Document NoSQL"
+    },
+    {
+      "id": "DB_0534",
+      "name": "ZenithDB Engine #534",
+      "brand_color": "#003B57",
+      "category": "Spatial GIS Data"
+    },
+    {
+      "id": "DB_0535",
+      "name": "FluxDB Engine #535",
+      "brand_color": "#005571",
+      "category": "Graph Database"
+    },
+    {
+      "id": "DB_0536",
+      "name": "VectorDB Engine #536",
+      "brand_color": "#1287B1",
+      "category": "Key-Value In-Memory"
+    },
+    {
+      "id": "DB_0537",
+      "name": "AuraDB Engine #537",
+      "brand_color": "#00758F",
+      "category": "Search Engine Index"
+    },
+    {
+      "id": "DB_0538",
+      "name": "TitanDB Engine #538",
+      "brand_color": "#6933FF",
+      "category": "Vector AI Engine"
+    },
+    {
+      "id": "DB_0539",
+      "name": "MatrixDB Engine #539",
+      "brand_color": "#003545",
+      "category": "Time-Series"
+    },
+    {
+      "id": "DB_0540",
+      "name": "CyberDB Engine #540",
+      "brand_color": "#336791",
+      "category": "Relational SQL"
+    },
+    {
+      "id": "DB_0541",
+      "name": "ApexDB Engine #541",
+      "brand_color": "#22ADF6",
+      "category": "NewSQL Distributed"
+    },
+    {
+      "id": "DB_0542",
+      "name": "GridDB Engine #542",
+      "brand_color": "#CC292B",
+      "category": "Columnar Analytics"
+    },
+    {
+      "id": "DB_0543",
+      "name": "CoreDB Engine #543",
+      "brand_color": "#9500FF",
+      "category": "Document NoSQL"
+    },
+    {
+      "id": "DB_0544",
+      "name": "NovaDB Engine #544",
+      "brand_color": "#008CC1",
+      "category": "Spatial GIS Data"
+    },
+    {
+      "id": "DB_0545",
+      "name": "HyperDB Engine #545",
+      "brand_color": "#F80000",
+      "category": "Graph Database"
+    },
+    {
+      "id": "DB_0546",
+      "name": "PulseDB Engine #546",
+      "brand_color": "#FF6600",
+      "category": "Key-Value In-Memory"
+    },
+    {
+      "id": "DB_0547",
+      "name": "VortexDB Engine #547",
+      "brand_color": "#3ECF8E",
+      "category": "Search Engine Index"
+    },
+    {
+      "id": "DB_0548",
+      "name": "NexusDB Engine #548",
+      "brand_color": "#47A248",
+      "category": "Vector AI Engine"
+    },
+    {
+      "id": "DB_0549",
+      "name": "QuantumDB Engine #549",
+      "brand_color": "#00A1EA",
+      "category": "Time-Series"
+    },
+    {
+      "id": "DB_0550",
+      "name": "ZenithDB Engine #550",
+      "brand_color": "#4053D6",
+      "category": "Relational SQL"
+    },
+    {
+      "id": "DB_0551",
+      "name": "FluxDB Engine #551",
+      "brand_color": "#DC382D",
+      "category": "NewSQL Distributed"
+    },
+    {
+      "id": "DB_0552",
+      "name": "VectorDB Engine #552",
+      "brand_color": "#EA2328",
+      "category": "Columnar Analytics"
+    },
+    {
+      "id": "DB_0553",
+      "name": "AuraDB Engine #553",
+      "brand_color": "#FFCC01",
+      "category": "Document NoSQL"
+    },
+    {
+      "id": "DB_0554",
+      "name": "TitanDB Engine #554",
+      "brand_color": "#003B57",
+      "category": "Spatial GIS Data"
+    },
+    {
+      "id": "DB_0555",
+      "name": "MatrixDB Engine #555",
+      "brand_color": "#005571",
+      "category": "Graph Database"
+    },
+    {
+      "id": "DB_0556",
+      "name": "CyberDB Engine #556",
+      "brand_color": "#1287B1",
+      "category": "Key-Value In-Memory"
+    },
+    {
+      "id": "DB_0557",
+      "name": "ApexDB Engine #557",
+      "brand_color": "#00758F",
+      "category": "Search Engine Index"
+    },
+    {
+      "id": "DB_0558",
+      "name": "GridDB Engine #558",
+      "brand_color": "#6933FF",
+      "category": "Vector AI Engine"
+    },
+    {
+      "id": "DB_0559",
+      "name": "CoreDB Engine #559",
+      "brand_color": "#003545",
+      "category": "Time-Series"
+    },
+    {
+      "id": "DB_0560",
+      "name": "NovaDB Engine #560",
+      "brand_color": "#336791",
+      "category": "Relational SQL"
+    },
+    {
+      "id": "DB_0561",
+      "name": "HyperDB Engine #561",
+      "brand_color": "#22ADF6",
+      "category": "NewSQL Distributed"
+    },
+    {
+      "id": "DB_0562",
+      "name": "PulseDB Engine #562",
+      "brand_color": "#CC292B",
+      "category": "Columnar Analytics"
+    },
+    {
+      "id": "DB_0563",
+      "name": "VortexDB Engine #563",
+      "brand_color": "#9500FF",
+      "category": "Document NoSQL"
+    },
+    {
+      "id": "DB_0564",
+      "name": "NexusDB Engine #564",
+      "brand_color": "#008CC1",
+      "category": "Spatial GIS Data"
+    },
+    {
+      "id": "DB_0565",
+      "name": "QuantumDB Engine #565",
+      "brand_color": "#F80000",
+      "category": "Graph Database"
+    },
+    {
+      "id": "DB_0566",
+      "name": "ZenithDB Engine #566",
+      "brand_color": "#FF6600",
+      "category": "Key-Value In-Memory"
+    },
+    {
+      "id": "DB_0567",
+      "name": "FluxDB Engine #567",
+      "brand_color": "#3ECF8E",
+      "category": "Search Engine Index"
+    },
+    {
+      "id": "DB_0568",
+      "name": "VectorDB Engine #568",
+      "brand_color": "#47A248",
+      "category": "Vector AI Engine"
+    },
+    {
+      "id": "DB_0569",
+      "name": "AuraDB Engine #569",
+      "brand_color": "#00A1EA",
+      "category": "Time-Series"
+    },
+    {
+      "id": "DB_0570",
+      "name": "TitanDB Engine #570",
+      "brand_color": "#4053D6",
+      "category": "Relational SQL"
+    },
+    {
+      "id": "DB_0571",
+      "name": "MatrixDB Engine #571",
+      "brand_color": "#DC382D",
+      "category": "NewSQL Distributed"
+    },
+    {
+      "id": "DB_0572",
+      "name": "CyberDB Engine #572",
+      "brand_color": "#EA2328",
+      "category": "Columnar Analytics"
+    },
+    {
+      "id": "DB_0573",
+      "name": "ApexDB Engine #573",
+      "brand_color": "#FFCC01",
+      "category": "Document NoSQL"
+    },
+    {
+      "id": "DB_0574",
+      "name": "GridDB Engine #574",
+      "brand_color": "#003B57",
+      "category": "Spatial GIS Data"
+    },
+    {
+      "id": "DB_0575",
+      "name": "CoreDB Engine #575",
+      "brand_color": "#005571",
+      "category": "Graph Database"
+    },
+    {
+      "id": "DB_0576",
+      "name": "NovaDB Engine #576",
+      "brand_color": "#1287B1",
+      "category": "Key-Value In-Memory"
+    },
+    {
+      "id": "DB_0577",
+      "name": "HyperDB Engine #577",
+      "brand_color": "#00758F",
+      "category": "Search Engine Index"
+    },
+    {
+      "id": "DB_0578",
+      "name": "PulseDB Engine #578",
+      "brand_color": "#6933FF",
+      "category": "Vector AI Engine"
+    },
+    {
+      "id": "DB_0579",
+      "name": "VortexDB Engine #579",
+      "brand_color": "#003545",
+      "category": "Time-Series"
+    },
+    {
+      "id": "DB_0580",
+      "name": "NexusDB Engine #580",
+      "brand_color": "#336791",
+      "category": "Relational SQL"
+    },
+    {
+      "id": "DB_0581",
+      "name": "QuantumDB Engine #581",
+      "brand_color": "#22ADF6",
+      "category": "NewSQL Distributed"
+    },
+    {
+      "id": "DB_0582",
+      "name": "ZenithDB Engine #582",
+      "brand_color": "#CC292B",
+      "category": "Columnar Analytics"
+    },
+    {
+      "id": "DB_0583",
+      "name": "FluxDB Engine #583",
+      "brand_color": "#9500FF",
+      "category": "Document NoSQL"
+    },
+    {
+      "id": "DB_0584",
+      "name": "VectorDB Engine #584",
+      "brand_color": "#008CC1",
+      "category": "Spatial GIS Data"
+    },
+    {
+      "id": "DB_0585",
+      "name": "AuraDB Engine #585",
+      "brand_color": "#F80000",
+      "category": "Graph Database"
+    },
+    {
+      "id": "DB_0586",
+      "name": "TitanDB Engine #586",
+      "brand_color": "#FF6600",
+      "category": "Key-Value In-Memory"
+    },
+    {
+      "id": "DB_0587",
+      "name": "MatrixDB Engine #587",
+      "brand_color": "#3ECF8E",
+      "category": "Search Engine Index"
+    },
+    {
+      "id": "DB_0588",
+      "name": "CyberDB Engine #588",
+      "brand_color": "#47A248",
+      "category": "Vector AI Engine"
+    },
+    {
+      "id": "DB_0589",
+      "name": "ApexDB Engine #589",
+      "brand_color": "#00A1EA",
+      "category": "Time-Series"
+    },
+    {
+      "id": "DB_0590",
+      "name": "GridDB Engine #590",
+      "brand_color": "#4053D6",
+      "category": "Relational SQL"
+    },
+    {
+      "id": "DB_0591",
+      "name": "CoreDB Engine #591",
+      "brand_color": "#DC382D",
+      "category": "NewSQL Distributed"
+    },
+    {
+      "id": "DB_0592",
+      "name": "NovaDB Engine #592",
+      "brand_color": "#EA2328",
+      "category": "Columnar Analytics"
+    },
+    {
+      "id": "DB_0593",
+      "name": "HyperDB Engine #593",
+      "brand_color": "#FFCC01",
+      "category": "Document NoSQL"
+    },
+    {
+      "id": "DB_0594",
+      "name": "PulseDB Engine #594",
+      "brand_color": "#003B57",
+      "category": "Spatial GIS Data"
+    },
+    {
+      "id": "DB_0595",
+      "name": "VortexDB Engine #595",
+      "brand_color": "#005571",
+      "category": "Graph Database"
+    },
+    {
+      "id": "DB_0596",
+      "name": "NexusDB Engine #596",
+      "brand_color": "#1287B1",
+      "category": "Key-Value In-Memory"
+    },
+    {
+      "id": "DB_0597",
+      "name": "QuantumDB Engine #597",
+      "brand_color": "#00758F",
+      "category": "Search Engine Index"
+    },
+    {
+      "id": "DB_0598",
+      "name": "ZenithDB Engine #598",
+      "brand_color": "#6933FF",
+      "category": "Vector AI Engine"
+    },
+    {
+      "id": "DB_0599",
+      "name": "FluxDB Engine #599",
+      "brand_color": "#003545",
+      "category": "Time-Series"
+    },
+    {
+      "id": "DB_0600",
+      "name": "VectorDB Engine #600",
+      "brand_color": "#336791",
+      "category": "Relational SQL"
+    }
+  ]
+}

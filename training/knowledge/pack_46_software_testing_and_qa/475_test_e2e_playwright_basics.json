@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_46_SOFTWARE_TESTING_AND_QA_475",
+  "title": "TEST E2E PLAYWRIGHT BASICS",
+  "category": "Testes Automatizados, Cobertura e Qualidade de Código (QA)",
+  "summary": "Automação de testes de ponta a ponta simulando cliques e fluxos reais de usuário.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Automação de testes de ponta a ponta simulando cliques e fluxos reais de usuário.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

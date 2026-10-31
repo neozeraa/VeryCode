@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_48_MICROSERVICES_AND_MESSAGING_502",
+  "title": "MICRO EVENT DRIVEN ARCHITECTURE",
+  "category": "Microsserviços, Mensageria, Filas e Event-Driven",
+  "summary": "Comunicação assíncrona orientada a eventos para desacoplar serviços independentes.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Comunicação assíncrona orientada a eventos para desacoplar serviços independentes.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "bots_directory": "hosted_bots",
+  "auto_restart": true,
+  "log_file": "bot_runtime.log"
+}

@@ -1,0 +1,13 @@
+{
+  "topic": "Web Scraping & Browser Automation",
+  "rules": [
+    "Usar pastas dedicadas em apps/scraping.",
+    "Para Termux ou Linux leve, preferir cheerio e axios ou puppeteer com flags headless no-sandbox."
+  ],
+  "recipes": [
+    {
+      "trigger": "criar scraper basico com cheerio",
+      "command": "mkdir -p apps/scraper && cd apps/scraper && npm init -y && npm install axios cheerio && cat << 'SEOF' > index.js\nimport axios from 'axios';\nimport * as cheerio from 'cheerio';\nconst { data } = await axios.get('https://news.ycombinator.com/');\nconst $ = cheerio.load(data);\n$('.titleline > a').slice(0, 5).each((i, el) => console.log(`${i + 1}. ${$(el).text()}`));\nSEOF\nnode index.js"
+    }
+  ]
+}

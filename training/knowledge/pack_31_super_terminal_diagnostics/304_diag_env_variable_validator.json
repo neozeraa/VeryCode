@@ -1,0 +1,8 @@
+{
+  "topic": "Auditoria Prévia de Ficheiros de Ambiente (.env)",
+  "rules": [
+    "Validar se todas as chaves essenciais declaradas nos arquivos de configuração contêm valores reais e não vazios.",
+    "Bloquear execuções prematuras alertando a ausência de tokens críticos de API.",
+    "Garantir permissões restritas (chmod 600) em arquivos sensíveis de ambiente no disco."
+  ]
+}

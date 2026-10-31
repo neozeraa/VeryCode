@@ -1,0 +1,17 @@
+{
+  "topic": "Inspeção de Registos DNS (A, CNAME, MX, TXT) e Latência",
+  "rules": [
+    "Instalar dnsutils para obter dig e nslookup no Termux.",
+    "Permitir auditoria rápida de propagação de domínios."
+  ],
+  "recipes": [
+    {
+      "trigger": "consultar registos dns de um dominio",
+      "command": "pkg install -y dnsutils && dig google.com +short && echo '--- Servidores MX ---' && dig google.com MX +short"
+    },
+    {
+      "trigger": "testar latencia com servidores de dns publicos",
+      "command": "ping -c 4 8.8.8.8"
+    }
+  ]
+}

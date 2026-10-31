@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_90_PROMPT_ENGINEERING_AND_ASPECT_RATIOS_943",
+  "title": "PROMPT TOKEN WEIGHTING AND PRIORITY",
+  "category": "Engenharia de Prompts, Estrutura e Proporções de Tela",
+  "summary": "Ordem de relevância das palavras no prompt para garantir que os elementos fundamentais sejam priorizados pela IA geradora.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Ordem de relevância das palavras no prompt para garantir que os elementos fundamentais sejam priorizados pela IA geradora.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "module_id": "REVERSE_ENGINEERING_PACK_PACK_74_BINARY_APK_AND_MOBILE_REVERSING_784",
+  "title": "REV SHARED PREFS SQLITE STORAGE",
+  "category": "Descompilação de APKs Android e Binários Nativos",
+  "summary": "Inspeção reversa de bancos de dados locais e arquivos XML de preferências para descobrir schemas de armazenamento.",
+  "execution_mode": "CLEAN_ROOM_REVERSE_ENGINEERING",
+  "architecture": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "capabilities": [
+    "Capacidade analítica e operativa para: Inspeção reversa de bancos de dados locais e arquivos XML de preferências para descobrir schemas de armazenamento.",
+    "Isolamento sistemático de comportamentos sem cópia direta de código vulnerável.",
+    "Reconstrução autônoma de ferramentas, endpoints e componentes otimizados para o ambiente local."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_81_BOT_PROMPT_INTENT_PARSING_853",
+  "title": "INTENT COMMAND LIST EXTRACTION",
+  "category": "Interpretação e Engenharia de Prompts para Bots",
+  "summary": "Mapeamento sistemático de comandos solicitados em categorias: moderação, utilidade, economia, música e entretenimento.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Mapeamento sistemático de comandos solicitados em categorias: moderação, utilidade, economia, música e entretenimento.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

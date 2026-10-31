@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_44_DOCKER_AND_CONTAINERS_445",
+  "title": "DOCKER ISOLATED BRIDGE NETWORKS",
+  "category": "Engenharia de Containers, Docker e Orquestração",
+  "summary": "Criação de redes isoladas impedindo exposição direta de bancos à internet.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Criação de redes isoladas impedindo exposição direta de bancos à internet.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

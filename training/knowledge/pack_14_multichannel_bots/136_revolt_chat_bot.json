@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_REVOLT_01",
+  "platform": "Revolt",
+  "engine": "revolt.js",
+  "mandatory_structure": [
+    "index.js",
+    "package.json",
+    ".env",
+    "commands/info.js",
+    "README.md"
+  ],
+  "rules": [
+    "Utilizar Client de revolt.js com autenticação por bot token.",
+    "Estrutura assíncrona orientada a eventos para servidores de código aberto e privacidade.",
+    "Tratamento de menções e canais de texto com client.on('messageCreate')."
+  ]
+}

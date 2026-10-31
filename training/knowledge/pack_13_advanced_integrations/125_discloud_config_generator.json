@@ -1,0 +1,8 @@
+{
+  "module_id": "MOD_DISCLOUD_01",
+  "topic": "Padronização do Arquivo discloud.config para Hospedagem 24/7",
+  "rules": [
+    "Gerar o arquivo discloud.config na raiz do bot contendo: NAME, TYPE=bot, MAIN=index.js, RAM=100 (ou conforme o plano), AUTORESTART=true e VERSION=latest.",
+    "Ignorar pastas pesadas (node_modules/) e arquivos de ambiente sensíveis (.env) na preparação do pacote."
+  ]
+}

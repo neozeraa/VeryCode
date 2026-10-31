@@ -1,0 +1,8 @@
+{
+  "topic": "Otimização de SQLite no Termux e Ambientes Locais",
+  "rules": [
+    "Ativar o modo WAL (Write-Ahead Logging) executando PRAGMA journal_mode = WAL para suportar leituras e escritas concorrentes.",
+    "Configurar PRAGMA synchronous = NORMAL para acelerar operações de I/O em discos móveis sem perder integridade.",
+    "Utilizar PRAGMA cache_size = -64000 para alocar até 64 MB de memória para páginas de dados em cache."
+  ]
+}

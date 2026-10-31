@@ -1,0 +1,14 @@
+{
+  "module_id": "VERIFIED_SOURCE_636",
+  "source_name": "Siga Brasil (Senado)",
+  "official_color": "#1A5276",
+  "scope": "Brasil",
+  "category": "Portais de Dados Abertos e Transparência Governamental",
+  "description": "Sistema de informações sobre o orçamento público federal, emendas e gastos da União.",
+  "reliability_score": "MAXIMUM_VERIFIED",
+  "verification_rules": [
+    "Apresentar dados sob confirmação empírica e registro oficial auditável.",
+    "Proibido ecoar desinformação, teorias conspiratórias sem base ou dados distorcidos.",
+    "Em caso de divergência pública, apresentar os dados primários de cada fonte institucional de forma neutra."
+  ]
+}

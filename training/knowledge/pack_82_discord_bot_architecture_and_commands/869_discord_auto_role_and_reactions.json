@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_82_DISCORD_BOT_ARCHITECTURE_AND_COMMANDS_869",
+  "title": "DISCORD AUTO ROLE AND REACTIONS",
+  "category": "Arquitetura Avançada e Comandos para Bots Discord (v14)",
+  "summary": "Atribuição de cargos por reação ou botão interativo com validação de hierarquia de cargos do bot.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Atribuição de cargos por reação ou botão interativo com validação de hierarquia de cargos do bot.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

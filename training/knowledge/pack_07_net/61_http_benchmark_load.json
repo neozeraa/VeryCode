@@ -1,0 +1,13 @@
+{
+  "topic": "Testes de Estresse, Benchmark e Concorrência de Servidores Web",
+  "rules": [
+    "Iniciar com poucos concorrentes para não travar a stack local.",
+    "Avaliar tempo de resposta médio (p95 e p99)."
+  ],
+  "recipes": [
+    {
+      "trigger": "fazer teste de estresse em servidor local na porta 3000",
+      "command": "pkg install -y wrk 2>/dev/null || pkg install -y apache2-utils 2>/dev/null; ab -n 1000 -c 10 http://127.0.0.1:3000/ || wrk -t2 -c10 -d5s http://127.0.0.1:3000/"
+    }
+  ]
+}

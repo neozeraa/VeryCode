@@ -1,0 +1,9 @@
+{
+  "module_id": "IMG_ENGINE_09",
+  "pipeline": [
+    "Execução da chamada de geração assíncrona com timeout de 30 segundos.",
+    "Verificação de integridade do cabeçalho de bytes PNG/JPEG antes de salvar em disco.",
+    "Aplicação de corte de segurança de bordas inferiores com ImageMagick caso haja resíduo de carimbo.",
+    "Disponibilização instantânea no servidor da porta 4000 e cópia limpa em ~/storage/shared/VERYCODE IMG."
+  ]
+}

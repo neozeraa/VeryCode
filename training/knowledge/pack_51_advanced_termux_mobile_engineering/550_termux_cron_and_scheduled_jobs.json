@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_51_ADVANCED_TERMUX_MOBILE_ENGINEERING_550",
+  "title": "TERMUX CRON AND SCHEDULED JOBS",
+  "category": "Engenharia Avançada de Terminal, Linux e Otimização Mobile",
+  "summary": "Automatização de tarefas periódicas locais de backup e limpeza com crond.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Automatização de tarefas periódicas locais de backup e limpeza com crond.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

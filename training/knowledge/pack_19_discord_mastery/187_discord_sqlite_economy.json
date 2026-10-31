@@ -1,0 +1,4 @@
+{
+  "feature": "Banco de Dados SQLite para Economia/Rank",
+  "rules": ["Persistência de moedas, XP e inventário em arquivo local database.sqlite.", "Consultas preparadas para evitar race conditions ou injeção."]
+}

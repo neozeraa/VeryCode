@@ -1,0 +1,7 @@
+{
+  "module": "Profilagem e Otimização de Recursos",
+  "rules": [
+    "Identificar vazamentos de memória (memory leaks) decorrentes de listeners não desanexados e closures acumuladas.",
+    "Otimizar tempo de carregamento de páginas através de minificação, compressão e cache eficiente."
+  ]
+}

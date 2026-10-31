@@ -1,0 +1,4 @@
+{
+  "feature": "Automação de Eventos e Campeonatos",
+  "rules": ["Criar e agendar eventos de calendário via client.calendars.", "Notificar canais com lembrete 30 minutos antes do início do jogo."]
+}

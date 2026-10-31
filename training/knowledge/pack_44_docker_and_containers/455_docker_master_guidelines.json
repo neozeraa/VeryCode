@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_44_DOCKER_AND_CONTAINERS_455",
+  "title": "DOCKER MASTER GUIDELINES",
+  "category": "Engenharia de Containers, Docker e Orquestração",
+  "summary": "Padrões corporativos da VERY SYSTEMS para empacotamento de bots e microsserviços.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Padrões corporativos da VERY SYSTEMS para empacotamento de bots e microsserviços.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

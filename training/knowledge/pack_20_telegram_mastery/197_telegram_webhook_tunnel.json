@@ -1,0 +1,4 @@
+{
+  "feature": "Modo Webhook com Túnel HTTPS",
+  "rules": ["Alternativa ao polling usando bot.createWebhook({ domain: tunnelUrl }).", "Integração direta com o módulo de túnel Cloudflare do VeryCode."]
+}

@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_48_MICROSERVICES_AND_MESSAGING_514",
+  "title": "MICRO BACKPRESSURE HANDLING",
+  "category": "Microsserviços, Mensageria, Filas e Event-Driven",
+  "summary": "Tratamento de pressão contrária quando a entrada de mensagens supera o processamento.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Tratamento de pressão contrária quando a entrada de mensagens supera o processamento.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

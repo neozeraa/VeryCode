@@ -1,0 +1,17 @@
+{
+  "topic": "Extração de Links, Textos e Dados de Páginas Web via CLI",
+  "rules": [
+    "Utilizar expressões regulares limpas e cabeçalhos reais de navegador.",
+    "Combinar curl e ripgrep para rapidez."
+  ],
+  "recipes": [
+    {
+      "trigger": "extrair todos os links href de uma pagina web",
+      "command": "curl -sL https://exemplo.com | grep -oP 'href=[\"\\x27]?\\Khttps?://[^\">]+'"
+    },
+    {
+      "trigger": "baixar todas as imagens png de uma pagina",
+      "command": "wget -r -l1 -A.png -nd -P ./imagens_baixadas/ https://exemplo.com"
+    }
+  ]
+}

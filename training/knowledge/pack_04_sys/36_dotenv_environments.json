@@ -1,0 +1,13 @@
+{
+  "topic": "Criação de Variáveis de Ambiente e Ficheiros de Configuração",
+  "rules": [
+    "Garantir a criação de modelos .env.example para segurança do repositório.",
+    "Adicionar automaticamente o ficheiro .env ao .gitignore para impedir fugas de segredos."
+  ],
+  "recipes": [
+    {
+      "trigger": "criar ficheiro env seguro com gitignore",
+      "command": "touch .env && echo '.env' >> .gitignore && echo 'PORT=3000\nNODE_ENV=development\nAPI_SECRET=semente_very_systems' > .env && echo 'Ficheiro .env criado e protegido no .gitignore!'"
+    }
+  ]
+}

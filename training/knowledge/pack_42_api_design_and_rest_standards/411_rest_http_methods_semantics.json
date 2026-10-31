@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_42_API_DESIGN_AND_REST_STANDARDS_411",
+  "title": "REST HTTP METHODS SEMANTICS",
+  "category": "Arquitetura e Padrões de Design de APIs RESTful",
+  "summary": "Uso estrito de GET, POST, PUT, PATCH e DELETE com respostas idempotentes.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Uso estrito de GET, POST, PUT, PATCH e DELETE com respostas idempotentes.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

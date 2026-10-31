@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_43_CYBERSECURITY_AND_HARDENING_440",
+  "title": "SEC ZERO TRUST ARCHITECTURE",
+  "category": "Segurança Ofensiva, Defensiva e Hardening de Servidores",
+  "summary": "Princípios da arquitetura Zero Trust: nunca confie, sempre verifique.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Princípios da arquitetura Zero Trust: nunca confie, sempre verifique.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

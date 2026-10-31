@@ -1,0 +1,17 @@
+{
+  "topic": "Testes de Padrões Regex em Texto com PCRE e Grep",
+  "rules": [
+    "Utilizar grep com a opção -P (Perl-compatible regular expressions).",
+    "Realçar correspondências com cores para facilitar a visualização no ecrã."
+  ],
+  "recipes": [
+    {
+      "trigger": "validar padrao de email em ficheiro com regex",
+      "command": "grep --color=always -P '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$' 2>/dev/null || echo 'Nenhum padrão encontrado.'"
+    },
+    {
+      "trigger": "extrair numeros de telefone em formato brasileiro",
+      "command": "grep --color=always -oP '(?:\\+55\\s?)?(?:\\([1-9]{2}\\)|[1-9]{2})\\s?(?:9[0-9]{4}[-\\s]?[0-9]{4})'"
+    }
+  ]
+}

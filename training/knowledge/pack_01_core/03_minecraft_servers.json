@@ -1,0 +1,18 @@
+{
+  "topic": "Servidores de Minecraft (Bedrock & Paper/Spigot)",
+  "rules": [
+    "Bedrock Dedicated Server requer curl, wget, unzip e LD_LIBRARY_PATH=.",
+    "Servidores Java requerem openjdk-17 e criação do arquivo eula.txt=true.",
+    "Executar sempre em subpastas dedicadas fora da central."
+  ],
+  "recipes": [
+    {
+      "trigger": "servidor minecraft java paper",
+      "command": "pkg install -y openjdk-17 wget && mkdir -p servers/mc-java && cd servers/mc-java && wget -q https://api.papermc.io/v2/projects/paper/versions/1.20.4/builds/496/downloads/paper-1.20.4-496.jar -O server.jar && echo 'eula=true' > eula.txt && java -Xmx1024M -Xms512M -jar server.jar nogui"
+    },
+    {
+      "trigger": "servidor bedrock pocketmine",
+      "command": "pkg install -y curl php && mkdir -p servers/pmmp && cd servers/pmmp && curl -sSL https://get.pmmp.io | bash -s - && ./start.sh"
+    }
+  ]
+}

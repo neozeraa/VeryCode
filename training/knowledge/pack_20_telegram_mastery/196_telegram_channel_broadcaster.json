@@ -1,0 +1,4 @@
+{
+  "feature": "Disparo de Mensagens para Grupos e Canais",
+  "rules": ["Envio automatizado de alertas com bot.telegram.sendMessage(chatId, texto).", "Tratamento de rate limits com limite de até 30 mensagens por segundo."]
+}

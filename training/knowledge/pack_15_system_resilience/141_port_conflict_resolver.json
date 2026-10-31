@@ -1,0 +1,12 @@
+{
+  "module_id": "RESILIENCE_PORT_01",
+  "topic": "Prevenção e Resolução de Erros EADDRINUSE",
+  "rules": [
+    "Verificar a disponibilidade do socket antes de iniciar qualquer serviço HTTP ou WebSocket.",
+    "Caso a porta pretendida (3000, 4000) esteja ocupada, identificar o PID com 'fuser' ou 'lsof' e libertar a porta ou escalar para a porta seguinte (+1)."
+  ],
+  "commands": [
+    "fuser -k 3000/tcp 2>/dev/null",
+    "lsof -ti:4000 | xargs kill -9 2>/dev/null"
+  ]
+}

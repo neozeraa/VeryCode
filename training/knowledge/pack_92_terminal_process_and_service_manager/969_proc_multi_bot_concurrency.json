@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_92_TERMINAL_PROCESS_AND_SERVICE_MANAGER_969",
+  "title": "PROC MULTI BOT CONCURRENCY",
+  "category": "Gestão Local de Processos, Daemons e Serviços em Segundo Plano",
+  "summary": "Execução simultânea e isolada de instâncias de bots de Discord e WhatsApp sem concorrência de portas.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Execução simultânea e isolada de instâncias de bots de Discord e WhatsApp sem concorrência de portas.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

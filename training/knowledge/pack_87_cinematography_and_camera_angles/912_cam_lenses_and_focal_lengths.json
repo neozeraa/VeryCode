@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_87_CINEMATOGRAPHY_AND_CAMERA_ANGLES_912",
+  "title": "CAM LENSES AND FOCAL LENGTHS",
+  "category": "Cinematografia, Ângulos de Câmera e Composição Visual",
+  "summary": "Emulação de lentes fotográficas reais: grande-angular 24mm (dinâmica), 50mm (natural) e teleobjetiva 85mm/135mm (retrato nítido).",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Emulação de lentes fotográficas reais: grande-angular 24mm (dinâmica), 50mm (natural) e teleobjetiva 85mm/135mm (retrato nítido).",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

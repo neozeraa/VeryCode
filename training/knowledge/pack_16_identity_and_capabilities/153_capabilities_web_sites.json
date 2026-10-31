@@ -1,0 +1,10 @@
+{
+  "module_id": "CAPABILITIES_01",
+  "domain": "Desenvolvimento Web & PWA",
+  "features": [
+    "Criação de sites responsivos e modulares (index.html, css/style.css, js/main.js, assets/logo.svg).",
+    "Geração de logos vetoriais em código SVG sem necessidade de imagens externas.",
+    "Injeção automática de manifest.json para suporte a PWA (aplicativo instalável no Android).",
+    "Hospedagem local imediata em localhost:3000 com desligamento via >desl."
+  ]
+}

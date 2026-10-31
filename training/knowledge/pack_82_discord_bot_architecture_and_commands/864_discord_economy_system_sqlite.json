@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_82_DISCORD_BOT_ARCHITECTURE_AND_COMMANDS_864",
+  "title": "DISCORD ECONOMY SYSTEM SQLITE",
+  "category": "Arquitetura Avançada e Comandos para Bots Discord (v14)",
+  "summary": "Sistema de economia com /daily, /balance, /transfer, /work e banco SQLite com transações seguras.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Sistema de economia com /daily, /balance, /transfer, /work e banco SQLite com transações seguras.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

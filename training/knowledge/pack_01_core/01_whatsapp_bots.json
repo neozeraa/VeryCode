@@ -1,0 +1,18 @@
+{
+  "topic": "WhatsApp Automation & Baileys Bots",
+  "rules": [
+    "Sempre criar pasta isolada antes de clonar ou iniciar bots de WhatsApp.",
+    "Instalar dependências com npm install ou yarn.",
+    "Para pareamento por código ou QR Code, usar streaming de terminal interativo."
+  ],
+  "recipes": [
+    {
+      "trigger": "instalar nazuma bot",
+      "command": "mkdir -p bots/nazuma && cd bots/nazuma && git clone https://github.com/NazumaBot/Nazuma-MD.git . || git clone https://github.com/neozeraa/nazuma-bot.git . && npm install && npm start"
+    },
+    {
+      "trigger": "criar bot baileys do zero",
+      "command": "mkdir -p bots/my_wa_bot && cd bots/my_wa_bot && npm init -y && npm install @whiskeysockets/baileys pino qrcode-terminal && echo 'Bot inicializado. Crie o index.js com a conexão do baileys.'"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Segurança e Proteção de Aplicações",
+  "rules": [
+    "Prevenção contra Injection (SQL, NoSQL, OS Command) via consultas parametrizadas.",
+    "Mitigação de XSS, CSRF e sanitização estrita de inputs no backend e frontend."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "topic": "Design Responsivo sem Frameworks com Grid e Flexbox",
+  "rules": [
+    "Adotar abordagem Mobile-First nativa: layout base projetado para telas menores que 480px, expandindo via @media (min-width: 768px) e (min-width: 1024px).",
+    "Utilizar CSS Grid com repeat(auto-fit, minmax(280px, 1fr)) para cartões e catálogos dinâmicos sem quebra de tela.",
+    "Usar Flexbox para alinhamento rápido de barras de navegação, modais e botões interativos."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "topic": "Redes, IP e Túneis Públicos (Cloudflared, Ngrok, Localhost.run)",
+  "rules": [
+    "Permitir expor portas locais de bots e APIs para a internet.",
+    "Priorizar Cloudflare Tunnels (cloudflared) ou localhost.run sem exigir tokens complexos."
+  ],
+  "recipes": [
+    {
+      "trigger": "ver meu ip local e externo",
+      "command": "echo 'IP Local:' $(ifconfig 2>/dev/null | grep -oE 'inet [0-9.]+' | grep -v '127.0.0.1' | cut -d' ' -f2) && echo 'IP Externo:' $(curl -s ifconfig.me)"
+    },
+    {
+      "trigger": "abrir porta 3000 para internet com localhost run",
+      "command": "ssh -R 80:localhost:3000 nokey@localhost.run"
+    }
+  ]
+}

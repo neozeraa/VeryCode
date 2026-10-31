@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_83_WHATSAPP_BOT_AUTOMATION_BAILEYS_874",
+  "title": "BAILEYS GROUP ADMIN COMMANDS",
+  "category": "Automação e Bots de WhatsApp com Baileys",
+  "summary": "Comandos de gestão de grupo: fechar grupo, abrir, banir participantes, promover e alterar regras.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Comandos de gestão de grupo: fechar grupo, abrir, banir participantes, promover e alterar regras.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

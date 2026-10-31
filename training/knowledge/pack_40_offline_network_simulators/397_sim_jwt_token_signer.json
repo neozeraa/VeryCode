@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_40_OFFLINE_NETWORK_SIMULATORS_397",
+  "title": "SIM JWT TOKEN SIGNER",
+  "category": "Testadores Locais e Simuladores de API",
+  "summary": "Criador e validador local de tokens de sessão simples em base64.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

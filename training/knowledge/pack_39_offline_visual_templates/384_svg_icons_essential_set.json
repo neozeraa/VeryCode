@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_39_OFFLINE_VISUAL_TEMPLATES_384",
+  "title": "SVG ICONS ESSENTIAL SET",
+  "category": "Modelos Vetoriais SVG e Paletas Locais",
+  "summary": "Coleção de 20 ícones SVG essenciais no padrão grid 24x24.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

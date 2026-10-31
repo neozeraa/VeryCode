@@ -1,0 +1,10 @@
+{
+  "language": "Go",
+  "official_color": "#00ADD8",
+  "paradigms": ["Concorrente", "Procedural", "Compilação Nativa Rápida"],
+  "standards": [
+    "Concorrência nativa de alta eficiência com Goroutines e Channels.",
+    "Tratamento de erro idiomático retornando tuplas (val, err).",
+    "Geração de binários únicos independentes sem dependência de runtime externo."
+  ]
+}

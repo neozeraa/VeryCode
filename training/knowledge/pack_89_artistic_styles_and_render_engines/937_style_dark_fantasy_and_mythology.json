@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_89_ARTISTIC_STYLES_AND_RENDER_ENGINES_937",
+  "title": "STYLE DARK FANTASY AND MYTHOLOGY",
+  "category": "Estilos Artísticos, Motores de Render e Estéticas Digitais",
+  "summary": "Cenários de fantasia medieval sombria, ruínas épicas, armaduras detalhadas com marcas de batalha e criaturas colossais.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Cenários de fantasia medieval sombria, ruínas épicas, armaduras detalhadas com marcas de batalha e criaturas colossais.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

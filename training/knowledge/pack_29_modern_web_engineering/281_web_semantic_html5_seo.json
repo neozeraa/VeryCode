@@ -1,0 +1,8 @@
+{
+  "topic": "Estrutura Semântica HTML5 e Meta Tags de SEO",
+  "rules": [
+    "Usar tags semânticas obrigatórias: header, nav, main, section, article e footer em vez de excesso de divs.",
+    "Declarar meta tags completas no head: charset utf-8, viewport mobile-first, theme-color (#FF6600), robots, description e Open Graph para prévias em redes sociais.",
+    "Garantir atributo alt descritivo em todas as tags img para acessibilidade e indexação."
+  ]
+}

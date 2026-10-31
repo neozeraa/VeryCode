@@ -1,0 +1,17 @@
+{
+  "topic": "Versionamento Semântico e Criação de Tags de Lançamento",
+  "rules": [
+    "Garantir a criação de tags anotadas no Git seguindo vMAJOR.MINOR.PATCH.",
+    "Validar se o diretório de trabalho está limpo antes de gerar tags."
+  ],
+  "recipes": [
+    {
+      "trigger": "criar tag de versao v1.0.0 no git",
+      "command": "git tag -a v1.0.0 -m 'Release v1.0.0 - VERY SYSTEMS Engine' && echo 'Tag v1.0.0 criada. Para enviar para o GitHub use: git push --tags'"
+    },
+    {
+      "trigger": "listar todas as tags e versoes do repositorio",
+      "command": "git tag -n"
+    }
+  ]
+}

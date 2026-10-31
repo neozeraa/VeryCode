@@ -1,0 +1,9 @@
+{
+  "module_id": "MOD_APK_02",
+  "topic": "Geração de APK Android Autônomo no Termux",
+  "rules": [
+    "Montar estrutura Android compacta com AndroidManifest.xml, assets/ com os arquivos do site e classe MainActivity em Java.",
+    "Configurar WebView com setJavaScriptEnabled(true) e carregar 'file:///android_asset/index.html'.",
+    "Instruir empacotamento com aapt2/d8 e assinatura com apksigner para gerar um .apk instalável diretamente."
+  ]
+}

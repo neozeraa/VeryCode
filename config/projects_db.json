@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "id": "proj_1793396821709",
+      "name": "MYTUBE",
+      "slug": "mytube",
+      "type": "site",
+      "folder": "/data/data/com.termux/files/home/VeryCode/central/projects/mytube",
+      "mainFile": "/data/data/com.termux/files/home/VeryCode/central/projects/mytube/index.html",
+      "port": 3000,
+      "description": "chamado MYTUBE nas cores branco e vermelha, faça a engearia reversa do link \"https://www.youtube.com\"",
+      "updatedAt": "30/10/2026, 18:47:01",
+      "createdAt": "30/10/2026, 18:47:01"
+    }
+  ]
+}

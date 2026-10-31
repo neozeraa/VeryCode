@@ -1,0 +1,9 @@
+{
+  "module_id": "MOD_DISCLOUD_02",
+  "topic": "Upload Automático de Bot via API REST da Discloud",
+  "rules": [
+    "Compactar o projeto em arquivo .zip no diretório temporário.",
+    "Fazer requisição POST multipart/form-data para https://api.discloud.app/v2/upload utilizando o header 'api-token'.",
+    "Exibir status de upload, logs de build e link do dashboard no terminal."
+  ]
+}

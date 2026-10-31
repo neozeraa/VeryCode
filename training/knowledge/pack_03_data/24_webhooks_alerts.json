@@ -1,0 +1,13 @@
+{
+  "topic": "Notificações via Discord, Telegram e Slack Webhooks",
+  "rules": [
+    "Estruturar payloads JSON limpos para envio via POST.",
+    "Evitar expor o token ou URL do webhook no histórico do bash."
+  ],
+  "recipes": [
+    {
+      "trigger": "enviar alerta para webhook do discord",
+      "command": "curl -H 'Content-Type: application/json' -X POST -d '{\"content\":\"[VERY SYSTEMS] Servidor operacional!\"}' \"$DISCORD_WEBHOOK_URL\""
+    }
+  ]
+}

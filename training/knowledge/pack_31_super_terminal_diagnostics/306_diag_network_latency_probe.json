@@ -1,0 +1,8 @@
+{
+  "topic": "Sonda de Conectividade e Latência de Rede",
+  "rules": [
+    "Testar rotas de DNS e tempos de ping contra servidores de autenticação do Discord, Telegram e APIs de IA.",
+    "Diferenciar falhas de script interno de instabilidades de rota ou perda de conexão Wi-Fi/4G.",
+    "Implementar tentativas progressivas com retrocesso exponencial (exponential backoff) para requisições com falha."
+  ]
+}

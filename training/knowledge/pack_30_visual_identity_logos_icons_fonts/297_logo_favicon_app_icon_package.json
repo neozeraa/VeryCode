@@ -1,0 +1,8 @@
+{
+  "topic": "Geração do Pacote de Ícones de Navegador e PWA",
+  "rules": [
+    "Exportar o logo central em formatos dedicados: favicon.svg dinâmico, favicon-32x32.png, apple-touch-icon.png (180x180) e icon-512.png para PWA.",
+    "Assegurar que o favicon mantenha silhueta identificável mesmo em abas de navegador compactadas a 16x16px.",
+    "Aplicar fundo contrastante nos ícones de aplicativo Android para evitar recortes irregulares."
+  ]
+}

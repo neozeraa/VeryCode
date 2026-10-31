@@ -1,0 +1,17 @@
+{
+  "topic": "Exposição Segura de Servidores Locais para a Internet via Túneis",
+  "rules": [
+    "Nunca expor portas com dados sensíveis sem camada de autenticação.",
+    "Usar cloudflared ou serviços de tunelamento direto."
+  ],
+  "recipes": [
+    {
+      "trigger": "expor porta local 3000 para a internet via cloudflare tunnel",
+      "command": "pkg install -y cloudflared && cloudflared tunnel --url http://localhost:3000"
+    },
+    {
+      "trigger": "expor servidor local via serveo ou localhost.run",
+      "command": "ssh -R 80:localhost:3000 localhost.run"
+    }
+  ]
+}

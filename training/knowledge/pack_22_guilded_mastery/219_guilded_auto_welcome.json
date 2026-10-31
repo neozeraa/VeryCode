@@ -1,0 +1,4 @@
+{
+  "feature": "Boas-vindas para Novos Jogadores",
+  "rules": ["Mensagem personalizada no canal geral no evento 'memberJoined'.", "Instruções de onboarding e links de canais importantes."]
+}

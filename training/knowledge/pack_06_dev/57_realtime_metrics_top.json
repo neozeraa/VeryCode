@@ -1,0 +1,17 @@
+{
+  "topic": "Painel Visual de Monitoramento de CPU, I/O e Memória",
+  "rules": [
+    "Priorizar htop ou btop para diagnósticos avançados.",
+    "Evitar sobrecarga em dispositivos móveis."
+  ],
+  "recipes": [
+    {
+      "trigger": "abrir monitor visual completo de processos",
+      "command": "pkg install -y htop && htop"
+    },
+    {
+      "trigger": "medir uso de disco por taxa de leitura e escrita",
+      "command": "iostat -x 1 5 2>/dev/null || vmstat 1 5"
+    }
+  ]
+}

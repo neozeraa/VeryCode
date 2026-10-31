@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_97_WEBHOOK_INGESTION_AND_API_RELAY_1012",
+  "title": "HOOK PIX PAYMENT NOTIFICATION RELAY",
+  "category": "Receptores de Webhook e Servidores de API REST",
+  "summary": "Receptor local para notificações instantâneas de cobranças e confirmações Pix.",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Receptor local para notificações instantâneas de cobranças e confirmações Pix.",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

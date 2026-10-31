@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_44_DOCKER_AND_CONTAINERS_447",
+  "title": "DOCKER ENVIRONMENT ENV FILES",
+  "category": "Engenharia de Containers, Docker e Orquestração",
+  "summary": "Injeção dinâmica de variáveis de ambiente sem expor tokens nas camadas de imagem.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Injeção dinâmica de variáveis de ambiente sem expor tokens nas camadas de imagem.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

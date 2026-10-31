@@ -1,0 +1,8 @@
+{
+  "topic": "Deploy Contínuo sem Queda de Conexão (Zero-Downtime)",
+  "rules": [
+    "Utilizar gerenciadores de processo (PM2 ou Docker Swarm) com reinicialização em cluster e reload suave.",
+    "Executar migrações de banco de dados compatíveis com versões anteriores para não quebrar instâncias ativas.",
+    "Implementar tratamento de sinais SIGINT e SIGTERM no Node.js para fechar conexões ativas antes de encerrar o processo."
+  ]
+}

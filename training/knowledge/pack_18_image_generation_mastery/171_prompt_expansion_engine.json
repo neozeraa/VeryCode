@@ -1,0 +1,9 @@
+{
+  "module_id": "IMG_ENGINE_01",
+  "title": "Motor de Tradução e Expansão Visual de Prompts",
+  "rules": [
+    "Traduzir expressões em português para termos de arte e fotografia consagrados em inglês.",
+    "Nunca resumir o pedido: enriquecer com adjetivos de textura, materiais físicos e atmosfera.",
+    "Preservar rigorosamente o sujeito, cor e tema solicitados pelo usuário sem desvios criativos indesejados."
+  ]
+}

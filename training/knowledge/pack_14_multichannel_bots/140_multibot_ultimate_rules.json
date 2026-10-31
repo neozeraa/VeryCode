@@ -1,0 +1,9 @@
+{
+  "module_id": "BOT_VERY_SYSTEMS_FINAL",
+  "version": "4.0.0",
+  "rules": [
+    "Todos os bots de qualquer plataforma devem ser gerados modulares com pasta commands/ ou listeners/.",
+    "A IA deve solicitar os tokens necessários antes de rodar o bot (ou preencher com placeholders seguros no .env).",
+    "Instalação automática das dependências oficiais (npm install) assim que os arquivos forem criados no disco."
+  ]
+}

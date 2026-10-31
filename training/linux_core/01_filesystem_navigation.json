@@ -1,0 +1,22 @@
+{
+  "category": "Linux Core - FileSystem & Directory",
+  "commands": ["pwd", "ls", "cd", "mkdir", "rmdir", "tree", "realpath", "basename", "dirname"],
+  "rules": [
+    "Sempre usar caminhos absolutos ou relativos seguros com tratamento de espaços.",
+    "Para remoções recursivas de pastas vazias, priorizar rmdir ou rm -r controlado."
+  ],
+  "recipes": [
+    {
+      "intent": "ver caminho absoluto da pasta atual",
+      "command": "pwd -P"
+    },
+    {
+      "intent": "listar arquivos detalhados incluindo ocultos e ordenados por modificacao",
+      "command": "ls -laht"
+    },
+    {
+      "intent": "criar estrutura de pastas em arvore profunda",
+      "command": "mkdir -p src/{controllers,models,routes,utils,config}"
+    }
+  ]
+}

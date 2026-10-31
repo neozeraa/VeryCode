@@ -1,0 +1,7 @@
+{
+  "feature": "Deploy Automático de Bots na Discloud",
+  "rules": [
+    "Gerar o arquivo discloud.config obrigatório com TYPE=bot, MAIN=index.js, RAM e VERSION.",
+    "Compactar arquivos essenciais excluindo node_modules e enviar via API da Discloud (https://api.discloud.app/v2/upload)."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_81_BOT_PROMPT_INTENT_PARSING_857",
+  "title": "INTENT INTERACTIVE COMPONENT BUILDER",
+  "category": "Interpretação e Engenharia de Prompts para Bots",
+  "summary": "Inclusão de botões (buttons), menus de seleção (select menus) e modais a partir de pedidos de formulários.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Inclusão de botões (buttons), menus de seleção (select menus) e modais a partir de pedidos de formulários.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

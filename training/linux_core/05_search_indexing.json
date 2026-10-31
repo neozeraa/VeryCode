@@ -1,0 +1,22 @@
+{
+  "category": "Linux Core - Search & Indexing",
+  "commands": ["find", "locate", "which", "whereis", "type", "grep", "xargs"],
+  "rules": [
+    "Sempre limitar a profundidade com -maxdepth ao usar find para proteger o disco.",
+    "Combinar find com xargs para operações seguras de processamento em lote."
+  ],
+  "recipes": [
+    {
+      "intent": "localizar todos os arquivos com mais de 50mb no sistema",
+      "command": "find . -type f -size +50M -exec ls -lh {} + 2>/dev/null"
+    },
+    {
+      "intent": "buscar onde esta instalado um comando ou executavel",
+      "command": "which verycode && type verycode"
+    },
+    {
+      "intent": "remover todos os arquivos temporarios terminados em bak ou tmp",
+      "command": "find . -type f \\( -name '*.tmp' -o -name '*.bak' \\) -delete"
+    }
+  ]
+}

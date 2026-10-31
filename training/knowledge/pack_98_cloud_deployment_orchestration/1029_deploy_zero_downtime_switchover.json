@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_98_CLOUD_DEPLOYMENT_ORCHESTRATION_1029",
+  "title": "DEPLOY ZERO DOWNTIME SWITCHOVER",
+  "category": "Orquestração e Envio para Provedores em Nuvem",
+  "summary": "Estratégia de substituição sem interrupção de bots durante atualizações de versão.",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Estratégia de substituição sem interrupção de bots durante atualizações de versão.",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

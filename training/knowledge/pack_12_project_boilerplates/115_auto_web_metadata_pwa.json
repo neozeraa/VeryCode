@@ -1,0 +1,6 @@
+{
+  "rule_id": "AUTO_WEB_PWA_05",
+  "title": "Metadados e Configuração de Pacote",
+  "target_files": ["package.json", "manifest.json"],
+  "instruction": "Criar metadados limpos com nome do projeto em slug, versão 1.0.0, autor VERY SYSTEMS e configurações para execução direta no host_controller."
+}

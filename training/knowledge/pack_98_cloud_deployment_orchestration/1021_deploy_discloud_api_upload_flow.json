@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_98_CLOUD_DEPLOYMENT_ORCHESTRATION_1021",
+  "title": "DEPLOY DISCLOUD API UPLOAD FLOW",
+  "category": "Orquestração e Envio para Provedores em Nuvem",
+  "summary": "Envio automatizado de arquivos compactados .zip via API REST da Discloud com token seguro.",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Envio automatizado de arquivos compactados .zip via API REST da Discloud com token seguro.",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

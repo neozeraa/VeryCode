@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_89_ARTISTIC_STYLES_AND_RENDER_ENGINES_931",
+  "title": "STYLE HYPERREALISTIC PHOTOGRAPHY",
+  "category": "Estilos Artísticos, Motores de Render e Estéticas Digitais",
+  "summary": "Geração fotográfica contemporânea com riqueza de microtexturas de pele, poros, tecidos de roupa e detalhes de fios.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Geração fotográfica contemporânea com riqueza de microtexturas de pele, poros, tecidos de roupa e detalhes de fios.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

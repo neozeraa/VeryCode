@@ -1,0 +1,13 @@
+{
+  "topic": "Partilha Segura de Ficheiros via SSH/SFTP entre Telemóvel e Computador",
+  "rules": [
+    "Utilizar o subsistema SFTP incluído no pacote openssh.",
+    "Definir password segura para o utilizador Termux antes de abrir a escuta externa."
+  ],
+  "recipes": [
+    {
+      "trigger": "configurar e iniciar sftp local",
+      "command": "pkg install -y openssh && sshd && echo 'Servidor SFTP pronto na porta 8022. Ligue-se através de um cliente SFTP (como FileZilla) usando o IP local e a porta 8022.'"
+    }
+  ]
+}

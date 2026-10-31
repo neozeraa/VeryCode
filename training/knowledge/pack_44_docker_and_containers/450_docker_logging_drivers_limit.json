@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_44_DOCKER_AND_CONTAINERS_450",
+  "title": "DOCKER LOGGING DRIVERS LIMIT",
+  "category": "Engenharia de Containers, Docker e Orquestração",
+  "summary": "Configuração de log-opts max-size e max-file para evitar lotação de disco.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Configuração de log-opts max-size e max-file para evitar lotação de disco.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

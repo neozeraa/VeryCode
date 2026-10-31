@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_43_CYBERSECURITY_AND_HARDENING_428",
+  "title": "SEC XSS SANITIZATION CSP",
+  "category": "Segurança Ofensiva, Defensiva e Hardening de Servidores",
+  "summary": "Higienização contra Cross-Site Scripting e políticas Content-Security-Policy.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Higienização contra Cross-Site Scripting e políticas Content-Security-Policy.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

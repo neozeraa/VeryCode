@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_33_OFFLINE_BOT_SCAFFOLDERS_330",
+  "title": "BOT DISCORD ENV BLINDADO",
+  "category": "Templates Pré-Compilados de Bots Discord",
+  "summary": "Validador estrito de DISCORD_TOKEN e CLIENT_ID sem conexões externas.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

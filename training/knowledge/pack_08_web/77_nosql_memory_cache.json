@@ -1,0 +1,7 @@
+{
+  "module": "NoSQL e Cache em Alta Velocidade",
+  "rules": [
+    "Usar Redis para controle de sessão, filas e rate-limiting.",
+    "Utilizar MongoDB/Document stores para dados dinâmicos com sharding horizontal."
+  ]
+}

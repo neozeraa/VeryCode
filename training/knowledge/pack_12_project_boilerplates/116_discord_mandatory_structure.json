@@ -1,0 +1,14 @@
+{
+  "rule_id": "AUTO_DISCORD_STRUCT_06",
+  "title": "Estrutura Obrigatória de Bot Discord",
+  "mandatory_tree": [
+    "index.js",
+    "package.json",
+    ".env",
+    "commands/ping.js",
+    "commands/ajuda.js",
+    "events/ready.js",
+    "README.md"
+  ],
+  "instruction": "Nunca gerar comandos aglomerados em um único arquivo. Todo comando novo deve ir dentro da subpasta commands/."
+}

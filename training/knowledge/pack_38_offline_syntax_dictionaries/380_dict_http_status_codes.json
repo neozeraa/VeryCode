@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_38_OFFLINE_SYNTAX_DICTIONARIES_380",
+  "title": "DICT HTTP STATUS CODES",
+  "category": "Dicionários Técnicos de Linguagens",
+  "summary": "Resumo de códigos 200, 201, 400, 401, 403, 404, 429, 500 e 502.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

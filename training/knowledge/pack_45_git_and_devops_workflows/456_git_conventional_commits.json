@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_45_GIT_AND_DEVOPS_WORKFLOWS_456",
+  "title": "GIT CONVENTIONAL COMMITS",
+  "category": "Versionamento Avançado, Git Flow e Automação DevOps",
+  "summary": "Padrão semântico de commits: feat, fix, chore, docs, refactor e breaking changes.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Padrão semântico de commits: feat, fix, chore, docs, refactor e breaking changes.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

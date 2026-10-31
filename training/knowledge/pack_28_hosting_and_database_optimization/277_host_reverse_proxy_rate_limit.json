@@ -1,0 +1,8 @@
+{
+  "topic": "Proxy Reverso e Prevenção de Abuso",
+  "rules": [
+    "Posicionar Nginx ou Caddy como proxy reverso para terminação SSL e mascaramento da porta real da aplicação.",
+    "Configurar limites de taxa (rate limiting) de requisições por IP para proteção contra brute force e DDoS.",
+    "Bloquear rotas administrativas sensíveis com restrição por faixa de IP ou autenticação mTLS."
+  ]
+}

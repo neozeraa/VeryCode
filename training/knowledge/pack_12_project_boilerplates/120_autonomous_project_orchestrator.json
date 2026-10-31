@@ -1,0 +1,10 @@
+{
+  "rule_id": "AUTO_ORCHESTRATOR_10",
+  "title": "Orquestrador Autônomo da VERY SYSTEMS",
+  "version": "3.0.0",
+  "rules": [
+    "O usuário não precisa listar os arquivos necessários na mensagem.",
+    "A IA deve interpretar a intenção (site de vendas, landing page, bot discord, bot whatsapp) e montar toda a árvore de diretórios automaticamente.",
+    "Todo projeto deve ser salvo no projects_db.json e iniciado na porta configurada sem erros de caminho."
+  ]
+}

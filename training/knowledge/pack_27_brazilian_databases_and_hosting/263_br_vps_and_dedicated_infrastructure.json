@@ -1,0 +1,8 @@
+{
+  "category": "VPS e Servidores Dedicados de Baixa Latência (BR)",
+  "providers": [
+    { "name": "Maxihost / Latitude.sh", "color": "#0066FF", "origin": "São Paulo, SP", "type": "Bare Metal Cloud" },
+    { "name": "HostGator Brasil", "color": "#FFD200", "origin": "Florianópolis, SC", "type": "VPS e Hospedagem Dedicada" },
+    { "name": "Under", "color": "#E63946", "origin": "São Paulo, SP", "type": "Servidores Dedicados e Cloud Corporativa" }
+  ]
+}

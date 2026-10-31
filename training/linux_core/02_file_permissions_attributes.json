@@ -1,0 +1,22 @@
+{
+  "category": "Linux Core - Permissions & Attributes",
+  "commands": ["chmod", "chown", "chgrp", "stat", "touch", "cp", "mv", "rm", "umask"],
+  "rules": [
+    "Usar representação octal ou simbólica limpa em permissões (ex: 755, 644, +x).",
+    "Verificar metadados com stat antes de alterar permissões em lote."
+  ],
+  "recipes": [
+    {
+      "intent": "dar permissao de execucao a todos os scripts sh da pasta",
+      "command": "chmod +x *.sh"
+    },
+    {
+      "intent": "exibir metadados detalhados inode e permissoes de um arquivo",
+      "command": "stat index.js"
+    },
+    {
+      "intent": "copiar pasta preservando atributos originais timestamps e links",
+      "command": "cp -a pasta_origem/ pasta_destino/"
+    }
+  ]
+}

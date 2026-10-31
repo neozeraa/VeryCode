@@ -1,0 +1,7 @@
+{
+  "feature": "Módulos de Comandos para WhatsApp",
+  "rules": [
+    "Criar comandos essenciais: conversor de figurinhas (sticker), download de áudio/vídeo e menu de ajuda.",
+    "Salvar o projeto diretamente no banco de dados projects_db.json permitindo ligar e transferir via /mv."
+  ]
+}

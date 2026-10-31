@@ -1,0 +1,9 @@
+{
+  "triggers": [
+    "ajuda",
+    "socorro",
+    "nao entendi",
+    "menu"
+  ],
+  "direct_answer": "Estou conectada ao núcleo técnico da VERY SYSTEMS. Você pode solicitar a criação de bots, geração de sites, análise de erros ou consultar a base de conhecimento local."
+}

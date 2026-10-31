@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_84_BOT_DATABASE_AND_PERSISTENCE_887",
+  "title": "BOTDB MIGRATION HANDLER",
+  "category": "Persistência, Schemas e Dados para Bots",
+  "summary": "Executor de migrações automáticas adicionando colunas sem corromper bases existentes em produção.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Executor de migrações automáticas adicionando colunas sem corromper bases existentes em produção.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

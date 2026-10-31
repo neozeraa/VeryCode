@@ -1,0 +1,17 @@
+{
+  "topic": "Testes de Carga e Validação de Endpoints HTTP",
+  "rules": [
+    "Utilizar curl com flags de cabeçalho e tempo de resposta formatado.",
+    "Testar endpoints REST com retorno formatado em JSON via jq."
+  ],
+  "recipes": [
+    {
+      "trigger": "testar tempo de resposta de endpoint",
+      "command": "curl -o /dev/null -s -w 'Status: %{http_code} | Tempo Total: %{time_total}s\\n' https://api.github.com"
+    },
+    {
+      "trigger": "fazer requisicao post json via curl",
+      "command": "curl -X POST http://localhost:3000/api -H 'Content-Type: application/json' -d '{\"origem\":\"VeryCode\"}' | jq ."
+    }
+  ]
+}

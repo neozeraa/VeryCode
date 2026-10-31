@@ -1,0 +1,8 @@
+{
+  "topic": "Otimização de Índices e Consultas SQL",
+  "rules": [
+    "Criar índices B-Tree compostos para colunas frequentemente filtradas em conjunto em WHERE e ORDER BY.",
+    "Evitar SELECT * em produção para diminuir uso de I/O e tráfego de rede entre aplicação e banco.",
+    "Analisar planos de execução com EXPLAIN ANALYZE antes de escalar consultas pesadas."
+  ]
+}

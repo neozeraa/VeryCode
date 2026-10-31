@@ -1,0 +1,8 @@
+{
+  "topic": "Varredura e Eliminação de Processos Zumbis e Bloqueados",
+  "rules": [
+    "Escanear a lista de processos ativos buscando instâncias órfãs de Node ou Python que perderam o terminal pai.",
+    "Enviar sinal SIGTERM aguardando encerramento suave de soquetes antes de aplicar SIGKILL.",
+    "Manter o ambiente de desenvolvimento livre de desperdício de bateria no telemóvel."
+  ]
+}

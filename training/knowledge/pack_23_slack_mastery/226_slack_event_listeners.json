@@ -1,0 +1,4 @@
+{
+  "feature": "Tratamento de Eventos (app_mention, team_join)",
+  "rules": ["Responder menções diretas com app.event('app_mention').", "Enviar kit de boas-vindas com app.event('team_join')."]
+}

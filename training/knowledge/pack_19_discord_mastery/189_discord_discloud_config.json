@@ -1,0 +1,4 @@
+{
+  "feature": "Gerador de discloud.config Integrado",
+  "rules": ["Injetar automaticamente na raiz: NAME, TYPE=bot, MAIN=index.js, RAM=100, AUTORESTART=true.", "Preparar exclusão de node_modules no empacotamento."]
+}

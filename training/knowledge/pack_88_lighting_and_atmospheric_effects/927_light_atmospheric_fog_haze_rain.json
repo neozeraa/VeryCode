@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_88_LIGHTING_AND_ATMOSPHERIC_EFFECTS_927",
+  "title": "LIGHT ATMOSPHERIC FOG HAZE RAIN",
+  "category": "Iluminação Profissional, Luz de Volume e Atmosfera",
+  "summary": "Texturas de atmosfera densa: névoa matinal, fumaça cinematográfica, asfalto molhado com reflexos de chuva e vapor urbano.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Texturas de atmosfera densa: névoa matinal, fumaça cinematográfica, asfalto molhado com reflexos de chuva e vapor urbano.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

@@ -1,0 +1,4764 @@
+{
+  "4channels": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (4channels)"
+  },
+  "Magick++-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (Magick++-config)"
+  },
+  "MagickCore-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (MagickCore-config)"
+  },
+  "MagickWand-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (MagickWand-config)"
+  },
+  "SvtAv1EncApp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (SvtAv1EncApp)"
+  },
+  "[": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Comando interno embutido do Shell ([)"
+  },
+  "aarch64-linux-android-ar": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-ar)"
+  },
+  "aarch64-linux-android-clang": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-clang)"
+  },
+  "aarch64-linux-android-clang++": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-clang++)"
+  },
+  "aarch64-linux-android-cpp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-cpp)"
+  },
+  "aarch64-linux-android-g++": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-g++)"
+  },
+  "aarch64-linux-android-gcc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-gcc)"
+  },
+  "aarch64-linux-android-ld": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-ld)"
+  },
+  "aarch64-linux-android-nm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-nm)"
+  },
+  "aarch64-linux-android-objdump": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-objdump)"
+  },
+  "aarch64-linux-android-ranlib": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-ranlib)"
+  },
+  "aarch64-linux-android-readelf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-readelf)"
+  },
+  "aarch64-linux-android-strip": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aarch64-linux-android-strip)"
+  },
+  "acyclic": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (acyclic)"
+  },
+  "addpart": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (addpart)"
+  },
+  "addr2line": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (addr2line)"
+  },
+  "am": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (am)"
+  },
+  "amdgpu-arch": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (amdgpu-arch)"
+  },
+  "analyze-build": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (analyze-build)"
+  },
+  "animate": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (animate)"
+  },
+  "annotate": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (annotate)"
+  },
+  "any2djvu": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (any2djvu)"
+  },
+  "apt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (apt)"
+  },
+  "apt-cache": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (apt-cache)"
+  },
+  "apt-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (apt-config)"
+  },
+  "apt-get": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (apt-get)"
+  },
+  "apt-mark": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (apt-mark)"
+  },
+  "ar": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ar)"
+  },
+  "arp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (arp)"
+  },
+  "aserver": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (aserver)"
+  },
+  "avifdec": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (avifdec)"
+  },
+  "avifenc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (avifenc)"
+  },
+  "avifgainmaputil": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (avifgainmaputil)"
+  },
+  "awk": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (awk)"
+  },
+  "b2sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (b2sum)"
+  },
+  "base32": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (base32)"
+  },
+  "base64": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (base64)"
+  },
+  "basename": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (basename)"
+  },
+  "basenc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (basenc)"
+  },
+  "bash": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (bash)"
+  },
+  "bcomps": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (bcomps)"
+  },
+  "bdftogd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (bdftogd)"
+  },
+  "bits": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (bits)"
+  },
+  "blkpr": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (blkpr)"
+  },
+  "blockdev": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (blockdev)"
+  },
+  "brotli": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (brotli)"
+  },
+  "bs2bconvert": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (bs2bconvert)"
+  },
+  "bs2bstream": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (bs2bstream)"
+  },
+  "bugpoint": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (bugpoint)"
+  },
+  "bzz": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (bzz)"
+  },
+  "c++": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (c++)"
+  },
+  "c++filt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (c++filt)"
+  },
+  "c44": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (c44)"
+  },
+  "cairo-trace": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cairo-trace)"
+  },
+  "cal": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cal)"
+  },
+  "cat": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cat)"
+  },
+  "cc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cc)"
+  },
+  "ccomps": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ccomps)"
+  },
+  "chcon": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (chcon)"
+  },
+  "chcpu": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (chcpu)"
+  },
+  "chgrp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (chgrp)"
+  },
+  "chmod": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (chmod)"
+  },
+  "choom": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (choom)"
+  },
+  "chown": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (chown)"
+  },
+  "chroot": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (chroot)"
+  },
+  "chrt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (chrt)"
+  },
+  "chsh": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (chsh)"
+  },
+  "circo": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (circo)"
+  },
+  "cjb2": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cjb2)"
+  },
+  "cksum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cksum)"
+  },
+  "clang": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang)"
+  },
+  "clang++": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang++)"
+  },
+  "clang++-21": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang++-21)"
+  },
+  "clang-21": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-21)"
+  },
+  "clang-apply-replacements": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-apply-replacements)"
+  },
+  "clang-change-namespace": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-change-namespace)"
+  },
+  "clang-check": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-check)"
+  },
+  "clang-cl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-cl)"
+  },
+  "clang-cpp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-cpp)"
+  },
+  "clang-doc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-doc)"
+  },
+  "clang-extdef-mapping": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-extdef-mapping)"
+  },
+  "clang-format": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-format)"
+  },
+  "clang-include-cleaner": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-include-cleaner)"
+  },
+  "clang-include-fixer": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-include-fixer)"
+  },
+  "clang-installapi": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-installapi)"
+  },
+  "clang-linker-wrapper": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-linker-wrapper)"
+  },
+  "clang-move": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-move)"
+  },
+  "clang-nvlink-wrapper": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-nvlink-wrapper)"
+  },
+  "clang-offload-bundler": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-offload-bundler)"
+  },
+  "clang-offload-packager": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-offload-packager)"
+  },
+  "clang-query": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-query)"
+  },
+  "clang-refactor": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-refactor)"
+  },
+  "clang-reorder-fields": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-reorder-fields)"
+  },
+  "clang-repl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-repl)"
+  },
+  "clang-scan-deps": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-scan-deps)"
+  },
+  "clang-sycl-linker": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-sycl-linker)"
+  },
+  "clang-tblgen": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-tblgen)"
+  },
+  "clang-tidy": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clang-tidy)"
+  },
+  "clangd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clangd)"
+  },
+  "clear": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (clear)"
+  },
+  "cllayerinfo": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cllayerinfo)"
+  },
+  "cluster": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cluster)"
+  },
+  "cmd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cmd)"
+  },
+  "cmp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cmp)"
+  },
+  "col": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (col)"
+  },
+  "colcrt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (colcrt)"
+  },
+  "colrm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (colrm)"
+  },
+  "column": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (column)"
+  },
+  "comm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (comm)"
+  },
+  "compare": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (compare)"
+  },
+  "compile_et": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (compile_et)"
+  },
+  "composite": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (composite)"
+  },
+  "conjure": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (conjure)"
+  },
+  "convert": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (convert)"
+  },
+  "convertfilestopdf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (convertfilestopdf)"
+  },
+  "convertfilestops": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (convertfilestops)"
+  },
+  "convertformat": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (convertformat)"
+  },
+  "convertsegfilestopdf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (convertsegfilestopdf)"
+  },
+  "convertsegfilestops": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (convertsegfilestops)"
+  },
+  "converttopdf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (converttopdf)"
+  },
+  "converttops": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (converttops)"
+  },
+  "coresched": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (coresched)"
+  },
+  "coreutils": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (coreutils)"
+  },
+  "cp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cp)"
+  },
+  "cpaldjvu": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cpaldjvu)"
+  },
+  "cpp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cpp)"
+  },
+  "csepdjvu": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (csepdjvu)"
+  },
+  "csplit": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (csplit)"
+  },
+  "ctrlaltdel": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ctrlaltdel)"
+  },
+  "curl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (curl)"
+  },
+  "curl-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (curl-config)"
+  },
+  "curve_keygen": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (curve_keygen)"
+  },
+  "cut": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cut)"
+  },
+  "cwebp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (cwebp)"
+  },
+  "dalvikvm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dalvikvm)"
+  },
+  "dash": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dash)"
+  },
+  "date": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (date)"
+  },
+  "dav1d": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dav1d)"
+  },
+  "dbus-cleanup-sockets": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dbus-cleanup-sockets)"
+  },
+  "dbus-daemon": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dbus-daemon)"
+  },
+  "dbus-launch": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dbus-launch)"
+  },
+  "dbus-monitor": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dbus-monitor)"
+  },
+  "dbus-run-session": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dbus-run-session)"
+  },
+  "dbus-send": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dbus-send)"
+  },
+  "dbus-test-tool": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dbus-test-tool)"
+  },
+  "dbus-update-activation-environment": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dbus-update-activation-environment)"
+  },
+  "dbus-uuidgen": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dbus-uuidgen)"
+  },
+  "dcraw_emu": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dcraw_emu)"
+  },
+  "dcraw_half": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dcraw_half)"
+  },
+  "dd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dd)"
+  },
+  "ddjvu": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ddjvu)"
+  },
+  "dec265": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dec265)"
+  },
+  "delaunay": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (delaunay)"
+  },
+  "delpart": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (delpart)"
+  },
+  "df": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (df)"
+  },
+  "diagtool": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (diagtool)"
+  },
+  "diff": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (diff)"
+  },
+  "diff3": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (diff3)"
+  },
+  "dijkstra": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dijkstra)"
+  },
+  "dir": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dir)"
+  },
+  "dircolors": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dircolors)"
+  },
+  "dirname": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dirname)"
+  },
+  "display": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (display)"
+  },
+  "djvm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvm)"
+  },
+  "djvmcvt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvmcvt)"
+  },
+  "djvudigital": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvudigital)"
+  },
+  "djvudump": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvudump)"
+  },
+  "djvuextract": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvuextract)"
+  },
+  "djvumake": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvumake)"
+  },
+  "djvups": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvups)"
+  },
+  "djvused": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvused)"
+  },
+  "djvuserve": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvuserve)"
+  },
+  "djvutoxml": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvutoxml)"
+  },
+  "djvutxt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvutxt)"
+  },
+  "djvuxmlparser": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (djvuxmlparser)"
+  },
+  "dlltool": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dlltool)"
+  },
+  "dmesg": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dmesg)"
+  },
+  "dnsdomainname": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dnsdomainname)"
+  },
+  "dos2unix": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dos2unix)"
+  },
+  "dot": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dot)"
+  },
+  "dot2gxl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dot2gxl)"
+  },
+  "dot_sandbox": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dot_sandbox)"
+  },
+  "dot_static": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dot_static)"
+  },
+  "dpkg": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dpkg)"
+  },
+  "dpkg-buildapi": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dpkg-buildapi)"
+  },
+  "dpkg-buildtree": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dpkg-buildtree)"
+  },
+  "dpkg-deb": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dpkg-deb)"
+  },
+  "dpkg-divert": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dpkg-divert)"
+  },
+  "dpkg-fsys-usrunmess": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dpkg-fsys-usrunmess)"
+  },
+  "dpkg-query": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dpkg-query)"
+  },
+  "dpkg-realpath": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dpkg-realpath)"
+  },
+  "dpkg-split": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dpkg-split)"
+  },
+  "dpkg-trigger": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dpkg-trigger)"
+  },
+  "drill": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (drill)"
+  },
+  "dsymutil": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dsymutil)"
+  },
+  "du": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (du)"
+  },
+  "dumpsexp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dumpsexp)"
+  },
+  "dvipdf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dvipdf)"
+  },
+  "dwebp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dwebp)"
+  },
+  "dwp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (dwp)"
+  },
+  "echo": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Escrever argumentos na saída padrão",
+    "regra": "Para escapes interpretados com quebra de linha segura, preferir printf"
+  },
+  "ed": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ed)"
+  },
+  "edgepaint": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (edgepaint)"
+  },
+  "editor": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (editor)"
+  },
+  "egrep": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (egrep)"
+  },
+  "enosys": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (enosys)"
+  },
+  "env": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (env)"
+  },
+  "eps2eps": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (eps2eps)"
+  },
+  "exch": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exch)"
+  },
+  "expand": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (expand)"
+  },
+  "expr": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (expr)"
+  },
+  "exr2aces": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exr2aces)"
+  },
+  "exrenvmap": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exrenvmap)"
+  },
+  "exrheader": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exrheader)"
+  },
+  "exrinfo": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exrinfo)"
+  },
+  "exrmakepreview": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exrmakepreview)"
+  },
+  "exrmaketiled": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exrmaketiled)"
+  },
+  "exrmanifest": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exrmanifest)"
+  },
+  "exrmetrics": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exrmetrics)"
+  },
+  "exrmultipart": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exrmultipart)"
+  },
+  "exrmultiview": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exrmultiview)"
+  },
+  "exrstdattr": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (exrstdattr)"
+  },
+  "factor": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (factor)"
+  },
+  "fadvise": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fadvise)"
+  },
+  "fallocate": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fallocate)"
+  },
+  "false": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Retornar código de status 1 (falha)",
+    "regra": "Usado para simular estados de erro"
+  },
+  "fdp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fdp)"
+  },
+  "ffmpeg": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ffmpeg)"
+  },
+  "ffprobe": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ffprobe)"
+  },
+  "fftw-wisdom": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fftw-wisdom)"
+  },
+  "fftw-wisdom-to-conf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fftw-wisdom-to-conf)"
+  },
+  "fftwf-wisdom": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fftwf-wisdom)"
+  },
+  "fftwl-wisdom": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fftwl-wisdom)"
+  },
+  "fgrep": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fgrep)"
+  },
+  "filecap": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (filecap)"
+  },
+  "fileinfo": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fileinfo)"
+  },
+  "fincore": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fincore)"
+  },
+  "find": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (find)"
+  },
+  "find-all-symbols": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (find-all-symbols)"
+  },
+  "flask": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (flask)"
+  },
+  "flock": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (flock)"
+  },
+  "fmt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fmt)"
+  },
+  "fold": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fold)"
+  },
+  "free": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (free)"
+  },
+  "freetype-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (freetype-config)"
+  },
+  "fribidi": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fribidi)"
+  },
+  "fsck.cramfs": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fsck.cramfs)"
+  },
+  "fsck.minix": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fsck.minix)"
+  },
+  "fsfreeze": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fsfreeze)"
+  },
+  "ftp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ftp)"
+  },
+  "funzip": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (funzip)"
+  },
+  "fuser": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (fuser)"
+  },
+  "g++": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (g++)"
+  },
+  "gapplication": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gapplication)"
+  },
+  "gawk": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gawk)"
+  },
+  "gc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gc)"
+  },
+  "gcc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gcc)"
+  },
+  "gd2copypal": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gd2copypal)"
+  },
+  "gd2togif": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gd2togif)"
+  },
+  "gd2topng": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gd2topng)"
+  },
+  "gdbm_dump": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gdbm_dump)"
+  },
+  "gdbm_load": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gdbm_load)"
+  },
+  "gdbmtool": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gdbmtool)"
+  },
+  "gdbus": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gdbus)"
+  },
+  "gdbus-codegen": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gdbus-codegen)"
+  },
+  "gdcmpgif": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gdcmpgif)"
+  },
+  "gdk-pixbuf-csource": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gdk-pixbuf-csource)"
+  },
+  "gdk-pixbuf-pixdata": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gdk-pixbuf-pixdata)"
+  },
+  "gdk-pixbuf-query-loaders": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gdk-pixbuf-query-loaders)"
+  },
+  "gdparttopng": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gdparttopng)"
+  },
+  "gdtopng": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gdtopng)"
+  },
+  "gemini": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gemini)"
+  },
+  "getopt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (getopt)"
+  },
+  "getprop": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (getprop)"
+  },
+  "gi-compile-repository": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gi-compile-repository)"
+  },
+  "gi-decompile-typelib": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gi-decompile-typelib)"
+  },
+  "gi-inspect-typelib": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gi-inspect-typelib)"
+  },
+  "gif2webp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gif2webp)"
+  },
+  "giftogd2": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (giftogd2)"
+  },
+  "gio": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gio)"
+  },
+  "gio-querymodules": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gio-querymodules)"
+  },
+  "git": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (git)"
+  },
+  "git-clang-format": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (git-clang-format)"
+  },
+  "git-cvsserver": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (git-cvsserver)"
+  },
+  "git-receive-pack": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (git-receive-pack)"
+  },
+  "git-shell": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (git-shell)"
+  },
+  "git-upload-archive": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (git-upload-archive)"
+  },
+  "git-upload-pack": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (git-upload-pack)"
+  },
+  "gitk": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gitk)"
+  },
+  "glib-compile-resources": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (glib-compile-resources)"
+  },
+  "glib-compile-schemas": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (glib-compile-schemas)"
+  },
+  "glib-genmarshal": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (glib-genmarshal)"
+  },
+  "glib-mkenums": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (glib-mkenums)"
+  },
+  "glslang": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (glslang)"
+  },
+  "glslangValidator": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (glslangValidator)"
+  },
+  "gml2gv": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gml2gv)"
+  },
+  "gobject-query": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gobject-query)"
+  },
+  "gpg-error": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gpg-error)"
+  },
+  "gpg-error-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gpg-error-config)"
+  },
+  "gpgrt-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gpgrt-config)"
+  },
+  "gpgv": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gpgv)"
+  },
+  "graphml2gv": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (graphml2gv)"
+  },
+  "grep": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (grep)"
+  },
+  "gresource": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gresource)"
+  },
+  "groups": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (groups)"
+  },
+  "gs": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gs)"
+  },
+  "gsbj": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gsbj)"
+  },
+  "gsdj": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gsdj)"
+  },
+  "gsdj500": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gsdj500)"
+  },
+  "gsettings": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gsettings)"
+  },
+  "gslj": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gslj)"
+  },
+  "gslp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gslp)"
+  },
+  "gsnd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gsnd)"
+  },
+  "gss-client": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gss-client)"
+  },
+  "gss-server": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gss-server)"
+  },
+  "gsx": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gsx)"
+  },
+  "gtester": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gtester)"
+  },
+  "gts-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gts-config)"
+  },
+  "gts2dxf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gts2dxf)"
+  },
+  "gts2oogl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gts2oogl)"
+  },
+  "gts2stl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gts2stl)"
+  },
+  "gtscheck": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gtscheck)"
+  },
+  "gtscompare": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gtscompare)"
+  },
+  "gtstemplate": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gtstemplate)"
+  },
+  "gv2gml": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gv2gml)"
+  },
+  "gv2gxl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gv2gxl)"
+  },
+  "gvcolor": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gvcolor)"
+  },
+  "gvgen": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gvgen)"
+  },
+  "gvmap": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gvmap)"
+  },
+  "gvmap.sh": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gvmap.sh)"
+  },
+  "gvpack": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gvpack)"
+  },
+  "gvpack_static": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gvpack_static)"
+  },
+  "gvpr": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gvpr)"
+  },
+  "gvpr_static": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gvpr_static)"
+  },
+  "gxl2dot": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gxl2dot)"
+  },
+  "gxl2gv": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (gxl2gv)"
+  },
+  "half_mt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (half_mt)"
+  },
+  "hardlink": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (hardlink)"
+  },
+  "head": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (head)"
+  },
+  "help": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Ajuda integrada sobre comandos internos",
+    "regra": "help <comando> exibe manual embutido oficial"
+  },
+  "hexdump": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (hexdump)"
+  },
+  "hmac256": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (hmac256)"
+  },
+  "hmaptool": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (hmaptool)"
+  },
+  "hostname": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (hostname)"
+  },
+  "hwclock": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (hwclock)"
+  },
+  "id": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (id)"
+  },
+  "identify": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (identify)"
+  },
+  "idn2": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (idn2)"
+  },
+  "idna": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (idna)"
+  },
+  "ifconfig": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ifconfig)"
+  },
+  "imagetops": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (imagetops)"
+  },
+  "img2webp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (img2webp)"
+  },
+  "import": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (import)"
+  },
+  "install": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (install)"
+  },
+  "intercept-build": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (intercept-build)"
+  },
+  "ionice": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ionice)"
+  },
+  "ipmaddr": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ipmaddr)"
+  },
+  "iptunnel": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (iptunnel)"
+  },
+  "irqtop": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (irqtop)"
+  },
+  "ischroot": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ischroot)"
+  },
+  "isosize": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (isosize)"
+  },
+  "jar": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jar)"
+  },
+  "jarsigner": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jarsigner)"
+  },
+  "java": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (java)"
+  },
+  "javac": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (javac)"
+  },
+  "javadoc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (javadoc)"
+  },
+  "javap": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (javap)"
+  },
+  "jbig2dec": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jbig2dec)"
+  },
+  "jcmd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jcmd)"
+  },
+  "jconsole": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jconsole)"
+  },
+  "jdb": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jdb)"
+  },
+  "jdeprscan": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jdeprscan)"
+  },
+  "jdeps": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jdeps)"
+  },
+  "jfr": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jfr)"
+  },
+  "jhsdb": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jhsdb)"
+  },
+  "jimage": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jimage)"
+  },
+  "jinfo": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jinfo)"
+  },
+  "jlink": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jlink)"
+  },
+  "jmap": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jmap)"
+  },
+  "jmod": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jmod)"
+  },
+  "join": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (join)"
+  },
+  "jpackage": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jpackage)"
+  },
+  "jps": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jps)"
+  },
+  "jrunscript": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jrunscript)"
+  },
+  "jshell": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jshell)"
+  },
+  "jstack": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jstack)"
+  },
+  "jstat": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jstat)"
+  },
+  "jstatd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jstatd)"
+  },
+  "jwebserver": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (jwebserver)"
+  },
+  "k5srvutil": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (k5srvutil)"
+  },
+  "kadmin": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kadmin)"
+  },
+  "kadmin.local": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kadmin.local)"
+  },
+  "kadmind": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kadmind)"
+  },
+  "kdb5_util": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kdb5_util)"
+  },
+  "kdestroy": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kdestroy)"
+  },
+  "keytool": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (keytool)"
+  },
+  "kill": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Enviar sinais de sistema a processos",
+    "regra": "Enviar SIGTERM (-15) antes de SIGKILL (-9)"
+  },
+  "killall": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (killall)"
+  },
+  "kinit": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kinit)"
+  },
+  "klist": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (klist)"
+  },
+  "kpasswd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kpasswd)"
+  },
+  "kprop": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kprop)"
+  },
+  "kpropd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kpropd)"
+  },
+  "kproplog": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kproplog)"
+  },
+  "krb5-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (krb5-config)"
+  },
+  "krb5-send-pr": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (krb5-send-pr)"
+  },
+  "krb5kdc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (krb5kdc)"
+  },
+  "ksu": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ksu)"
+  },
+  "kswitch": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kswitch)"
+  },
+  "ktutil": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ktutil)"
+  },
+  "kvno": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (kvno)"
+  },
+  "ld": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ld)"
+  },
+  "ld.lld": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ld.lld)"
+  },
+  "ld64.lld": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ld64.lld)"
+  },
+  "ldattach": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ldattach)"
+  },
+  "ldns-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ldns-config)"
+  },
+  "less": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (less)"
+  },
+  "lesskey": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (lesskey)"
+  },
+  "libassuan-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (libassuan-config)"
+  },
+  "libgcrypt-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (libgcrypt-config)"
+  },
+  "libpng-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (libpng-config)"
+  },
+  "libpng16-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (libpng16-config)"
+  },
+  "link": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (link)"
+  },
+  "linux32": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (linux32)"
+  },
+  "linux64": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (linux64)"
+  },
+  "llc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llc)"
+  },
+  "lld": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (lld)"
+  },
+  "lld-link": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (lld-link)"
+  },
+  "lli": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (lli)"
+  },
+  "llvm-addr2line": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-addr2line)"
+  },
+  "llvm-ar": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-ar)"
+  },
+  "llvm-as": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-as)"
+  },
+  "llvm-bcanalyzer": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-bcanalyzer)"
+  },
+  "llvm-bitcode-strip": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-bitcode-strip)"
+  },
+  "llvm-c-test": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-c-test)"
+  },
+  "llvm-cat": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-cat)"
+  },
+  "llvm-cfi-verify": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-cfi-verify)"
+  },
+  "llvm-cgdata": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-cgdata)"
+  },
+  "llvm-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-config)"
+  },
+  "llvm-cov": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-cov)"
+  },
+  "llvm-ctxprof-util": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-ctxprof-util)"
+  },
+  "llvm-cvtres": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-cvtres)"
+  },
+  "llvm-cxxdump": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-cxxdump)"
+  },
+  "llvm-cxxfilt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-cxxfilt)"
+  },
+  "llvm-cxxmap": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-cxxmap)"
+  },
+  "llvm-debuginfo-analyzer": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-debuginfo-analyzer)"
+  },
+  "llvm-debuginfod": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-debuginfod)"
+  },
+  "llvm-debuginfod-find": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-debuginfod-find)"
+  },
+  "llvm-diff": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-diff)"
+  },
+  "llvm-dis": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-dis)"
+  },
+  "llvm-dlltool": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-dlltool)"
+  },
+  "llvm-dwarfdump": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-dwarfdump)"
+  },
+  "llvm-dwarfutil": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-dwarfutil)"
+  },
+  "llvm-dwp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-dwp)"
+  },
+  "llvm-exegesis": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-exegesis)"
+  },
+  "llvm-extract": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-extract)"
+  },
+  "llvm-gsymutil": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-gsymutil)"
+  },
+  "llvm-ifs": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-ifs)"
+  },
+  "llvm-install-name-tool": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-install-name-tool)"
+  },
+  "llvm-jitlink": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-jitlink)"
+  },
+  "llvm-lib": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-lib)"
+  },
+  "llvm-libtool-darwin": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-libtool-darwin)"
+  },
+  "llvm-link": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-link)"
+  },
+  "llvm-lipo": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-lipo)"
+  },
+  "llvm-lto": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-lto)"
+  },
+  "llvm-lto2": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-lto2)"
+  },
+  "llvm-mc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-mc)"
+  },
+  "llvm-mca": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-mca)"
+  },
+  "llvm-ml": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-ml)"
+  },
+  "llvm-ml64": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-ml64)"
+  },
+  "llvm-modextract": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-modextract)"
+  },
+  "llvm-mt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-mt)"
+  },
+  "llvm-nm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-nm)"
+  },
+  "llvm-objcopy": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-objcopy)"
+  },
+  "llvm-objdump": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-objdump)"
+  },
+  "llvm-opt-report": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-opt-report)"
+  },
+  "llvm-otool": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-otool)"
+  },
+  "llvm-pdbutil": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-pdbutil)"
+  },
+  "llvm-profdata": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-profdata)"
+  },
+  "llvm-profgen": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-profgen)"
+  },
+  "llvm-ranlib": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-ranlib)"
+  },
+  "llvm-rc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-rc)"
+  },
+  "llvm-readelf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-readelf)"
+  },
+  "llvm-readobj": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-readobj)"
+  },
+  "llvm-readtapi": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-readtapi)"
+  },
+  "llvm-reduce": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-reduce)"
+  },
+  "llvm-remarkutil": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-remarkutil)"
+  },
+  "llvm-rtdyld": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-rtdyld)"
+  },
+  "llvm-sim": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-sim)"
+  },
+  "llvm-size": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-size)"
+  },
+  "llvm-split": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-split)"
+  },
+  "llvm-stress": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-stress)"
+  },
+  "llvm-strings": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-strings)"
+  },
+  "llvm-strip": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-strip)"
+  },
+  "llvm-symbolizer": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-symbolizer)"
+  },
+  "llvm-tblgen": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-tblgen)"
+  },
+  "llvm-tli-checker": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-tli-checker)"
+  },
+  "llvm-undname": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-undname)"
+  },
+  "llvm-windres": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-windres)"
+  },
+  "llvm-xray": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (llvm-xray)"
+  },
+  "ln": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ln)"
+  },
+  "logcat": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (logcat)"
+  },
+  "logger": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (logger)"
+  },
+  "login": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (login)"
+  },
+  "logname": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (logname)"
+  },
+  "look": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (look)"
+  },
+  "losetup": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (losetup)"
+  },
+  "lprsetup.sh": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (lprsetup.sh)"
+  },
+  "ls": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ls)"
+  },
+  "lsclocks": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (lsclocks)"
+  },
+  "lscpu": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (lscpu)"
+  },
+  "lsfd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (lsfd)"
+  },
+  "lsipc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (lsipc)"
+  },
+  "lsirq": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (lsirq)"
+  },
+  "mac2unix": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mac2unix)"
+  },
+  "magick": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (magick)"
+  },
+  "magick-script": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (magick-script)"
+  },
+  "make": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (make)"
+  },
+  "mcookie": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mcookie)"
+  },
+  "md5sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (md5sum)"
+  },
+  "mem_image": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mem_image)"
+  },
+  "mii-tool": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mii-tool)"
+  },
+  "mkdir": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mkdir)"
+  },
+  "mkfifo": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mkfifo)"
+  },
+  "mkfs": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mkfs)"
+  },
+  "mkfs.bfs": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mkfs.bfs)"
+  },
+  "mkfs.cramfs": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mkfs.cramfs)"
+  },
+  "mkfs.minix": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mkfs.minix)"
+  },
+  "mknod": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mknod)"
+  },
+  "mktemp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mktemp)"
+  },
+  "mm2gv": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mm2gv)"
+  },
+  "modularize": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (modularize)"
+  },
+  "mogrify": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mogrify)"
+  },
+  "montage": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (montage)"
+  },
+  "more": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (more)"
+  },
+  "mpicalc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mpicalc)"
+  },
+  "multirender_test": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (multirender_test)"
+  },
+  "mv": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (mv)"
+  },
+  "namei": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (namei)"
+  },
+  "nameif": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (nameif)"
+  },
+  "nano": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (nano)"
+  },
+  "ncursesw6-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ncursesw6-config)"
+  },
+  "neato": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (neato)"
+  },
+  "netcap": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (netcap)"
+  },
+  "netstat": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (netstat)"
+  },
+  "nice": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (nice)"
+  },
+  "nl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (nl)"
+  },
+  "nm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (nm)"
+  },
+  "node": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (node)"
+  },
+  "nohup": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (nohup)"
+  },
+  "nop": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (nop)"
+  },
+  "normalizer": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (normalizer)"
+  },
+  "npm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (npm)"
+  },
+  "nproc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (nproc)"
+  },
+  "npth-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (npth-config)"
+  },
+  "npx": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (npx)"
+  },
+  "nsenter": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (nsenter)"
+  },
+  "numfmt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (numfmt)"
+  },
+  "nvptx-arch": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (nvptx-arch)"
+  },
+  "objcopy": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (objcopy)"
+  },
+  "objdump": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (objdump)"
+  },
+  "od": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (od)"
+  },
+  "offload-arch": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (offload-arch)"
+  },
+  "opt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (opt)"
+  },
+  "osage": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (osage)"
+  },
+  "pa-info": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pa-info)"
+  },
+  "pacat": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pacat)"
+  },
+  "pacmd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pacmd)"
+  },
+  "pactl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pactl)"
+  },
+  "pager": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pager)"
+  },
+  "pamon": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pamon)"
+  },
+  "pango-list": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pango-list)"
+  },
+  "pango-segmentation": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pango-segmentation)"
+  },
+  "pango-view": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pango-view)"
+  },
+  "paplay": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (paplay)"
+  },
+  "parec": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (parec)"
+  },
+  "parecord": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (parecord)"
+  },
+  "passwd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (passwd)"
+  },
+  "paste": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (paste)"
+  },
+  "pasuspender": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pasuspender)"
+  },
+  "patch": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (patch)"
+  },
+  "patchwork": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (patchwork)"
+  },
+  "pathchk": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pathchk)"
+  },
+  "pcre2-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pcre2-config)"
+  },
+  "pd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pd)"
+  },
+  "pdf2dsc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pdf2dsc)"
+  },
+  "pdf2ps": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pdf2ps)"
+  },
+  "peekfd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (peekfd)"
+  },
+  "pf2afm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pf2afm)"
+  },
+  "pfbtopfa": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pfbtopfa)"
+  },
+  "pgrep": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pgrep)"
+  },
+  "pidof": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pidof)"
+  },
+  "ping": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ping)"
+  },
+  "ping6": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ping6)"
+  },
+  "pip": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pip)"
+  },
+  "pip3": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pip3)"
+  },
+  "pip3.13": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pip3.13)"
+  },
+  "pipesz": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pipesz)"
+  },
+  "pkg": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pkg)"
+  },
+  "pkg-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pkg-config)"
+  },
+  "pkill": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pkill)"
+  },
+  "plipconfig": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (plipconfig)"
+  },
+  "pm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pm)"
+  },
+  "pmap": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pmap)"
+  },
+  "pngtogd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pngtogd)"
+  },
+  "pngtogd2": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pngtogd2)"
+  },
+  "postprocessing_benchmark": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (postprocessing_benchmark)"
+  },
+  "pp-trace": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pp-trace)"
+  },
+  "pphs": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pphs)"
+  },
+  "pr": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pr)"
+  },
+  "printafm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (printafm)"
+  },
+  "printenv": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (printenv)"
+  },
+  "printf": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Formatação avançada de saídas de texto",
+    "regra": "Padrão recomendado pela VERY SYSTEMS para texto consistente"
+  },
+  "prlimit": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (prlimit)"
+  },
+  "proot": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (proot)"
+  },
+  "proot-distro": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (proot-distro)"
+  },
+  "prtstat": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (prtstat)"
+  },
+  "prune": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (prune)"
+  },
+  "ps": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ps)"
+  },
+  "ps2ascii": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ps2ascii)"
+  },
+  "ps2epsi": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ps2epsi)"
+  },
+  "ps2pdf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ps2pdf)"
+  },
+  "ps2pdf12": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ps2pdf12)"
+  },
+  "ps2pdf13": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ps2pdf13)"
+  },
+  "ps2pdf14": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ps2pdf14)"
+  },
+  "ps2pdfwr": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ps2pdfwr)"
+  },
+  "ps2ps": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ps2ps)"
+  },
+  "ps2ps2": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ps2ps2)"
+  },
+  "pscap": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pscap)"
+  },
+  "pslog": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pslog)"
+  },
+  "pstree": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pstree)"
+  },
+  "ptx": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ptx)"
+  },
+  "pulseaudio": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pulseaudio)"
+  },
+  "pwait": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pwait)"
+  },
+  "pwd": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Imprimir diretório de trabalho atual",
+    "regra": "pwd -P resolve caminhos físicos ignorando links simbólicos"
+  },
+  "pwdx": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pwdx)"
+  },
+  "pwlogin": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pwlogin)"
+  },
+  "py3clean": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (py3clean)"
+  },
+  "py3compile": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (py3compile)"
+  },
+  "pydoc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pydoc)"
+  },
+  "pydoc3": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pydoc3)"
+  },
+  "pydoc3.13": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (pydoc3.13)"
+  },
+  "python": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (python)"
+  },
+  "python-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (python-config)"
+  },
+  "python3": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (python3)"
+  },
+  "python3-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (python3-config)"
+  },
+  "python3.13": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (python3.13)"
+  },
+  "python3.13-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (python3.13-config)"
+  },
+  "ranlib": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ranlib)"
+  },
+  "rarp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (rarp)"
+  },
+  "raw-identify": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (raw-identify)"
+  },
+  "rawtextdump": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (rawtextdump)"
+  },
+  "readelf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (readelf)"
+  },
+  "readlink": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (readlink)"
+  },
+  "readprofile": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (readprofile)"
+  },
+  "readtapi": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (readtapi)"
+  },
+  "realpath": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (realpath)"
+  },
+  "red": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (red)"
+  },
+  "reduce-chunk-list": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (reduce-chunk-list)"
+  },
+  "rename": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (rename)"
+  },
+  "renice": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (renice)"
+  },
+  "reset": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (reset)"
+  },
+  "resizepart": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (resizepart)"
+  },
+  "rev": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (rev)"
+  },
+  "rm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (rm)"
+  },
+  "rmdir": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (rmdir)"
+  },
+  "rmiregistry": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (rmiregistry)"
+  },
+  "route": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (route)"
+  },
+  "rsvg-convert": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (rsvg-convert)"
+  },
+  "rtcwake": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (rtcwake)"
+  },
+  "rubberband": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (rubberband)"
+  },
+  "rubberband-r3": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (rubberband-r3)"
+  },
+  "run-clang-tidy": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (run-clang-tidy)"
+  },
+  "run-parts": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (run-parts)"
+  },
+  "runcon": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (runcon)"
+  },
+  "sancov": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sancov)"
+  },
+  "sanstats": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sanstats)"
+  },
+  "savelog": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (savelog)"
+  },
+  "scalar": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (scalar)"
+  },
+  "scan-build": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (scan-build)"
+  },
+  "scan-build-py": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (scan-build-py)"
+  },
+  "scan-view": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (scan-view)"
+  },
+  "sccmap": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sccmap)"
+  },
+  "sclient": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sclient)"
+  },
+  "scp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (scp)"
+  },
+  "scpa": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (scpa)"
+  },
+  "script": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (script)"
+  },
+  "scriptlive": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (scriptlive)"
+  },
+  "scriptreplay": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (scriptreplay)"
+  },
+  "sdiff": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sdiff)"
+  },
+  "sed": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sed)"
+  },
+  "seq": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (seq)"
+  },
+  "serialver": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (serialver)"
+  },
+  "setarch": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (setarch)"
+  },
+  "setpgid": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (setpgid)"
+  },
+  "setpriv": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (setpriv)"
+  },
+  "setsid": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (setsid)"
+  },
+  "setterm": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (setterm)"
+  },
+  "settings": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (settings)"
+  },
+  "sfdp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sfdp)"
+  },
+  "sftp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sftp)"
+  },
+  "sftpa": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sftpa)"
+  },
+  "sh": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sh)"
+  },
+  "sha1sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sha1sum)"
+  },
+  "sha224sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sha224sum)"
+  },
+  "sha256sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sha256sum)"
+  },
+  "sha384sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sha384sum)"
+  },
+  "sha512sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sha512sum)"
+  },
+  "shred": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (shred)"
+  },
+  "shuf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (shuf)"
+  },
+  "sim_client": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sim_client)"
+  },
+  "sim_server": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sim_server)"
+  },
+  "simple_dcraw": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (simple_dcraw)"
+  },
+  "size": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (size)"
+  },
+  "slattach": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (slattach)"
+  },
+  "sleep": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sleep)"
+  },
+  "sort": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sort)"
+  },
+  "split": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (split)"
+  },
+  "split-file": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (split-file)"
+  },
+  "sserver": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sserver)"
+  },
+  "ssh": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ssh)"
+  },
+  "ssh-add": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ssh-add)"
+  },
+  "ssh-agent": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ssh-agent)"
+  },
+  "ssh-copy-id": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ssh-copy-id)"
+  },
+  "ssh-keygen": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ssh-keygen)"
+  },
+  "ssh-keyscan": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ssh-keyscan)"
+  },
+  "ssha": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ssha)"
+  },
+  "sshd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sshd)"
+  },
+  "start-stop-daemon": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (start-stop-daemon)"
+  },
+  "stat": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (stat)"
+  },
+  "stdbuf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (stdbuf)"
+  },
+  "stl2gts": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (stl2gts)"
+  },
+  "stream": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (stream)"
+  },
+  "strings": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (strings)"
+  },
+  "strip": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (strip)"
+  },
+  "stty": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (stty)"
+  },
+  "su": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (su)"
+  },
+  "sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sum)"
+  },
+  "sync": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sync)"
+  },
+  "sysctl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (sysctl)"
+  },
+  "tac": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tac)"
+  },
+  "tail": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tail)"
+  },
+  "tar": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tar)"
+  },
+  "taskset": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (taskset)"
+  },
+  "tee": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tee)"
+  },
+  "telnet": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (telnet)"
+  },
+  "tempfile": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tempfile)"
+  },
+  "termux-backup": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-backup)"
+  },
+  "termux-chroot": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-chroot)"
+  },
+  "termux-fix-shebang": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-fix-shebang)"
+  },
+  "termux-info": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-info)"
+  },
+  "termux-open": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-open)"
+  },
+  "termux-open-url": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-open-url)"
+  },
+  "termux-reload-settings": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-reload-settings)"
+  },
+  "termux-reset": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-reset)"
+  },
+  "termux-restore": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-restore)"
+  },
+  "termux-setup-package-manager": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-setup-package-manager)"
+  },
+  "termux-setup-storage": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-setup-storage)"
+  },
+  "termux-wake-lock": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-wake-lock)"
+  },
+  "termux-wake-unlock": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (termux-wake-unlock)"
+  },
+  "test": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Verificar tipos de ficheiro e comparar valores",
+    "regra": "test -f ficheiro ou test -d diretório"
+  },
+  "tftp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tftp)"
+  },
+  "timeout": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (timeout)"
+  },
+  "tload": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tload)"
+  },
+  "top": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (top)"
+  },
+  "touch": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (touch)"
+  },
+  "tr": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tr)"
+  },
+  "transform": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (transform)"
+  },
+  "tred": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tred)"
+  },
+  "true": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Retornar código de sucesso 0",
+    "regra": "Usado como condição contínua em laços de repetição"
+  },
+  "truncate": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (truncate)"
+  },
+  "tset": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tset)"
+  },
+  "tsort": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tsort)"
+  },
+  "tty": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (tty)"
+  },
+  "twopi": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (twopi)"
+  },
+  "uclampset": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (uclampset)"
+  },
+  "ul": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ul)"
+  },
+  "uname": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (uname)"
+  },
+  "uname26": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (uname26)"
+  },
+  "unexpand": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (unexpand)"
+  },
+  "unflatten": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (unflatten)"
+  },
+  "uniq": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (uniq)"
+  },
+  "unix-lpr.sh": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (unix-lpr.sh)"
+  },
+  "unix2dos": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (unix2dos)"
+  },
+  "unix2mac": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (unix2mac)"
+  },
+  "unlink": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (unlink)"
+  },
+  "unprocessed_raw": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (unprocessed_raw)"
+  },
+  "unshare": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (unshare)"
+  },
+  "unzip": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (unzip)"
+  },
+  "unzipsfx": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (unzipsfx)"
+  },
+  "unzstd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (unzstd)"
+  },
+  "update-alternatives": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (update-alternatives)"
+  },
+  "uptime": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (uptime)"
+  },
+  "uuclient": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (uuclient)"
+  },
+  "uuserver": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (uuserver)"
+  },
+  "vdir": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (vdir)"
+  },
+  "verify-uselistorder": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (verify-uselistorder)"
+  },
+  "verycode": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (verycode)"
+  },
+  "vmaf": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (vmaf)"
+  },
+  "vmstat": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (vmstat)"
+  },
+  "waitpid": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (waitpid)"
+  },
+  "wasm-ld": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (wasm-ld)"
+  },
+  "watch": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (watch)"
+  },
+  "wayland-scanner": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (wayland-scanner)"
+  },
+  "wc": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (wc)"
+  },
+  "wcurl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (wcurl)"
+  },
+  "wdctl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (wdctl)"
+  },
+  "webpinfo": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (webpinfo)"
+  },
+  "webpmux": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (webpmux)"
+  },
+  "webpng": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (webpng)"
+  },
+  "wget": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (wget)"
+  },
+  "whereis": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (whereis)"
+  },
+  "whoami": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (whoami)"
+  },
+  "windres": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (windres)"
+  },
+  "xargs": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (xargs)"
+  },
+  "xdg-open": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (xdg-open)"
+  },
+  "xml2-config": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (xml2-config)"
+  },
+  "xtractprotos": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (xtractprotos)"
+  },
+  "xxh128sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (xxh128sum)"
+  },
+  "xxh32sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (xxh32sum)"
+  },
+  "xxh3sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (xxh3sum)"
+  },
+  "xxh64sum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (xxh64sum)"
+  },
+  "xxhsum": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (xxhsum)"
+  },
+  "yat2m": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (yat2m)"
+  },
+  "yes": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (yes)"
+  },
+  "yt-dlp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (yt-dlp)"
+  },
+  "zip": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zip)"
+  },
+  "zipcloak": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zipcloak)"
+  },
+  "zipcmp": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zipcmp)"
+  },
+  "zipgrep": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zipgrep)"
+  },
+  "zipinfo": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zipinfo)"
+  },
+  "zipmerge": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zipmerge)"
+  },
+  "zipnote": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zipnote)"
+  },
+  "zipsplit": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zipsplit)"
+  },
+  "ziptool": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (ziptool)"
+  },
+  "zramctl": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zramctl)"
+  },
+  "zstd": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zstd)"
+  },
+  "zstdcat": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zstdcat)"
+  },
+  "zstdgrep": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zstdgrep)"
+  },
+  "zstdless": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zstdless)"
+  },
+  "zstdmt": {
+    "tipo": "binário/sistema",
+    "origem": "/data/data/com.termux/files/usr/bin",
+    "descricao": "Comando executável nativo do sistema (zstdmt)"
+  },
+  "crash_dump32": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.runtime/bin",
+    "descricao": "Comando executável nativo do sistema (crash_dump32)"
+  },
+  "crash_dump64": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.runtime/bin",
+    "descricao": "Comando executável nativo do sistema (crash_dump64)"
+  },
+  "linker": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.runtime/bin",
+    "descricao": "Comando executável nativo do sistema (linker)"
+  },
+  "linker64": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.runtime/bin",
+    "descricao": "Comando executável nativo do sistema (linker64)"
+  },
+  "linker_asan": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.runtime/bin",
+    "descricao": "Comando executável nativo do sistema (linker_asan)"
+  },
+  "linker_asan64": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.runtime/bin",
+    "descricao": "Comando executável nativo do sistema (linker_asan64)"
+  },
+  "linkerconfig": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.runtime/bin",
+    "descricao": "Comando executável nativo do sistema (linkerconfig)"
+  },
+  "art_boot": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (art_boot)"
+  },
+  "art_exec": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (art_exec)"
+  },
+  "artd": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (artd)"
+  },
+  "dalvikvm32": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (dalvikvm32)"
+  },
+  "dalvikvm64": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (dalvikvm64)"
+  },
+  "dex2oat": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (dex2oat)"
+  },
+  "dex2oat32": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (dex2oat32)"
+  },
+  "dex2oat64": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (dex2oat64)"
+  },
+  "dexdump": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (dexdump)"
+  },
+  "dexlist": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (dexlist)"
+  },
+  "dexopt_chroot_setup": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (dexopt_chroot_setup)"
+  },
+  "dexoptanalyzer": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (dexoptanalyzer)"
+  },
+  "oatdump": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (oatdump)"
+  },
+  "odrefresh": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (odrefresh)"
+  },
+  "profman": {
+    "tipo": "binário/sistema",
+    "origem": "/apex/com.android.art/bin",
+    "descricao": "Comando executável nativo do sistema (profman)"
+  },
+  ".": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Origem de ficheiro no shell corrente",
+    "regra": "Equivalente ao comando source"
+  },
+  ":": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Comando nulo (retorna sempre 0/true)",
+    "regra": "Usado em loops infinitos ou placeholders"
+  },
+  "alias": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Definição de atalhos",
+    "regra": "Evitar aliases que sobrescrevam comandos nativos essenciais"
+  },
+  "bg": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Mover job suspenso para segundo plano",
+    "regra": "Usar para retomar processos parados com Ctrl+Z"
+  },
+  "bind": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Configuração de atalhos do Readline",
+    "regra": "Personalização de teclas de navegação no terminal"
+  },
+  "break": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Interromper laço for, while ou until",
+    "regra": "Passar número de níveis se estiver em laço aninhado"
+  },
+  "builtin": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Executar comando embutido ignorando funções/aliases",
+    "regra": "Usar para evitar recursão em funções com mesmo nome"
+  },
+  "caller": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Inspecionar pilha de chamadas de funções",
+    "regra": "Usado em rotinas de depuração e trace de erros"
+  },
+  "cd": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Mudar diretório de trabalho",
+    "regra": "Usar cd - para voltar ao diretório anterior"
+  },
+  "command": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Executar comando ignorando funções de mesmo nome",
+    "regra": "Chamar binários puros de forma segura"
+  },
+  "compgen": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Gerador de autocompletação",
+    "regra": "Listar comandos, variáveis ou ficheiros para scripts interativos"
+  },
+  "complete": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Definir autocompletação de comandos",
+    "regra": "Configurar autocompletação personalizada para ferramentas CLI"
+  },
+  "compopt": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Modificar opções de complecção ativa",
+    "regra": "Ajustar regras do bash-completion"
+  },
+  "continue": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Avançar para a próxima iteração do laço",
+    "regra": "Ignorar o restante do bloco atual no loop"
+  },
+  "declare": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Declaração e tipagem de variáveis e atributos",
+    "regra": "declare -r para readonly, declare -a para arrays"
+  },
+  "dirs": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Mostrar lista de diretórios na pilha",
+    "regra": "Usar em conjunto com pushd e popd"
+  },
+  "disown": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Remover jobs da tabela do terminal",
+    "regra": "Impede o encerramento do processo quando a janela fecha"
+  },
+  "enable": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Ativar e desativar comandos internos",
+    "regra": "enable -n comando para desativar um comando embutido"
+  },
+  "eval": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Executar texto composto como comando de shell",
+    "regra": "Sanitizar entradas para evitar injeção de comandos"
+  },
+  "exec": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Substituir o processo do shell pelo comando",
+    "regra": "Utilizar também para redirecionar descritores permanentes"
+  },
+  "exit": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Finalizar a sessão do shell",
+    "regra": "Retornar código de saída explícito (ex: exit 0 ou exit 1)"
+  },
+  "export": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Exportar variáveis para processos-filhos",
+    "regra": "Definir variáveis de ambiente da sessão"
+  },
+  "fc": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Editar e reexecutar comandos do histórico",
+    "regra": "Abre o editor padrão com os últimos comandos"
+  },
+  "fg": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Trazer job de segundo plano para primeiro plano",
+    "regra": "Recuperar processos para interagir diretamente"
+  },
+  "getopts": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Processar opções e argumentos de linha de comandos",
+    "regra": "Estruturar parâmetros curtos (ex: -f, -v, -h)"
+  },
+  "hash": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Tabela de endereços cacheados de comandos",
+    "regra": "hash -r para limpar o cache após instalar novos binários"
+  },
+  "history": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Histórico de comandos executados",
+    "regra": "history -c para limpar dados sensíveis digitados"
+  },
+  "jobs": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Listar processos ativos geridos pela sessão atual",
+    "regra": "jobs -l exibe o PID associado de cada tarefa"
+  },
+  "let": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Avaliar expressões aritméticas",
+    "regra": "Atribuição rápida de cálculos em variáveis inteiras"
+  },
+  "local": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Definir variável com escopo restrito à função",
+    "regra": "Evita poluir o ambiente global da sessão"
+  },
+  "logout": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Encerrar shell de login",
+    "regra": "Aplicável em terminais com sessão de login direta"
+  },
+  "mapfile": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Ler linhas da entrada padrão diretamente para um array",
+    "regra": "Equivalente nativo a readarray para evitar loops lentos"
+  },
+  "popd": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Remover diretório do topo da pilha",
+    "regra": "Retornar ao caminho anterior salvo por pushd"
+  },
+  "pushd": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Adicionar diretório à pilha e mudar de pasta",
+    "regra": "Alternar entre projetos sem perder a referência da pasta base"
+  },
+  "read": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Ler linha de entrada padrão para variáveis",
+    "regra": "read -r para não interpretar barras invertidas de escape"
+  },
+  "readarray": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Carregar linhas em array indexado",
+    "regra": "readarray -t remove a quebra de linha de cada entrada"
+  },
+  "readonly": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Marcar variáveis ou funções como somente leitura",
+    "regra": "Impede sobrescrita acidental de configurações críticas"
+  },
+  "return": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Encerrar execução de uma função de shell",
+    "regra": "Retornar código de estado para o chamador"
+  },
+  "set": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Alterar opções de comportamento e variáveis posicionais",
+    "regra": "set -e para encerrar em erro; set -x para modo depuração"
+  },
+  "shift": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Deslocar argumentos posicionais ($1, $2...)",
+    "regra": "Usado ao processar listas de parâmetros em loops"
+  },
+  "shopt": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Ativar/desativar opções estendidas do Bash",
+    "regra": "shopt -s extglob e globstar para expansões avançadas"
+  },
+  "source": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Executar comandos de um ficheiro no ambiente atual",
+    "regra": "Recarregar configurações ou ficheiros .env e funções"
+  },
+  "suspend": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Suspender a execução do shell atual",
+    "regra": "Envia sinal SIGSTOP ao próprio shell"
+  },
+  "times": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Exibir tempos acumulados do processo e filhos",
+    "regra": "Auditoria de utilização de recursos na sessão"
+  },
+  "trap": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Capturar sinais de encerramento e executar rotinas de limpeza",
+    "regra": "trap 'rm -f /tmp/temp_*' EXIT"
+  },
+  "type": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Identificar se um comando é alias, função, builtin ou binário",
+    "regra": "type -a comando mostra todas as ocorrências encontradas"
+  },
+  "typeset": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Definição de atributos de variáveis",
+    "regra": "Sintaxe herdada compatível com declare"
+  },
+  "ulimit": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Controlar limites de recursos dos processos",
+    "regra": "ulimit -n define quantidade máxima de descritores abertos"
+  },
+  "umask": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Definir máscara de criação de ficheiros",
+    "regra": "umask 022 para permissões padrão seguras"
+  },
+  "unalias": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Remover atalhos criados por alias",
+    "regra": "unalias -a remove todos os aliases ativos"
+  },
+  "unset": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Eliminar variáveis ou funções da memória",
+    "regra": "unset -f nome_funcao remove apenas funções"
+  },
+  "wait": {
+    "tipo": "builtin",
+    "origem": "bash_internal",
+    "descricao": "Aguardar finalização de processos filhos em segundo plano",
+    "regra": "wait $PID aguarda a conclusão do trabalho assíncrono"
+  },
+  "!": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Negação lógica de pipeline",
+    "regra": "Usar em verificações de saída invertida"
+  },
+  "job_spec [&]": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Execução de tarefa em segundo plano",
+    "regra": "Usar & com disown quando o processo tiver de continuar vivo"
+  },
+  "(( ))": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Avaliação aritmética shell",
+    "regra": "Para cálculos inteiros rápidos sem invocar processos externos"
+  },
+  "[ ]": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Teste condicional clássico",
+    "regra": "Preferir [[ ]] para expressões complexas"
+  },
+  "[[ ]]": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Teste condicional estendido",
+    "regra": "Permite regex com =~ e operações lógicas nativas && e ||"
+  },
+  "case": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Estrutura condicional por correspondência de padrão",
+    "regra": "Fechar sempre com ;; ou ;&"
+  },
+  "coproc": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Criação de coprocessos concorrentes",
+    "regra": "Comunicação bidirecional via descritores de ficheiro"
+  },
+  "for": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Laço de repetição sequencial",
+    "regra": "Iterar sobre ficheiros com expansão de globbing seguro"
+  },
+  "function": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Definição de bloco de função shell",
+    "regra": "Organizar rotinas reutilizáveis em scripts"
+  },
+  "if": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Estrutura condicional de fluxo",
+    "regra": "Avaliar retorno de comandos diretamente"
+  },
+  "select": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Criar menu interativo de seleção de opções",
+    "regra": "Construir menus de texto simples para escolhas do utilizador"
+  },
+  "time": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Medir tempo de execução de um pipeline",
+    "regra": "time comando calcula tempo real, de utilizador e de sistema"
+  },
+  "until": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Executar laço de repetição enquanto a condição for falsa",
+    "regra": "Inverso funcional da instrução while"
+  },
+  "variables": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Listagem e significados de variáveis internas do shell",
+    "regra": "Documentação interna sobre IFS, PATH, HOME, RANDOM"
+  },
+  "while": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Executar laço de repetição enquanto a condição for verdadeira",
+    "regra": "while read -r linha; do ... done < ficheiro.txt"
+  },
+  "{ }": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "Agrupamento de comandos no shell corrente",
+    "regra": "Executar sequência sem instanciar um subshell"
+  },
+  "editar": {
+    "tipo": "interno/custom",
+    "origem": "very_systems",
+    "descricao": "editar",
+    "regra": ""
+  }
+}

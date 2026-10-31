@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_36_OFFLINE_DB_SOLUTIONS_351",
+  "title": "SCHEMA SQLITE AUTH USERS",
+  "category": "Soluções e Schemas Prontos de Bancos de Dados",
+  "summary": "Tabelas completas de usuários, sessões e logs em SQL nativo.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

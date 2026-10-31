@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_50_CACHING_AND_EDGE_COMPUTING_537",
+  "title": "EDGE GEOLOCATION ROUTING",
+  "category": "Estratégias Avançadas de Caching, Memória e Edge Computing",
+  "summary": "Redirecionamento automático de usuários com base em país e coordenadas de IP.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Redirecionamento automático de usuários com base em país e coordenadas de IP.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "feature": "Distribuição Multi-Workspace",
+  "rules": ["Configurar instalador de permissões com escopos mínimos necessários.", "Armazenar tokens de diferentes empresas em banco SQLite."]
+}

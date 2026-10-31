@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_43_CYBERSECURITY_AND_HARDENING_427",
+  "title": "SEC SQL INJECTION DEFENSE",
+  "category": "Segurança Ofensiva, Defensiva e Hardening de Servidores",
+  "summary": "Uso universal de queries parametrizadas e Prepared Statements em todos os bancos.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Uso universal de queries parametrizadas e Prepared Statements em todos os bancos.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

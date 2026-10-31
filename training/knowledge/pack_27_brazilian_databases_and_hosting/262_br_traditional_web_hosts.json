@@ -1,0 +1,9 @@
+{
+  "category": "Grandes Provedores de Hospedagem e VPS no Brasil",
+  "providers": [
+    { "name": "Locaweb", "color": "#E30613", "origin": "São Paulo, SP", "type": "Hospedagem, Cloud e Domínios" },
+    { "name": "UOL Host", "color": "#1C9EB9", "origin": "São Paulo, SP", "type": "Serviços Web e Servidores" },
+    { "name": "KingHost", "color": "#FF6600", "origin": "Porto Alegre, RS", "type": "Hospedagem Cloud e Desenvolvedores" },
+    { "name": "Hostnet", "color": "#005696", "origin": "Rio de Janeiro, RJ", "type": "Infraestrutura e WordPress" }
+  ]
+}

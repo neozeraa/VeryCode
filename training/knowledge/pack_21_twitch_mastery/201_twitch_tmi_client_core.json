@@ -1,0 +1,4 @@
+{
+  "feature": "Conexão tmi.js e Autenticação",
+  "rules": ["Instanciar tmi.Client({ identity: { username, password }, channels }).", "Token oauth: prefixado obrigatoriamente no arquivo .env."]
+}

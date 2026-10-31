@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_94_NETWORK_TUNNELING_AND_QR_PREVIEWS_987",
+  "title": "TUNNEL RATE LIMIT AND ABUSE GUARD",
+  "category": "Túneis de Rede, Exposição de Portas e Códigos QR",
+  "summary": "Proteção de portas expostas com filtragem básica de rotas e limitação de conexões concorrentes.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Proteção de portas expostas com filtragem básica de rotas e limitação de conexões concorrentes.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

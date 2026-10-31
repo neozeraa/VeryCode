@@ -1,0 +1,4 @@
+{
+  "feature": "Filtro de Administrador",
+  "rules": ["Validar id do remetente com lista ADMIN_IDS no .env.", "Comandos sensíveis restritos que barram usuários comuns automaticamente."]
+}

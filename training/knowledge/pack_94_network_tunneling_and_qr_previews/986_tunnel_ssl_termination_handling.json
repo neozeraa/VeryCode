@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_94_NETWORK_TUNNELING_AND_QR_PREVIEWS_986",
+  "title": "TUNNEL SSL TERMINATION HANDLING",
+  "category": "Túneis de Rede, Exposição de Portas e Códigos QR",
+  "summary": "Compreensão de certificados SSL na extremidade do túnel para manter cabeçalhos X-Forwarded-Proto intactos.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Compreensão de certificados SSL na extremidade do túnel para manter cabeçalhos X-Forwarded-Proto intactos.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

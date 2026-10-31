@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_36_OFFLINE_DB_SOLUTIONS_353",
+  "title": "SCHEMA SQLITE SITE LEADS",
+  "category": "Soluções e Schemas Prontos de Bancos de Dados",
+  "summary": "Armazenamento de formulários de contato e mensagens captadas.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

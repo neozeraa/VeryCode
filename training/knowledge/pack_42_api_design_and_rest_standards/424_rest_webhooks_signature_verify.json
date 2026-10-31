@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_42_API_DESIGN_AND_REST_STANDARDS_424",
+  "title": "REST WEBHOOKS SIGNATURE VERIFY",
+  "category": "Arquitetura e Padrões de Design de APIs RESTful",
+  "summary": "Assinatura criptográfica HMAC-SHA256 para validação segura de webhooks.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Assinatura criptográfica HMAC-SHA256 para validação segura de webhooks.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

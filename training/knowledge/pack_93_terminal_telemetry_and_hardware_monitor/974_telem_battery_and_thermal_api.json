@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_93_TERMINAL_TELEMETRY_AND_HARDWARE_MONITOR_974",
+  "title": "TELEM BATTERY AND THERMAL API",
+  "category": "Telemetria de Sistema, Hardware e Recursos no Termux",
+  "summary": "Integração com Termux:API (termux-battery-status) monitorizando temperatura, estado de carga e percentagem.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Integração com Termux:API (termux-battery-status) monitorizando temperatura, estado de carga e percentagem.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

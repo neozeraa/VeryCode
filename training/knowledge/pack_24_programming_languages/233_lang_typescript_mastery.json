@@ -1,0 +1,10 @@
+{
+  "language": "TypeScript",
+  "official_color": "#3178C6",
+  "paradigms": ["Tipagem Estática Opcional", "Superset de JavaScript"],
+  "standards": [
+    "Declaração estrita com strict: true no tsconfig.json.",
+    "Definição clara de Interfaces, Types, Generics e Enums para segurança de dados.",
+    "Prevenção absoluta do uso indevido do tipo any."
+  ]
+}

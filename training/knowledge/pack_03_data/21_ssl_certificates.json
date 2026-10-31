@@ -1,0 +1,17 @@
+{
+  "topic": "Gestão de Certificados SSL/TLS e Certbot",
+  "rules": [
+    "Usar certbot para geração e renovação automática de certificados Let's Encrypt.",
+    "Validar sempre as portas 80 e 443 antes da emissão standalone."
+  ],
+  "recipes": [
+    {
+      "trigger": "gerar certificado ssl standalone",
+      "command": "pkg install -y certbot 2>/dev/null || sudo apt install -y certbot && certbot certonly --standalone -d exemplo.com --non-interactive --agree-tos -m admin@exemplo.com"
+    },
+    {
+      "trigger": "verificar validade dos certificados ssl",
+      "command": "certbot certificates"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "feature": "Diretriz Suprema de Bot Discord",
+  "rules": ["Todo bot gerado deve conter subpastas commands/ e events/ separadas.", "O index.js deve conter carregador dinâmico com fs.readdirSync."]
+}

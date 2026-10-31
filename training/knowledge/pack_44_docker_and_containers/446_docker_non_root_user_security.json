@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_44_DOCKER_AND_CONTAINERS_446",
+  "title": "DOCKER NON ROOT USER SECURITY",
+  "category": "Engenharia de Containers, Docker e Orquestração",
+  "summary": "Execução de processos em container com usuário restrito sem privilégios de root.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Execução de processos em container com usuário restrito sem privilégios de root.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_84_BOT_DATABASE_AND_PERSISTENCE_889",
+  "title": "BOTDB ANTI INJECTION PARAMETERIZED",
+  "category": "Persistência, Schemas e Dados para Bots",
+  "summary": "Uso obrigatório de prepared statements (.run, .get, .all) blindando todas as queries.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Uso obrigatório de prepared statements (.run, .get, .all) blindando todas as queries.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "module_id": "CAPABILITIES_02",
+  "domain": "Bots e Mensageria (Discord, Telegram, Twitch, Slack, Guilded, Revolt)",
+  "features": [
+    "Discord: bots v14 com Slash Commands, arquivos modulares em commands/ e events/, e suporte a .env.",
+    "Telegram: bots via Telegraf v4 com menus interativos, comandos /start, /ajuda e inline keyboards.",
+    "Twitch: bots de chat com tmi.js para moderação e timers de live.",
+    "Instalação automática de dependências (npm install) após a geração dos arquivos."
+  ]
+}

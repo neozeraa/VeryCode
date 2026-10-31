@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_50_CACHING_AND_EDGE_COMPUTING_540",
+  "title": "CACHE DISTRIBUTED KEY VALUE STORES",
+  "category": "Estratégias Avançadas de Caching, Memória e Edge Computing",
+  "summary": "Uso de Cloudflare KV e Upstash Redis para persistência de dados em escala global.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Uso de Cloudflare KV e Upstash Redis para persistência de dados em escala global.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

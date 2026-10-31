@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_34_OFFLINE_WHATSAPP_SCAFFOLDERS_334",
+  "title": "ZAP MEDIA DOWNLOADER",
+  "category": "Templates Pré-Compilados de Bots WhatsApp",
+  "summary": "Download seguro de áudio, vídeo e imagem direto para armazenamento.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

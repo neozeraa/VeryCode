@@ -1,0 +1,14 @@
+{
+  "module_id": "VERIFIED_SOURCE_595",
+  "source_name": "ONU (Nações Unidas)",
+  "official_color": "#009EDB",
+  "scope": "Global",
+  "category": "Organismos Multilaterais, ONU e Cooperação Global",
+  "description": "Resoluções do Conselho de Segurança, relatórios de Direitos Humanos e ODS 2030.",
+  "reliability_score": "MAXIMUM_VERIFIED",
+  "verification_rules": [
+    "Apresentar dados sob confirmação empírica e registro oficial auditável.",
+    "Proibido ecoar desinformação, teorias conspiratórias sem base ou dados distorcidos.",
+    "Em caso de divergência pública, apresentar os dados primários de cada fonte institucional de forma neutra."
+  ]
+}

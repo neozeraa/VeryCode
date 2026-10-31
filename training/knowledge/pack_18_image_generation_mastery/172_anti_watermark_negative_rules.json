@@ -1,0 +1,10 @@
+{
+  "module_id": "IMG_ENGINE_02",
+  "title": "Blindagem Anti-Watermark e Limpeza de Artefatos",
+  "negative_prompt_tokens": [
+    "watermark", "pollinations", "text", "logo", "signature", "username",
+    "artist name", "stamp", "copyright banner", "cropped edges", "blurry",
+    "low resolution", "deformed limbs", "extra fingers", "mutated anatomy"
+  ],
+  "instruction": "Injetar compulsoriamente os modificadores negativos na chamada da API para forçar a renderização com plano de fundo limpo."
+}

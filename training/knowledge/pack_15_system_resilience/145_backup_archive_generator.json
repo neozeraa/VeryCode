@@ -1,0 +1,11 @@
+{
+  "module_id": "RESILIENCE_BACKUP_05",
+  "topic": "Criação de Snapshots do Sistema e Projetos",
+  "rules": [
+    "Permitir compactar pastas com o formato tar.gz incluindo data e hora no nome do ficheiro.",
+    "Ignorar sempre diretórios pesados como node_modules/ e ficheiros .git/ para economizar espaço em disco."
+  ],
+  "commands": [
+    "tar --exclude='node_modules' --exclude='.git' -czf backup_$(date +%Y%m%d_%H%M%S).tar.gz ./projects"
+  ]
+}

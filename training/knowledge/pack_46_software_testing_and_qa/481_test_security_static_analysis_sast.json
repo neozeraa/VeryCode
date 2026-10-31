@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_46_SOFTWARE_TESTING_AND_QA_481",
+  "title": "TEST SECURITY STATIC ANALYSIS SAST",
+  "category": "Testes Automatizados, Cobertura e Qualidade de Código (QA)",
+  "summary": "Análise estática de vulnerabilidades e dependências desatualizadas com npm audit.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Análise estática de vulnerabilidades e dependências desatualizadas com npm audit.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

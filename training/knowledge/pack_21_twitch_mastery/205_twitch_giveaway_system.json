@@ -1,0 +1,4 @@
+{
+  "feature": "Sistema de Sorteios Interativo",
+  "rules": ["Comando !entrar para acumular participantes em um Set na memória.", "Comando exclusivo do streamer (!sortear) selecionando vencedor aleatório."]
+}

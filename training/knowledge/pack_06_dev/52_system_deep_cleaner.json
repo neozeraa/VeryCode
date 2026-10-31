@@ -1,0 +1,13 @@
+{
+  "topic": "Otimização de Espaço, Limpeza de Cache de Pacotes e Logs Antigos",
+  "rules": [
+    "Remover caches órfãos do pkg/apt e pastas temporárias sem afetar dados do usuário.",
+    "Limpar buffers de log volumosos."
+  ],
+  "recipes": [
+    {
+      "trigger": "fazer limpeza profunda de cache e espaco",
+      "command": "apt clean 2>/dev/null; pkg clean 2>/dev/null; rm -rf ~/.cache/* /data/data/com.termux/cache/* /tmp/* 2>/dev/null && echo 'Limpeza concluída com sucesso!'"
+    }
+  ]
+}

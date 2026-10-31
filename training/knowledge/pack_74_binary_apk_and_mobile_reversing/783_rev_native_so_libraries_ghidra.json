@@ -1,0 +1,13 @@
+{
+  "module_id": "REVERSE_ENGINEERING_PACK_PACK_74_BINARY_APK_AND_MOBILE_REVERSING_783",
+  "title": "REV NATIVE SO LIBRARIES GHIDRA",
+  "category": "Descompilação de APKs Android e Binários Nativos",
+  "summary": "Análise estática de bibliotecas compiladas C/C++ (.so) para arquiteturas ARM64 através de Ghidra e Radare2.",
+  "execution_mode": "CLEAN_ROOM_REVERSE_ENGINEERING",
+  "architecture": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "capabilities": [
+    "Capacidade analítica e operativa para: Análise estática de bibliotecas compiladas C/C++ (.so) para arquiteturas ARM64 através de Ghidra e Radare2.",
+    "Isolamento sistemático de comportamentos sem cópia direta de código vulnerável.",
+    "Reconstrução autônoma de ferramentas, endpoints e componentes otimizados para o ambiente local."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "triggers": [
+    "ola",
+    "oi",
+    "bom dia",
+    "boa noite",
+    "status"
+  ],
+  "direct_answer": "Sistema operacional e pronto para desenvolvimento. Digite comandos como /site, /img, /help ou envie sua solicitação técnica diretamente."
+}

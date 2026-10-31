@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_85_BOT_DEPLOYMENT_HOSTING_SUPERVISION_895",
+  "title": "DEPLOY HEALTHCHECK HTTP PING",
+  "category": "Deploy, Supervisão 24/7 e Resiliência de Bots",
+  "summary": "Criação de servidor micro-HTTP embutido (porta 8080) para receber pings de monitoramento de uptime.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Criação de servidor micro-HTTP embutido (porta 8080) para receber pings de monitoramento de uptime.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Execução e Internals do Node.js",
+  "rules": [
+    "Event Loop sem bloqueio da Thread Pool (libuv).",
+    "Gerenciamento correto de Streams, Buffers e encerramento de conexões TCP pendentes."
+  ]
+}

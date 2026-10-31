@@ -1,0 +1,7 @@
+{
+  "feature": "Geração Autônoma de APKs WebView",
+  "rules": [
+    "Montar template Gradle Android com MainActivity rodando WebView local apontando para index.html.",
+    "Compilar usando ferramentas do Termux (aapt2, ecj/d8, apksigner) quando solicitado exportar APK."
+  ]
+}

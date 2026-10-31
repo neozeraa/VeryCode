@@ -1,0 +1,13 @@
+{
+  "module_id": "AESTHETIC_WEB_PACK_PACK_80_HIGH_IMPACT_TYPOGRAPHY_AND_COPY_LAYOUT_850",
+  "title": "TYPO MASTER VISUAL HIERARCHY",
+  "category": "Tipografia de Alto Impacto, Títulos Fluidos e Copywriting Visual",
+  "summary": "Diretriz Suprema: o usuário deve entender a proposta de valor do site e desejar explorá-lo nos primeiros 3 segundos.",
+  "design_system": "VERY_SYSTEMS_PREMIUM_UI_UX",
+  "brand_accent_color": "#FF6600",
+  "aesthetic_rules": [
+    "Garantir aplicação imediata de: Diretriz Suprema: o usuário deve entender a proposta de valor do site e desejar explorá-lo nos primeiros 3 segundos.",
+    "Todo site gerado deve possuir visual moderno, responsivo e digno de portfólio internacional.",
+    "Proibido criar layouts antiquados, botões cinzas padrão de navegador ou páginas sem vida."
+  ]
+}

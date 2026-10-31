@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_95_LOCAL_MOCKING_AND_LOAD_TESTING_994",
+  "title": "MOCK ERROR CODE GENERATOR SUITE",
+  "category": "Simulação de APIs, Servidores Mock e Testes de Carga",
+  "summary": "Emulação sob demanda de falhas de rede e códigos de erro HTTP (400, 401, 403, 429, 500, 502, 503).",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Emulação sob demanda de falhas de rede e códigos de erro HTTP (400, 401, 403, 429, 500, 502, 503).",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

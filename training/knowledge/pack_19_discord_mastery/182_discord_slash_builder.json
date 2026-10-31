@@ -1,0 +1,4 @@
+{
+  "feature": "SlashCommandBuilder e REST API",
+  "rules": ["Estruturar comandos com SlashCommandBuilder().setName().setDescription().", "Deploy global ou por guilda via REST(version: '10').put(Routes.applicationCommands)."]
+}

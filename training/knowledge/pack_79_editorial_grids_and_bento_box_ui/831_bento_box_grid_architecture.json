@@ -1,0 +1,13 @@
+{
+  "module_id": "AESTHETIC_WEB_PACK_PACK_79_EDITORIAL_GRIDS_AND_BENTO_BOX_UI_831",
+  "title": "BENTO BOX GRID ARCHITECTURE",
+  "category": "Layouts Bento Box, Grids Assimétricos e Design Editorial",
+  "summary": "Estruturação de telas estilo Bento Box (grade japonesa de caixas) com cartões de tamanhos variados e harmônicos.",
+  "design_system": "VERY_SYSTEMS_PREMIUM_UI_UX",
+  "brand_accent_color": "#FF6600",
+  "aesthetic_rules": [
+    "Garantir aplicação imediata de: Estruturação de telas estilo Bento Box (grade japonesa de caixas) com cartões de tamanhos variados e harmônicos.",
+    "Todo site gerado deve possuir visual moderno, responsivo e digno de portfólio internacional.",
+    "Proibido criar layouts antiquados, botões cinzas padrão de navegador ou páginas sem vida."
+  ]
+}

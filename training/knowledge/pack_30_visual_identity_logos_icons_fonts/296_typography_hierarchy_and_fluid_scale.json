@@ -1,0 +1,8 @@
+{
+  "topic": "Hierarquia Tipográfica e Escala Fluida com clamp()",
+  "rules": [
+    "Utilizar clamp() para tipografia responsiva sem necessidade de dezenas de media queries (ex.: font-size: clamp(2rem, 5vw, 3.5rem) no H1).",
+    "Definir line-height proporcional: 1.1 a 1.25 para títulos grandes e 1.5 a 1.7 para textos corridos de parágrafo.",
+    "Limitar largura de leitura (max-width: 65ch a 75ch) para evitar cansaço visual em telas grandes."
+  ]
+}

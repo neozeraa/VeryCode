@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_99_REMOTE_TUNNELING_AND_PUBLIC_URLS_1038",
+  "title": "TUNNEL AUTO RECONNECT ON NETWORK DROP",
+  "category": "Túneis de Borda, URLs Públicas e Exposição Segura",
+  "summary": "Algoritmo de reconexão automática do túnel ao alternar entre Wi-Fi e dados móveis (4G).",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Algoritmo de reconexão automática do túnel ao alternar entre Wi-Fi e dados móveis (4G).",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_36_OFFLINE_DB_SOLUTIONS_356",
+  "title": "QUERY CATALOG RELATIONAL",
+  "category": "Soluções e Schemas Prontos de Bancos de Dados",
+  "summary": "Consultas SQL prontas para INNER JOIN, agrupamentos e índices.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

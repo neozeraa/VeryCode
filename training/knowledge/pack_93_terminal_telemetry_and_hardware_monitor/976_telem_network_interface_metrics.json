@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_93_TERMINAL_TELEMETRY_AND_HARDWARE_MONITOR_976",
+  "title": "TELEM NETWORK INTERFACE METRICS",
+  "category": "Telemetria de Sistema, Hardware e Recursos no Termux",
+  "summary": "Controlo de tráfego de dados transmitidos e recebidos por interface (Wi-Fi vs redes móveis).",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Controlo de tráfego de dados transmitidos e recebidos por interface (Wi-Fi vs redes móveis).",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "topic": "Proteção contra Esgotamento de Memória RAM (Out of Memory)",
+  "rules": [
+    "Monitorizar o consumo residente (RSS) de processos Node.js através de process.memoryUsage().",
+    "Disparar alertas preventivos ao atingir 85% do limite estipulado pelo plano ou pelo sistema.",
+    "Forçar limpeza de buffers temporários e garbage collection pontual para estabilizar o ambiente."
+  ]
+}

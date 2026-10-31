@@ -1,0 +1,8 @@
+{
+  "topic": "Verificação Estática de Sintaxe Pré-Execução",
+  "rules": [
+    "Executar node --check antes de colocar qualquer script ou bot em background.",
+    "Impedir reinicializações contínuas (crash loops) caso existam erros tipográficos ou de parsing.",
+    "Destacar o ficheiro e a linha exata da divergência sintática de forma estruturada."
+  ]
+}

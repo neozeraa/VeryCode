@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" fill="none">
+  <defs>
+    <linearGradient id="veryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0A8" />
+      <stop offset="100%" stop-color="#9D00FF" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Ícone Robux Estilizado / Gema -->
+  <g transform="translate(5, 5)">
+    <polygon points="20,2 38,12 38,32 20,42 2,32 2,12" fill="#131823" stroke="url(#veryGrad)" stroke-width="3" filter="url(#glow)"/>
+    <polygon points="20,8 32,15 32,29 20,36 8,29 8,15" fill="url(#veryGrad)" opacity="0.2"/>
+    <path d="M14 18L20 14L26 18L20 28Z" fill="#00F0A8"/>
+  </g>
+  <!-- Texto da Marca -->
+  <text x="52" y="32" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="24" fill="#FFFFFF" letter-spacing="1">VERY<tspan fill="url(#veryGrad)">ROBUX</tspan></text>
+</svg>

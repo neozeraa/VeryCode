@@ -1,0 +1,4 @@
+{
+  "feature": "Embeds e Mensagens Visuais no Guilded",
+  "rules": ["Utilizar new Embed() com setTitle, setDescription, setColor e addField.", "Cores adaptadas à paleta dourada/escura do Guilded (#F5C400)."]
+}

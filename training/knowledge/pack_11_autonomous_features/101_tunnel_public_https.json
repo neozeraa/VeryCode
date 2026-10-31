@@ -1,0 +1,11 @@
+{
+  "feature": "Exposição Pública Segura com HTTPS",
+  "rules": [
+    "Permitir gerar URL pública temporária para sites e APIs locais sem abrir portas no roteador.",
+    "Utilizar Cloudflare Quick Tunnels (cloudflared tunnel --url http://localhost:PORT) ou SSH reverso via localhost.run."
+  ],
+  "commands": [
+    "cloudflared tunnel --url http://localhost:3000",
+    "ssh -R 80:localhost:3000 nokey@localhost.run"
+  ]
+}

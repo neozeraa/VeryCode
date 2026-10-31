@@ -1,0 +1,17 @@
+{
+  "topic": "Testes de Carga, Eficiência de CPU e Velocidade de Escrita",
+  "rules": [
+    "Efetuar testes não destrutivos de escrita e leitura.",
+    "Monitorizar o throttling térmico e velocidade real de I/O."
+  ],
+  "recipes": [
+    {
+      "trigger": "testar velocidade de escrita do armazenamento",
+      "command": "dd if=/dev/zero of=teste_io.bin bs=1M count=200 conv=fdatasync 2>&1 | tail -n 1 && rm -f teste_io.bin"
+    },
+    {
+      "trigger": "medir tempo de calculo da cpu com sha256",
+      "command": "time ( dd if=/dev/urandom bs=1M count=50 2>/dev/null | sha256sum )"
+    }
+  ]
+}

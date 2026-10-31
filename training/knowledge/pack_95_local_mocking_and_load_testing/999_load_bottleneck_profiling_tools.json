@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_95_LOCAL_MOCKING_AND_LOAD_TESTING_999",
+  "title": "LOAD BOTTLENECK PROFILING TOOLS",
+  "category": "Simulação de APIs, Servidores Mock e Testes de Carga",
+  "summary": "Identificação de funções bloqueantes no Event Loop do Node.js através de timers de alta precisão.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Identificação de funções bloqueantes no Event Loop do Node.js através de timers de alta precisão.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

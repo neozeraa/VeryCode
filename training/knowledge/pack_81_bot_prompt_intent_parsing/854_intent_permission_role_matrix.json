@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_81_BOT_PROMPT_INTENT_PARSING_854",
+  "title": "INTENT PERMISSION ROLE MATRIX",
+  "category": "Interpretação e Engenharia de Prompts para Bots",
+  "summary": "Dedução e aplicação automática de permissões necessárias (admin, moderador, cargo específico, público).",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Dedução e aplicação automática de permissões necessárias (admin, moderador, cargo específico, público).",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

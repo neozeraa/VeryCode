@@ -1,0 +1,9 @@
+{
+  "module_id": "MOD_TUNNEL_01",
+  "topic": "Inicialização e Captura Automática de Túneis HTTPS",
+  "rules": [
+    "Sempre que o usuário solicitar expor um site ou porta, subir processo em background com Cloudflare Tunnel ou Localhost.run.",
+    "Filtrar o output do túnel com regex para extrair a URL pública (.trycloudflare.com ou .lhr.life) e mostrá-la formatada no terminal.",
+    "Manter o PID do túnel mapeado para encerramento limpo junto com o servidor."
+  ]
+}

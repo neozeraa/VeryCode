@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_83_WHATSAPP_BOT_AUTOMATION_BAILEYS_872",
+  "title": "BAILEYS PAIRING CODE AUTH",
+  "category": "Automação e Bots de WhatsApp com Baileys",
+  "summary": "Geração e exibição limpa do código de emparelhamento de 8 dígitos no terminal dispensando leitura de QR Code.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Geração e exibição limpa do código de emparelhamento de 8 dígitos no terminal dispensando leitura de QR Code.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

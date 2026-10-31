@@ -1,0 +1,8 @@
+{
+  "topic": "Formulários Interativos e Validação em Tempo Real",
+  "rules": [
+    "Validação de campos (e-mail, telefone, texto) via atributos nativos pattern e eventos blur com avisos visuais imediatos.",
+    "Integração de envio assíncrono via fetch() direto para webhook do Telegram, Discord ou endpoint REST sem recarregar a tela.",
+    "Máscaras automáticas de entrada para telefones e chaves Pix."
+  ]
+}

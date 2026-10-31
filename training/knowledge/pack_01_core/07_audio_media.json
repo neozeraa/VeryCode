@@ -1,0 +1,17 @@
+{
+  "topic": "Download e Conversão de Mídia com FFmpeg e yt-dlp",
+  "rules": [
+    "Instalar ffmpeg e python para suporte ao yt-dlp.",
+    "Sempre extrair áudio com alta qualidade (-x --audio-format mp3)."
+  ],
+  "recipes": [
+    {
+      "trigger": "instalar yt-dlp e ffmpeg",
+      "command": "pkg install -y ffmpeg python && pip install -U yt-dlp"
+    },
+    {
+      "trigger": "baixar musica mp3 do youtube",
+      "command": "mkdir -p ~/storage/shared/Music/VeryMusic 2>/dev/null || mkdir -p ~/VeryMusic && yt-dlp -x --audio-format mp3 -o '%(title)s.%(ext)s' --no-playlist"
+    }
+  ]
+}

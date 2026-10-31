@@ -1,0 +1,8 @@
+{
+  "topic": "Certificados SSL/TLS e Segurança de Conexão",
+  "rules": [
+    "Forçar comunicação HTTPS com TLS 1.3 obrigatório e suporte retroativo a TLS 1.2 apenas.",
+    "Configurar cabeçalho HSTS (Strict-Transport-Security) com max-age longo para evitar ataques de downgrade.",
+    "Automatizar renovação de certificados SSL com Certbot/Let's Encrypt via acme-challenge antes de expirar."
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "feature": "Auto-Role em guildMemberAdd",
+  "rules": ["Atribuir cargo automático configurado no .env assim que novo membro entrar.", "Tratar erro de hierarquia de cargos com try/catch."]
+}

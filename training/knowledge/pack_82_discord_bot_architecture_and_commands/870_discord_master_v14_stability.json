@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_82_DISCORD_BOT_ARCHITECTURE_AND_COMMANDS_870",
+  "title": "DISCORD MASTER V14 STABILITY",
+  "category": "Arquitetura Avançada e Comandos para Bots Discord (v14)",
+  "summary": "Diretrizes de tratamento de rejeições assíncronas (anti-crash) e reconexão de Gateway em VPS/Discloud.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Diretrizes de tratamento de rejeições assíncronas (anti-crash) e reconexão de Gateway em VPS/Discloud.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

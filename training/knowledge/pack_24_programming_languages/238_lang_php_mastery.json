@@ -1,0 +1,10 @@
+{
+  "language": "PHP",
+  "official_color": "#777BB4",
+  "paradigms": ["Web-First", "Orientado a Objetos", "Tipagem Forte Opcional"],
+  "standards": [
+    "Padrões modernos PHP 8.2+ com tipos estritos (declare(strict_types=1)).",
+    "Uso obrigatório de Composer com autoload PSR-4.",
+    "Aderência às recomendações PSR (PSR-12 para estilo, PSR-7 para HTTP)."
+  ]
+}

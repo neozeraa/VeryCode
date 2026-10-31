@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_34_OFFLINE_WHATSAPP_SCAFFOLDERS_338",
+  "title": "ZAP RECONNECT RETRY",
+  "category": "Templates Pré-Compilados de Bots WhatsApp",
+  "summary": "Algoritmo de reconexão inteligente em quedas de Wi-Fi ou 4G.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

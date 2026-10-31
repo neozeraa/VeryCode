@@ -1,0 +1,7 @@
+{
+  "feature": "Depuração Inteligente de Erros de Runtime",
+  "rules": [
+    "Ao receber o comando /debug, inspecionar a última stack trace de erro no terminal.",
+    "Identificar se a falha é dependência ausente, porta ocupada (EADDRINUSE) ou SyntaxError."
+  ]
+}

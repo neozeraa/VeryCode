@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_49_REALTIME_AND_WEBSOCKETS_524",
+  "title": "WS REDIS ADAPTER HORIZONTAL SCALE",
+  "category": "Sistemas em Tempo Real, WebSockets, WebRTC e SSE",
+  "summary": "Escalabilidade de WebSockets distribuídos entre múltiplos servidores via Redis.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Escalabilidade de WebSockets distribuídos entre múltiplos servidores via Redis.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

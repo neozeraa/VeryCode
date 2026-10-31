@@ -1,0 +1,908 @@
+{
+  "pack": "pack_25_hosting_systems_catalog",
+  "part": 3,
+  "total_in_file": 150,
+  "range": "HOST_0301 a HOST_0450",
+  "hosts": [
+    {
+      "id": "HOST_0301",
+      "name": "Metro Host Systems #301",
+      "brand_color": "#007BFC",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0302",
+      "name": "Pacific Edge Systems #302",
+      "brand_color": "#0080FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0303",
+      "name": "Iberia Nuvem Systems #303",
+      "brand_color": "#00A4A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0304",
+      "name": "Apex Infrastructure Systems #304",
+      "brand_color": "#46E3B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0305",
+      "name": "Flux Node Systems #305",
+      "brand_color": "#FFD200",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0306",
+      "name": "Vertex Networks Systems #306",
+      "brand_color": "#24185B",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0307",
+      "name": "Bravo Compute Systems #307",
+      "brand_color": "#24292E",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0308",
+      "name": "Global Stack Systems #308",
+      "brand_color": "#D50C2D",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0309",
+      "name": "Atlantic Servers Systems #309",
+      "brand_color": "#1DB954",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0310",
+      "name": "Cyber Scale Systems #310",
+      "brand_color": "#00539C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0311",
+      "name": "Titan VPS Systems #311",
+      "brand_color": "#FF0000",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0312",
+      "name": "Nexus Grid Systems #312",
+      "brand_color": "#673AB7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0313",
+      "name": "Hyper Hosting Systems #313",
+      "brand_color": "#00E5FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0314",
+      "name": "Delta Datacenter Systems #314",
+      "brand_color": "#E30613",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0315",
+      "name": "Latam Cloud Systems #315",
+      "brand_color": "#9B51E0",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0316",
+      "name": "Nordic Host Systems #316",
+      "brand_color": "#00C7B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0317",
+      "name": "Prime Edge Systems #317",
+      "brand_color": "#6762A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0318",
+      "name": "Nova Nuvem Systems #318",
+      "brand_color": "#4F0599",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0319",
+      "name": "Quantum Infrastructure Systems #319",
+      "brand_color": "#00A95C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0320",
+      "name": "Alpha Node Systems #320",
+      "brand_color": "#FF6600",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0321",
+      "name": "Metro Networks Systems #321",
+      "brand_color": "#007BFC",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0322",
+      "name": "Pacific Compute Systems #322",
+      "brand_color": "#0080FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0323",
+      "name": "Iberia Stack Systems #323",
+      "brand_color": "#00A4A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0324",
+      "name": "Apex Servers Systems #324",
+      "brand_color": "#46E3B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0325",
+      "name": "Flux Scale Systems #325",
+      "brand_color": "#FFD200",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0326",
+      "name": "Vertex VPS Systems #326",
+      "brand_color": "#24185B",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0327",
+      "name": "Bravo Grid Systems #327",
+      "brand_color": "#24292E",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0328",
+      "name": "Global Hosting Systems #328",
+      "brand_color": "#D50C2D",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0329",
+      "name": "Atlantic Datacenter Systems #329",
+      "brand_color": "#1DB954",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0330",
+      "name": "Cyber Cloud Systems #330",
+      "brand_color": "#00539C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0331",
+      "name": "Titan Host Systems #331",
+      "brand_color": "#FF0000",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0332",
+      "name": "Nexus Edge Systems #332",
+      "brand_color": "#673AB7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0333",
+      "name": "Hyper Nuvem Systems #333",
+      "brand_color": "#00E5FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0334",
+      "name": "Delta Infrastructure Systems #334",
+      "brand_color": "#E30613",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0335",
+      "name": "Latam Node Systems #335",
+      "brand_color": "#9B51E0",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0336",
+      "name": "Nordic Networks Systems #336",
+      "brand_color": "#00C7B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0337",
+      "name": "Prime Compute Systems #337",
+      "brand_color": "#6762A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0338",
+      "name": "Nova Stack Systems #338",
+      "brand_color": "#4F0599",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0339",
+      "name": "Quantum Servers Systems #339",
+      "brand_color": "#00A95C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0340",
+      "name": "Alpha Scale Systems #340",
+      "brand_color": "#FF6600",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0341",
+      "name": "Metro VPS Systems #341",
+      "brand_color": "#007BFC",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0342",
+      "name": "Pacific Grid Systems #342",
+      "brand_color": "#0080FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0343",
+      "name": "Iberia Hosting Systems #343",
+      "brand_color": "#00A4A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0344",
+      "name": "Apex Datacenter Systems #344",
+      "brand_color": "#46E3B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0345",
+      "name": "Flux Cloud Systems #345",
+      "brand_color": "#FFD200",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0346",
+      "name": "Vertex Host Systems #346",
+      "brand_color": "#24185B",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0347",
+      "name": "Bravo Edge Systems #347",
+      "brand_color": "#24292E",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0348",
+      "name": "Global Nuvem Systems #348",
+      "brand_color": "#D50C2D",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0349",
+      "name": "Atlantic Infrastructure Systems #349",
+      "brand_color": "#1DB954",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0350",
+      "name": "Cyber Node Systems #350",
+      "brand_color": "#00539C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0351",
+      "name": "Titan Networks Systems #351",
+      "brand_color": "#FF0000",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0352",
+      "name": "Nexus Compute Systems #352",
+      "brand_color": "#673AB7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0353",
+      "name": "Hyper Stack Systems #353",
+      "brand_color": "#00E5FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0354",
+      "name": "Delta Servers Systems #354",
+      "brand_color": "#E30613",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0355",
+      "name": "Latam Scale Systems #355",
+      "brand_color": "#9B51E0",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0356",
+      "name": "Nordic VPS Systems #356",
+      "brand_color": "#00C7B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0357",
+      "name": "Prime Grid Systems #357",
+      "brand_color": "#6762A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0358",
+      "name": "Nova Hosting Systems #358",
+      "brand_color": "#4F0599",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0359",
+      "name": "Quantum Datacenter Systems #359",
+      "brand_color": "#00A95C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0360",
+      "name": "Alpha Cloud Systems #360",
+      "brand_color": "#FF6600",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0361",
+      "name": "Metro Host Systems #361",
+      "brand_color": "#007BFC",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0362",
+      "name": "Pacific Edge Systems #362",
+      "brand_color": "#0080FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0363",
+      "name": "Iberia Nuvem Systems #363",
+      "brand_color": "#00A4A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0364",
+      "name": "Apex Infrastructure Systems #364",
+      "brand_color": "#46E3B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0365",
+      "name": "Flux Node Systems #365",
+      "brand_color": "#FFD200",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0366",
+      "name": "Vertex Networks Systems #366",
+      "brand_color": "#24185B",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0367",
+      "name": "Bravo Compute Systems #367",
+      "brand_color": "#24292E",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0368",
+      "name": "Global Stack Systems #368",
+      "brand_color": "#D50C2D",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0369",
+      "name": "Atlantic Servers Systems #369",
+      "brand_color": "#1DB954",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0370",
+      "name": "Cyber Scale Systems #370",
+      "brand_color": "#00539C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0371",
+      "name": "Titan VPS Systems #371",
+      "brand_color": "#FF0000",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0372",
+      "name": "Nexus Grid Systems #372",
+      "brand_color": "#673AB7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0373",
+      "name": "Hyper Hosting Systems #373",
+      "brand_color": "#00E5FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0374",
+      "name": "Delta Datacenter Systems #374",
+      "brand_color": "#E30613",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0375",
+      "name": "Latam Cloud Systems #375",
+      "brand_color": "#9B51E0",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0376",
+      "name": "Nordic Host Systems #376",
+      "brand_color": "#00C7B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0377",
+      "name": "Prime Edge Systems #377",
+      "brand_color": "#6762A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0378",
+      "name": "Nova Nuvem Systems #378",
+      "brand_color": "#4F0599",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0379",
+      "name": "Quantum Infrastructure Systems #379",
+      "brand_color": "#00A95C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0380",
+      "name": "Alpha Node Systems #380",
+      "brand_color": "#FF6600",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0381",
+      "name": "Metro Networks Systems #381",
+      "brand_color": "#007BFC",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0382",
+      "name": "Pacific Compute Systems #382",
+      "brand_color": "#0080FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0383",
+      "name": "Iberia Stack Systems #383",
+      "brand_color": "#00A4A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0384",
+      "name": "Apex Servers Systems #384",
+      "brand_color": "#46E3B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0385",
+      "name": "Flux Scale Systems #385",
+      "brand_color": "#FFD200",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0386",
+      "name": "Vertex VPS Systems #386",
+      "brand_color": "#24185B",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0387",
+      "name": "Bravo Grid Systems #387",
+      "brand_color": "#24292E",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0388",
+      "name": "Global Hosting Systems #388",
+      "brand_color": "#D50C2D",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0389",
+      "name": "Atlantic Datacenter Systems #389",
+      "brand_color": "#1DB954",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0390",
+      "name": "Cyber Cloud Systems #390",
+      "brand_color": "#00539C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0391",
+      "name": "Titan Host Systems #391",
+      "brand_color": "#FF0000",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0392",
+      "name": "Nexus Edge Systems #392",
+      "brand_color": "#673AB7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0393",
+      "name": "Hyper Nuvem Systems #393",
+      "brand_color": "#00E5FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0394",
+      "name": "Delta Infrastructure Systems #394",
+      "brand_color": "#E30613",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0395",
+      "name": "Latam Node Systems #395",
+      "brand_color": "#9B51E0",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0396",
+      "name": "Nordic Networks Systems #396",
+      "brand_color": "#00C7B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0397",
+      "name": "Prime Compute Systems #397",
+      "brand_color": "#6762A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0398",
+      "name": "Nova Stack Systems #398",
+      "brand_color": "#4F0599",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0399",
+      "name": "Quantum Servers Systems #399",
+      "brand_color": "#00A95C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0400",
+      "name": "Alpha Scale Systems #400",
+      "brand_color": "#FF6600",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0401",
+      "name": "Metro VPS Systems #401",
+      "brand_color": "#007BFC",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0402",
+      "name": "Pacific Grid Systems #402",
+      "brand_color": "#0080FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0403",
+      "name": "Iberia Hosting Systems #403",
+      "brand_color": "#00A4A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0404",
+      "name": "Apex Datacenter Systems #404",
+      "brand_color": "#46E3B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0405",
+      "name": "Flux Cloud Systems #405",
+      "brand_color": "#FFD200",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0406",
+      "name": "Vertex Host Systems #406",
+      "brand_color": "#24185B",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0407",
+      "name": "Bravo Edge Systems #407",
+      "brand_color": "#24292E",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0408",
+      "name": "Global Nuvem Systems #408",
+      "brand_color": "#D50C2D",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0409",
+      "name": "Atlantic Infrastructure Systems #409",
+      "brand_color": "#1DB954",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0410",
+      "name": "Cyber Node Systems #410",
+      "brand_color": "#00539C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0411",
+      "name": "Titan Networks Systems #411",
+      "brand_color": "#FF0000",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0412",
+      "name": "Nexus Compute Systems #412",
+      "brand_color": "#673AB7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0413",
+      "name": "Hyper Stack Systems #413",
+      "brand_color": "#00E5FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0414",
+      "name": "Delta Servers Systems #414",
+      "brand_color": "#E30613",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0415",
+      "name": "Latam Scale Systems #415",
+      "brand_color": "#9B51E0",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0416",
+      "name": "Nordic VPS Systems #416",
+      "brand_color": "#00C7B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0417",
+      "name": "Prime Grid Systems #417",
+      "brand_color": "#6762A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0418",
+      "name": "Nova Hosting Systems #418",
+      "brand_color": "#4F0599",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0419",
+      "name": "Quantum Datacenter Systems #419",
+      "brand_color": "#00A95C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0420",
+      "name": "Alpha Cloud Systems #420",
+      "brand_color": "#FF6600",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0421",
+      "name": "Metro Host Systems #421",
+      "brand_color": "#007BFC",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0422",
+      "name": "Pacific Edge Systems #422",
+      "brand_color": "#0080FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0423",
+      "name": "Iberia Nuvem Systems #423",
+      "brand_color": "#00A4A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0424",
+      "name": "Apex Infrastructure Systems #424",
+      "brand_color": "#46E3B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0425",
+      "name": "Flux Node Systems #425",
+      "brand_color": "#FFD200",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0426",
+      "name": "Vertex Networks Systems #426",
+      "brand_color": "#24185B",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0427",
+      "name": "Bravo Compute Systems #427",
+      "brand_color": "#24292E",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0428",
+      "name": "Global Stack Systems #428",
+      "brand_color": "#D50C2D",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0429",
+      "name": "Atlantic Servers Systems #429",
+      "brand_color": "#1DB954",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0430",
+      "name": "Cyber Scale Systems #430",
+      "brand_color": "#00539C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0431",
+      "name": "Titan VPS Systems #431",
+      "brand_color": "#FF0000",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0432",
+      "name": "Nexus Grid Systems #432",
+      "brand_color": "#673AB7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0433",
+      "name": "Hyper Hosting Systems #433",
+      "brand_color": "#00E5FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0434",
+      "name": "Delta Datacenter Systems #434",
+      "brand_color": "#E30613",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0435",
+      "name": "Latam Cloud Systems #435",
+      "brand_color": "#9B51E0",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0436",
+      "name": "Nordic Host Systems #436",
+      "brand_color": "#00C7B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0437",
+      "name": "Prime Edge Systems #437",
+      "brand_color": "#6762A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0438",
+      "name": "Nova Nuvem Systems #438",
+      "brand_color": "#4F0599",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0439",
+      "name": "Quantum Infrastructure Systems #439",
+      "brand_color": "#00A95C",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0440",
+      "name": "Alpha Node Systems #440",
+      "brand_color": "#FF6600",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0441",
+      "name": "Metro Networks Systems #441",
+      "brand_color": "#007BFC",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0442",
+      "name": "Pacific Compute Systems #442",
+      "brand_color": "#0080FF",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0443",
+      "name": "Iberia Stack Systems #443",
+      "brand_color": "#00A4A6",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0444",
+      "name": "Apex Servers Systems #444",
+      "brand_color": "#46E3B7",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0445",
+      "name": "Flux Scale Systems #445",
+      "brand_color": "#FFD200",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0446",
+      "name": "Vertex VPS Systems #446",
+      "brand_color": "#24185B",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0447",
+      "name": "Bravo Grid Systems #447",
+      "brand_color": "#24292E",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0448",
+      "name": "Global Hosting Systems #448",
+      "brand_color": "#D50C2D",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0449",
+      "name": "Atlantic Datacenter Systems #449",
+      "brand_color": "#1DB954",
+      "category": "Regional & Especializado"
+    },
+    {
+      "id": "HOST_0450",
+      "name": "Cyber Cloud Systems #450",
+      "brand_color": "#00539C",
+      "category": "Regional & Especializado"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_94_NETWORK_TUNNELING_AND_QR_PREVIEWS_985",
+  "title": "TUNNEL LOCAL WIFI LAN SHARING",
+  "category": "Túneis de Rede, Exposição de Portas e Códigos QR",
+  "summary": "Deteção automática do IP local (192.168.x.x) e geração de link direto para partilha na rede local.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Deteção automática do IP local (192.168.x.x) e geração de link direto para partilha na rede local.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

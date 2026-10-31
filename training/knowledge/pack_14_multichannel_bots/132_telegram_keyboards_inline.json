@@ -1,0 +1,9 @@
+{
+  "module_id": "BOT_TELEGRAM_02",
+  "platform": "Telegram",
+  "features": [
+    "Markup.inlineKeyboard para botões com callback_data",
+    "Markup.keyboard para botões de teclado persistente",
+    "Tratamento de bot.action() para responder ações sem recarregar mensagem"
+  ]
+}

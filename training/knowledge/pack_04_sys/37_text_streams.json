@@ -1,0 +1,17 @@
+{
+  "topic": "Manipulação de Linhas, Colunas e Substituição de Padrões em Lote",
+  "rules": [
+    "Utilizar sed para substituições em fluxo sem corromper caracteres especiais.",
+    "Utilizar awk para extrair colunas estruturadas de tabelas do terminal."
+  ],
+  "recipes": [
+    {
+      "trigger": "substituir palavra em todos os ficheiros de texto",
+      "command": "find . -maxdepth 2 -name '*.txt' -exec sed -i 's/antigo/novo/g' {} + && echo 'Substituições aplicadas com sucesso.'"
+    },
+    {
+      "trigger": "listar os 5 maiores ficheiros da pasta atual",
+      "command": "ls -lhS | awk '{print $5, $9}' | head -n 6"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_SLACK_01",
+  "platform": "Slack",
+  "engine": "@slack/bolt",
+  "mandatory_structure": [
+    "index.js",
+    "package.json",
+    ".env",
+    "listeners/commands.js",
+    "README.md"
+  ],
+  "rules": [
+    "Utilizar App do @slack/bolt com suporte a Socket Mode (evita necessidade de IP público inicial).",
+    "Manipulação de Slash Commands (ex: /status, /ticket) e Block Kit para formulários visuais.",
+    "Armazenar SLACK_BOT_TOKEN, SLACK_SIGNING_SECRET e SLACK_APP_TOKEN no .env."
+  ]
+}

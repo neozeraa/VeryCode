@@ -1,0 +1,10 @@
+{
+  "language": "Python",
+  "official_color": "#FFD43B",
+  "paradigms": ["Multiparadigma", "Orientado a Objetos", "Funcional", "Tipagem Dinâmica Forte"],
+  "standards": [
+    "Aderência rigorosa à PEP 8 para legibilidade e organização de código.",
+    "Uso de ambientes virtuais (venv) para isolamento de dependências no Termux/Linux.",
+    "Frameworks web modernos: FastAPI com Pydantic para APIs assíncronas e Flask para microserviços."
+  ]
+}

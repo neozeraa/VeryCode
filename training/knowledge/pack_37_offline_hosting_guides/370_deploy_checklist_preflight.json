@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_37_OFFLINE_HOSTING_GUIDES_370",
+  "title": "DEPLOY CHECKLIST PREFLIGHT",
+  "category": "Guias e Configurações Prontas de Deploy",
+  "summary": "Lista de 10 checagens obrigatórias antes de publicar projetos.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

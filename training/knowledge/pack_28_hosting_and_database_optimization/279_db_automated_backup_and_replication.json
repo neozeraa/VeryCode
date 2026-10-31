@@ -1,0 +1,8 @@
+{
+  "topic": "Rotinas de Backup Automático e Replicação",
+  "rules": [
+    "Agendar dumps diários automatizados (pg_dump, mysqldump ou .backup no SQLite) compactados com gzip.",
+    "Transmitir arquivos de backup criptografados para armazenamento em nuvem externa independente do servidor principal.",
+    "Configurar replicação primário-réplica (read replica) para isolar relatórios e analytics do banco de escrita."
+  ]
+}

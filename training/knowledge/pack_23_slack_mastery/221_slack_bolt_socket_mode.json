@@ -1,0 +1,4 @@
+{
+  "feature": "App Bolt com Socket Mode",
+  "rules": ["Utilizar new App({ token, signingSecret, socketMode: true, appToken }).", "Socket Mode dispensa IP público ou portas abertas para testes locais."]
+}

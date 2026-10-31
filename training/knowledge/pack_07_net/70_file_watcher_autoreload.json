@@ -1,0 +1,17 @@
+{
+  "topic": "Monitoramento de Mudanças de Ficheiros e Recarga Automática",
+  "rules": [
+    "Reiniciar scripts Node ou Python imediatamente após edições no código.",
+    "Utilizar nodemon ou inotifywait."
+  ],
+  "recipes": [
+    {
+      "trigger": "executar script node com auto reload a cada salvamento",
+      "command": "npx nodemon --watch . --ext js,json index.js"
+    },
+    {
+      "trigger": "esperar alteracao em pasta antes de rodar comando",
+      "command": "pkg install -y inotify-tools && inotifywait -e modify,create . && echo 'Alteração detectada!'"
+    }
+  ]
+}

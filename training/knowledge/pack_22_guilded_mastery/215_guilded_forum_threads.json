@@ -1,0 +1,4 @@
+{
+  "feature": "Gestão de Tópicos de Fórum e Documentos",
+  "rules": ["Manipular canais de fórum postando tópicos oficiais com client.forums.", "Fixar tópicos de regras e formulários do clã."]
+}

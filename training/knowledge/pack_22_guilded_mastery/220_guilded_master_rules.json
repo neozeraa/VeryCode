@@ -1,0 +1,4 @@
+{
+  "feature": "Diretriz Suprema de Bot Guilded",
+  "rules": ["Respeitar a tipagem e métodos da API oficial do Guilded.", "Entregar index.js com comandos isolados em commands/ e script de start."]
+}

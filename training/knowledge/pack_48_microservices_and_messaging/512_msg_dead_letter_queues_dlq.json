@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_48_MICROSERVICES_AND_MESSAGING_512",
+  "title": "MSG DEAD LETTER QUEUES DLQ",
+  "category": "Microsserviços, Mensageria, Filas e Event-Driven",
+  "summary": "Armazenamento e reprocessamento controlado de mensagens que falharam sucessivas vezes.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Armazenamento e reprocessamento controlado de mensagens que falharam sucessivas vezes.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

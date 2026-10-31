@@ -1,0 +1,8 @@
+{
+  "module_id": "RESILIENCE_REPAIR_04",
+  "topic": "Análise Semântica de Stack Traces e Correção",
+  "rules": [
+    "Ao executar /debug, ler o histórico de erros e categorizar a falha: dependência ausente, erro de sintaxe ou ficheiro em falta.",
+    "Disparar a correção automática (ex.: npm install <pacote> ou ajuste do caminho com fs)."
+  ]
+}

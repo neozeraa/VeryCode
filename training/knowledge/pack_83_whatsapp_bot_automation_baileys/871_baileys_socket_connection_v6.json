@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_83_WHATSAPP_BOT_AUTOMATION_BAILEYS_871",
+  "title": "BAILEYS SOCKET CONNECTION V6",
+  "category": "Automação e Bots de WhatsApp com Baileys",
+  "summary": "Inicialização do makeWASocket com useMultiFileAuthState, persistência de credenciais e logs limpos.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Inicialização do makeWASocket com useMultiFileAuthState, persistência de credenciais e logs limpos.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

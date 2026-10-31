@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_92_TERMINAL_PROCESS_AND_SERVICE_MANAGER_964",
+  "title": "PROC ZOMBIE REAPING ROUTINES",
+  "category": "Gestão Local de Processos, Daemons e Serviços em Segundo Plano",
+  "summary": "Varredura periódica e limpeza de processos órfãos ou bloqueados libertando ciclos de CPU do telemóvel.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Varredura periódica e limpeza de processos órfãos ou bloqueados libertando ciclos de CPU do telemóvel.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "category": "Linux Core - Pseudo-filesystems /proc /sys /dev",
+  "commands": ["ls -l /dev", "cat /proc/partitions", "cat /proc/version", "lsof"],
+  "rules": [
+    "Ler pseudo-sistemas de arquivos para diagnóstico seguro sem alterar configurações.",
+    "Inspecionar dispositivos de blocos e versões de compilador do kernel."
+  ],
+  "recipes": [
+    {
+      "intent": "ver versao de compilacao do kernel e gcc usado",
+      "command": "cat /proc/version"
+    },
+    {
+      "intent": "ver lista de particoes de disco detectadas pelo kernel",
+      "command": "cat /proc/partitions"
+    }
+  ]
+}

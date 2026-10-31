@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_39_OFFLINE_VISUAL_TEMPLATES_389",
+  "title": "TYPOGRAPHY SCALES PRESETS",
+  "category": "Modelos Vetoriais SVG e Paletas Locais",
+  "summary": "Tabelas de clamp() tipográfico prontas para mobile e desktop.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

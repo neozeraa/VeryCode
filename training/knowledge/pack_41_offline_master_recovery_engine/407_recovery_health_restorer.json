@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_41_OFFLINE_MASTER_RECOVERY_ENGINE_407",
+  "title": "RECOVERY HEALTH RESTORER",
+  "category": "Motor de Continuidade e Chaveamento Inteligente",
+  "summary": "Sonda de segundo plano para retornar à API quando a conexão restabelecer.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

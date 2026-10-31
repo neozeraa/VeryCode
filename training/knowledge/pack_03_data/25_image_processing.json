@@ -1,0 +1,17 @@
+{
+  "topic": "Manipulação de Imagens via Linha de Comandos com ImageMagick",
+  "rules": [
+    "Instalar imagemagick para redimensionamento e conversão de formato.",
+    "Isolar imagens convertidas num subdiretório de saída."
+  ],
+  "recipes": [
+    {
+      "trigger": "instalar imagemagick e converter png para jpg",
+      "command": "pkg install -y imagemagick && mkdir -p output_images && mogrify -format jpg -path output_images *.png 2>/dev/null || echo 'Sem imagens PNG para converter.'"
+    },
+    {
+      "trigger": "redimensionar imagens para resolucao web",
+      "command": "mogrify -resize 800x600 *.jpg 2>/dev/null && echo 'Imagens redimensionadas com sucesso.'"
+    }
+  ]
+}

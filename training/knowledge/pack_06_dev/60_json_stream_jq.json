@@ -1,0 +1,17 @@
+{
+  "topic": "Manipulação, Filtragem e Extração de Dados JSON Complexos",
+  "rules": [
+    "Utilizar jq para sanitizar saídas de APIs antes de repassar para scripts.",
+    "Formatar com indentação limpa."
+  ],
+  "recipes": [
+    {
+      "trigger": "extrair campo especifico de um json via terminal",
+      "command": "pkg install -y jq && cat package.json | jq '.dependencies'"
+    },
+    {
+      "trigger": "filtrar lista de objetos em json",
+      "command": "jq '.projects[] | {name: .name, port: .port}' projects_db.json"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_40_OFFLINE_NETWORK_SIMULATORS_395",
+  "title": "SIM CORS TESTER",
+  "category": "Testadores Locais e Simuladores de API",
+  "summary": "Verificador de cabeçalhos Access-Control-Allow-Origin locais.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

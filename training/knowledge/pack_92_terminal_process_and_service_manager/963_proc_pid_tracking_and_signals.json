@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_92_TERMINAL_PROCESS_AND_SERVICE_MANAGER_963",
+  "title": "PROC PID TRACKING AND SIGNALS",
+  "category": "Gestão Local de Processos, Daemons e Serviços em Segundo Plano",
+  "summary": "Rastreio e persistência de ficheiros .pid para envio preciso de sinais Unix (SIGTERM, SIGINT, SIGHUP).",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Rastreio e persistência de ficheiros .pid para envio preciso de sinais Unix (SIGTERM, SIGINT, SIGHUP).",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

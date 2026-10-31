@@ -1,0 +1,17 @@
+{
+  "topic": "Auditoria de Portas Abertas, Sockets e Análise com Nmap/Netcat",
+  "rules": [
+    "Identificar serviços vulneráveis escutando em 0.0.0.0 antes de expor a rede.",
+    "Priorizar ferramentas leves como nc e ss antes de scanners pesados."
+  ],
+  "recipes": [
+    {
+      "trigger": "escanear portas abertas na maquina local",
+      "command": "ss -tulwn 2>/dev/null || netstat -tuln"
+    },
+    {
+      "trigger": "testar se uma porta remota esta aberta rapidamente",
+      "command": "nc -z -v -w3 127.0.0.1 3000 2>&1"
+    }
+  ]
+}

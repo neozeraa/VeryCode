@@ -1,0 +1,4 @@
+{
+  "feature": "Alertas de Incidentes e DevOps",
+  "rules": ["Webhook corporativo recebendo alertas de monitoramento de servidores.", "Botões de ação direta: 'Reconhecer Falha' e 'Resolver Incidente'."]
+}

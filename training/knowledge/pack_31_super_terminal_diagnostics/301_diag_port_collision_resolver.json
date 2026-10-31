@@ -1,0 +1,8 @@
+{
+  "topic": "Resolução Autónoma de Conflitos de Portas (EADDRINUSE)",
+  "rules": [
+    "Detetar erro de porta ocupada capturando o código EADDRINUSE no arranque de servidores HTTP ou WebSockets.",
+    "Identificar o processo concorrente através do comando lsof ou fuser no Termux.",
+    "Encerrar suavemente a instância antiga ou migrar automaticamente para a porta livre subsequente sem abortar o script."
+  ]
+}

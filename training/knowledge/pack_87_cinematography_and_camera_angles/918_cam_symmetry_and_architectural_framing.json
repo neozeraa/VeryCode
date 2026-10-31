@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_87_CINEMATOGRAPHY_AND_CAMERA_ANGLES_918",
+  "title": "CAM SYMMETRY AND ARCHITECTURAL FRAMING",
+  "category": "Cinematografia, Ângulos de Câmera e Composição Visual",
+  "summary": "Enquadramentos perfeitamente simétricos com alinhamento vertical estrito inspirados no cinema clássico e arquitetura.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Enquadramentos perfeitamente simétricos com alinhamento vertical estrito inspirados no cinema clássico e arquitetura.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

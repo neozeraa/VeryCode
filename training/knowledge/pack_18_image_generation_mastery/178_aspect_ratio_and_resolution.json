@@ -1,0 +1,8 @@
+{
+  "module_id": "IMG_ENGINE_08",
+  "rules": [
+    "Para celular e wallpapers: priorizar resolução vertical 1024x1792 (9:16).",
+    "Para banners e headers: aplicar formato widescreen 1792x1024 (16:9).",
+    "Padrão de avatar e vitrines: quadrado perfeito 1024x1024 (1:1)."
+  ]
+}

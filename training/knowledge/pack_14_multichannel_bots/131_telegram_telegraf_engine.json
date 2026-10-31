@@ -1,0 +1,18 @@
+{
+  "module_id": "BOT_TELEGRAM_01",
+  "platform": "Telegram",
+  "engine": "telegraf",
+  "mandatory_structure": [
+    "index.js",
+    "package.json",
+    ".env",
+    "commands/start.js",
+    "commands/help.js",
+    "README.md"
+  ],
+  "rules": [
+    "Utilizar telegraf v4 com polling inicial ou webhook.",
+    "Proteger o token em TELEGRAM_BOT_TOKEN no .env.",
+    "Registrar comandos com bot.start(), bot.help() e bot.command()."
+  ]
+}

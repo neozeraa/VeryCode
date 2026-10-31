@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERY SYSTEMS - Repositório Loginscreen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #000000;
+            --surface-color: #0a0a0a;
+            --surface-border: #222222;
+            --surface-hover: #141414;
+            --text-primary: #ffffff;
+            --text-secondary: #888888;
+            --accent: #ffffff;
+            --accent-invert: #000000;
+            --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header & Nav */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--surface-border);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 5%;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            color: var(--text-primary);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo span {
+            background: var(--text-primary);
+            color: var(--bg-color);
+            padding: 2px 6px;
+            font-size: 0.8rem;
+            border-radius: 2px;
+        }
+
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        nav a:hover {
+            color: var(--text-primary);
+        }
+
+        .nav-btn {
+            background: var(--text-primary);
+            color: var(--bg-color);
+            padding: 0.6rem 1.2rem;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .nav-btn:hover {
+            opacity: 0.8;
+            transform: translateY(-1px);
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 8rem 5% 4rem;
+            position: relative;
+            background-image: 
+                radial-gradient(circle at 50% 30%, rgba(255,255,255,0.03) 0%, transparent 60%);
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            padding: 0.4rem 1rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-family: 'Fira Code', monospace;
+        }
+
+        .badge dot {
+            width: 6px;
+            height: 6px;
+            background: #fff;
+            border-radius: 50%;
+            box-shadow: 0 0 8px #fff;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 5vw, 4.5rem);
+            font-weight: 800;
+            letter-spacing: -1.5px;
+            margin-bottom: 1.5rem;
+            max-width: 900px;
+            line-height: 1.1;
+        }
+
+        .hero p {
+            font-size: clamp(1rem, 2vw, 1.2rem);
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin-bottom: 2.5rem;
+        }
+
+        .cta-group {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn {
+            padding: 0.9rem 2rem;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+
+        .btn-primary {
+            background: var(--text-primary);
+            color: var(--bg-color);
+            border: 1px solid var(--text-primary);
+        }
+
+        .btn-primary:hover {
+            background: transparent;
+            color: var(--text-primary);
+        }
+
+        .btn-secondary {
+            background: var(--surface-color);
+            color: var(--text-primary);
+            border: 1px solid var(--surface-border);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--text-primary);
+            background: var(--surface-hover);
+        }
+
+        /* Features Section */
+        .features {
+            padding: 6rem 5%;
+            background: var(--surface-color);
+            border-top: 1px solid var(--surface-border);
+            border-bottom: 1px solid var(--surface-border);
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 4rem;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -1px;
+        }
+
+        .section-header p {
+            color: var(--text-secondary);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: var(--bg-color);
+            border: 1px solid var(--surface-border);
+            border-radius: 8px;
+            padding: 2.5rem;
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            border-color: var(--text-primary);
+            transform: translateY(-4px);
+        }
+
+        .card-icon {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            background: var(--surface-color);
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 6px;
+            border: 1px solid var(--surface-border);
+        }
+
+        .card h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.8rem;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+
+        /* Repo Showcase */
+        .repo-showcase {
+            padding: 8rem 5%;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        @media(max-width: 900px) {
+            .repo-showcase {
+                grid-template-columns: 1fr;
+                gap: 3rem;
+            }
+        }
+
+        .repo-info h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            letter-spacing: -1px;
+        }
+
+        .repo-info p {
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+        }
+
+        .code-window {
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            border-radius: 8px;
+            overflow: hidden;
+            font-family: 'Fira Code', monospace;
+        }
+
+        .code-header {
+            background: #000;
+            padding: 0.8rem 1rem;
+            border-bottom: 1px solid var(--surface-border);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--surface-border);
+        }
+
+        .code-body {
+            padding: 1.5rem;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            overflow-x: auto;
+        }
+
+        .code-body .cmd {
+            color: var(--text-primary);
+        }
+
+        .code-body .param {
+            color: #888;
+        }
+
+        /* Interactive Simulator */
+        .simulator {
+            padding: 6rem 5%;
+            background: var(--surface-color);
+            border-top: 1px solid var(--surface-border);
+            text-align: center;
+        }
+
+        .login-box {
+            background: var(--bg-color);
+            border: 1px solid var(--surface-border);
+            max-width: 400px;
+            margin: 3rem auto 0;
+            padding: 2.5rem;
+            border-radius: 12px;
+            text-align: left;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.8);
+        }
+
+        .login-box h3 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .login-box p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-bottom: 2rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.2rem;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 0.8rem 1rem;
+            background: var(--surface-color);
+            border: 1px solid var(--surface-border);
+            border-radius: 6px;
+            color: var(--text-primary);
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--text-primary);
+            background: var(--bg-color);
+        }
+
+        .form-submit {
+            width: 100%;
+            margin-top: 1rem;
+            padding: 0.8rem;
+            background: var(--text-primary);
+            color: var(--bg-color);
+            border: none;
+            border-radius: 6px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .form-submit:hover {
+            opacity: 0.9;
+        }
+
+        #feedback-msg {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            text-align: center;
+            min-height: 20px;
+        }
+
+        /* Footer */
+        footer {
+            padding: 4rem 5%;
+            background: var(--bg-color);
+            border-top: 1px solid var(--surface-border);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+            .hero {
+                padding-top: 6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">VERY <span>SYSTEMS</span></a>
+        <nav>
+            <a href="#recurso">Recursos</a>
+            <a href="#repositorio">Repositório</a>
+            <a href="#demo">Demonstração</a>
+            <a href="https://github.com/neozeraa/loginscreen" target="_blank" class="nav-btn">Acessar GitHub</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="badge">
+                <dot></dot> VERY SYSTEMS ARCHITECTURE // v2.4.0
+            </div>
+            <h1>Interface de Autenticação Minimalista</h1>
+            <p>Desenvolvido com foco em alta performance e design monocromático de precisão para o ecossistema VERY SYSTEMS.</p>
+            <div class="cta-group">
+                <a href="https://github.com/neozeraa/loginscreen" target="_blank" class="btn btn-primary">
+                    Ver no GitHub &rarr;
+                </a>
+                <a href="#demo" class="btn btn-secondary">
+                    Testar Demo Interativa
+                </a>
+            </div>
+        </section>
+
+        <section id="recurso" class="features">
+            <div class="section-header">
+                <h2>Engenharia de Ponta</h2>
+                <p>Cada componente foi meticulosamente estruturado para garantir escalabilidade, elegância visual e experiência fluida.</p>
+            </div>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">01</div>
+                    <h3>Design Monocromático</h3>
+                    <p>Contraste absoluto em preto e puro branco que transmite sofisticação e foco total na funcionalidade.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">02</div>
+                    <h3>Responsividade Nativa</h3>
+                    <p>Adaptação perfeita a qualquer viewport, desde monitores ultrawide até smartphones compactos.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">03</div>
+                    <h3>Código Limpo</h3>
+                    <p>Arquitetura limpa baseada no repositório oficial do neozeraa, livre de dependências excessivas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="repositorio" class="repo-showcase">
+            <div class="repo-info">
+                <h2>Repositório Oficial<br>neozeraa/loginscreen</h2>
+                <p>O projeto abriga uma estrutura modular otimizada para integração rápida com sistemas de identidade corporativa e painéis administrativos da VERY SYSTEMS.</p>
+                <a href="https://github.com/neozeraa/loginscreen" target="_blank" class="btn btn-primary">
+                    Explorar Código Fonte
+                </a>
+            </div>
+            <div class="code-window">
+                <div class="code-header">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <div class="code-body">
+                    <p><span class="cmd">git</span> clone <span class="param">https://github.com/neozeraa/loginscreen.git</span></p>
+                    <p><span class="cmd">cd</span> loginscreen</p>
+                    <p><span class="cmd">npm</span> install</p>
+                    <p><span class="cmd">npm</span> run <span class="param">dev</span></p>
+                    <br>
+                    <p style="color: #666;">// Status: Stable & Production Ready</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="demo" class="simulator">
+            <div class="section-header">
+                <h2>Simulador de Acesso</h2>
+                <p>Teste o componente de login diretamente em nossa interface de demonstração integrada.</p>
+            </div>
+            <div class="login-box">
+                <h3>VERY SYSTEMS</h3>
+                <p>Insira suas credenciais de acesso seguro.</p>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="username">Identificador</label>
+                        <input type="text" id="username" placeholder="usuario@verysystems.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha de Acesso</label>
+                        <input type="password" id="password" placeholder="••••••••••••" required>
+                    </div>
+                    <button type="submit" class="form-submit">Autenticar Sistema</button>
+                    <div id="feedback-msg"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 VERY SYSTEMS. Todos os direitos reservados.</p>
+        <p>Repositório associado: <a href="https://github.com/neozeraa/loginscreen" target="_blank" style="color: #fff; text-decoration: underline;">neozeraa/loginscreen</a></p>
+    </footer>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const user = document.getElementById('username').value;
+            const pass = document.getElementById('password').value;
+            const feedback = document.getElementById('feedback-msg');
+
+            feedback.style.color = '#888';
+            feedback.textContent = 'Processando credenciais no servidor...';
+
+            setTimeout(() => {
+                if(user && pass) {
+                    feedback.style.color = '#ffffff';
+                    feedback.textContent = 'Autenticação bem-sucedida. Bem-vindo à VERY SYSTEMS.';
+                    this.reset();
+                } else {
+                    feedback.style.color = '#ff4444';
+                    feedback.textContent = 'Erro: Preencha todos os campos.';
+                }
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

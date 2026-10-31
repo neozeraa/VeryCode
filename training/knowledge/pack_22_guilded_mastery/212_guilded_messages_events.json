@@ -1,0 +1,4 @@
+{
+  "feature": "Processador de Mensagens e Prefixos",
+  "rules": ["Escutar evento 'messageCreated' verificando message.authorId !== botId.", "Suporte a comandos baseados em prefixos personalizáveis."]
+}

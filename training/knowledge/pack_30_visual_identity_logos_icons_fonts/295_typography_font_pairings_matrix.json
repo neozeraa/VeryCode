@@ -1,0 +1,9 @@
+{
+  "topic": "Combinação Harmônica de Fontes (Font Pairing)",
+  "rules": [
+    "Projetos Tech / Dashboard: Inter ou Roboto para corpo de texto com JetBrains Mono ou Fira Code para números, logs e código.",
+    "Moderno / Startups: Montserrat ou Poppins para títulos de impacto com Open Sans ou Lato para blocos de leitura longos.",
+    "Premium / Editorial: Playfair Display ou Merriweather para títulos refinados combinados com Source Sans 3 para leitura fluida.",
+    "Minimalista / Corporativo: Plus Jakarta Sans ou Manrope de peso variado (SemiBold nos títulos, Regular no corpo)."
+  ]
+}

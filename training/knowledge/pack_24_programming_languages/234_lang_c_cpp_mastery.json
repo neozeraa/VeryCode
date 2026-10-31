@@ -1,0 +1,10 @@
+{
+  "language": "C / C++",
+  "official_colors": { "c": "#555555", "cpp": "#00599C" },
+  "paradigms": ["Procedural", "Orientado a Objetos", "Acesso Direto à Memória"],
+  "standards": [
+    "Gerenciamento rigoroso de ponteiros e memória (malloc/free no C, smart pointers RAII no C++).",
+    "Compilação com flags de otimização e auditoria (gcc/clang com -Wall -Wextra).",
+    "Desenvolvimento de módulos nativos de alta performance para Linux e Android."
+  ]
+}

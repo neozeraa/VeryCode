@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_85_BOT_DEPLOYMENT_HOSTING_SUPERVISION_894",
+  "title": "DEPLOY TERMUX BACKGROUND NOHUP",
+  "category": "Deploy, Supervisão 24/7 e Resiliência de Bots",
+  "summary": "Comandos para manter o bot rodando no Termux com nohup, wakelock e logs redirecionados para arquivo.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Comandos para manter o bot rodando no Termux com nohup, wakelock e logs redirecionados para arquivo.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "topic": "Monitoramento e Auto-Restart em PaaS e Discloud",
+  "rules": [
+    "Declarar AUTORESTART=true e alocar RAM mínima segura no discloud.config para evitar reinicializações por OOM.",
+    "Monitorar o uso de memória (process.memoryUsage().rss) periodicamente dentro do script principal.",
+    "Implementar rotas de /healthz ou /ping respondendo status 200 para testes de uptime automáticos."
+  ]
+}

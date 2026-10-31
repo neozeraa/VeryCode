@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_48_MICROSERVICES_AND_MESSAGING_508",
+  "title": "MICRO CIRCUIT BREAKER RESILIENCE",
+  "category": "Microsserviços, Mensageria, Filas e Event-Driven",
+  "summary": "Prevenção de falhas em cascata com corte temporário de conexões instáveis.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Prevenção de falhas em cascata com corte temporário de conexões instáveis.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

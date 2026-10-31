@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_99_REMOTE_TUNNELING_AND_PUBLIC_URLS_1037",
+  "title": "TUNNEL TRAFFIC INSPECTION HEADERS",
+  "category": "Túneis de Borda, URLs Públicas e Exposição Segura",
+  "summary": "Inspeção dos cabeçalhos CF-Connecting-IP e X-Forwarded-For para auditoria de conexões.",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Inspeção dos cabeçalhos CF-Connecting-IP e X-Forwarded-For para auditoria de conexões.",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

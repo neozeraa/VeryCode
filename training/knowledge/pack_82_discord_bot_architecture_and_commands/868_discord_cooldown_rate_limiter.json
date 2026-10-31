@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_82_DISCORD_BOT_ARCHITECTURE_AND_COMMANDS_868",
+  "title": "DISCORD COOLDOWN RATE LIMITER",
+  "category": "Arquitetura Avançada e Comandos para Bots Discord (v14)",
+  "summary": "Controle em memória de tempo de espera entre execuções de comandos para prevenir abuso de comandos.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Controle em memória de tempo de espera entre execuções de comandos para prevenir abuso de comandos.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

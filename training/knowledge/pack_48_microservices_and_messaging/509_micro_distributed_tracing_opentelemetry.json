@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_48_MICROSERVICES_AND_MESSAGING_509",
+  "title": "MICRO DISTRIBUTED TRACING OPENTELEMETRY",
+  "category": "Microsserviços, Mensageria, Filas e Event-Driven",
+  "summary": "Rastreamento de requisições através de múltiplos serviços via trace IDs únicos.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Rastreamento de requisições através de múltiplos serviços via trace IDs únicos.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

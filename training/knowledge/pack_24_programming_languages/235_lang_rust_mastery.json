@@ -1,0 +1,10 @@
+{
+  "language": "Rust",
+  "official_color": "#DEA584",
+  "paradigms": ["Sistemas", "Concorrente", "Funcional", "Sem Garbage Collector"],
+  "standards": [
+    "Conceito central de Ownership, Borrowing e Lifetimes verificados em tempo de compilação.",
+    "Tratamento explícito de erros com Result<T, E> e Option<T> sem exceções soltas.",
+    "Uso do gerenciador Cargo para compilação estática e dependências seguras."
+  ]
+}

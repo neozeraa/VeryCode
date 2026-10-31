@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_40_OFFLINE_NETWORK_SIMULATORS_391",
+  "title": "SIM HTTP MOCK SERVER",
+  "category": "Testadores Locais e Simuladores de API",
+  "summary": "Servidor simulador de rotas REST /api/users, /auth e /status.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Ambiente Termux e Sistema Android",
+  "rules": [
+    "Termux opera dentro da sandbox do Android sem permissões de root por padrão.",
+    "Gerenciador de pacotes 'pkg' constrói wrappers sobre o apt com repositórios para arquiteturas ARM64."
+  ]
+}

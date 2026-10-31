@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_MASTERY_PACK_PACK_83_WHATSAPP_BOT_AUTOMATION_BAILEYS_878",
+  "title": "BAILEYS SESSION PERSISTENCE BACKUP",
+  "category": "Automação e Bots de WhatsApp com Baileys",
+  "summary": "Salvamento seguro e exportação de pastas de autenticação prevenindo deslogamento do bot.",
+  "target_systems": [
+    "Discord Bot (v14)",
+    "WhatsApp Bot (Baileys)",
+    "Telegram Bot",
+    "Microserviços"
+  ],
+  "execution_rules": [
+    "Garantir aplicação imediata de: Salvamento seguro e exportação de pastas de autenticação prevenindo deslogamento do bot.",
+    "Interpretar pedidos de usuários com máxima precisão, gerando código modular limpo e sem dependências desnecessárias.",
+    "Salvar a estrutura do bot diretamente nos arquivos de projeto mantendo as respostas no terminal concisas e organizadas."
+  ]
+}

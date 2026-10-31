@@ -1,0 +1,19 @@
+{
+  "name": "verycode-cli",
+  "version": "1.0.0",
+  "description": "Terminal AI Agent by VERY SYSTEMS",
+  "main": "index.js",
+  "bin": {
+    "verycode": "index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "chalk": "^5.3.0",
+    "express": "^5.3.0"
+  },
+  "keywords": []
+}

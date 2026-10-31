@@ -1,0 +1,4 @@
+{
+  "feature": "Moderação Automática de Chat",
+  "rules": ["Filtro de caps lock excessivo, links sem permissão e palavras ofensivas.", "Aplicação de timeout com client.timeout(channel, username, segundos, motivo)."]
+}

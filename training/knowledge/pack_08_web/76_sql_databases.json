@@ -1,0 +1,7 @@
+{
+  "module": "Engenharia de Dados Relacional",
+  "rules": [
+    "Respeitar integridade referencial, chaves estrangeiras e índices B-Tree.",
+    "Garantir propriedades ACID (Atomicidade, Consistência, Isolamento, Durabilidade) em transações críticas."
+  ]
+}

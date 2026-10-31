@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_37_OFFLINE_HOSTING_GUIDES_367",
+  "title": "NGINX REVERSE PROXY CONF",
+  "category": "Guias e Configurações Prontas de Deploy",
+  "summary": "Arquivo pré-configurado de Nginx para rotas HTTP e WebSockets.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

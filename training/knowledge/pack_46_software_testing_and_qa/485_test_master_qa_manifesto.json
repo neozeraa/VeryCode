@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_46_SOFTWARE_TESTING_AND_QA_485",
+  "title": "TEST MASTER QA MANIFESTO",
+  "category": "Testes Automatizados, Cobertura e Qualidade de Código (QA)",
+  "summary": "Diretrizes de qualidade da VERY SYSTEMS: código pronto é código testado e estável.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Diretrizes de qualidade da VERY SYSTEMS: código pronto é código testado e estável.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

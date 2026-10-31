@@ -1,0 +1,17 @@
+{
+  "topic": "Execução Contínua, Auto-restart e Gestão de Logs com PM2",
+  "rules": [
+    "Utilizar PM2 para manter bots e servidores ligados indefinidamente.",
+    "Salvar estado com pm2 save para recuperação pós-reinício."
+  ],
+  "recipes": [
+    {
+      "trigger": "iniciar bot ou site em segundo plano com pm2",
+      "command": "pm2 start index.js --name meu_projeto && pm2 save"
+    },
+    {
+      "trigger": "ver logs e consumo de memoria do pm2",
+      "command": "pm2 status && pm2 logs --lines 20"
+    }
+  ]
+}

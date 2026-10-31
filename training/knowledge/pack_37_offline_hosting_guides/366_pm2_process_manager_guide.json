@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_37_OFFLINE_HOSTING_GUIDES_366",
+  "title": "PM2 PROCESS MANAGER GUIDE",
+  "category": "Guias e Configurações Prontas de Deploy",
+  "summary": "Guia prático de comandos pm2 start, save, logs e startup.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

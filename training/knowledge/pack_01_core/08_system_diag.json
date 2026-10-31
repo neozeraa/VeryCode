@@ -1,0 +1,17 @@
+{
+  "topic": "Diagnóstico de Hardware, Armazenamento e Processos",
+  "rules": [
+    "Usar ferramentas seguras do Linux (free, df, ps, top, htop).",
+    "Nunca matar processos essenciais do sistema Android ou Termux."
+  ],
+  "recipes": [
+    {
+      "trigger": "diagnostico completo do sistema",
+      "command": "echo '=== CPU & UPTIME ===' && uptime && echo '=== MEMÓRIA (MB) ===' && free -m && echo '=== DISCO DISPONÍVEL ===' && df -h $PREFIX"
+    },
+    {
+      "trigger": "ver processos que mais consom memoria",
+      "command": "ps aux --sort=-%mem | head -n 10"
+    }
+  ]
+}

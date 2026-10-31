@@ -1,0 +1,9 @@
+{
+  "rule_id": "AUTO_DEPENDENCIES_09",
+  "title": "Injeção Autônoma de Dependências no package.json",
+  "rules": [
+    "Bots Discord: discord.js@latest, dotenv",
+    "Bots WhatsApp: @whiskeysockets/baileys, pino, qrcode-terminal",
+    "Sites Web: Type module configurado com scripts de start rápidos"
+  ]
+}

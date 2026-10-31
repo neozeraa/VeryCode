@@ -1,0 +1,4 @@
+{
+  "feature": "Diretriz Suprema de Bot Telegram",
+  "rules": ["Todo bot deve vir com /start, /ajuda e /sobre pré-configurados.", "Mensagens de erro no chat devem ser amigáveis e nunca expor a stack trace ao usuário."]
+}

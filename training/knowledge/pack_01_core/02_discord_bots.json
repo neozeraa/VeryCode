@@ -1,0 +1,14 @@
+{
+  "topic": "Discord Bots (Discord.js & Python)",
+  "rules": [
+    "Criar diretório isolado.",
+    "Para Node.js usar discord.js; para Python usar discord.py.",
+    "Configurar arquivo .env ou config.json seguro para armazenar o token."
+  ],
+  "recipes": [
+    {
+      "trigger": "criar bot discord v14",
+      "command": "mkdir -p bots/discord_bot && cd bots/discord_bot && npm init -y && npm install discord.js dotenv && cat << 'FEOF' > index.js\nimport { Client, GatewayIntentBits } from 'discord.js';\nconst client = new Client({ intents: [GatewayIntentBits.Guilds] });\nclient.once('ready', () => console.log('VERY SYSTEMS Bot Online!'));\nclient.login(process.env.DISCORD_TOKEN);\nFEOF\necho 'Bot Discord criado com sucesso!'"
+    }
+  ]
+}

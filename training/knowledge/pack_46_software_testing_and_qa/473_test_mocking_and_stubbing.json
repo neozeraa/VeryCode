@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_46_SOFTWARE_TESTING_AND_QA_473",
+  "title": "TEST MOCKING AND STUBBING",
+  "category": "Testes Automatizados, Cobertura e Qualidade de Código (QA)",
+  "summary": "Técnicas de isolamento com mocks de banco de dados, APIs externas e timers.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Técnicas de isolamento com mocks de banco de dados, APIs externas e timers.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

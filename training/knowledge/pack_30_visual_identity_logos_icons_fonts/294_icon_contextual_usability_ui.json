@@ -1,0 +1,8 @@
+{
+  "topic": "Seleção e Posicionamento Contextual de Ícones de Interface",
+  "rules": [
+    "Ações primárias: Ícones autoexplicativos universais (lupa para busca, engrenagem para ajustes, carrinho para compras, casa para home).",
+    "Feedback de status: Ícones com cores semânticas imediatas (check em verde para sucesso, triângulo de alerta em amarelo, x em vermelho para erro).",
+    "Navegação mobile: Ícones com área de clique mínima de 44x44 pixels para precisão no toque de tela."
+  ]
+}

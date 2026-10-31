@@ -1,0 +1,9 @@
+{
+  "module_id": "BOT_TWITCH_02",
+  "platform": "Twitch",
+  "features": [
+    "Respostas automáticas para comandos como !sorteio, !pix, !redes, !discord",
+    "Filtro de palavras proibidas e deleção automática de links suspeitos",
+    "Mensagens periódicas em intervalo de tempo (timer) durante a live"
+  ]
+}

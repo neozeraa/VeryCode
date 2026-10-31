@@ -1,0 +1,9 @@
+{
+  "module_id": "MOD_ZAP_02",
+  "topic": "Processamento de Mensagens e Criação de Figurinhas/Mídia",
+  "rules": [
+    "Carregar dinamicamente comandos da pasta commands/ ao receber mensagens de texto ou mídia.",
+    "Incluir handler para criar figurinhas (.sticker) usando ffmpeg/fluent-ffmpeg para converter imagens/vídeos em WebP.",
+    "Isolar o bot em sua própria pasta em projects/<nome>_bot e salvá-lo no projects_db.json."
+  ]
+}

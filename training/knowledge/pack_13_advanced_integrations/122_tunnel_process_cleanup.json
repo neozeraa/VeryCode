@@ -1,0 +1,8 @@
+{
+  "module_id": "MOD_TUNNEL_02",
+  "topic": "Gerenciamento de Ciclo de Vida de Sockets e Processos de Túnel",
+  "rules": [
+    "Ao receber os comandos '>desl', 'desl' ou 'desligar', matar os processos filhos de túnel (cloudflared, ssh).",
+    "Liberar as portas de rede locais para evitar conflitos de EADDRINUSE na próxima inicialização."
+  ]
+}

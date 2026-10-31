@@ -1,0 +1,22 @@
+{
+  "category": "Linux Core - Kernel, System & Memory",
+  "commands": ["uname", "uptime", "free", "vmstat", "lscpu", "dmesg", "whoami", "id"],
+  "rules": [
+    "Ler métricas diretamente de /proc/meminfo, /proc/cpuinfo ou binários de diagnóstico.",
+    "Exibir saídas em unidades legíveis para humanos (-h ou -m)."
+  ],
+  "recipes": [
+    {
+      "intent": "ver versao do kernel arquitetura e hostname completo",
+      "command": "uname -a && uptime -p"
+    },
+    {
+      "intent": "ver distribuicao de memoria ram buffers e cache em megabytes",
+      "command": "free -m"
+    },
+    {
+      "intent": "identificar usuario atual uid e grupos associados",
+      "command": "whoami && id"
+    }
+  ]
+}

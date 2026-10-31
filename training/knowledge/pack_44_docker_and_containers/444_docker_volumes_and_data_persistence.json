@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_44_DOCKER_AND_CONTAINERS_444",
+  "title": "DOCKER VOLUMES AND DATA PERSISTENCE",
+  "category": "Engenharia de Containers, Docker e Orquestração",
+  "summary": "Gestão de volumes nomeados e bind mounts para proteção de dados do banco.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Gestão de volumes nomeados e bind mounts para proteção de dados do banco.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

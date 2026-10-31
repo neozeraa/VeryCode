@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_37_OFFLINE_HOSTING_GUIDES_361",
+  "title": "DISCLOUD CLI OFFLINE GUIDE",
+  "category": "Guias e Configurações Prontas de Deploy",
+  "summary": "Manual de resolução de erros e envio de arquivos para Discloud.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

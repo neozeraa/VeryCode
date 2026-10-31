@@ -1,0 +1,17 @@
+{
+  "topic": "Compactação de Elevada Eficiência com Tar, XZ e Zstandard",
+  "rules": [
+    "Utilizar compressão XZ quando for prioritário poupar espaço no armazenamento do telemóvel.",
+    "Excluir ficheiros pesados desnecessários (como node_modules e caches) nos pacotes."
+  ],
+  "recipes": [
+    {
+      "trigger": "compactar pasta com maxima compressao xz",
+      "command": "tar --exclude='node_modules' --exclude='.git' -cJf projeto_compactado.tar.xz . && echo 'Arquivo TAR.XZ ultracompacto gerado.'"
+    },
+    {
+      "trigger": "descompactar qualquer ficheiro tar",
+      "command": "tar -xvf *.tar.* 2>/dev/null || echo 'Nenhum ficheiro TAR encontrado para extrair.'"
+    }
+  ]
+}

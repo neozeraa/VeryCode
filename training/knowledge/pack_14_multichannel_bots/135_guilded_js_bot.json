@@ -1,0 +1,17 @@
+{
+  "module_id": "BOT_GUILDED_01",
+  "platform": "Guilded",
+  "engine": "guilded.js",
+  "mandatory_structure": [
+    "index.js",
+    "package.json",
+    ".env",
+    "commands/ping.js",
+    "README.md"
+  ],
+  "rules": [
+    "Utilizar biblioteca guilded.js oficial com Client({ token }).",
+    "Escutar eventos 'messageCreated' e filtrar autores do tipo bot.",
+    "Suporte a embeds estilizados e mensagens ricas para clãs e comunidades gamer."
+  ]
+}

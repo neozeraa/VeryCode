@@ -1,0 +1,8 @@
+{
+  "topic": "Camada de Cache em Memória com Redis",
+  "rules": [
+    "Implementar padrão Cache-Aside: buscar no Redis primeiro e só consultar o banco relacional em caso de cache miss.",
+    "Definir Time-To-Live (TTL) obrigatório para cada chave armazenada para evitar estouro de memória.",
+    "Invalidar chaves de cache no momento exato em que updates ou deletes ocorrem na base primária."
+  ]
+}

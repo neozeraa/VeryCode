@@ -1,0 +1,10 @@
+{
+  "language": "JavaScript",
+  "official_color": "#F7DF1E",
+  "paradigms": ["Baseado em Protótipos", "Event-Driven", "Assíncrono Não Bloqueante"],
+  "standards": [
+    "Padrão ECMAScript moderno (ES2022+) com módulos nativos (import/export).",
+    "Uso avançado de Promises, async/await e manipulação de fluxos com Streams.",
+    "Otimização de execução no motor V8 dentro do ambiente Node.js."
+  ]
+}

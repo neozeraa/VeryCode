@@ -1,0 +1,17 @@
+{
+  "topic": "Tratamento de Arquivos de Log Volumosos e Rotatividade Automática",
+  "rules": [
+    "Trunkar arquivos de log gigantescos sem travar o processo em execução.",
+    "Comprimir logs antigos em gzip."
+  ],
+  "recipes": [
+    {
+      "trigger": "limpar arquivo de log sem deletar o arquivo",
+      "command": ": > server.log && echo 'Arquivo de log resetado para 0 bytes.'"
+    },
+    {
+      "trigger": "comprimir logs com mais de 7 dias",
+      "command": "find . -name '*.log' -mtime +7 -exec gzip {} \\;"
+    }
+  ]
+}

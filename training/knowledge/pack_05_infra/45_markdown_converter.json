@@ -1,0 +1,13 @@
+{
+  "topic": "Renderização e Conversão de Documentação Markdown para Páginas Web",
+  "rules": [
+    "Utilizar pandoc ou ferramentas Node.js leves para gerar ficheiros HTML estáticos.",
+    "Incluir estilos CSS limpos e responsivos no documento gerado."
+  ],
+  "recipes": [
+    {
+      "trigger": "converter readme markdown para html",
+      "command": "pkg install -y pandoc && pandoc README.md -s -o index.html --metadata title='VERY SYSTEMS Documentation' && echo 'index.html gerado com sucesso!'"
+    }
+  ]
+}

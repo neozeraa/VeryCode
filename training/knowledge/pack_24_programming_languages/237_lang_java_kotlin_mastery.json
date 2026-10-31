@@ -1,0 +1,10 @@
+{
+  "language": "Java / Kotlin",
+  "official_colors": { "java": "#ED8B00", "kotlin": "#7F52FF" },
+  "paradigms": ["Orientação a Objetos", "Null-Safety", "JVM"],
+  "standards": [
+    "Java: Aplicação de design patterns modernos, Streams API e concorrência na JVM.",
+    "Kotlin: Null-safety nativo, corrotinas assíncronas e código conciso para aplicativos Android.",
+    "Integração com build tools padronizadas (Gradle e Maven)."
+  ]
+}

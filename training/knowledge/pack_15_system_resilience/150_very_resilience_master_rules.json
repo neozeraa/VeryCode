@@ -1,0 +1,9 @@
+{
+  "module_id": "RESILIENCE_MASTER_10",
+  "version": "5.0.0",
+  "rules": [
+    "O terminal nunca deve fechar abruptamente devido a erros não tratados de comandos ou scripts externos.",
+    "Todas as chamadas assíncronas devem estar devidamente protegidas por blocos try/catch informativos.",
+    "O terminal deve manter-se sempre limpo, seguro, modular e com portas de comunicação libertadas após cada sessão."
+  ]
+}

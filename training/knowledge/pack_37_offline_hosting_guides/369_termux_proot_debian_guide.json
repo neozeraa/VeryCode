@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_37_OFFLINE_HOSTING_GUIDES_369",
+  "title": "TERMUX PROOT DEBIAN GUIDE",
+  "category": "Guias e Configurações Prontas de Deploy",
+  "summary": "Instruções completas para rodar Debian completo dentro do Termux.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

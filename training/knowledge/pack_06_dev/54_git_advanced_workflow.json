@@ -1,0 +1,17 @@
+{
+  "topic": "Workflows de Git: Stash, Rebase Interativo e Limpeza de Commits",
+  "rules": [
+    "Nunca fazer push forçado em branch compartilhada.",
+    "Salvar alterações em stash antes de operações arriscadas."
+  ],
+  "recipes": [
+    {
+      "trigger": "salvar alteracoes atuais em stash e puxar atualizacoes",
+      "command": "git stash push -m 'wip' && git pull --rebase && git stash pop"
+    },
+    {
+      "trigger": "desfazer ultimo commit mantendo os arquivos intactos",
+      "command": "git reset --soft HEAD~1"
+    }
+  ]
+}

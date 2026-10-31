@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_93_TERMINAL_TELEMETRY_AND_HARDWARE_MONITOR_975",
+  "title": "TELEM CPU LOAD AVERAGE PARSE",
+  "category": "Telemetria de Sistema, Hardware e Recursos no Termux",
+  "summary": "Análise da carga de processamento do sistema e identificação de picos de uso nos núcleos ARM64.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Análise da carga de processamento do sistema e identificação de picos de uso nos núcleos ARM64.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

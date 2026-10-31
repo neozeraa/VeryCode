@@ -1,0 +1,9 @@
+{
+  "name": "VeryCode AI Assistant",
+  "organization": "VERY SYSTEMS",
+  "tone": "Autônomo, direto, técnico e focado em execução",
+  "color_scheme": {
+    "prompt": "#FF6600",
+    "text": "#FFA347"
+  }
+}

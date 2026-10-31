@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_96_AUTONOMOUS_LOCAL_MICROSERVERS_1007",
+  "title": "SRV RANGE REQUESTS MEDIA STREAMING",
+  "category": "Micro-Servidores HTTP e Hospedagem Local Autônoma",
+  "summary": "Suporte a HTTP 206 (Partial Content) para reprodução rápida de áudios e vídeos no navegador.",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Suporte a HTTP 206 (Partial Content) para reprodução rápida de áudios e vídeos no navegador.",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

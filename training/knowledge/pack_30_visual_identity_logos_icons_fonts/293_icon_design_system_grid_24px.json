@@ -1,0 +1,8 @@
+{
+  "topic": "Sistema e Grid Padronizado de Ícones (Grid de 24x24)",
+  "rules": [
+    "Desenhar todo conjunto de ícones sobre uma matriz quadrada de 24x24 pixels com margem interna de segurança de 2px.",
+    "Padronizar a espessura de traço (stroke-width: 2px) e terminação arredondada (stroke-linecap: round, stroke-linejoin: round).",
+    "Manter consistência absoluta no peso visual: nunca misturar ícones de linha fina com ícones preenchidos sólidos no mesmo menu."
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "default_port": 3000,
+  "fallback_ports": [3001, 8080, 8081, 5000],
+  "sites_directory": "generated_sites"
+}

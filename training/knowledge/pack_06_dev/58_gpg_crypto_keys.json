@@ -1,0 +1,17 @@
+{
+  "topic": "Cifragem de Mensagens, Geração de Chaves e Assinatura Digital",
+  "rules": [
+    "Proteger chaves privadas com senhas robustas.",
+    "Usar algoritmos modernos como Ed25519 ou RSA 4096 bits."
+  ],
+  "recipes": [
+    {
+      "trigger": "cifrar arquivo com senha usando openssl aes256",
+      "command": "openssl enc -aes-256-cbc -salt -pbkdf2 -in documento.txt -out documento.enc"
+    },
+    {
+      "trigger": "decifrar arquivo openssl aes256",
+      "command": "openssl enc -d -aes-256-cbc -pbkdf2 -in documento.enc -out documento_decifrado.txt"
+    }
+  ]
+}

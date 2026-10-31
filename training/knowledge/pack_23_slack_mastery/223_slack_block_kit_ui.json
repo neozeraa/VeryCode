@@ -1,0 +1,4 @@
+{
+  "feature": "Block Kit (Formulários e Modais)",
+  "rules": ["Construir blocos estruturados: section, input, static_select e button.", "Utilizar views.open com trigger_id para exibir modais pop-up."]
+}

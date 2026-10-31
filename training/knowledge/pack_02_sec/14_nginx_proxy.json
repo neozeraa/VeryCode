@@ -1,0 +1,17 @@
+{
+  "topic": "Configuração de Nginx e Redirecionamento de Portas",
+  "rules": [
+    "Instalar nginx via pkg.",
+    "Configurar nginx.conf sem conflito de permissões em portas baixas no Termux."
+  ],
+  "recipes": [
+    {
+      "trigger": "iniciar servidor nginx local",
+      "command": "pkg install -y nginx && nginx && echo 'Nginx rodando na porta 8080. Acesse http://localhost:8080'"
+    },
+    {
+      "trigger": "parar servidor nginx",
+      "command": "nginx -s stop && echo 'Nginx parado com sucesso.'"
+    }
+  ]
+}

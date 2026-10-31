@@ -1,0 +1,17 @@
+{
+  "topic": "Criação, Consulta e Exportação de Bancos de Dados SQLite",
+  "rules": [
+    "Utilizar formatação em colunas para facilitar a leitura no terminal.",
+    "Executar backups com o comando .dump."
+  ],
+  "recipes": [
+    {
+      "trigger": "consultar tabelas de um banco sqlite",
+      "command": "sqlite3 banco.db '.tables' '.mode column' 'SELECT * FROM sqlite_master;'"
+    },
+    {
+      "trigger": "exportar backup sql completo do banco sqlite",
+      "command": "sqlite3 banco.db '.dump' > backup_banco.sql"
+    }
+  ]
+}

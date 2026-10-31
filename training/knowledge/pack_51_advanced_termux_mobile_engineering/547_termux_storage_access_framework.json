@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_51_ADVANCED_TERMUX_MOBILE_ENGINEERING_547",
+  "title": "TERMUX STORAGE ACCESS FRAMEWORK",
+  "category": "Engenharia Avançada de Terminal, Linux e Otimização Mobile",
+  "summary": "Integração segura com armazenamento interno Android via termux-setup-storage.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Integração segura com armazenamento interno Android via termux-setup-storage.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

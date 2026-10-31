@@ -1,0 +1,7 @@
+{
+  "module": "Servidores HTTP e Proxies Reversos",
+  "rules": [
+    "Configurações de proxy pass para balanceamento de carga e offloading SSL.",
+    "Ajuste de timeouts, headers de encaminhamento (X-Forwarded-For) e gzip/brotli compression."
+  ]
+}

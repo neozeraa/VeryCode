@@ -1,0 +1,13 @@
+{
+  "topic": "Comunicação Bidirecional com Socket.io e WS",
+  "rules": [
+    "Isolar ambiente em apps/ws_server.",
+    "Permitir conexões multiplataforma com CORS habilitado."
+  ],
+  "recipes": [
+    {
+      "trigger": "criar servidor websocket basico",
+      "command": "mkdir -p apps/ws_server && cd apps/ws_server && npm init -y && npm install ws && cat << 'WSEOF' > server.js\nimport { WebSocketServer } from 'ws';\nconst wss = new WebSocketServer({ port: 8081 });\nwss.on('connection', (ws) => {\n  console.log('Cliente conectado ao WebSocket da VERY SYSTEMS');\n  ws.send('Conectado à central VERY SYSTEMS');\n  ws.on('message', (msg) => console.log(`Mensagem recebida: ${msg}`));\n});\nconsole.log('Servidor WebSocket ativo na porta 8081');\nWSEOF\nnode server.js"
+    }
+  ]
+}

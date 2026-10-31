@@ -1,0 +1,13 @@
+{
+  "module_id": "AESTHETIC_WEB_PACK_PACK_80_HIGH_IMPACT_TYPOGRAPHY_AND_COPY_LAYOUT_846",
+  "title": "TYPO READING COLUMN MAX WIDTH",
+  "category": "Tipografia de Alto Impacto, Títulos Fluidos e Copywriting Visual",
+  "summary": "Limitação de largura de texto em blocos explicativos (max-width: 60ch) para leitura fluida sem fadiga ocular.",
+  "design_system": "VERY_SYSTEMS_PREMIUM_UI_UX",
+  "brand_accent_color": "#FF6600",
+  "aesthetic_rules": [
+    "Garantir aplicação imediata de: Limitação de largura de texto em blocos explicativos (max-width: 60ch) para leitura fluida sem fadiga ocular.",
+    "Todo site gerado deve possuir visual moderno, responsivo e digno de portfólio internacional.",
+    "Proibido criar layouts antiquados, botões cinzas padrão de navegador ou páginas sem vida."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "topic": "Diretriz Suprema de Diagnóstico e Supervisão VERY SYSTEMS",
+  "rules": [
+    "Toda falha de execução deve passar pela análise de diagnóstico antes de ser apresentada ao desenvolvedor.",
+    "As respostas de erro devem indicar de forma concisa o que quebrou e a ação preventiva já executada.",
+    "O código bruto de depuração permanece sob controlo nos ficheiros, exibindo apenas o resumo de resolução no terminal."
+  ]
+}

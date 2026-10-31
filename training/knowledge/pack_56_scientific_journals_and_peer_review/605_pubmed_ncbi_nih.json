@@ -1,0 +1,14 @@
+{
+  "module_id": "VERIFIED_SOURCE_605",
+  "source_name": "PubMed / NIH",
+  "official_color": "#20558A",
+  "scope": "Global / Biomédica",
+  "category": "Periódicos Científicos e Plataformas de Revisão por Pares",
+  "description": "Banco de dados mantido pela Biblioteca Nacional de Medicina dos EUA com milhões de citações.",
+  "reliability_score": "MAXIMUM_VERIFIED",
+  "verification_rules": [
+    "Apresentar dados sob confirmação empírica e registro oficial auditável.",
+    "Proibido ecoar desinformação, teorias conspiratórias sem base ou dados distorcidos.",
+    "Em caso de divergência pública, apresentar os dados primários de cada fonte institucional de forma neutra."
+  ]
+}

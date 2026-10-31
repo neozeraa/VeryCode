@@ -1,0 +1,9 @@
+{
+  "module_id": "BOT_ORCHESTRATOR_01",
+  "title": "Detecção Autônoma de Plataforma Solicitada",
+  "rules": [
+    "Identificar no prompt se o usuário quer bot para: Discord, Telegram, Twitch, Guilded, Revolt ou Slack.",
+    "Nunca gerar código de WhatsApp se for pedido bot de mensagens; redirecionar ou priorizar Telegram.",
+    "Criar automaticamente o diretório isolado em projects/<plataforma>_<nome_bot>."
+  ]
+}

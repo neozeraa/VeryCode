@@ -1,0 +1,4 @@
+{
+  "feature": "Comandos de Barra (/chamado, /status)",
+  "rules": ["Escutar comandos via app.command('/nome', async ({ command, ack, respond }) => {}).", "Chamar obrigatoriamente await ack() antes de 3 segundos para evitar timeout."]
+}

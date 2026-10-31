@@ -1,0 +1,22 @@
+{
+  "category": "Linux Core - Environment & Shell Variables",
+  "commands": ["export", "env", "printenv", "set", "unset", "alias", "unalias", "source"],
+  "rules": [
+    "Exportar variáveis de sessão apenas quando estritamente necessário.",
+    "Filtrar variáveis de ambiente para evitar exibição acidental de chaves de API ou senhas."
+  ],
+  "recipes": [
+    {
+      "intent": "listar variaveis do sistema ocultando senhas e chaves",
+      "command": "printenv | grep -vE 'KEY|SECRET|TOKEN|PASS' | sort"
+    },
+    {
+      "intent": "ver todos os aliases configurados na sessao atual",
+      "command": "alias"
+    },
+    {
+      "intent": "definir variavel de ambiente e recarregar bashrc",
+      "command": "export VERY_ENV='production' && source ~/.bashrc 2>/dev/null || true"
+    }
+  ]
+}

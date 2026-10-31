@@ -1,0 +1,7 @@
+{
+  "module": "Diagnóstico e Resolução de Erros",
+  "rules": [
+    "Localizar a linha exata da stack trace e o tipo do erro (SyntaxError, TypeError, ReferenceError).",
+    "Explicar a causa raiz e fornecer a correção de código pronta para colar."
+  ]
+}

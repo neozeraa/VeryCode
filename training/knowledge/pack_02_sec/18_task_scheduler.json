@@ -1,0 +1,17 @@
+{
+  "topic": "Agendamento e Automação Periódica de Scripts",
+  "rules": [
+    "Utilizar cronie no Termux para gerir tarefas periódicas.",
+    "Verificar se o processo crond está em execução."
+  ],
+  "recipes": [
+    {
+      "trigger": "iniciar servico de cron",
+      "command": "pkg install -y cronie && crond && echo 'Serviço cron iniciado em segundo plano.'"
+    },
+    {
+      "trigger": "listar tarefas agendadas",
+      "command": "crontab -l 2>/dev/null || echo 'Nenhuma tarefa configurada no crontab.'"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "module_id": "AESTHETIC_WEB_PACK_PACK_76_GLASSMORPHISM_AND_DEPTH_EFFECTS_804",
+  "title": "DEPTH ISOMETRIC AND TILT CARDS",
+  "category": "Glassmorphism, Efeitos de Profundidade e Camadas 3D",
+  "summary": "Efeito 3D tilt ao mover o mouse ou tocar na tela com transform: perspective() e rotateX/rotateY suaves.",
+  "design_system": "VERY_SYSTEMS_PREMIUM_UI_UX",
+  "brand_accent_color": "#FF6600",
+  "aesthetic_rules": [
+    "Garantir aplicação imediata de: Efeito 3D tilt ao mover o mouse ou tocar na tela com transform: perspective() e rotateX/rotateY suaves.",
+    "Todo site gerado deve possuir visual moderno, responsivo e digno de portfólio internacional.",
+    "Proibido criar layouts antiquados, botões cinzas padrão de navegador ou páginas sem vida."
+  ]
+}

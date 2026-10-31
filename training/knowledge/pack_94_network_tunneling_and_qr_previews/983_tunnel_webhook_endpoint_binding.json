@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_94_NETWORK_TUNNELING_AND_QR_PREVIEWS_983",
+  "title": "TUNNEL WEBHOOK ENDPOINT BINDING",
+  "category": "Túneis de Rede, Exposição de Portas e Códigos QR",
+  "summary": "Roteamento de webhooks externos em tempo real para testes de APIs de pagamento ou bots locais.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Roteamento de webhooks externos em tempo real para testes de APIs de pagamento ou bots locais.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

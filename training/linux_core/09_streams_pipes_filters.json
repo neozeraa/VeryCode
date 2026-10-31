@@ -1,0 +1,22 @@
+{
+  "category": "Linux Core - Streams, Redirections & Pipes",
+  "commands": ["tee", "sort", "uniq", "wc", "tr", "cut", "paste", "split"],
+  "rules": [
+    "Sempre usar tee quando for necessário gravar a saída em arquivo e manter na tela ao mesmo tempo.",
+    "Usar sort antes de uniq para garantir remoção confiável de linhas duplicadas."
+  ],
+  "recipes": [
+    {
+      "intent": "contar total de linhas palavras e caracteres de um arquivo",
+      "command": "wc -l -w -m index.js"
+    },
+    {
+      "intent": "remover linhas duplicadas de um arquivo e salvar ordenado",
+      "command": "sort lista.txt | uniq > lista_sem_duplicadas.txt"
+    },
+    {
+      "intent": "gravar saida de comando no arquivo e mostrar no terminal simultaneamente",
+      "command": "ls -la | tee relatorio_pasta.txt"
+    }
+  ]
+}

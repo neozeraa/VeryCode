@@ -1,0 +1,17 @@
+{
+  "topic": "Configuração de Chaves SSH Ed25519 e Redirecionamento de Portas",
+  "rules": [
+    "Priorizar algoritmos modernos e rápidos (ed25519) em vez de chaves RSA antigas.",
+    "Garantir as permissões estritas da pasta ~/.ssh (0700) e authorized_keys (0600)."
+  ],
+  "recipes": [
+    {
+      "trigger": "gerar par de chaves ssh ed25519",
+      "command": "mkdir -p ~/.ssh && chmod 700 ~/.ssh && ssh-keygen -t ed25519 -C 'verycode@verysystems' -f ~/.ssh/id_ed25519 -N '' && echo 'Chave SSH gerada:' && cat ~/.ssh/id_ed25519.pub"
+    },
+    {
+      "trigger": "iniciar servidor ssh local openssh",
+      "command": "pkg install -y openssh && sshd && echo 'Servidor SSH ativo na porta 8022. Use whoami para ver o utilizador.'"
+    }
+  ]
+}

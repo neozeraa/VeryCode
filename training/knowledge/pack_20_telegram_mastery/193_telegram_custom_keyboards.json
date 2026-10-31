@@ -1,0 +1,4 @@
+{
+  "feature": "Teclados Persistentes de Tela",
+  "rules": ["Markup.keyboard(['Opção 1', 'Opção 2']).resize().oneTime() para painéis rápidos.", "Remover teclados após a escolha quando aplicável."]
+}

@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_38_OFFLINE_SYNTAX_DICTIONARIES_378",
+  "title": "DICT GIT ESSENTIAL COMMANDS",
+  "category": "Dicionários Técnicos de Linguagens",
+  "summary": "Lista prática dos 30 comandos Git mais utilizados no mundo real.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

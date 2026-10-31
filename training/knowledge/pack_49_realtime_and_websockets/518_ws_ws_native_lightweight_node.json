@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_49_REALTIME_AND_WEBSOCKETS_518",
+  "title": "WS WS NATIVE LIGHTWEIGHT NODE",
+  "category": "Sistemas em Tempo Real, WebSockets, WebRTC e SSE",
+  "summary": "Uso do pacote leve 'ws' no Node.js para máxima performance e consumo mínimo de RAM.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Uso do pacote leve 'ws' no Node.js para máxima performance e consumo mínimo de RAM.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

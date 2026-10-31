@@ -1,0 +1,7 @@
+{
+  "module": "Desenvolvimento com Discord.js v14",
+  "rules": [
+    "Configuração obrigatória de GatewayIntentBits (Guilds, GuildMessages, MessageContent).",
+    "Tratamento de slash commands com REST e Routes da API oficial do Discord."
+  ]
+}

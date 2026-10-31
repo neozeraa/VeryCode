@@ -1,0 +1,10 @@
+{
+  "module": "Código Limpo e Princípios SOLID",
+  "rules": [
+    "S: Responsabilidade Única (Single Responsibility Principle).",
+    "O: Aberto para extensão, fechado para modificação (Open/Closed).",
+    "L: Substituição de Liskov (Liskov Substitution).",
+    "I: Segregação de Interfaces (Interface Segregation).",
+    "D: Inversão de Dependências (Dependency Inversion)."
+  ]
+}

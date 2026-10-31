@@ -1,0 +1,4 @@
+{
+  "feature": "Inicialização com guilded.js",
+  "rules": ["Instanciar new Client({ token: process.env.GUILDED_TOKEN }).", "Configurar listener client.on('ready') confirmando o nome do bot."]
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Paradigmas de Comunicação entre Sistemas",
+  "rules": [
+    "REST: uso semântico dos verbos HTTP (GET, POST, PUT, PATCH, DELETE) e códigos de status corretos (200, 201, 400, 401, 403, 404, 500).",
+    "gRPC: serialização de alta performance com Protocol Buffers sobre HTTP/2."
+  ]
+}

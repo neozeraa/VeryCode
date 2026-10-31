@@ -1,0 +1,14 @@
+{
+  "module_id": "VERIFIED_SOURCE_650",
+  "source_name": "Artigo 19",
+  "official_color": "#E91E63",
+  "scope": "Global / Brasil",
+  "category": "Liberdade de Imprensa, Direitos Humanos e Integridade Pública",
+  "description": "Organização defensora do direito universal de expressão e do acesso à informação pública.",
+  "reliability_score": "MAXIMUM_VERIFIED",
+  "verification_rules": [
+    "Apresentar dados sob confirmação empírica e registro oficial auditável.",
+    "Proibido ecoar desinformação, teorias conspiratórias sem base ou dados distorcidos.",
+    "Em caso de divergência pública, apresentar os dados primários de cada fonte institucional de forma neutra."
+  ]
+}

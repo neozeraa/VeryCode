@@ -1,0 +1,7 @@
+{
+  "module": "Resiliência e Tolerância a Falhas",
+  "rules": [
+    "Implementar retentativas com backoff exponencial para chamadas de rede instáveis.",
+    "Utilizar padrão Circuit Breaker para evitar chamadas contínuas a serviços indisponíveis."
+  ]
+}

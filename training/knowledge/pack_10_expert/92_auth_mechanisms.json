@@ -1,0 +1,7 @@
+{
+  "module": "Autenticação Moderna (OAuth2, JWT, Passkeys)",
+  "rules": [
+    "Tokens JWT devem ser assinados (RS256 ou HS256) e possuir tempo de expiração curto.",
+    "Cookies de sessão devem conter flags HttpOnly, Secure e SameSite=Strict."
+  ]
+}

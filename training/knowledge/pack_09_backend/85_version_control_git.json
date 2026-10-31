@@ -1,0 +1,7 @@
+{
+  "module": "Controle de Versão Distribuído",
+  "rules": [
+    "Resolução de conflitos de merge, semântica de commits convencionais (Conventional Commits).",
+    "Gerenciamento de submodules e preservação do histórico de tags."
+  ]
+}

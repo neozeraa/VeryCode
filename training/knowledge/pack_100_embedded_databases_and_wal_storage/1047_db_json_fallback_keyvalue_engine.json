@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_100_EMBEDDED_DATABASES_AND_WAL_STORAGE_1047",
+  "title": "DB JSON FALLBACK KEYVALUE ENGINE",
+  "category": "Bancos de Dados Locais, Modo WAL e Persistência",
+  "summary": "Motor de chave-valor em JSON nativo para persistência ultra-rápida sem compilação C.",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Motor de chave-valor em JSON nativo para persistência ultra-rápida sem compilação C.",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

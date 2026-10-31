@@ -1,0 +1,8 @@
+{
+  "topic": "Otimização Extrema de Performance e Core Web Vitals",
+  "rules": [
+    "Carregar imagens com loading=\"lazy\" e decodificação assíncrona decoding=\"async\".",
+    "Aplicar font-display: swap para evitar blocos invisíveis de texto durante o carregamento de fontes.",
+    "Adicionar minificação inline de CSS e JS nos arquivos gerados para atingir notas 95+ no Google PageSpeed."
+  ]
+}

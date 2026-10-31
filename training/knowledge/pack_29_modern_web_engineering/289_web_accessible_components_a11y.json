@@ -1,0 +1,8 @@
+{
+  "topic": "Acessibilidade Web e Navegabilidade Universal (A11Y)",
+  "rules": [
+    "Usar atributos ARIA (aria-label, aria-expanded, role) em botões, menus hambúrguer e janelas suspensas.",
+    "Garantir contraste de cor mínimo de 4.5:1 entre textos e planos de fundo de acordo com o padrão WCAG AA.",
+    "Garantir foco visível via CSS :focus-visible para navegação rápida por teclado físico ou controle."
+  ]
+}

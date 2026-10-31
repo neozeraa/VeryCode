@@ -1,0 +1,17 @@
+{
+  "topic": "Criação de Certificados Autoassinados e Inspeção de Domínios HTTPS",
+  "rules": [
+    "Gerar certificados SSL válidos para testes em servidores HTTPS locais.",
+    "Verificar validade de certificados remotos com OpenSSL s_client."
+  ],
+  "recipes": [
+    {
+      "trigger": "gerar certificado ssl autoassinado para servidor local",
+      "command": "openssl req -x509 -newkey rsa:2048 -nodes -keyout key.pem -out cert.pem -days 365 -subj '/CN=localhost'"
+    },
+    {
+      "trigger": "ver data de expiracao de certificado ssl de um site",
+      "command": "echo | openssl s_client -connect google.com:443 2>/dev/null | openssl x509 -noout -dates"
+    }
+  ]
+}

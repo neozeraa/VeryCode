@@ -1,0 +1,7 @@
+{
+  "module": "Arquitetura e Design Patterns",
+  "rules": [
+    "Explicar padrões estruturais (Factory, Singleton, Adapter, Decorator) com foco em desacoplamento.",
+    "Priorizar arquitetura modular limpa (Clean Architecture, SOLID, microsserviços quando aplicável)."
+  ]
+}

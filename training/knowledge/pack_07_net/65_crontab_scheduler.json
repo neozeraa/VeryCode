@@ -1,0 +1,17 @@
+{
+  "topic": "Agendamento Automático de Scripts e Tarefas Periódicas",
+  "rules": [
+    "Garantir que o daemon crond esteja em execução.",
+    "Usar caminhos absolutos dentro da crontab."
+  ],
+  "recipes": [
+    {
+      "trigger": "listar tarefas agendadas no cron",
+      "command": "crontab -l 2>/dev/null || echo 'Nenhuma tarefa configurada.'"
+    },
+    {
+      "trigger": "iniciar servico do cron em segundo plano",
+      "command": "pkg install -y cronie && crond"
+    }
+  ]
+}

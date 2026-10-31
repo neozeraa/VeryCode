@@ -1,0 +1,13 @@
+{
+  "module_id": "REVERSE_ENGINEERING_PACK_PACK_72_FRONTEND_UI_AND_ASSET_RECONSTRUCTION_761",
+  "title": "REV DOM STRUCTURE EXTRACTION",
+  "category": "Reconstrução Reversa de Interfaces, Estilos e Componentes",
+  "summary": "Mapeamento semântico de árvores DOM complexas e reconstituição de layouts em HTML5 limpo.",
+  "execution_mode": "CLEAN_ROOM_REVERSE_ENGINEERING",
+  "architecture": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "capabilities": [
+    "Capacidade analítica e operativa para: Mapeamento semântico de árvores DOM complexas e reconstituição de layouts em HTML5 limpo.",
+    "Isolamento sistemático de comportamentos sem cópia direta de código vulnerável.",
+    "Reconstrução autônoma de ferramentas, endpoints e componentes otimizados para o ambiente local."
+  ]
+}

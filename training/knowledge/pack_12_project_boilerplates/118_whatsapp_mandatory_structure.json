@@ -1,0 +1,14 @@
+{
+  "rule_id": "AUTO_WHATSAPP_STRUCT_08",
+  "title": "Estrutura Obrigatória de Bot WhatsApp Baileys",
+  "mandatory_tree": [
+    "index.js",
+    "package.json",
+    "config.js",
+    "auth_info_baileys/",
+    "commands/menu.js",
+    "commands/sticker.js",
+    "README.md"
+  ],
+  "instruction": "Suporte a pairing code no terminal e autenticação persistente com useMultiFileAuthState."
+}

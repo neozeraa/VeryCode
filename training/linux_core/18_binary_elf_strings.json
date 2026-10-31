@@ -1,0 +1,18 @@
+{
+  "category": "Linux Core - Binary Inspection & Strings",
+  "commands": ["strings", "file", "nm", "strip", "ldd", "readelf"],
+  "rules": [
+    "Utilizar file para identificar arquitetura (ARM64, x86_64, script Bash ou Node).",
+    "Extrair texto legível embutido em binários com strings."
+  ],
+  "recipes": [
+    {
+      "intent": "descobrir o tipo exato e arquitetura de um arquivo executavel",
+      "command": "file $(which node) 2>/dev/null || file index.js"
+    },
+    {
+      "intent": "extrair mensagens e textos embutidos dentro de um arquivo binario",
+      "command": "strings -n 6 index.js | head -n 15"
+    }
+  ]
+}

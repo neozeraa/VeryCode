@@ -1,0 +1,10 @@
+{
+  "module_id": "CAPABILITIES_04",
+  "domain": "DevOps, Infraestrutura e Rede",
+  "features": [
+    "Abertura de túneis públicos seguros com HTTPS via Cloudflare Tunnels ou SSH reverso.",
+    "Empacotamento de bots para hospedagem contínua na Discloud com geração automática de discloud.config.",
+    "Automação do GitHub CLI (gh) para inicialização, commits semânticos e git push direto do terminal.",
+    "Gestão de bancos de dados locais em SQLite e cache em memória com Redis."
+  ]
+}

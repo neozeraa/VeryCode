@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_38_OFFLINE_SYNTAX_DICTIONARIES_371",
+  "title": "DICT PYTHON METHODS",
+  "category": "Dicionários Técnicos de Linguagens",
+  "summary": "Referência completa de manipulação de listas, dicts e arquivos.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

@@ -1,0 +1,4 @@
+{
+  "feature": "Pontos e Nível por Tempo de Chat",
+  "rules": ["Contabilizar atividade de usuários ativos no chat a cada 5 minutos.", "Persistência em arquivo JSON local ou banco SQLite."]
+}

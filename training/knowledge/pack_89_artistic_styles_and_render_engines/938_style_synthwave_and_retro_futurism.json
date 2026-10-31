@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_89_ARTISTIC_STYLES_AND_RENDER_ENGINES_938",
+  "title": "STYLE SYNTHWAVE AND RETRO FUTURISM",
+  "category": "Estilos Artísticos, Motores de Render e Estéticas Digitais",
+  "summary": "Estética retrô anos 80: grades digitais em horizonte escuro, sóis de néon poentes, grades cromadas e tipografia analógica.",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Estética retrô anos 80: grades digitais em horizonte escuro, sóis de néon poentes, grades cromadas e tipografia analógica.",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

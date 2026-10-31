@@ -1,0 +1,13 @@
+{
+  "module_id": "AESTHETIC_WEB_PACK_PACK_78_MICROINTERACTIONS_AND_FLUID_CSS_825",
+  "title": "MOTION STAGGERED ENTRANCE REVEALS",
+  "category": "Microinterações, Animações e Transições Fluidas",
+  "summary": "Entrada em cascata de itens e cartões com pequenos atrasos (animation-delay: 50ms, 100ms, 150ms) via IntersectionObserver.",
+  "design_system": "VERY_SYSTEMS_PREMIUM_UI_UX",
+  "brand_accent_color": "#FF6600",
+  "aesthetic_rules": [
+    "Garantir aplicação imediata de: Entrada em cascata de itens e cartões com pequenos atrasos (animation-delay: 50ms, 100ms, 150ms) via IntersectionObserver.",
+    "Todo site gerado deve possuir visual moderno, responsivo e digno de portfólio internacional.",
+    "Proibido criar layouts antiquados, botões cinzas padrão de navegador ou páginas sem vida."
+  ]
+}

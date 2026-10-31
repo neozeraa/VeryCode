@@ -1,0 +1,5 @@
+{
+  "hide_token_in_logs": true,
+  "isolated_folder_only": true,
+  "allowed_ports": [3000, 3001, 8080, 8081]
+}

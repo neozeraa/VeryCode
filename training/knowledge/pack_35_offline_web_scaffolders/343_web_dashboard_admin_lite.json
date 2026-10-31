@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_35_OFFLINE_WEB_SCAFFOLDERS_343",
+  "title": "WEB DASHBOARD ADMIN LITE",
+  "category": "Templates Pré-Compilados de Sites e Páginas",
+  "summary": "Painel de controle com cards de estatísticas e gráficos CSS puros.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

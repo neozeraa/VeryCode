@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_45_GIT_AND_DEVOPS_WORKFLOWS_463",
+  "title": "CI GITHUB ACTIONS WORKFLOW",
+  "category": "Versionamento Avançado, Git Flow e Automação DevOps",
+  "summary": "Criação de pipelines de integração contínua (CI) com triggers e matriz de testes.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Criação de pipelines de integração contínua (CI) com triggers e matriz de testes.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

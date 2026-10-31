@@ -1,0 +1,8 @@
+{
+  "module_id": "RESILIENCE_STORAGE_06",
+  "topic": "Transferência Segura de Dados para o Celular",
+  "rules": [
+    "Validar se o caminho ~/storage/shared está acessível antes de mover ficheiros grandes.",
+    "Usar cópia com verificação de integridade antes da remoção do ficheiro de origem."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "topic": "Recuperação Automática de Módulos Inexistentes (MODULE_NOT_FOUND)",
+  "rules": [
+    "Capturar erros MODULE_NOT_FOUND extraindo o identificador exato do pacote que falhou no import.",
+    "Disparar a instalação automática do pacote via npm install silencioso em background.",
+    "Reiniciar a execução do script assim que a árvore de dependências for resolvida com sucesso."
+  ]
+}

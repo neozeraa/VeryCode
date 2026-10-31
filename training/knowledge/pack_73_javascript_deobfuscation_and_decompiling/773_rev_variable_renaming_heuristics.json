@@ -1,0 +1,13 @@
+{
+  "module_id": "REVERSE_ENGINEERING_PACK_PACK_73_JAVASCRIPT_DEOBFUSCATION_AND_DECOMPILING_773",
+  "title": "REV VARIABLE RENAMING HEURISTICS",
+  "category": "Desofuscação de Scripts, Análise de Bundles e AST",
+  "summary": "Reconstrução semântica de nomes de variáveis minificadas (a, b, c) através de inferência de contexto e uso.",
+  "execution_mode": "CLEAN_ROOM_REVERSE_ENGINEERING",
+  "architecture": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "capabilities": [
+    "Capacidade analítica e operativa para: Reconstrução semântica de nomes de variáveis minificadas (a, b, c) através de inferência de contexto e uso.",
+    "Isolamento sistemático de comportamentos sem cópia direta de código vulnerável.",
+    "Reconstrução autônoma de ferramentas, endpoints e componentes otimizados para o ambiente local."
+  ]
+}

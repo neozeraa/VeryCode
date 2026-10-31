@@ -1,0 +1,13 @@
+{
+  "module_id": "SUPER_TERMINAL_PACK_PACK_95_LOCAL_MOCKING_AND_LOAD_TESTING_998",
+  "title": "LOAD RESPONSE TIME PERCENTILES",
+  "category": "Simulação de APIs, Servidores Mock e Testes de Carga",
+  "summary": "Cálculo analítico dos tempos de resposta p50, p95 e p99 para validação da experiência do utilizador.",
+  "execution_target": "VERY_CODE_SUPER_TERMINAL",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Cálculo analítico dos tempos de resposta p50, p95 e p99 para validação da experiência do utilizador.",
+    "Processamento eficiente em background com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

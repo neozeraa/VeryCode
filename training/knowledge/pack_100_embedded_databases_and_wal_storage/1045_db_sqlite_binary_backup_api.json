@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_100_EMBEDDED_DATABASES_AND_WAL_STORAGE_1045",
+  "title": "DB SQLITE BINARY BACKUP API",
+  "category": "Bancos de Dados Locais, Modo WAL e Persistência",
+  "summary": "Uso da API de backup online do SQLite para gerar cópias de segurança sem travar escritas.",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Uso da API de backup online do SQLite para gerar cópias de segurança sem travar escritas.",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

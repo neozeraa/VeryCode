@@ -1,0 +1,8 @@
+{
+  "module_id": "RESILIENCE_RETRY_09",
+  "topic": "Estratégia de Retentativas com Backoff Exponencial",
+  "rules": [
+    "Aplicar retentativas automáticas (até 3 tentativas) para requisições externas com erros transitórios (códigos 429, 502, 503).",
+    "Introduzir intervalos progressivos (1s, 2s, 4s) antes de retornar mensagem de falha."
+  ]
+}

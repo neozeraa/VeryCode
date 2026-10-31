@@ -1,0 +1,13 @@
+{
+  "module_id": "IMAGE_PROMPT_PACK_PACK_88_LIGHTING_AND_ATMOSPHERIC_EFFECTS_922",
+  "title": "LIGHT VOLUMETRIC GOD RAYS TYNDALL",
+  "category": "Iluminação Profissional, Luz de Volume e Atmosfera",
+  "summary": "Raios de luz volumétricos atravessando frestas, névoa, janelas ou árvores (efeito Tyndall e crepuscular rays).",
+  "target_engine": "VERY_IMAGE_PROMPT_CORE",
+  "output_quality": "CINEMATIC_CLEAN_NO_WATERMARK",
+  "generation_rules": [
+    "Aplicar estritamente as diretrizes de: Raios de luz volumétricos atravessando frestas, névoa, janelas ou árvores (efeito Tyndall e crepuscular rays).",
+    "Filtrar e suprimir proativamente qualquer tipo de marca d'água, logo de terceiros, texto quebrado ou artefato visual.",
+    "Estruturar os parâmetros de iluminação, lentes e proporção de tela para atender com precisão o comando do usuário."
+  ]
+}

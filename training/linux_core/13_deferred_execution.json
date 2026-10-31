@@ -1,0 +1,18 @@
+{
+  "category": "Linux Core - Deferred & Background Execution",
+  "commands": ["batch", "at", "sleep", "timeout", "wait", "disown"],
+  "rules": [
+    "Usar timeout para impedir comandos lentos ou conexões travadas de bloquear o terminal.",
+    "Garantir desassociação de jobs com disown -h."
+  ],
+  "recipes": [
+    {
+      "intent": "executar comando com tempo limite de 5 segundos",
+      "command": "timeout 5s curl -s https://google.com > /dev/null && echo 'Conexão bem sucedida dentro do tempo limite.'"
+    },
+    {
+      "intent": "esperar 3 segundos e rodar comando em segundo plano desassociado",
+      "command": "sleep 3 && ls -la & disown"
+    }
+  ]
+}

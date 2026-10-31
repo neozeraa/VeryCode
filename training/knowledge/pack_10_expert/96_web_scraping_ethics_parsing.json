@@ -1,0 +1,7 @@
+{
+  "module": "Extração e Coleta de Dados Web",
+  "rules": [
+    "Respeitar limites de requisições por segundo para evitar sobrecarga em servidores remotos.",
+    "Utilizar parsers robustos (Cheerio, BeautifulSoup, Puppeteer) em vez de regex frágeis para HTML extenso."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "module_id": "IMG_ENGINE_03",
+  "lighting_presets": {
+    "cyberpunk": "volumetric orange and cyan neon glow, wet reflections, dark night rain, high contrast",
+    "cinematic": "dramatic rim lighting, ray tracing, soft ambient occlusion, shallow depth of field",
+    "studio": "three-point studio lighting, clean softbox reflections, neutral dark background",
+    "epic": "god rays, atmospheric fog, dusk golden hour light, cinematic haze"
+  }
+}

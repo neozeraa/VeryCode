@@ -1,0 +1,14 @@
+{
+  "module_id": "VERIFIED_SOURCE_602",
+  "source_name": "Science (AAAS)",
+  "official_color": "#D71920",
+  "scope": "Global",
+  "category": "Periódicos Científicos e Plataformas de Revisão por Pares",
+  "description": "Revista da Associação Americana para o Avanço da Ciência com artigos revisados por pares.",
+  "reliability_score": "MAXIMUM_VERIFIED",
+  "verification_rules": [
+    "Apresentar dados sob confirmação empírica e registro oficial auditável.",
+    "Proibido ecoar desinformação, teorias conspiratórias sem base ou dados distorcidos.",
+    "Em caso de divergência pública, apresentar os dados primários de cada fonte institucional de forma neutra."
+  ]
+}

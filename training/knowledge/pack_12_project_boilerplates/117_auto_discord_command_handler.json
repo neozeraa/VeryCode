@@ -1,0 +1,5 @@
+{
+  "rule_id": "AUTO_DISCORD_HANDLER_07",
+  "title": "Carregamento Dinâmico de Comandos",
+  "instruction": "O arquivo principal index.js deve conter lógica dinâmica com fs.readdirSync para ler a pasta commands/ automaticamente sem necessidade de import manual de cada arquivo."
+}

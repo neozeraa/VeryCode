@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_99_REMOTE_TUNNELING_AND_PUBLIC_URLS_1032",
+  "title": "TUNNEL QUICK TRYCLOUDFLARE URL",
+  "category": "Túneis de Borda, URLs Públicas e Exposição Segura",
+  "summary": "Geração de URLs públicas instantâneas .trycloudflare.com sem cadastro prévio.",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Geração de URLs públicas instantâneas .trycloudflare.com sem cadastro prévio.",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

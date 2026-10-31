@@ -1,0 +1,14 @@
+{
+  "module_id": "VERIFIED_SOURCE_589",
+  "source_name": "FactCheck.org",
+  "official_color": "#1976D2",
+  "scope": "EUA / Internacional",
+  "category": "Agências de Checagem e Combate à Desinformação",
+  "description": "Projeto sem fins lucrativos da Universidade da Pensilvânia com foco em precisão pública.",
+  "reliability_score": "MAXIMUM_VERIFIED",
+  "verification_rules": [
+    "Apresentar dados sob confirmação empírica e registro oficial auditável.",
+    "Proibido ecoar desinformação, teorias conspiratórias sem base ou dados distorcidos.",
+    "Em caso de divergência pública, apresentar os dados primários de cada fonte institucional de forma neutra."
+  ]
+}

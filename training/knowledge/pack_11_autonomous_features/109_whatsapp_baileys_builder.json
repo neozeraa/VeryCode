@@ -1,0 +1,7 @@
+{
+  "feature": "Arquitetura de Bot WhatsApp via Baileys",
+  "rules": [
+    "Utilizar @whiskeysockets/baileys com suporte a autenticação por Pairing Code no terminal.",
+    "Estruturar pastas separadas para auth_info_baileys/, commands/ e handlers de mídia."
+  ]
+}

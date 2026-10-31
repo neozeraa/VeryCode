@@ -1,0 +1,9 @@
+{
+  "module_id": "MOD_ZAP_01",
+  "topic": "Estrutura Base de Conexão WhatsApp com Baileys",
+  "rules": [
+    "Configurar conexão socket usando makeWASocket e persistência de sessão com useMultiFileAuthState.",
+    "Implementar autenticação primária por Pairing Code direto no terminal (sem necessidade de escanear QR Code em aparelhos únicos).",
+    "Gerenciar eventos de 'connection.update' tratando desconexões e reconexão automática com Boom/DisconnectReason."
+  ]
+}

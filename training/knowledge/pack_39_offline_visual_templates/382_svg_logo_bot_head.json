@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_39_OFFLINE_VISUAL_TEMPLATES_382",
+  "title": "SVG LOGO BOT HEAD",
+  "category": "Modelos Vetoriais SVG e Paletas Locais",
+  "summary": "Código SVG de silhueta futurista de cabeça de robô/IA.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

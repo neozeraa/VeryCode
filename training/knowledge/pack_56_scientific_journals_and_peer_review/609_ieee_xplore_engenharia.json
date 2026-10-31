@@ -1,0 +1,14 @@
+{
+  "module_id": "VERIFIED_SOURCE_609",
+  "source_name": "IEEE Xplore",
+  "official_color": "#00629B",
+  "scope": "Global / Engenharia",
+  "category": "Periódicos Científicos e Plataformas de Revisão por Pares",
+  "description": "Repositório de normas, artigos técnicos e pesquisas de engenharia elétrica e da computação.",
+  "reliability_score": "MAXIMUM_VERIFIED",
+  "verification_rules": [
+    "Apresentar dados sob confirmação empírica e registro oficial auditável.",
+    "Proibido ecoar desinformação, teorias conspiratórias sem base ou dados distorcidos.",
+    "Em caso de divergência pública, apresentar os dados primários de cada fonte institucional de forma neutra."
+  ]
+}

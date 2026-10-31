@@ -1,0 +1,10 @@
+{
+  "language": "Bash / Shell",
+  "official_color": "#89E051",
+  "paradigms": ["Automação de Sistema", "Pipeline de Comandos"],
+  "standards": [
+    "Declaração segura de cabeçalho: set -euo pipefail contra falhas silenciosas.",
+    "Aspas adequadas em variáveis (\"$VAR\") para prevenir divisão de palavras (word splitting).",
+    "Scripts reutilizáveis, modulares e compatíveis com Termux/Linux ARM64."
+  ]
+}

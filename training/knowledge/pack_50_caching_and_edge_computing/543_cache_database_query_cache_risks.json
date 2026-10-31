@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_50_CACHING_AND_EDGE_COMPUTING_543",
+  "title": "CACHE DATABASE QUERY CACHE RISKS",
+  "category": "Estratégias Avançadas de Caching, Memória e Edge Computing",
+  "summary": "Riscos e boas práticas ao armazenar resultados de consultas pesadas de banco.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Riscos e boas práticas ao armazenar resultados de consultas pesadas de banco.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

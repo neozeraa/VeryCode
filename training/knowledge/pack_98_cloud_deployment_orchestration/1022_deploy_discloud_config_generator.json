@@ -1,0 +1,13 @@
+{
+  "module_id": "INFRASTRUCTURE_PACK_PACK_98_CLOUD_DEPLOYMENT_ORCHESTRATION_1022",
+  "title": "DEPLOY DISCLOUD CONFIG GENERATOR",
+  "category": "Orquestração e Envio para Provedores em Nuvem",
+  "summary": "Construção de arquivos discloud.config respeitando a cota do plano DIAMANTE e versão Node.js.",
+  "execution_target": "VERY_CODE_HOSTING_ENGINE",
+  "brand_color": "#FF6600",
+  "operational_rules": [
+    "Garantir execução e conformidade com: Construção de arquivos discloud.config respeitando a cota do plano DIAMANTE e versão Node.js.",
+    "Processamento eficiente em segundo plano com baixo consumo de memória no Termux.",
+    "Integração nativa no ecossistema VERY SYSTEMS."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "module_id": "BOT_HOST_01",
+  "title": "Execução e Hospedagem Simultânea",
+  "rules": [
+    "Permitir rodar bots de diferentes plataformas no background com PM2 ou nohup.",
+    "Registrar cada bot no projects_db.json com o tipo específico ('bot-telegram', 'bot-twitch', 'bot-discord', etc.).",
+    "Comandos 'ligar <nome>' e 'rm <nome>' devem funcionar de forma idêntica para qualquer bot de qualquer plataforma."
+  ]
+}

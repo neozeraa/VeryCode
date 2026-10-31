@@ -1,0 +1,17 @@
+{
+  "topic": "Sincronização e Backup com Rclone e Restic",
+  "rules": [
+    "Instalar rclone para sincronização com Google Drive, S3 ou MEGA.",
+    "Usar flags de dry-run para testes de integridade antes da cópia real."
+  ],
+  "recipes": [
+    {
+      "trigger": "instalar rclone e verificar remotes",
+      "command": "pkg install -y rclone && rclone listremotes"
+    },
+    {
+      "trigger": "sincronizar pasta local com nuvem via rclone",
+      "command": "rclone sync ~/VeryCode remote:backup-verycode -P"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_43_CYBERSECURITY_AND_HARDENING_432",
+  "title": "SEC LINUX FIREWALL UFW IPTABLES",
+  "category": "Segurança Ofensiva, Defensiva e Hardening de Servidores",
+  "summary": "Regras de bloqueio de portas e limitação de conexões via UFW no Linux.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Regras de bloqueio de portas e limitação de conexões via UFW no Linux.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

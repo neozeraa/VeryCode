@@ -1,0 +1,4 @@
+{
+  "feature": "Módulo de Moderação (Ban, Kick, Timeout)",
+  "rules": ["Verificar permissões do executor e do bot (PermissionsBitField.Flags.BanMembers).", "Implementar tempo de mute com member.timeout(ms, motivo)."]
+}

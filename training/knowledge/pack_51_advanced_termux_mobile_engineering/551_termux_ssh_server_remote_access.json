@@ -1,0 +1,13 @@
+{
+  "module_id": "KNOWLEDGE_PACK_PACK_51_ADVANCED_TERMUX_MOBILE_ENGINEERING_551",
+  "title": "TERMUX SSH SERVER REMOTE ACCESS",
+  "category": "Engenharia Avançada de Terminal, Linux e Otimização Mobile",
+  "summary": "Configuração do OpenSSH (sshd) na porta 8022 para controle remoto do ambiente.",
+  "execution_environment": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "status": "PRODUCTION_READY",
+  "rules": [
+    "Garantir conformidade com os princípios de: Configuração do OpenSSH (sshd) na porta 8022 para controle remoto do ambiente.",
+    "Estruturação estrita de código sem exibição de blocos brutos em respostas conversacionais.",
+    "Execução silenciosa em background preservando a memória e a responsividade do terminal."
+  ]
+}

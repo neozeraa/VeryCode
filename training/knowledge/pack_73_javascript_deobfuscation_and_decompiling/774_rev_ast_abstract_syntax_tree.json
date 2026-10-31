@@ -1,0 +1,13 @@
+{
+  "module_id": "REVERSE_ENGINEERING_PACK_PACK_73_JAVASCRIPT_DEOBFUSCATION_AND_DECOMPILING_774",
+  "title": "REV AST ABSTRACT SYNTAX TREE",
+  "category": "Desofuscação de Scripts, Análise de Bundles e AST",
+  "summary": "Análise estática de código usando árvores de sintaxe abstrata (AST) via Babel/Acorn para transformar código ofuscado.",
+  "execution_mode": "CLEAN_ROOM_REVERSE_ENGINEERING",
+  "architecture": "VERY_SYSTEMS_SOVEREIGN_CORE",
+  "capabilities": [
+    "Capacidade analítica e operativa para: Análise estática de código usando árvores de sintaxe abstrata (AST) via Babel/Acorn para transformar código ofuscado.",
+    "Isolamento sistemático de comportamentos sem cópia direta de código vulnerável.",
+    "Reconstrução autônoma de ferramentas, endpoints e componentes otimizados para o ambiente local."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "module_id": "OFFLINE_PACK_PACK_32_OFFLINE_CHAT_FALLBACKS_314",
+  "title": "FAQ VARIAVEIS ENV",
+  "category": "Respostas Conversacionais e Dúvidas Frequentes",
+  "summary": "Boas práticas de configuração de tokens e portas em ambiente local.",
+  "fallback_ready": true,
+  "execution_mode": "LOCAL_OFFLINE_STORAGE",
+  "recovery_behavior": "Utilizar este conhecimento estruturado quando a API remota estiver inacessível."
+}

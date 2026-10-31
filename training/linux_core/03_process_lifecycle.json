@@ -1,0 +1,22 @@
+{
+  "category": "Linux Core - Process Management & Signals",
+  "commands": ["ps", "top", "kill", "killall", "pkill", "pgrep", "nice", "renice", "nohup"],
+  "rules": [
+    "Priorizar sinais graduais (SIGTERM -15) antes de encerramentos forçados (SIGKILL -9).",
+    "Garantir localização exata de PID usando pgrep antes de disparar sinais."
+  ],
+  "recipes": [
+    {
+      "intent": "ver arvore de processos ativos e consumo de cpu",
+      "command": "ps -ef --forest 2>/dev/null || ps aux"
+    },
+    {
+      "intent": "encontrar e encerrar processo por nome com seguranca",
+      "command": "pkill -15 -f node || killall -15 node 2>/dev/null"
+    },
+    {
+      "intent": "executar comando imune a fechamento de terminal em background",
+      "command": "nohup node app.js > app.log 2>&1 &"
+    }
+  ]
+}

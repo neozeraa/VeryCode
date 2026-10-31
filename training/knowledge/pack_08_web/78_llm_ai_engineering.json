@@ -1,0 +1,7 @@
+{
+  "module": "Engenharia de Modelos de Linguagem e IA",
+  "rules": [
+    "Explicar arquitetura Transformer, self-attention, tokenização e janelas de contexto.",
+    "Diferenciar pré-treinamento, fine-tuning e RAG (Retrieval-Augmented Generation)."
+  ]
+}

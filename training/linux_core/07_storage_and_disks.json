@@ -1,0 +1,22 @@
+{
+  "category": "Linux Core - Storage & Disk Usage",
+  "commands": ["df", "du", "lsblk", "fdisk", "mount", "umount", "sync"],
+  "rules": [
+    "Utilizar df -h para verificar o ponto de montagem antes de operações pesadas.",
+    "Usar du -sh com ordenação para mapear os diretórios que mais consom espaço."
+  ],
+  "recipes": [
+    {
+      "intent": "ver espaco livre e ocupado de todas as particoes montadas",
+      "command": "df -h"
+    },
+    {
+      "intent": "listar as 10 pastas mais pesadas da raiz atual",
+      "command": "du -h --max-depth=1 . 2>/dev/null | sort -hr | head -n 10"
+    },
+    {
+      "intent": "forcar escrita de dados pendentes do cache para o disco",
+      "command": "sync && echo 'Buffers de disco sincronizados com sucesso.'"
+    }
+  ]
+}

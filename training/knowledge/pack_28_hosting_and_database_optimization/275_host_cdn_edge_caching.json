@@ -1,0 +1,8 @@
+{
+  "topic": "Distribuição e Cache em Rede de Borda (Edge CDN)",
+  "rules": [
+    "Configurar cabeçalhos Cache-Control: public, max-age=31536000, immutable para assets estáticos com hash de versão.",
+    "Utilizar Cloudflare Workers ou Vercel Edge Functions para rotear requisições para a rota com menor latência geográfica.",
+    "Habilitar compressão Brotli e HTTP/3 (QUIC) nos servidores de borda para conexões de baixa latência."
+  ]
+}

@@ -36,9 +36,9 @@ Requisitos: **Node.js 18+**, **Git** e Termux ou uma distro Linux.
 
 ```bash
 git clone https://github.com/neozeraa/VeryCode.git
-cd ~/VeryCode/central
+cd ~/VeryCode
 npm install
-node app/index.js
+verycode
 ```
 
 > No Termux, rode `pkg install nodejs git` antes, caso ainda não tenha os dois.
